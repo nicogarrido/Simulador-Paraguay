@@ -1,0 +1,46 @@
+---
+title: "Simulador de Impacto — MIP Paraguay"
+subtitle: "Material de formación"
+---
+
+Este sitio reúne el material del curso sobre el simulador de impacto construido
+sobre la Matriz Insumo-Producto de Paraguay 2024.
+
+El simulador permite estimar cómo un cambio en la demanda —interna o externa— se
+propaga por la estructura productiva del país, y qué efectos genera sobre la
+producción, el valor agregado, el empleo y el ingreso de los hogares.
+
+## El modelo en cifras
+
+::: {.tarjetas}
+::: {.tarjeta}
+[21]{.cifra}<br>[sectores productivos]{.cifra-etiqueta}
+:::
+::: {.tarjeta}
+[78.041]{.cifra}<br>[MUSD de producción]{.cifra-etiqueta}
+:::
+::: {.tarjeta}
+[3,10 M]{.cifra}<br>[personas ocupadas]{.cifra-etiqueta}
+:::
+::: {.tarjeta}
+[23%]{.cifra}<br>[del empleo exporta]{.cifra-etiqueta}
+:::
+:::
+
+## Descargar el simulador
+
+El archivo se distribuye desde la sección **Releases** del repositorio. Cada
+versión incluye una nota con los cambios respecto de la anterior.
+
+::: {.callout-important}
+## Antes del taller
+El simulador usa macros y funciones disponibles solo en Excel 365. Conviene
+verificar los requisitos con anticipación: si las macros no se habilitan, el
+efecto inducido no se calcula.
+:::
+
+## Cómo está organizado
+
+Las secciones se irán agregando a medida que se defina la estructura del curso.
+Por ahora el sitio incluye la [guía de estilo](guia-de-estilo.qmd), que sirve de
+referencia para escribir el material con formato consistente.

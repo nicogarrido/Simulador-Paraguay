@@ -1,0 +1,27 @@
+# Archivos temporales de Quarto
+/.quarto/
+*_files/
+*_cache/
+
+# El simulador se distribuye vía Releases, no versionado
+*.xlsm
+*.xlsb
+
+# Microdatos: no redistribuibles
+*.dta
+*.sav
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.Rproj.user/
+.Rhistory
+.RData
+.vscode/
+.idea/
+
+# NOTA: la carpeta docs/ SÍ se versiona.
+# Es el sitio HTML que publica GitHub Pages.

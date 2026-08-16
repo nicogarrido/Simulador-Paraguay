@@ -1,0 +1,111 @@
+---
+title: "Guía de estilo"
+subtitle: "Referencia de formato para escribir el material"
+---
+
+Esta página muestra cómo se ve cada elemento disponible. Sirve de referencia al
+redactar y también para verificar que el sitio se renderiza bien tras un cambio
+de estilos.
+
+## Encabezados
+
+Se usan hasta tres niveles. El primero es el título de la página y se define en
+el encabezado YAML, no en el cuerpo.
+
+### Tercer nivel
+
+Aparece en el índice lateral, que se arma solo.
+
+## Texto
+
+Se puede escribir en **negrita**, en *cursiva* y con `código en línea`. Los
+enlaces internos se escriben con el nombre del archivo, por ejemplo
+[la portada](index.qmd), y Quarto verifica que existan al renderizar.
+
+Las notas al pie funcionan así.[^1]
+
+[^1]: Aparecen al final de la página con un enlace de vuelta.
+
+## Tablas
+
+Las columnas numéricas se alinean a la derecha automáticamente.
+
+| Sector | Ocupados por millón USD | Participación |
+|---|---|---|
+| Otros servicios | 83,8 | 24,1% |
+| Comercio | 82,3 | 25,9% |
+| Agricultura | 57,4 | 17,1% |
+| Alimentos | 7,7 | 3,2% |
+| Electricidad | 7,6 | 0,8% |
+
+## Avisos
+
+::: {.callout-note}
+Para información complementaria que no interrumpe la lectura.
+:::
+
+::: {.callout-important}
+## Con título propio
+Para advertencias que el lector no debería pasar por alto.
+:::
+
+::: {.callout-warning}
+Para limitaciones metodológicas y errores frecuentes.
+:::
+
+::: {.callout-tip}
+## Para recordar
+Para atajos y buenas prácticas.
+:::
+
+## Cifras destacadas
+
+::: {.tarjetas}
+::: {.tarjeta}
+[712.052]{.cifra}<br>[empleo exportador]{.cifra-etiqueta}
+:::
+::: {.tarjeta}
+[1,709]{.cifra}<br>[multiplicador]{.cifra-etiqueta}
+:::
+::: {.tarjeta}
+[6.175]{.cifra}<br>[USD por ocupado]{.cifra-etiqueta}
+:::
+:::
+
+El código para producirlas:
+
+```markdown
+::: {.tarjetas}
+::: {.tarjeta}
+[712.052]{.cifra}<br>[empleo exportador]{.cifra-etiqueta}
+:::
+:::
+```
+
+## Citas
+
+> El modelo contabiliza el requerimiento de producción y empleo asociado a un
+> nivel de demanda. No predice: bajo el supuesto de coeficientes fijos, informa
+> qué haría falta, no qué va a ocurrir.
+
+## Fórmulas
+
+En línea, como $L = (I - A)^{-1}$, o en bloque:
+
+$$
+x = (I - A)^{-1} \cdot f
+$$
+
+## Código
+
+```r
+# Las matrices se precalculan en R y se cargan como valores fijos
+A <- Z / matrix(x, nrow = 21, ncol = 21, byrow = TRUE)
+L <- solve(diag(21) - A)
+```
+
+## Listas de verificación
+
+- [ ] El escenario está documentado con sus supuestos
+- [ ] El efecto inducido se reporta por separado
+- [ ] Se indica la versión del simulador utilizada

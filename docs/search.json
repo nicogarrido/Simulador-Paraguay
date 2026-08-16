@@ -1,0 +1,167 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Simulador de Impacto — MIP Paraguay",
+    "section": "",
+    "text": "Este sitio reúne el material del curso sobre el simulador de impacto construido sobre la Matriz Insumo-Producto de Paraguay 2024.\nEl simulador permite estimar cómo un cambio en la demanda —interna o externa— se propaga por la estructura productiva del país, y qué efectos genera sobre la producción, el valor agregado, el empleo y el ingreso de los hogares.",
+    "crumbs": [
+      "Inicio",
+      "Simulador de Impacto — MIP Paraguay"
+    ]
+  },
+  {
+    "objectID": "index.html#el-modelo-en-cifras",
+    "href": "index.html#el-modelo-en-cifras",
+    "title": "Simulador de Impacto — MIP Paraguay",
+    "section": "El modelo en cifras",
+    "text": "El modelo en cifras\n\n\n21sectores productivos\n\n\n78.041MUSD de producción\n\n\n3,10 Mpersonas ocupadas\n\n\n23%del empleo exporta",
+    "crumbs": [
+      "Inicio",
+      "Simulador de Impacto — MIP Paraguay"
+    ]
+  },
+  {
+    "objectID": "index.html#descargar-el-simulador",
+    "href": "index.html#descargar-el-simulador",
+    "title": "Simulador de Impacto — MIP Paraguay",
+    "section": "Descargar el simulador",
+    "text": "Descargar el simulador\nEl archivo se distribuye desde la sección Releases del repositorio. Cada versión incluye una nota con los cambios respecto de la anterior.\n\n\n\n\n\n\nAntes del taller\n\n\n\nEl simulador usa macros y funciones disponibles solo en Excel 365. Conviene verificar los requisitos con anticipación: si las macros no se habilitan, el efecto inducido no se calcula.",
+    "crumbs": [
+      "Inicio",
+      "Simulador de Impacto — MIP Paraguay"
+    ]
+  },
+  {
+    "objectID": "index.html#cómo-está-organizado",
+    "href": "index.html#cómo-está-organizado",
+    "title": "Simulador de Impacto — MIP Paraguay",
+    "section": "Cómo está organizado",
+    "text": "Cómo está organizado\nLas secciones se irán agregando a medida que se defina la estructura del curso. Por ahora el sitio incluye la guía de estilo, que sirve de referencia para escribir el material con formato consistente.",
+    "crumbs": [
+      "Inicio",
+      "Simulador de Impacto — MIP Paraguay"
+    ]
+  },
+  {
+    "objectID": "guia-de-estilo.html",
+    "href": "guia-de-estilo.html",
+    "title": "Guía de estilo",
+    "section": "",
+    "text": "Esta página muestra cómo se ve cada elemento disponible. Sirve de referencia al redactar y también para verificar que el sitio se renderiza bien tras un cambio de estilos.",
+    "crumbs": [
+      "Inicio",
+      "Guía de estilo"
+    ]
+  },
+  {
+    "objectID": "guia-de-estilo.html#encabezados",
+    "href": "guia-de-estilo.html#encabezados",
+    "title": "Guía de estilo",
+    "section": "Encabezados",
+    "text": "Encabezados\nSe usan hasta tres niveles. El primero es el título de la página y se define en el encabezado YAML, no en el cuerpo.\n\nTercer nivel\nAparece en el índice lateral, que se arma solo.",
+    "crumbs": [
+      "Inicio",
+      "Guía de estilo"
+    ]
+  },
+  {
+    "objectID": "guia-de-estilo.html#texto",
+    "href": "guia-de-estilo.html#texto",
+    "title": "Guía de estilo",
+    "section": "Texto",
+    "text": "Texto\nSe puede escribir en negrita, en cursiva y con código en línea. Los enlaces internos se escriben con el nombre del archivo, por ejemplo la portada, y Quarto verifica que existan al renderizar.\nLas notas al pie funcionan así.1",
+    "crumbs": [
+      "Inicio",
+      "Guía de estilo"
+    ]
+  },
+  {
+    "objectID": "guia-de-estilo.html#tablas",
+    "href": "guia-de-estilo.html#tablas",
+    "title": "Guía de estilo",
+    "section": "Tablas",
+    "text": "Tablas\nLas columnas numéricas se alinean a la derecha automáticamente.\n\n\n\nSector\nOcupados por millón USD\nParticipación\n\n\n\n\nOtros servicios\n83,8\n24,1%\n\n\nComercio\n82,3\n25,9%\n\n\nAgricultura\n57,4\n17,1%\n\n\nAlimentos\n7,7\n3,2%\n\n\nElectricidad\n7,6\n0,8%",
+    "crumbs": [
+      "Inicio",
+      "Guía de estilo"
+    ]
+  },
+  {
+    "objectID": "guia-de-estilo.html#avisos",
+    "href": "guia-de-estilo.html#avisos",
+    "title": "Guía de estilo",
+    "section": "Avisos",
+    "text": "Avisos\n\n\n\n\n\n\nNota\n\n\n\nPara información complementaria que no interrumpe la lectura.\n\n\n\n\n\n\n\n\nCon título propio\n\n\n\nPara advertencias que el lector no debería pasar por alto.\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nPara limitaciones metodológicas y errores frecuentes.\n\n\n\n\n\n\n\n\nPara recordar\n\n\n\nPara atajos y buenas prácticas.",
+    "crumbs": [
+      "Inicio",
+      "Guía de estilo"
+    ]
+  },
+  {
+    "objectID": "guia-de-estilo.html#cifras-destacadas",
+    "href": "guia-de-estilo.html#cifras-destacadas",
+    "title": "Guía de estilo",
+    "section": "Cifras destacadas",
+    "text": "Cifras destacadas\n\n\n712.052empleo exportador\n\n\n1,709multiplicador\n\n\n6.175USD por ocupado\n\n\nEl código para producirlas:\n::: {.tarjetas}\n::: {.tarjeta}\n[712.052]{.cifra}&lt;br&gt;[empleo exportador]{.cifra-etiqueta}\n:::\n:::",
+    "crumbs": [
+      "Inicio",
+      "Guía de estilo"
+    ]
+  },
+  {
+    "objectID": "guia-de-estilo.html#citas",
+    "href": "guia-de-estilo.html#citas",
+    "title": "Guía de estilo",
+    "section": "Citas",
+    "text": "Citas\n\nEl modelo contabiliza el requerimiento de producción y empleo asociado a un nivel de demanda. No predice: bajo el supuesto de coeficientes fijos, informa qué haría falta, no qué va a ocurrir.",
+    "crumbs": [
+      "Inicio",
+      "Guía de estilo"
+    ]
+  },
+  {
+    "objectID": "guia-de-estilo.html#fórmulas",
+    "href": "guia-de-estilo.html#fórmulas",
+    "title": "Guía de estilo",
+    "section": "Fórmulas",
+    "text": "Fórmulas\nEn línea, como \\(L = (I - A)^{-1}\\), o en bloque:\n\\[\nx = (I - A)^{-1} \\cdot f\n\\]",
+    "crumbs": [
+      "Inicio",
+      "Guía de estilo"
+    ]
+  },
+  {
+    "objectID": "guia-de-estilo.html#código",
+    "href": "guia-de-estilo.html#código",
+    "title": "Guía de estilo",
+    "section": "Código",
+    "text": "Código\n# Las matrices se precalculan en R y se cargan como valores fijos\nA &lt;- Z / matrix(x, nrow = 21, ncol = 21, byrow = TRUE)\nL &lt;- solve(diag(21) - A)",
+    "crumbs": [
+      "Inicio",
+      "Guía de estilo"
+    ]
+  },
+  {
+    "objectID": "guia-de-estilo.html#listas-de-verificación",
+    "href": "guia-de-estilo.html#listas-de-verificación",
+    "title": "Guía de estilo",
+    "section": "Listas de verificación",
+    "text": "Listas de verificación\n\nEl escenario está documentado con sus supuestos\nEl efecto inducido se reporta por separado\nSe indica la versión del simulador utilizada",
+    "crumbs": [
+      "Inicio",
+      "Guía de estilo"
+    ]
+  },
+  {
+    "objectID": "guia-de-estilo.html#footnotes",
+    "href": "guia-de-estilo.html#footnotes",
+    "title": "Guía de estilo",
+    "section": "Notas",
+    "text": "Notas\n\n\nAparecen al final de la página con un enlace de vuelta.↩︎",
+    "crumbs": [
+      "Inicio",
+      "Guía de estilo"
+    ]
+  }
+]

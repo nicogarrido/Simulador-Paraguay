@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs          # GitHub Pages publica desde esta carpeta
+  render:
+    - "*.qmd"               # solo los .qmd forman parte del sitio
+
+website:
+  title: "Simulador MIP Paraguay"
+  description: "Material de formación del simulador de impacto insumo-producto"
+  site-url: "https://nicogarrido.github.io/Simulador-Paraguay"
+  favicon: recursos/favicon.svg
+  reader-mode: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    background: "#2C3E50"
+    foreground: "#FFFFFF"
+    left:
+      - href: index.qmd
+        text: Inicio
+      # A medida que se agreguen secciones, se listan aquí
+    right:
+      - icon: github
+        href: https://github.com/USUARIO/simulador-mip-paraguay
+        aria-label: Repositorio
+  sidebar:
+    style: floating
+    background: light
+    contents:
+      - index.qmd
+      - guia-de-estilo.qmd
+  page-footer:
+    background: "#2C3E50"
+    left: "OIT · Oficina para el Cono Sur de América Latina"
+    right: "Material bajo licencia CC BY 4.0"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - estilos.scss
+    toc: true
+    toc-title: "En esta página"
+    toc-depth: 3
+    number-sections: false
+    smooth-scroll: true
+    code-copy: true
+    link-external-newwindow: true
+    lang: es
+
+lang: es

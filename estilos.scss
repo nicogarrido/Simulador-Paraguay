@@ -1,0 +1,95 @@
+/*-- scss:defaults --*/
+
+// Paleta tomada del simulador
+$navy:   #2C3E50;
+$steel:  #3D566E;
+$teal:   #1A6B8A;
+$sky:    #2980B9;
+$stone:  #F4F6F7;
+$muted:  #717D7E;
+
+$primary:        $teal;
+$body-color:     #1A1A1A;
+$link-color:     $sky;
+$font-family-sans-serif: "Source Sans Pro", -apple-system, "Segoe UI", Roboto, sans-serif;
+$font-size-root: 16px;
+$h1-font-size:   2.1rem;
+$h2-font-size:   1.55rem;
+$h3-font-size:   1.2rem;
+$table-border-color: #D5D8DC;
+
+/*-- scss:rules --*/
+
+h1, h2, h3, h4 {
+  color: $navy;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  border-bottom: 2px solid $stone;
+  padding-bottom: 0.3rem;
+  margin-top: 2.2rem;
+}
+
+// Tablas: el material tiene muchas y conviene que se lean bien
+table {
+  font-size: 0.92rem;
+
+  thead th {
+    background-color: $navy;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-bottom: none;
+  }
+
+  tbody tr:nth-child(even) { background-color: $stone; }
+
+  td, th { padding: 0.42rem 0.7rem; }
+
+  // Columnas numéricas alineadas a la derecha
+  td:not(:first-child) { text-align: right; }
+  th:not(:first-child) { text-align: right; }
+}
+
+// Cifras destacadas
+.cifra {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: $teal;
+  line-height: 1.1;
+}
+.cifra-etiqueta {
+  font-size: 0.82rem;
+  color: $muted;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.1rem;
+  margin: 1.6rem 0;
+}
+.tarjeta {
+  background: $stone;
+  border-left: 3px solid $teal;
+  padding: 0.9rem 1.1rem;
+  border-radius: 3px;
+}
+
+// Avisos
+div.callout { border-radius: 4px; }
+
+blockquote {
+  border-left: 3px solid $teal;
+  color: $steel;
+  background: $stone;
+  padding: 0.7rem 1.1rem;
+  margin-left: 0;
+}
+
+code { color: $teal; }
+
+.navbar-brand { font-weight: 600; }
