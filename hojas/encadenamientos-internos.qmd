@@ -1,0 +1,51 @@
+---
+title: "Encadenamientos Internos"
+subtitle: "Capa de análisis estructural"
+---
+
+Mide la capacidad de arrastre de cada sector sobre el resto de la economía.
+
+::: {.callout-note}
+Esta hoja **no cambia** con el escenario. Describe la estructura productiva de
+2024.
+:::
+
+## Las dos direcciones
+
+**Hacia atrás.** Cuánto arrastra un sector a sus proveedores. Se lee en las
+columnas de la inversa de Leontief: si estimulo este sector, ¿cuánta producción
+total se moviliza?
+
+**Hacia adelante.** Cuánto depende el resto de la economía de lo que ese sector
+provee. Se calcula con la matriz de Ghosh.
+
+Un sector puede ser fuerte en una dimensión y débil en la otra. La construcción
+suele tener alto arrastre hacia atrás y bajo hacia adelante: compra mucho, pero
+casi nadie compra construcción como insumo.
+
+## La clasificación de Rasmussen-Hirschman
+
+Comparando ambos encadenamientos contra el promedio surgen cuatro categorías:
+
+| | Hacia adelante alto | Hacia adelante bajo |
+|---|---|---|
+| **Hacia atrás alto** | Clave | Impulsor |
+| **Hacia atrás bajo** | Base o estratégico | Independiente |
+
+- **Clave:** arrastra y es arrastrado.
+- **Impulsor:** arrastra proveedores pero provee poco. Bueno para activar demanda.
+- **Base:** provee mucho a otros. Un cuello de botella acá frena al resto.
+- **Independiente:** poco conectado en ambas direcciones.
+
+## La columna de empleo
+
+Muestra los ocupados por millón de dólares de producción de cada sector. Vale la
+pena cruzarla con la clasificación: un sector clave no necesariamente genera
+empleo, y la combinación relevante para política de empleo es alto
+encadenamiento **y** alta intensidad laboral.
+
+::: {.callout-warning}
+Los multiplicadores no ordenan prioridades de política por sí solos. Un
+multiplicador alto indica capacidad de arrastre, no viabilidad, ni
+sostenibilidad, ni calidad del empleo.
+:::

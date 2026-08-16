@@ -1,13 +1,15 @@
 project:
   type: website
-  output-dir: docs          # GitHub Pages publica desde esta carpeta
+  output-dir: docs
   render:
-    - "*.qmd"               # solo los .qmd forman parte del sitio
+    - "*.qmd"
+    - "taller/*.qmd"
+    - "hojas/*.qmd"
 
 website:
   title: "Simulador MIP Paraguay"
   description: "Material de formación del simulador de impacto insumo-producto"
-  site-url: "https://nicogarrido.github.io/Simulador-Paraguay"
+  site-url: "https://USUARIO.github.io/Simulador-Paraguay"
   favicon: recursos/favicon.svg
   reader-mode: true
   search:
@@ -19,17 +21,56 @@ website:
     left:
       - href: index.qmd
         text: Inicio
-      # A medida que se agreguen secciones, se listan aquí
+      - href: taller/index.qmd
+        text: Taller
+      - href: hojas/index.qmd
+        text: Las hojas
     right:
       - icon: github
-        href: https://github.com/USUARIO/simulador-mip-paraguay
+        href: https://github.com/USUARIO/Simulador-Paraguay
         aria-label: Repositorio
   sidebar:
     style: floating
     background: light
+    collapse-level: 2
     contents:
-      - index.qmd
-      - guia-de-estilo.qmd
+      - href: index.qmd
+        text: Inicio
+      - section: "Taller"
+        href: taller/index.qmd
+        contents:
+          - taller/seccion-1-estructura.qmd
+          - taller/seccion-2-demanda-interna.qmd
+          - taller/seccion-3-empleo-e-ingreso.qmd
+          - taller/seccion-4-comercio-exterior.qmd
+      - section: "Las hojas del simulador"
+        href: hojas/index.qmd
+        contents:
+          - section: "Entradas"
+            contents:
+              - hojas/estimulos-nacionales.qmd
+              - hojas/estimulos-internacionales.qmd
+          - section: "Resultados"
+            contents:
+              - hojas/resumen-ejecutivo.qmd
+              - hojas/produccion.qmd
+              - hojas/pib.qmd
+              - hojas/empleo.qmd
+              - hojas/ingreso-laboral.qmd
+          - section: "Análisis estructural"
+            contents:
+              - hojas/encadenamientos-internos.qmd
+              - hojas/empleo-exportador.qmd
+              - hojas/insercion-internacional.qmd
+          - section: "Datos"
+            contents:
+              - hojas/matrices-nacionales.qmd
+              - hojas/informacion-empleo.qmd
+              - hojas/mrio.qmd
+              - hojas/vax-fva-source.qmd
+              - hojas/parametros.qmd
+      - href: guia-de-estilo.qmd
+        text: Guía de estilo
   page-footer:
     background: "#2C3E50"
     left: "OIT · Oficina para el Cono Sur de América Latina"
@@ -43,7 +84,6 @@ format:
     toc: true
     toc-title: "En esta página"
     toc-depth: 3
-    number-sections: false
     smooth-scroll: true
     code-copy: true
     link-external-newwindow: true

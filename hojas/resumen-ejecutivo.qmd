@@ -1,0 +1,23 @@
+---
+title: "Resumen Ejecutivo"
+subtitle: "Capa de resultados"
+---
+
+Sintetiza en una sola vista los resultados de las cuatro hojas de detalle.
+Es la hoja para mostrar, no para analizar.
+
+## Qué muestra
+
+Los agregados del escenario: producción activada, valor agregado, empleo
+generado e ingreso laboral, con la descomposición por tipo de efecto.
+
+## Cuándo usarla
+
+Para presentar resultados y para verificar rápidamente que un escenario se
+cargó bien. Si los totales acá no tienen sentido, conviene revisar la hoja de
+estímulos antes de seguir.
+
+## Cuándo no
+
+Para el análisis sectorial. Los agregados esconden justamente lo interesante:
+qué sectores se activan y por qué. Para eso están las hojas de detalle.

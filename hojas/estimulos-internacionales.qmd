@@ -1,0 +1,52 @@
+---
+title: "Estímulos Internacionales"
+subtitle: "Capa de entradas"
+---
+
+Permite simular cambios en la demanda de los socios comerciales y ver cómo eso
+activa producción en Paraguay.
+
+## Las once regiones
+
+Paraguay, Brasil, Unión Europea, China, Estados Unidos, Argentina,
+Asia-Pacífico, resto de América Latina, resto del Mercosur, Reino Unido y resto
+del mundo.
+
+Detrás hay una matriz insumo-producto multirregional que captura cómo la demanda
+de cada socio se traduce en producción paraguaya, directa e indirectamente.
+
+## Unidades: el error más caro
+
+::: {.callout-warning}
+## Fracción decimal, no porcentaje
+Para simular un aumento del 10% se escribe **`0,10`**, no `10`.
+
+Escribir `10` genera un shock del 1.000%, cien veces mayor al buscado. Los
+resultados salen enormes y suele costar advertir de dónde viene el problema.
+:::
+
+La razón está en cómo se calcula la variación de demanda: el simulador
+multiplica el valor bruto de producción de la región por el valor cargado, sin
+dividir por cien.
+
+## Los dos modos
+
+Igual que en Estímulos Nacionales, hay un modo global —un mismo shock para todos
+los sectores de una región— y un modo detallado, donde se define sector por
+sector.
+
+## Qué hay más abajo en la hoja
+
+Debajo del panel hay un vector de 231 filas: once regiones por veintiún
+sectores. Contiene el valor agregado, el valor bruto de producción y la
+variación de demanda resultante de cada combinación.
+
+No se edita a mano. Es el puente entre el panel y el módulo internacional.
+
+## Errores frecuentes
+
+- **Escribir porcentajes** en lugar de fracción decimal.
+- **Cargar un shock en Paraguay** en esta hoja. La fila de Paraguay está fijada
+  en cero: los estímulos internos van en la otra hoja.
+- **No limpiar el modo global** antes de usar el detallado, con lo que ambos se
+  suman.

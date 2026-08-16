@@ -3,7 +3,7 @@
 Material del curso sobre el simulador de impacto construido sobre la Matriz
 Insumo-Producto de Paraguay 2024.
 
-**Sitio web:** https://nicogarrido.github.io/Simulador-Paraguay
+**Sitio web:** https://USUARIO.github.io/Simulador-Paraguay
 
 ## Cómo trabajar en este repositorio
 

@@ -1,1 +1,1 @@
-Sitemap: https://USUARIO.github.io/simulador-mip-paraguay/sitemap.xml
+Sitemap: https://USUARIO.github.io/Simulador-Paraguay/sitemap.xml

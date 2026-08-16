@@ -1,0 +1,52 @@
+---
+title: "Información Empleo"
+subtitle: "Capa de datos"
+---
+
+Contiene el empleo de cada sector y los coeficientes que traducen producción en
+puestos de trabajo e ingreso.
+
+## Los bloques
+
+| Bloque | Contenido |
+|---|---|
+| Total | Ocupados por sector y coeficiente de empleo |
+| Sexo | Hombres y mujeres |
+| Calificación | Baja, media y alta |
+| Formalidad | Formal e informal |
+| Área | Urbano y rural |
+
+Además incorpora los coeficientes de ingreso —sueldos, contribuciones e ingreso
+mixto por unidad de producción— que alimentan la hoja de Ingreso Laboral.
+
+## De dónde salen los datos
+
+**Los niveles** vienen de la matriz insumo-producto: 3.102.209 ocupados en
+total, distribuidos entre los veintiún sectores.
+
+**La composición** viene de la Encuesta Permanente de Hogares Continua 2024.
+
+## La limitación que hay que conocer
+
+::: {.callout-warning}
+La EPHC distingue **ocho ramas de actividad** frente a veintiún sectores. Los
+sectores que comparten rama reciben perfil idéntico.
+
+Diez sectores caen en industrias manufactureras y tienen la misma composición.
+Tres caen en finanzas, seguros e inmuebles. En cambio agricultura,
+electricidad, construcción y otros servicios tienen correspondencia directa con
+su rama y por lo tanto perfil específico.
+
+**Consecuencia práctica:** las comparaciones de perfil entre sectores solo
+aportan información cuando pertenecen a ramas distintas.
+:::
+
+## Sobre la definición de formalidad
+
+Se usa la definición mixta OIT/DGEEC: asalariados y personal doméstico son
+formales si aportan a una caja de jubilación; empleadores y cuenta propia, si el
+establecimiento tiene registro; los trabajadores familiares no remunerados son
+siempre informales.
+
+Usar solo el aporte jubilatorio sobreestima la informalidad, porque los
+independientes rara vez aportan aunque su negocio esté registrado.

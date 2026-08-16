@@ -1,0 +1,51 @@
+---
+title: "Estímulos Nacionales"
+subtitle: "Capa de entradas"
+---
+
+Es el punto de partida de cualquier simulación interna. Acá se define **cuánto
+cambia la demanda final** de cada sector.
+
+## Qué se carga
+
+Una fila por sector, veintiuna en total. El valor se expresa en **millones de
+dólares**: si se quiere simular una inversión de 100 millones en construcción,
+se escribe `100` en esa fila.
+
+::: {.callout-important}
+## Unidades
+Esta hoja trabaja en montos absolutos, no en porcentajes. Es distinto de
+Estímulos Internacionales, que usa fracción decimal.
+:::
+
+## Los dos modos de trabajo
+
+**Escenario único.** Se carga un vector de estímulo y las hojas de resultados
+muestran los efectos de ese escenario.
+
+**Comparación de proyectos.** Se cargan dos vectores y el simulador reporta la
+**diferencia** entre ambos. Sirve para comparar alternativas de inversión.
+
+El título de las hojas de resultados cambia según el modo activo. Si dice
+*"Diferencias entre los proyectos"*, estás en modo comparación.
+
+## Qué mira el modelo
+
+El vector cargado acá es la `f` de la ecuación fundamental:
+
+$$
+x = (I - A)^{-1} \cdot f
+$$
+
+Todo lo demás se deriva de ahí.
+
+## Errores frecuentes
+
+- **Cargar en el sector equivocado.** Los veintiún sectores agrupan actividades
+  heterogéneas. Conviene revisar la concordancia antes de decidir dónde va el
+  estímulo.
+- **Confundir demanda final con producción.** El estímulo es un aumento de
+  demanda final: consumo, inversión o exportación. No es un aumento de
+  producción, que es lo que el modelo calcula como resultado.
+- **Olvidar limpiar el escenario anterior.** Si quedaron valores de una
+  simulación previa, los resultados mezclan ambos.

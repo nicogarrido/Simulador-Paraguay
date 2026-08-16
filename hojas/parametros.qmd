@@ -1,0 +1,28 @@
+---
+title: "Parámetros"
+subtitle: "Capa de datos"
+---
+
+Contiene las constantes del modelo. Es la hoja más corta del libro y la única
+que conviene revisar al actualizar el año de referencia.
+
+## Qué contiene
+
+| Parámetro | Valor | Uso |
+|---|---|---|
+| Tipo de cambio | 6.107 PYG/USD | Conversión de resultados a moneda local |
+| PIB de referencia | 44.460 MUSD | Cálculo de participaciones |
+
+## Cuándo modificarlos
+
+**El tipo de cambio**, si se quiere presentar resultados en guaraníes con una
+cotización distinta. No afecta ningún cálculo interno: el modelo trabaja
+íntegramente en dólares.
+
+**El PIB de referencia**, solo al actualizar la matriz a otro año. Se usa para
+expresar los impactos como proporción del producto.
+
+::: {.callout-note}
+Cambiar estos valores no altera los multiplicadores ni la estructura del modelo.
+Solo afecta cómo se expresan los resultados.
+:::

@@ -1,0 +1,45 @@
+---
+title: "MRIO"
+subtitle: "Capa de datos"
+---
+
+Contiene las matrices del módulo internacional: cómo la demanda de cada socio
+comercial se traduce en producción paraguaya.
+
+## Qué contiene
+
+Dos bloques de 21 filas por 231 columnas. Las filas son los sectores de
+Paraguay; las columnas, las 231 combinaciones de once regiones por veintiún
+sectores.
+
+| Bloque | Contenido |
+|---|---|
+| **A** | Coeficientes técnicos internacionales |
+| **L** | Inversa de Leontief internacional |
+
+Cada elemento indica cuánta producción de un sector paraguayo se requiere para
+satisfacer una unidad de demanda final de un sector en una región determinada.
+
+## La fuente
+
+FIGARO, en su adaptación de CEPAL, año 2018.
+
+::: {.callout-note}
+## Por qué 2018 y no 2024
+La matriz internacional representa la **tecnología** de producción de cada
+región: qué insumos usa cada sector para producir. Eso cambia lentamente, de
+modo que un desfase de algunos años es aceptable.
+
+Distinto sería usarla para estimar flujos de comercio, que sí cambian rápido.
+Para eso el simulador usa estadísticas del Banco Central y de Eurostat.
+:::
+
+## Las once regiones
+
+Paraguay, Brasil, Unión Europea, China, Estados Unidos, Argentina,
+Asia-Pacífico, resto de América Latina, resto del Mercosur, Reino Unido y resto
+del mundo.
+
+Vale la pena saber que Taiwán y Hong Kong, destinos relevantes para la carne
+paraguaya, no figuran como países en la base de origen y quedan dentro de resto
+del mundo.

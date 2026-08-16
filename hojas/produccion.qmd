@@ -1,0 +1,54 @@
+---
+title: "Producción"
+subtitle: "Capa de resultados"
+---
+
+Muestra el valor bruto de producción activado por el escenario, en millones de
+dólares, sector por sector.
+
+Es la hoja base: las de PIB, Empleo e Ingreso Laboral derivan de ella aplicando
+coeficientes.
+
+## La estructura de columnas
+
+Comparte formato con Producción, PIB, Empleo e Ingreso Laboral:
+
+| Columna | Contenido |
+|---|---|
+| Efecto inicial | El estímulo cargado, sin propagar |
+| Efecto directo | Producción del sector estimulado. Se abre en nacional e internacional |
+| Efecto indirecto | Producción de la cadena de proveedores. También se abre por origen |
+| Efecto inducido | Activado por el gasto de los hogares |
+| Efecto total | Suma de los anteriores |
+| Crecimiento sectorial | Variación respecto de la línea base del sector |
+
+Que las cuatro hojas compartan estructura permite comparar celda a celda: para
+el mismo sector y el mismo efecto, cuánta producción, cuánto valor agregado,
+cuántos empleos y cuánto ingreso.
+
+## Cómo leerla
+
+El efecto directo se concentra en el sector estimulado. El indirecto se
+distribuye por toda la cadena de proveedores, y ahí suele aparecer lo
+interesante: sectores que no tienen relación aparente con el estímulo pero que
+proveen insumos varios eslabones atrás.
+
+Un ejercicio útil es rastrear una cadena completa. Si se estimula construcción,
+¿por qué se activa el sector químico? Porque construcción compra minerales no
+metálicos, que compran productos químicos.
+
+::: {.callout-warning}
+## Sobre el efecto inducido
+Supone que los hogares gastan los ingresos generados con la misma estructura de
+consumo que hoy. Es el efecto más discutible de los tres y conviene reportarlo
+por separado en cualquier informe.
+
+Además usa una función disponible solo en Excel 365. En versiones anteriores y
+en LibreOffice esta columna devuelve `#NAME?`.
+:::
+
+## De dónde salen los números
+
+De la inversa de Leontief en [Matrices Nacionales](matrices-nacionales.qmd). El
+efecto directo usa la matriz de coeficientes técnicos; el indirecto, la
+diferencia entre la inversa completa y los efectos anteriores.

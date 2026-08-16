@@ -1,0 +1,68 @@
+---
+title: "Matrices Nacionales"
+subtitle: "Capa de datos"
+---
+
+El motor del modelo. Contiene la matriz de transacciones y todo lo que se deriva
+de ella.
+
+::: {.callout-important}
+Esta hoja no se edita salvo que se actualice la matriz insumo-producto. Un
+cambio acá se propaga a todo el libro.
+:::
+
+## Los bloques principales
+
+| Bloque | Contenido |
+|---|---|
+| **Z** | Matriz de transacciones, 21×21. Lo que cada sector compra a cada sector |
+| **A** | Coeficientes técnicos, `A = Z/x` |
+| **L** | Inversa de Leontief, `L = (I − A)⁻¹` |
+| Demanda final | Consumo, inversión, variación de existencias y exportaciones |
+| Valor agregado | Con su descomposición completa |
+| Bloques inducidos | Matrices ampliadas que incorporan a los hogares |
+| Ghosh | Para los encadenamientos hacia adelante |
+
+## El bloque de valor agregado
+
+```
+Valor agregado
+├── Remuneraciones de asalariados
+│   ├── Sueldos y salarios
+│   └── Contribuciones sociales
+├── Ingreso mixto
+├── Excedente bruto de explotación
+└── Impuestos netos sobre la producción
+```
+
+## Las identidades contables
+
+Ambas cierran de manera exacta, lo que sirve de control:
+
+**Por columna**, para cada sector:
+
+```
+consumo intermedio + importaciones + impuestos sobre productos
++ valor agregado = valor bruto de producción
+```
+
+**Por fila**, para cada sector:
+
+```
+ventas intermedias + demanda final = producción
+```
+
+Subsiste una diferencia de 2,6 millones entre la producción sumada por fila y
+por columna, atribuible al redondeo del archivo de origen sobre un total de
+78.041,2.
+
+## Valores de control
+
+Para verificar que la hoja está bien cargada:
+
+| Magnitud | Valor |
+|---|---|
+| Valor bruto de producción | 78.041,2 |
+| Valor agregado | 41.595,1 |
+| Consumo intermedio doméstico | 28.451,2 |
+| Exportaciones | 12.419,2 |

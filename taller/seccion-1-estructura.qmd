@@ -1,0 +1,64 @@
+---
+title: "Sección 1 · La estructura del simulador"
+---
+
+Presentación del simulador por dentro: qué hay en cada hoja, cómo se conectan y
+qué lógica sigue el cálculo.
+
+## Objetivo
+
+Que al terminar quede claro dónde está cada cosa y por qué. El resto del taller
+supone este mapa.
+
+## Las cuatro capas
+
+El libro tiene diecisiete hojas que se organizan en cuatro capas. Distinguirlas
+evita la confusión más frecuente: leer como resultado de un escenario algo que
+en realidad describe la economía de 2024.
+
+| Capa | Hojas | ¿Cambian con el escenario? |
+|---|---|---|
+| Entradas | Estímulos Nacionales e Internacionales | Se editan |
+| Resultados | Producción, PIB, Empleo, Ingreso Laboral, Resumen | Sí |
+| Análisis estructural | Encadenamientos, Empleo Exportador, Inserción Internacional | No |
+| Datos | Matrices Nacionales, Información Empleo, MRIO, VAX, Parámetros | No |
+
+::: {.callout-tip}
+## La regla práctica
+Si una hoja cambia al cargar un estímulo, es de resultados. Si no cambia,
+describe la economía tal como es.
+:::
+
+## Recorrido propuesto
+
+*[Ajustar el orden y los tiempos según la duración de la sesión.]*
+
+1. **De dónde salen los datos.** Las fuentes y su año de referencia.
+2. **La capa de datos.** Matrices Nacionales: Z, A, L y el bloque de valor
+   agregado. Verificar una identidad contable en vivo.
+3. **La capa de entradas.** Los dos modos de trabajo y la diferencia de unidades
+   entre la hoja nacional y la internacional.
+4. **La capa de resultados.** La estructura de columnas compartida y los tres
+   efectos.
+5. **La capa estructural.** Qué preguntas responde y por qué no depende del
+   escenario.
+
+## Los supuestos del modelo
+
+Conviene plantearlos en esta sección y no más adelante, porque condicionan toda
+lectura posterior. El modelo supone coeficientes técnicos fijos, ausencia de
+restricciones de capacidad, precios relativos constantes y rendimientos
+constantes a escala.
+
+En consecuencia, los resultados son **el requerimiento de producción y empleo
+asociado a un nivel de demanda**, no una predicción. El modelo contabiliza, no
+anticipa.
+
+## Material de apoyo
+
+- [Las hojas del simulador](../hojas/index.qmd), con una página por hoja.
+
+## Notas para el desarrollo
+
+*[Espacio para el contenido detallado de la sesión: qué mostrar en pantalla, qué
+verificar en vivo, qué preguntas plantear.]*

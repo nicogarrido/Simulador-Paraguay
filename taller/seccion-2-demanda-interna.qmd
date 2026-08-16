@@ -1,0 +1,35 @@
+---
+title: "Sección 2 · Un choque de demanda interna"
+---
+
+Primer ejemplo con el simulador. Un escenario interno permite rastrear la
+cadena completa a mano y entender de dónde sale cada número.
+
+## Objetivo
+
+*[Definir qué debería poder hacer un participante al terminar esta sección.]*
+
+## El caso
+
+*[Describir el escenario que se va a trabajar: de qué se trata, por qué es
+relevante y qué supuestos lo sostienen.]*
+
+## Desarrollo
+
+*[Los pasos de la sesión: qué se carga, qué se observa, qué se discute.]*
+
+## Qué mirar en el simulador
+
+*[Las hojas que intervienen en este caso y qué buscar en cada una.]*
+
+## Puntos de discusión
+
+*[Las preguntas que abren debate y no tienen respuesta única.]*
+
+## Errores frecuentes
+
+*[Lo que suele salir mal al hacer este tipo de análisis.]*
+
+## Material de apoyo
+
+- [Las hojas del simulador](../hojas/index.qmd)

@@ -1,0 +1,43 @@
+---
+title: "Inserción Internacional"
+subtitle: "Capa de análisis estructural"
+---
+
+Muestra cuánto valor retiene Paraguay de lo que produce y de dónde vienen los
+insumos importados que utiliza.
+
+::: {.callout-note}
+No cambia con el escenario.
+:::
+
+## Retención de valor
+
+La proporción del valor bruto de producción que corresponde a valor agregado
+doméstico. Un sector con retención baja produce mucho pero deja poco en el país,
+porque buena parte de su producción es insumo importado que solo pasa.
+
+## Contenido importado por origen
+
+Desagrega los insumos importados de cada sector según la región de procedencia:
+Argentina, Brasil, Estados Unidos, China, Unión Europea, Reino Unido y las demás.
+
+Sirve para identificar dependencias: si un sector concentra su abastecimiento en
+una sola región, una disrupción allí lo afecta de manera desproporcionada.
+
+## El VAX
+
+Relacionado pero distinto: es la proporción de valor agregado doméstico
+contenida en las **exportaciones**. En Paraguay 2024 es de **0,842**, es decir
+que por cada dólar exportado 84,2 centavos son valor agregado nacional.
+
+Es un valor alto, coherente con una canasta exportadora concentrada en productos
+primarios y energía, que incorporan poco insumo importado.
+
+## Una advertencia sobre la fuente
+
+Los pesos de composición importada provienen de FIGARO 2018. Es apropiado para
+representar la **tecnología** de producción, que cambia lentamente. No es
+apropiado para estimar el destino de las exportaciones paraguayas: esa base
+sobreestima el mercado europeo en un factor de cuatro y omite las exportaciones
+de electricidad. Por eso el reparto por destino de
+[Empleo Exportador](empleo-exportador.qmd) se construyó con otras fuentes.

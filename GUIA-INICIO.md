@@ -49,7 +49,7 @@ con tu cuenta.
 
 En [github.com/new](https://github.com/new):
 
-- **Nombre:** `simulador-mip-paraguay`
+- **Nombre:** `Simulador-Paraguay`
 - **Visibilidad:** Público
 - **No** marcar ninguna casilla de inicialización
 
@@ -67,7 +67,7 @@ Copiar el contenido de este paquete dentro de la carpeta clonada. Debe quedar
 así:
 
 ```
-simulador-mip-paraguay/
+Simulador-Paraguay/
 ├── _quarto.yml
 ├── estilos.scss
 ├── index.qmd
@@ -103,7 +103,7 @@ En el repositorio en GitHub: **Settings → Pages**.
 - Guardar
 
 En un par de minutos el sitio queda disponible en
-`https://USUARIO.github.io/simulador-mip-paraguay`.
+`https://USUARIO.github.io/Simulador-Paraguay`.
 
 ---
 

@@ -1,0 +1,72 @@
+---
+title: "Las hojas del simulador"
+subtitle: "Qué contiene cada una y cómo leerla"
+---
+
+El libro tiene diecisiete hojas. Entender a qué **capa** pertenece cada una evita
+la confusión más frecuente: leer como resultado de un escenario algo que en
+realidad describe la economía de 2024, o al revés.
+
+## Las cuatro capas
+
+::: {.callout-tip}
+## La regla práctica
+Si una hoja cambia cuando cargás un estímulo, es de resultados. Si no cambia, es
+estructural o de datos. Las hojas estructurales describen la economía tal como
+es, no lo que pasaría.
+:::
+
+### Entradas
+
+Donde se define el escenario. Nada se calcula acá.
+
+| Hoja | Qué se carga |
+|---|---|
+| [Estímulos Nacionales](estimulos-nacionales.qmd) | Variación de demanda final por sector, en MUSD |
+| [Estímulos Internacionales](estimulos-internacionales.qmd) | Variación de demanda por región y sector, en fracción decimal |
+
+### Resultados
+
+Dependen del escenario cargado. Las cuatro principales comparten estructura de
+columnas, de modo que se leen igual y se comparan celda a celda.
+
+| Hoja | Unidad |
+|---|---|
+| [Resumen Ejecutivo](resumen-ejecutivo.qmd) | Síntesis |
+| [Producción](produccion.qmd) | MUSD de valor bruto |
+| [PIB](pib.qmd) | MUSD de valor agregado |
+| [Empleo](empleo.qmd) | Personas |
+| [Ingreso Laboral](ingreso-laboral.qmd) | MUSD |
+
+### Análisis estructural
+
+Describen la economía de 2024. **No cambian** con el escenario.
+
+| Hoja | Qué muestra |
+|---|---|
+| [Encadenamientos Internos](encadenamientos-internos.qmd) | Multiplicadores y sectores clave |
+| [Empleo Exportador](empleo-exportador.qmd) | Empleo asociado a exportaciones |
+| [Inserción Internacional](insercion-internacional.qmd) | Retención de valor y contenido importado |
+
+### Datos
+
+El motor del modelo. No se editan salvo que se actualice la matriz.
+
+| Hoja | Contenido |
+|---|---|
+| [Matrices Nacionales](matrices-nacionales.qmd) | Z, A, L, valor agregado, demanda final |
+| [Información Empleo](informacion-empleo.qmd) | Empleo por sector y coeficientes |
+| [MRIO](mrio.qmd) | Matrices internacionales |
+| [VAX FVA source](vax-fva-source.qmd) | Composición importada y exportaciones por destino |
+| [Parámetros](parametros.qmd) | Tipo de cambio y PIB de referencia |
+
+## Las dos hojas restantes
+
+**Info** y **Créditos** contienen la presentación del simulador y la autoría. No
+intervienen en ningún cálculo.
+
+## Cómo usar esta sección
+
+Cada página sigue el mismo esquema: qué contiene la hoja, cómo se lee, de dónde
+salen los datos y qué errores conviene evitar. Sirve como consulta durante el
+taller y después, cuando aparezca la duda concreta.

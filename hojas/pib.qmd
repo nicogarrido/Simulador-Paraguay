@@ -1,0 +1,50 @@
+---
+title: "PIB"
+subtitle: "Capa de resultados"
+---
+
+Muestra el valor agregado generado por el escenario. Es la parte de la
+producción que remunera factores dentro del país.
+
+## La diferencia con Producción
+
+La producción incluye el consumo intermedio: si un sector compra insumos por 60
+y produce por 100, su producción es 100 pero su valor agregado es 40.
+
+Sumar producción entre sectores **duplica contabilidad**, porque lo que un
+sector vende a otro se cuenta dos veces. El valor agregado no tiene ese
+problema, y por eso es el agregado comparable con el PIB.
+
+## La estructura de columnas
+
+Comparte formato con Producción, PIB, Empleo e Ingreso Laboral:
+
+| Columna | Contenido |
+|---|---|
+| Efecto inicial | El estímulo cargado, sin propagar |
+| Efecto directo | Producción del sector estimulado. Se abre en nacional e internacional |
+| Efecto indirecto | Producción de la cadena de proveedores. También se abre por origen |
+| Efecto inducido | Activado por el gasto de los hogares |
+| Efecto total | Suma de los anteriores |
+| Crecimiento sectorial | Variación respecto de la línea base del sector |
+
+Que las cuatro hojas compartan estructura permite comparar celda a celda: para
+el mismo sector y el mismo efecto, cuánta producción, cuánto valor agregado,
+cuántos empleos y cuánto ingreso.
+
+## Un uso frecuente
+
+Dividir el valor agregado generado por la producción activada da la retención
+de valor del escenario: cuánto de lo producido queda efectivamente en el país.
+En Paraguay el promedio de la economía es del 53,3%.
+
+::: {.callout-warning}
+## Sobre el efecto inducido
+Supone que los hogares gastan los ingresos generados con la misma estructura de
+consumo que hoy. Es el efecto más discutible de los tres y conviene reportarlo
+por separado en cualquier informe.
+
+Además usa una función disponible solo en Excel 365. En versiones anteriores y
+en LibreOffice esta columna devuelve `#NAME?`.
+:::
+

@@ -41,6 +41,19 @@ efecto inducido no se calcula.
 
 ## Cómo está organizado
 
-Las secciones se irán agregando a medida que se defina la estructura del curso.
-Por ahora el sitio incluye la [guía de estilo](guia-de-estilo.qmd), que sirve de
-referencia para escribir el material con formato consistente.
+El sitio tiene dos entradas que se complementan.
+
+**[El taller](taller/index.qmd)** sigue el hilo de las cuatro sesiones: la
+primera presenta el simulador por dentro, las tres siguientes lo ponen a
+trabajar sobre casos distintos.
+
+**[Las hojas del simulador](hojas/index.qmd)** documenta cada hoja del libro por
+separado: qué contiene, cómo se lee, de dónde salen los datos y qué errores
+conviene evitar. Sirve para consultar durante las sesiones y después.
+
+::: {.callout-tip}
+## Si es la primera vez
+Conviene empezar por la [sección 1 del taller](taller/seccion-1-estructura.qmd),
+que da el mapa general, y recurrir a la sección de hojas cuando aparezca la duda
+concreta.
+:::
