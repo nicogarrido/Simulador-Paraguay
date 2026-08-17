@@ -368,177 +368,193 @@
     ]
   },
   {
-    "objectID": "hojas/matrices-nacionales.html",
-    "href": "hojas/matrices-nacionales.html",
-    "title": "Matrices Nacionales",
+    "objectID": "hojas/modos-de-uso.html",
+    "href": "hojas/modos-de-uso.html",
+    "title": "Los tres modos de uso",
     "section": "",
-    "text": "El motor del modelo. Contiene la matriz de transacciones y todo lo que se deriva de ella.",
+    "text": "El simulador admite tres modos de trabajo. Los tres alimentan las mismas hojas de resultados; lo que cambia es qué se carga y con qué propósito.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Datos",
-      "Matrices Nacionales"
+      "Los tres modos de uso"
     ]
   },
   {
-    "objectID": "hojas/matrices-nacionales.html#los-bloques-principales",
-    "href": "hojas/matrices-nacionales.html#los-bloques-principales",
-    "title": "Matrices Nacionales",
-    "section": "Los bloques principales",
-    "text": "Los bloques principales\n\n\n\n\n\n\n\nBloque\nContenido\n\n\n\n\nZ\nMatriz de transacciones, 21×21. Lo que cada sector compra a cada sector\n\n\nA\nCoeficientes técnicos, A = Z/x\n\n\nL\nInversa de Leontief, L = (I − A)⁻¹\n\n\nDemanda final\nConsumo, inversión, variación de existencias y exportaciones\n\n\nValor agregado\nCon su descomposición completa\n\n\nBloques inducidos\nMatrices ampliadas que incorporan a los hogares\n\n\nGhosh\nPara los encadenamientos hacia adelante",
+    "objectID": "hojas/modos-de-uso.html#modo-1-impacto-nacional",
+    "href": "hojas/modos-de-uso.html#modo-1-impacto-nacional",
+    "title": "Los tres modos de uso",
+    "section": "Modo 1 · Impacto nacional",
+    "text": "Modo 1 · Impacto nacional\nEvalúa el efecto de un cambio en la demanda final doméstica.\n\nAbrir la hoja Estímulos Nacionales.\nUbicar el sector y escribir el monto en la columna MUSD, en millones de dólares. La hoja lo convierte sola a guaraníes y calcula qué porcentaje representa sobre el PIB de ese sector.\nSe pueden cargar varios sectores a la vez; el total aparece al pie.\nConsultar Producción, PIB, Empleo e Ingreso Laboral, y la síntesis en el Resumen Ejecutivo.\n\n\n\n\n\n\n\nTipPara dimensionar el choque\n\n\n\nLa columna % PIB Sector expresa el estímulo como proporción del sector. Sirve para no cargar montos desproporcionados respecto del tamaño real de la actividad.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Datos",
-      "Matrices Nacionales"
+      "Los tres modos de uso"
     ]
   },
   {
-    "objectID": "hojas/matrices-nacionales.html#el-bloque-de-valor-agregado",
-    "href": "hojas/matrices-nacionales.html#el-bloque-de-valor-agregado",
-    "title": "Matrices Nacionales",
-    "section": "El bloque de valor agregado",
-    "text": "El bloque de valor agregado\nValor agregado\n├── Remuneraciones de asalariados\n│   ├── Sueldos y salarios\n│   └── Contribuciones sociales\n├── Ingreso mixto\n├── Excedente bruto de explotación\n└── Impuestos netos sobre la producción",
+    "objectID": "hojas/modos-de-uso.html#modo-2-impacto-comparado",
+    "href": "hojas/modos-de-uso.html#modo-2-impacto-comparado",
+    "title": "Los tres modos de uso",
+    "section": "Modo 2 · Impacto comparado",
+    "text": "Modo 2 · Impacto comparado\nContrasta dos escenarios sobre las mismas variables. Es el modo indicado para comparar diseños de política del mismo monto.\n\nCargar el escenario base en la columna MUSD del bloque izquierdo.\nCargar el escenario alternativo en la columna MUSD del bloque derecho.\nComparar en el Resumen Ejecutivo, que los muestra lado a lado.\n\nLas hojas de resultados cambian su título cuando este modo está activo: si dice “Diferencias entre los proyectos”, se está viendo la comparación y no un escenario único.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Datos",
-      "Matrices Nacionales"
+      "Los tres modos de uso"
     ]
   },
   {
-    "objectID": "hojas/matrices-nacionales.html#las-identidades-contables",
-    "href": "hojas/matrices-nacionales.html#las-identidades-contables",
-    "title": "Matrices Nacionales",
-    "section": "Las identidades contables",
-    "text": "Las identidades contables\nAmbas cierran de manera exacta, lo que sirve de control:\nPor columna, para cada sector:\nconsumo intermedio + importaciones + impuestos sobre productos\n+ valor agregado = valor bruto de producción\nPor fila, para cada sector:\nventas intermedias + demanda final = producción\nSubsiste una diferencia de 2,6 millones entre la producción sumada por fila y por columna, atribuible al redondeo del archivo de origen sobre un total de 78.041,2.",
+    "objectID": "hojas/modos-de-uso.html#modo-3-impacto-internacional",
+    "href": "hojas/modos-de-uso.html#modo-3-impacto-internacional",
+    "title": "Los tres modos de uso",
+    "section": "Modo 3 · Impacto internacional",
+    "text": "Modo 3 · Impacto internacional\nEvalúa el efecto sobre Paraguay de cambios en la demanda de otras regiones.\n\n\n\n\n\n\nNota\n\n\n\nParaguay es receptor de los impactos: no figura como región editable en el panel externo. El objetivo es medir cómo la demanda del resto del mundo afecta a la economía paraguaya.\n\n\n\nModo A · shock uniforme por región\nSe fija un shock por región, igual para todos sus sectores. Se ingresa como índice:\n\n\n\nValor\nSignifica\n\n\n\n\n100\nSin cambio\n\n\n110\nAumento del 10%\n\n\n90\nCaída del 10%\n\n\n\nSe puede escribir el número o usar las flechas ▲▼.\n\n\nModo B · shock diferenciado por sector\nUna matriz de veintiún sectores por diez regiones. Cada celda hereda por defecto el shock de su región, y se sobrescriben solo las que se quieran diferenciar.\nEs el modo indicado para representar un acuerdo comercial que afecta más a unos sectores que a otros.\n\n\n\n\n\n\nAdvertenciaCuidado con las unidades al sobrescribir\n\n\n\nLas celdas del Modo B contienen fracción decimal, no índice. Si se sobrescribe una a mano para un 10%, va 0,10 — no 110 ni 10.\nEscribir 10 genera un shock del 1.000%. Los resultados salen enormes y suele costar advertir de dónde viene el problema.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Datos",
-      "Matrices Nacionales"
+      "Los tres modos de uso"
     ]
   },
   {
-    "objectID": "hojas/matrices-nacionales.html#valores-de-control",
-    "href": "hojas/matrices-nacionales.html#valores-de-control",
-    "title": "Matrices Nacionales",
-    "section": "Valores de control",
-    "text": "Valores de control\nPara verificar que la hoja está bien cargada:\n\n\n\nMagnitud\nValor\n\n\n\n\nValor bruto de producción\n78.041,2\n\n\nValor agregado\n41.595,1\n\n\nConsumo intermedio doméstico\n28.451,2\n\n\nExportaciones\n12.419,2",
+    "objectID": "hojas/modos-de-uso.html#volver-a-cero",
+    "href": "hojas/modos-de-uso.html#volver-a-cero",
+    "title": "Los tres modos de uso",
+    "section": "Volver a cero",
+    "text": "Volver a cero\nAmbas hojas de estímulos tienen un botón Reiniciar Escenarios que borra todo lo cargado. Conviene usarlo entre simulación y simulación: si quedan valores de un ejercicio anterior, los resultados mezclan ambos.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Datos",
-      "Matrices Nacionales"
+      "Los tres modos de uso"
     ]
   },
   {
-    "objectID": "hojas/ingreso-laboral.html",
-    "href": "hojas/ingreso-laboral.html",
-    "title": "Ingreso Laboral",
+    "objectID": "hojas/insercion-internacional.html",
+    "href": "hojas/insercion-internacional.html",
+    "title": "Inserción Internacional",
     "section": "",
-    "text": "Responde la pregunta que el empleo solo no contesta: los puestos generados, ¿con qué remuneración?",
+    "text": "Describe cómo Paraguay se conecta con el resto del mundo: cuánto valor retiene de lo que produce y de dónde vienen los insumos que utiliza.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Resultados",
-      "Ingreso Laboral"
+      "Análisis estructural",
+      "Inserción Internacional"
     ]
   },
   {
-    "objectID": "hojas/ingreso-laboral.html#la-escalera-conceptual",
-    "href": "hojas/ingreso-laboral.html#la-escalera-conceptual",
-    "title": "Ingreso Laboral",
-    "section": "La escalera conceptual",
-    "text": "La escalera conceptual\nConviene tenerla clara antes de leer la hoja, porque “salarios” e “ingreso de los hogares” no son lo mismo.\n\n\n\n\n\n\n\n\nConcepto\n2024 (MUSD)\nQué es\n\n\n\n\nSueldos y salarios\n12.555,3\nLlega al hogar\n\n\n+ Contribuciones sociales\n1.277,5\nVa a la seguridad social\n\n\n= Remuneraciones\n13.832,8\nCosto laboral de la empresa\n\n\nIngreso mixto\n6.600,9\nRetribución de cuentapropistas\n\n\nIngreso laboral de los hogares\n19.156,2\nSueldos + ingreso mixto\n\n\n\nDos puntos que suelen confundirse:\n\nLas contribuciones sociales son costo laboral, no ingreso disponible. Sumarlas al ingreso de los hogares lo sobreestima.\nEl ingreso mixto es el 32,3% del ingreso laboral del país. Dejarlo fuera equivale a ignorar a un tercio de los perceptores, concentrados en el empleo por cuenta propia e informal.",
+    "objectID": "hojas/insercion-internacional.html#qué-información-contiene",
+    "href": "hojas/insercion-internacional.html#qué-información-contiene",
+    "title": "Inserción Internacional",
+    "section": "Qué información contiene",
+    "text": "Qué información contiene\nRetención de valor. La proporción del valor de la producción que queda en Paraguay como valor agregado doméstico. Una retención alta significa poco contenido importado; una baja, que buena parte del valor se va en insumos del exterior.\nContenido importado total. La contracara de la retención.\nEmpleo por cada millón de dólares. La intensidad de empleo del sector.\nTipo de encadenamiento. Referencia cruzada con la hoja de Encadenamientos Internos.\nComposición del comercio por región. Con qué regiones se vincula cada sector y cuál es su origen principal.\nLectura de semáforo. Una clasificación cualitativa —alta retención, media, o baja y ensambladora— que compara la retención de cada sector con el valor de referencia fijado en el encabezado de la hoja.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Resultados",
-      "Ingreso Laboral"
+      "Análisis estructural",
+      "Inserción Internacional"
     ]
   },
   {
-    "objectID": "hojas/ingreso-laboral.html#la-estructura-de-columnas",
-    "href": "hojas/ingreso-laboral.html#la-estructura-de-columnas",
-    "title": "Ingreso Laboral",
-    "section": "La estructura de columnas",
-    "text": "La estructura de columnas\nComparte formato con Producción, PIB, Empleo e Ingreso Laboral:\n\n\n\n\n\n\n\nColumna\nContenido\n\n\n\n\nEfecto inicial\nEl estímulo cargado, sin propagar\n\n\nEfecto directo\nProducción del sector estimulado. Se abre en nacional e internacional\n\n\nEfecto indirecto\nProducción de la cadena de proveedores. También se abre por origen\n\n\nEfecto inducido\nActivado por el gasto de los hogares\n\n\nEfecto total\nSuma de los anteriores\n\n\nCrecimiento sectorial\nVariación respecto de la línea base del sector\n\n\n\nQue las cuatro hojas compartan estructura permite comparar celda a celda: para el mismo sector y el mismo efecto, cuánta producción, cuánto valor agregado, cuántos empleos y cuánto ingreso.",
+    "objectID": "hojas/insercion-internacional.html#cómo-se-usa",
+    "href": "hojas/insercion-internacional.html#cómo-se-usa",
+    "title": "Inserción Internacional",
+    "section": "Cómo se usa",
+    "text": "Cómo se usa\nComo diagnóstico de posicionamiento. Distinguir los sectores que retienen valor, donde el impulso se queda en el país, de los sectores ensambladores con alto contenido importado, donde parte del impulso se filtra al exterior.\nAntes de un choque internacional. Identificar qué regiones y sectores son relevantes. Para el acuerdo UE–Mercosur, por ejemplo, los sectores con vínculo fuerte con la Unión Europea.\nPara matizar una simulación. Un gran aumento exportador en un sector de baja retención genera menos valor y empleo doméstico neto del que sugiere la cifra bruta, porque buena parte se va en insumos importados.\nCon el semáforo. Priorizar políticas de contenido local o de escalamiento en cadenas allí donde la retención sea baja.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Resultados",
-      "Ingreso Laboral"
+      "Análisis estructural",
+      "Inserción Internacional"
     ]
   },
   {
-    "objectID": "hojas/ingreso-laboral.html#los-bloques-adicionales",
-    "href": "hojas/ingreso-laboral.html#los-bloques-adicionales",
-    "title": "Ingreso Laboral",
-    "section": "Los bloques adicionales",
-    "text": "Los bloques adicionales\nComposición del ingreso generado. Separa sueldos, ingreso mixto y contribuciones sobre el efecto total.\nCalidad del ingreso generado. Cruza el ingreso con el empleo para dar el ingreso medio del empleo activado. Es la métrica que permite decir si un escenario genera empleo mejor o peor remunerado que el promedio.",
+    "objectID": "hojas/insercion-internacional.html#el-vax",
+    "href": "hojas/insercion-internacional.html#el-vax",
+    "title": "Inserción Internacional",
+    "section": "El VAX",
+    "text": "El VAX\nRelacionado pero distinto: es la proporción de valor agregado doméstico contenida en las exportaciones. En Paraguay 2024 es de 0,842, es decir que por cada dólar exportado 84,2 centavos son valor agregado nacional.\nEs un valor alto, coherente con una canasta exportadora concentrada en productos primarios y energía, que incorporan poco insumo importado.\n\n\n\n\n\n\nAdvertenciaAdvertencia metodológica\n\n\n\nSolo cuatro sectores —agricultura, silvicultura, minería y alimentos— tienen su propia composición regional en la matriz FIGARO. El resto usa una composición promedio, por lo que la distribución por región de esos sectores debe leerse como indicativa, no exacta.\nFIGARO es apropiada para representar la tecnología de producción, que cambia lentamente. No lo es para estimar el destino de las exportaciones paraguayas: sobreestima el mercado europeo en un factor de cuatro y omite las exportaciones de electricidad. Por eso el reparto por destino de Empleo Exportador se construyó con estadísticas del Banco Central y de Eurostat.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Resultados",
-      "Ingreso Laboral"
+      "Análisis estructural",
+      "Inserción Internacional"
     ]
   },
   {
-    "objectID": "hojas/ingreso-laboral.html#un-dato-de-referencia",
-    "href": "hojas/ingreso-laboral.html#un-dato-de-referencia",
-    "title": "Ingreso Laboral",
-    "section": "Un dato de referencia",
-    "text": "Un dato de referencia\nEl ingreso laboral medio del país es de 6.175 USD anuales, con una dispersión de seis a uno entre sectores: 20.560 en electricidad contra 3.483 en textiles.\n\n\n\n\n\n\nAdvertenciaSobre el efecto inducido\n\n\n\nSupone que los hogares gastan los ingresos generados con la misma estructura de consumo que hoy. Es el efecto más discutible de los tres y conviene reportarlo por separado en cualquier informe.\nAdemás usa una función disponible solo en Excel 365. En versiones anteriores y en LibreOffice esta columna devuelve #NAME?.",
-    "crumbs": [
-      "Inicio",
-      "Las hojas del simulador",
-      "Resultados",
-      "Ingreso Laboral"
-    ]
-  },
-  {
-    "objectID": "hojas/index.html",
-    "href": "hojas/index.html",
-    "title": "Las hojas del simulador",
+    "objectID": "hojas/informacion-empleo.html",
+    "href": "hojas/informacion-empleo.html",
+    "title": "Información Empleo",
     "section": "",
-    "text": "El libro tiene diecisiete hojas. Entender a qué capa pertenece cada una evita la confusión más frecuente: leer como resultado de un escenario algo que en realidad describe la economía de 2024, o al revés.",
+    "text": "Contiene el empleo de cada sector y los coeficientes que traducen producción en puestos de trabajo e ingreso.",
     "crumbs": [
       "Inicio",
-      "Las hojas del simulador"
+      "Las hojas del simulador",
+      "Datos",
+      "Información Empleo"
     ]
   },
   {
-    "objectID": "hojas/index.html#las-cuatro-capas",
-    "href": "hojas/index.html#las-cuatro-capas",
-    "title": "Las hojas del simulador",
-    "section": "Las cuatro capas",
-    "text": "Las cuatro capas\n\n\n\n\n\n\nTipLa regla práctica\n\n\n\nSi una hoja cambia cuando cargás un estímulo, es de resultados. Si no cambia, es estructural o de datos. Las hojas estructurales describen la economía tal como es, no lo que pasaría.\n\n\n\nEntradas\nDonde se define el escenario. Nada se calcula acá.\n\n\n\nHoja\nQué se carga\n\n\n\n\nEstímulos Nacionales\nVariación de demanda final por sector, en MUSD\n\n\nEstímulos Internacionales\nVariación de demanda por región y sector, en fracción decimal\n\n\n\n\n\nResultados\nDependen del escenario cargado. Las cuatro principales comparten estructura de columnas, de modo que se leen igual y se comparan celda a celda.\n\n\n\nHoja\nUnidad\n\n\n\n\nResumen Ejecutivo\nSíntesis\n\n\nProducción\nMUSD de valor bruto\n\n\nPIB\nMUSD de valor agregado\n\n\nEmpleo\nPersonas\n\n\nIngreso Laboral\nMUSD\n\n\n\n\n\nAnálisis estructural\nDescriben la economía de 2024. No cambian con el escenario.\n\n\n\nHoja\nQué muestra\n\n\n\n\nEncadenamientos Internos\nMultiplicadores y sectores clave\n\n\nEmpleo Exportador\nEmpleo asociado a exportaciones\n\n\nInserción Internacional\nRetención de valor y contenido importado\n\n\n\n\n\nDatos\nEl motor del modelo. No se editan salvo que se actualice la matriz.\n\n\n\nHoja\nContenido\n\n\n\n\nMatrices Nacionales\nZ, A, L, valor agregado, demanda final\n\n\nInformación Empleo\nEmpleo por sector y coeficientes\n\n\nMRIO\nMatrices internacionales\n\n\nVAX FVA source\nComposición importada y exportaciones por destino\n\n\nParámetros\nTipo de cambio y PIB de referencia",
+    "objectID": "hojas/informacion-empleo.html#los-bloques",
+    "href": "hojas/informacion-empleo.html#los-bloques",
+    "title": "Información Empleo",
+    "section": "Los bloques",
+    "text": "Los bloques\n\n\n\nBloque\nContenido\n\n\n\n\nTotal\nOcupados por sector y coeficiente de empleo\n\n\nSexo\nHombres y mujeres\n\n\nCalificación\nBaja, media y alta\n\n\nFormalidad\nFormal e informal\n\n\nÁrea\nUrbano y rural\n\n\n\nAdemás incorpora los coeficientes de ingreso —sueldos, contribuciones e ingreso mixto por unidad de producción— que alimentan la hoja de Ingreso Laboral.",
     "crumbs": [
       "Inicio",
-      "Las hojas del simulador"
+      "Las hojas del simulador",
+      "Datos",
+      "Información Empleo"
     ]
   },
   {
-    "objectID": "hojas/index.html#las-dos-hojas-restantes",
-    "href": "hojas/index.html#las-dos-hojas-restantes",
-    "title": "Las hojas del simulador",
-    "section": "Las dos hojas restantes",
-    "text": "Las dos hojas restantes\nInfo y Créditos contienen la presentación del simulador y la autoría. No intervienen en ningún cálculo.",
+    "objectID": "hojas/informacion-empleo.html#de-dónde-salen-los-datos",
+    "href": "hojas/informacion-empleo.html#de-dónde-salen-los-datos",
+    "title": "Información Empleo",
+    "section": "De dónde salen los datos",
+    "text": "De dónde salen los datos\nLos niveles vienen de la matriz insumo-producto: 3.102.209 ocupados en total, distribuidos entre los veintiún sectores.\nLa composición viene de la Encuesta Permanente de Hogares Continua 2024.",
     "crumbs": [
       "Inicio",
-      "Las hojas del simulador"
+      "Las hojas del simulador",
+      "Datos",
+      "Información Empleo"
     ]
   },
   {
-    "objectID": "hojas/index.html#cómo-usar-esta-sección",
-    "href": "hojas/index.html#cómo-usar-esta-sección",
-    "title": "Las hojas del simulador",
-    "section": "Cómo usar esta sección",
-    "text": "Cómo usar esta sección\nCada página sigue el mismo esquema: qué contiene la hoja, cómo se lee, de dónde salen los datos y qué errores conviene evitar. Sirve como consulta durante el taller y después, cuando aparezca la duda concreta.",
+    "objectID": "hojas/informacion-empleo.html#la-limitación-que-hay-que-conocer",
+    "href": "hojas/informacion-empleo.html#la-limitación-que-hay-que-conocer",
+    "title": "Información Empleo",
+    "section": "La limitación que hay que conocer",
+    "text": "La limitación que hay que conocer\n\n\n\n\n\n\nAdvertencia\n\n\n\nLa EPHC distingue ocho ramas de actividad frente a veintiún sectores. Los sectores que comparten rama reciben perfil idéntico.\nDiez sectores caen en industrias manufactureras y tienen la misma composición. Tres caen en finanzas, seguros e inmuebles. En cambio agricultura, electricidad, construcción y otros servicios tienen correspondencia directa con su rama y por lo tanto perfil específico.\nConsecuencia práctica: las comparaciones de perfil entre sectores solo aportan información cuando pertenecen a ramas distintas.",
     "crumbs": [
       "Inicio",
-      "Las hojas del simulador"
+      "Las hojas del simulador",
+      "Datos",
+      "Información Empleo"
+    ]
+  },
+  {
+    "objectID": "hojas/informacion-empleo.html#sobre-la-definición-de-formalidad",
+    "href": "hojas/informacion-empleo.html#sobre-la-definición-de-formalidad",
+    "title": "Información Empleo",
+    "section": "Sobre la definición de formalidad",
+    "text": "Sobre la definición de formalidad\nSe usa la definición mixta OIT/DGEEC: asalariados y personal doméstico son formales si aportan a una caja de jubilación; empleadores y cuenta propia, si el establecimiento tiene registro; los trabajadores familiares no remunerados son siempre informales.\nUsar solo el aporte jubilatorio sobreestima la informalidad, porque los independientes rara vez aportan aunque su negocio esté registrado.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Información Empleo"
+    ]
+  },
+  {
+    "objectID": "hojas/glosario.html",
+    "href": "hojas/glosario.html",
+    "title": "Glosario",
+    "section": "",
+    "text": "MIP. Matriz Insumo-Producto. Registra las compras y ventas entre sectores de la economía.\nInversa de Leontief. Matriz que traduce un cambio en la demanda final en el total de producción necesario para satisfacerlo, incluyendo todas las rondas de la cadena. Se escribe \\(L = (I - A)^{-1}\\).\nCoeficiente técnico. Cantidad de insumo de un sector requerida por unidad de producción de otro.\nMultiplicador. Cuántas unidades de producción o empleo totales se generan por cada unidad de estímulo.\nEfecto inicial. El propio choque de demanda que se ingresa.\nEfecto directo. Los insumos que el sector estimulado compra a sus proveedores inmediatos.\nEfecto indirecto. Las rondas sucesivas de compras a lo largo de toda la cadena de suministro.\nEfecto inducido. Producción y empleo adicionales que aparecen cuando los hogares gastan los nuevos ingresos generados.\nEncadenamientos de Rasmussen-Hirschman. Índices que miden el arrastre de un sector hacia atrás, sobre sus proveedores, y hacia adelante, sobre quienes lo demandan como insumo.\nMRIO. Matriz insumo-producto multirregional. Extiende el análisis a las cadenas internacionales.\nRetención de valor. Proporción del valor de la producción que queda en el país como valor agregado doméstico. Su contracara es el contenido importado.\nVAX. Proporción de valor agregado doméstico contenida en las exportaciones. En Paraguay 2024 es de 0,842.\nRemuneraciones. Sueldos y salarios más contribuciones sociales. Es el costo laboral de la empresa, no el ingreso disponible del hogar.\nIngreso mixto. Retribución de trabajadores por cuenta propia y familiares no remunerados, donde no se distingue entre trabajo y capital.\nIngreso laboral de los hogares. Sueldos y salarios más ingreso mixto.\nEstática comparativa. Método que compara dos situaciones —con y sin el choque— sin describir la trayectoria temporal entre ambas.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Referencia",
+      "Glosario"
     ]
   },
   {
@@ -555,11 +571,11 @@
     ]
   },
   {
-    "objectID": "hojas/estimulos-internacionales.html#las-once-regiones",
-    "href": "hojas/estimulos-internacionales.html#las-once-regiones",
+    "objectID": "hojas/estimulos-internacionales.html#las-diez-regiones",
+    "href": "hojas/estimulos-internacionales.html#las-diez-regiones",
     "title": "Estímulos Internacionales",
-    "section": "Las once regiones",
-    "text": "Las once regiones\nParaguay, Brasil, Unión Europea, China, Estados Unidos, Argentina, Asia-Pacífico, resto de América Latina, resto del Mercosur, Reino Unido y resto del mundo.\nDetrás hay una matriz insumo-producto multirregional que captura cómo la demanda de cada socio se traduce en producción paraguaya, directa e indirectamente.",
+    "section": "Las diez regiones",
+    "text": "Las diez regiones\nBrasil, Unión Europea, China, Estados Unidos, Argentina, Asia-Pacífico, América Latina resto, Mercosur resto, Reino Unido y resto del mundo. Están ordenadas según la intensidad del intercambio comercial con Paraguay.\nEl listado completo con sus participaciones está en los anexos.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -568,24 +584,11 @@
     ]
   },
   {
-    "objectID": "hojas/estimulos-internacionales.html#unidades-el-error-más-caro",
-    "href": "hojas/estimulos-internacionales.html#unidades-el-error-más-caro",
+    "objectID": "hojas/estimulos-internacionales.html#los-dos-modos-y-sus-unidades",
+    "href": "hojas/estimulos-internacionales.html#los-dos-modos-y-sus-unidades",
     "title": "Estímulos Internacionales",
-    "section": "Unidades: el error más caro",
-    "text": "Unidades: el error más caro\n\n\n\n\n\n\nAdvertenciaFracción decimal, no porcentaje\n\n\n\nPara simular un aumento del 10% se escribe 0,10, no 10.\nEscribir 10 genera un shock del 1.000%, cien veces mayor al buscado. Los resultados salen enormes y suele costar advertir de dónde viene el problema.\n\n\nLa razón está en cómo se calcula la variación de demanda: el simulador multiplica el valor bruto de producción de la región por el valor cargado, sin dividir por cien.",
-    "crumbs": [
-      "Inicio",
-      "Las hojas del simulador",
-      "Entradas",
-      "Estímulos Internacionales"
-    ]
-  },
-  {
-    "objectID": "hojas/estimulos-internacionales.html#los-dos-modos",
-    "href": "hojas/estimulos-internacionales.html#los-dos-modos",
-    "title": "Estímulos Internacionales",
-    "section": "Los dos modos",
-    "text": "Los dos modos\nIgual que en Estímulos Nacionales, hay un modo global —un mismo shock para todos los sectores de una región— y un modo detallado, donde se define sector por sector.",
+    "section": "Los dos modos, y sus unidades",
+    "text": "Los dos modos, y sus unidades\nEsta es la fuente de error más frecuente del simulador, porque cada modo usa una escala distinta.\n\nModo A · shock uniforme por región\nSe ingresa como índice:\n\n\n\nValor\nSignifica\n\n\n\n\n100\nSin cambio\n\n\n110\nAumento del 10%\n\n\n90\nCaída del 10%\n\n\n\nSe puede escribir el número o usar las flechas ▲▼, que funcionan gracias a las macros del archivo.\n\n\nModo B · shock diferenciado por sector\nUna matriz de veintiún sectores por diez regiones. Cada celda hereda el shock de su región y solo se sobrescriben las que se quieran diferenciar.\n\n\n\n\n\n\nAdvertenciaLas celdas del Modo B están en fracción decimal\n\n\n\nNo en índice. Si se sobrescribe una celda a mano para simular un 10%, va 0,10 — no 110 ni 10.\nEscribir 10 genera un shock del 1.000%: cien veces mayor al buscado. Los resultados salen enormes y suele costar advertir de dónde viene el problema.\n\n\nLa razón de la diferencia: el Modo A convierte el índice a fracción decimal internamente, y las celdas del Modo B leen ya el resultado de esa conversión.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -598,7 +601,7 @@
     "href": "hojas/estimulos-internacionales.html#qué-hay-más-abajo-en-la-hoja",
     "title": "Estímulos Internacionales",
     "section": "Qué hay más abajo en la hoja",
-    "text": "Qué hay más abajo en la hoja\nDebajo del panel hay un vector de 231 filas: once regiones por veintiún sectores. Contiene el valor agregado, el valor bruto de producción y la variación de demanda resultante de cada combinación.\nNo se edita a mano. Es el puente entre el panel y el módulo internacional.",
+    "text": "Qué hay más abajo en la hoja\nUn vector de 231 filas —once regiones por veintiún sectores— con el valor agregado, el valor bruto de producción y la variación de demanda resultante de cada combinación. La fila ΔF TOTAL muestra la variación total por región.\nNo se edita a mano: es el puente entre el panel y el módulo internacional.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -607,11 +610,24 @@
     ]
   },
   {
-    "objectID": "hojas/estimulos-internacionales.html#errores-frecuentes",
-    "href": "hojas/estimulos-internacionales.html#errores-frecuentes",
+    "objectID": "hojas/estimulos-internacionales.html#cuándo-usar-cada-modo",
+    "href": "hojas/estimulos-internacionales.html#cuándo-usar-cada-modo",
     "title": "Estímulos Internacionales",
-    "section": "Errores frecuentes",
-    "text": "Errores frecuentes\n\nEscribir porcentajes en lugar de fracción decimal.\nCargar un shock en Paraguay en esta hoja. La fila de Paraguay está fijada en cero: los estímulos internos van en la otra hoja.\nNo limpiar el modo global antes de usar el detallado, con lo que ambos se suman.",
+    "section": "Cuándo usar cada modo",
+    "text": "Cuándo usar cada modo\nModo A para un choque general: una recesión en Brasil, una expansión de la demanda china.\nModo B para un acuerdo comercial, que típicamente afecta más a unos sectores que a otros. Es el modo indicado para analizar el acuerdo UE–Mercosur.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Entradas",
+      "Estímulos Internacionales"
+    ]
+  },
+  {
+    "objectID": "hojas/estimulos-internacionales.html#ver-también",
+    "href": "hojas/estimulos-internacionales.html#ver-también",
+    "title": "Estímulos Internacionales",
+    "section": "Ver también",
+    "text": "Ver también\n\nLos tres modos de uso\nAnexos: las diez regiones",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -669,6 +685,71 @@
       "Las hojas del simulador",
       "Resultados",
       "Empleo"
+    ]
+  },
+  {
+    "objectID": "hojas/buenas-practicas.html",
+    "href": "hojas/buenas-practicas.html",
+    "title": "Buenas prácticas y advertencias",
+    "section": "",
+    "text": "Editar únicamente las celdas resaltadas de las hojas de entrada. Las matrices y las fórmulas son el motor del modelo y no deben modificarse.\nTrabajar siempre sobre una copia del archivo original, para conservar una versión limpia de referencia.\nPara volver a la situación inicial, usar el botón Reiniciar Escenarios o dejar todos los estímulos en cero.\nGuardar cada ejercicio con un nombre distinto si se quieren conservar los resultados.\nDimensionar los estímulos con la columna de porcentaje del PIB sectorial, para evitar choques desproporcionados respecto del tamaño real del sector.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Referencia",
+      "Buenas prácticas y advertencias"
+    ]
+  },
+  {
+    "objectID": "hojas/buenas-practicas.html#al-operar-el-simulador",
+    "href": "hojas/buenas-practicas.html#al-operar-el-simulador",
+    "title": "Buenas prácticas y advertencias",
+    "section": "",
+    "text": "Editar únicamente las celdas resaltadas de las hojas de entrada. Las matrices y las fórmulas son el motor del modelo y no deben modificarse.\nTrabajar siempre sobre una copia del archivo original, para conservar una versión limpia de referencia.\nPara volver a la situación inicial, usar el botón Reiniciar Escenarios o dejar todos los estímulos en cero.\nGuardar cada ejercicio con un nombre distinto si se quieren conservar los resultados.\nDimensionar los estímulos con la columna de porcentaje del PIB sectorial, para evitar choques desproporcionados respecto del tamaño real del sector.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Referencia",
+      "Buenas prácticas y advertencias"
+    ]
+  },
+  {
+    "objectID": "hojas/buenas-practicas.html#al-interpretar-los-resultados",
+    "href": "hojas/buenas-practicas.html#al-interpretar-los-resultados",
+    "title": "Buenas prácticas y advertencias",
+    "section": "Al interpretar los resultados",
+    "text": "Al interpretar los resultados\n\n\n\n\n\n\nImportanteEstática comparativa\n\n\n\nLos resultados comparan una situación con y sin el choque. No describen una trayectoria en el tiempo ni indican cuánto tardaría en materializarse el efecto.\n\n\n\nLos coeficientes técnicos y de empleo son fijos. El modelo supone que la estructura productiva no cambia ante el estímulo.\nLas desagregaciones de empleo reflejan la estructura actual de cada sector.\nEl modelo contabiliza requerimientos, no predice. Informa qué producción y qué empleo harían falta para sostener un nivel de demanda, no qué va a ocurrir.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Referencia",
+      "Buenas prácticas y advertencias"
+    ]
+  },
+  {
+    "objectID": "hojas/buenas-practicas.html#al-comunicar-los-resultados",
+    "href": "hojas/buenas-practicas.html#al-comunicar-los-resultados",
+    "title": "Buenas prácticas y advertencias",
+    "section": "Al comunicar los resultados",
+    "text": "Al comunicar los resultados\n\nReportar el escenario junto con el resultado. Un número sin el supuesto que lo genera no significa nada.\nSeparar el efecto inducido y explicitar su supuesto: que los hogares gastan los nuevos ingresos con la misma estructura de consumo que hoy.\nSeñalar las limitaciones pertinentes a ese resultado en particular, no una lista genérica al pie.\nAl comparar perfiles de empleo entre sectores, verificar que pertenezcan a ramas distintas de la encuesta de hogares. Si comparten rama, la comparación no aporta información.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Referencia",
+      "Buenas prácticas y advertencias"
+    ]
+  },
+  {
+    "objectID": "hojas/buenas-practicas.html#los-supuestos-del-modelo",
+    "href": "hojas/buenas-practicas.html#los-supuestos-del-modelo",
+    "title": "Buenas prácticas y advertencias",
+    "section": "Los supuestos del modelo",
+    "text": "Los supuestos del modelo\nConviene tenerlos presentes porque condicionan toda lectura:\n\n\n\n\n\n\n\nSupuesto\nImplicancia\n\n\n\n\nCoeficientes técnicos fijos\nNo hay sustitución de insumos ni cambio técnico\n\n\nSin restricciones de capacidad\nLa oferta se ajusta sin cuellos de botella\n\n\nPrecios relativos constantes\nNo hay respuesta de precios al aumento de demanda\n\n\nRendimientos constantes a escala\nEl costo unitario no varía con el volumen",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Referencia",
+      "Buenas prácticas y advertencias"
     ]
   },
   {
@@ -793,6 +874,45 @@
     ]
   },
   {
+    "objectID": "hojas/anexos.html",
+    "href": "hojas/anexos.html",
+    "title": "Anexos",
+    "section": "",
+    "text": "Código\nSector\n\n\n\n\nAGR\nAgricultura, ganadería, caza y pesca\n\n\nMNE\nMinería\n\n\nALI\nAlimentos, bebidas y tabacos\n\n\nTEX\nTextiles, confecciones y calzado\n\n\nMAD\nMadera, papel y cartón\n\n\nQUI\nQuímica, farmacia y caucho\n\n\nMNM\nMinerales no metálicos\n\n\nHIE\nHierro y acero\n\n\nMET\nProductos de metal\n\n\nMAQ\nMaquinaria, equipo y vehículos\n\n\nOMF\nOtras manufacturas y reparación\n\n\nEGA\nElectricidad, gas, y agua\n\n\nCON\nConstrucción\n\n\nCOM\nComercio al por mayor y menor\n\n\nTRA\nTransporte\n\n\nTUR\nTurismo (aloj., alimentación y recreación)\n\n\nTIC\nTelecomunicaciones, edición y servicios de info.\n\n\nFIN\nFinanzas y seguros\n\n\nINM\nServicios inmobiliarios\n\n\nSEM\nServicios a las empresas\n\n\nOTS\nOtros servicios\n\n\n\nLa correspondencia con las clasificaciones de origen —la matriz de 33 sectores y las ocho ramas de la encuesta de hogares— está en las tablas de concordancia del repositorio.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Referencia",
+      "Anexos"
+    ]
+  },
+  {
+    "objectID": "hojas/anexos.html#los-21-sectores",
+    "href": "hojas/anexos.html#los-21-sectores",
+    "title": "Anexos",
+    "section": "",
+    "text": "Código\nSector\n\n\n\n\nAGR\nAgricultura, ganadería, caza y pesca\n\n\nMNE\nMinería\n\n\nALI\nAlimentos, bebidas y tabacos\n\n\nTEX\nTextiles, confecciones y calzado\n\n\nMAD\nMadera, papel y cartón\n\n\nQUI\nQuímica, farmacia y caucho\n\n\nMNM\nMinerales no metálicos\n\n\nHIE\nHierro y acero\n\n\nMET\nProductos de metal\n\n\nMAQ\nMaquinaria, equipo y vehículos\n\n\nOMF\nOtras manufacturas y reparación\n\n\nEGA\nElectricidad, gas, y agua\n\n\nCON\nConstrucción\n\n\nCOM\nComercio al por mayor y menor\n\n\nTRA\nTransporte\n\n\nTUR\nTurismo (aloj., alimentación y recreación)\n\n\nTIC\nTelecomunicaciones, edición y servicios de info.\n\n\nFIN\nFinanzas y seguros\n\n\nINM\nServicios inmobiliarios\n\n\nSEM\nServicios a las empresas\n\n\nOTS\nOtros servicios\n\n\n\nLa correspondencia con las clasificaciones de origen —la matriz de 33 sectores y las ocho ramas de la encuesta de hogares— está en las tablas de concordancia del repositorio.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Referencia",
+      "Anexos"
+    ]
+  },
+  {
+    "objectID": "hojas/anexos.html#las-10-regiones-del-módulo-internacional",
+    "href": "hojas/anexos.html#las-10-regiones-del-módulo-internacional",
+    "title": "Anexos",
+    "section": "Las 10 regiones del módulo internacional",
+    "text": "Las 10 regiones del módulo internacional\nEl agrupamiento responde a la intensidad del intercambio comercial de Paraguay: se distinguen individualmente los socios de mayor peso y se agrupan los demás en bloques regionales.\n\n\n\nCódigo\nRegión\nParticipación en el comercio\n\n\n\n\nBRA\nBrasil\n22,1%\n\n\nROW\nResto del mundo\n18,6%\n\n\nUE27\nUnión Europea (27)\n13,7%\n\n\nCHN\nChina\n12,0%\n\n\nUSA\nEstados Unidos\n11,7%\n\n\nARG\nArgentina\n9,5%\n\n\nASIA\nAsia-Pacífico\n5,3%\n\n\nLAC\nAmérica Latina (resto)\n4,1%\n\n\nMCS\nMercosur (resto)\n2,1%\n\n\nGBR\nReino Unido\n0,9%\n\n\n\n\n\n\n\n\n\nNotaSobre estas participaciones\n\n\n\nCorresponden a la composición representativa del comercio por región en la matriz FIGARO. Pueden reemplazarse por las series oficiales de comercio exterior de Paraguay si se dispone de ellas.\nParaguay no figura como región editable: el panel mide cómo la demanda del resto del mundo afecta a la economía paraguaya.\n\n\n\n\n\n\n\n\nAdvertenciaAdvertencia metodológica\n\n\n\nSolo cuatro sectores —agricultura, silvicultura, minería y alimentos— tienen su propia composición regional en FIGARO. El resto usa una composición promedio, de modo que la distribución por región de esos sectores debe leerse como indicativa, no exacta.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Referencia",
+      "Anexos"
+    ]
+  },
+  {
     "objectID": "hojas/empleo-exportador.html",
     "href": "hojas/empleo-exportador.html",
     "title": "Empleo Exportador",
@@ -823,7 +943,7 @@
     "href": "hojas/encadenamientos-internos.html",
     "title": "Encadenamientos Internos",
     "section": "",
-    "text": "Mide la capacidad de arrastre de cada sector sobre el resto de la economía.",
+    "text": "Presenta los índices de Rasmussen-Hirschman calculados a partir de la inversa de Leontief. Es un mapa de la arquitectura productiva del país.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -832,11 +952,11 @@
     ]
   },
   {
-    "objectID": "hojas/encadenamientos-internos.html#las-dos-direcciones",
-    "href": "hojas/encadenamientos-internos.html#las-dos-direcciones",
+    "objectID": "hojas/encadenamientos-internos.html#qué-información-contiene",
+    "href": "hojas/encadenamientos-internos.html#qué-información-contiene",
     "title": "Encadenamientos Internos",
-    "section": "Las dos direcciones",
-    "text": "Las dos direcciones\nHacia atrás. Cuánto arrastra un sector a sus proveedores. Se lee en las columnas de la inversa de Leontief: si estimulo este sector, ¿cuánta producción total se moviliza?\nHacia adelante. Cuánto depende el resto de la economía de lo que ese sector provee. Se calcula con la matriz de Ghosh.\nUn sector puede ser fuerte en una dimensión y débil en la otra. La construcción suele tener alto arrastre hacia atrás y bajo hacia adelante: compra mucho, pero casi nadie compra construcción como insumo.",
+    "section": "Qué información contiene",
+    "text": "Qué información contiene\nEncadenamiento hacia atrás (poder de dispersión). Mide cuánto arrastra el sector a sus proveedores cuando crece su producción. Se obtiene sumando la columna del sector en la inversa de Leontief y normalizando por el promedio de la economía. Un valor mayor que 1 indica arrastre superior al promedio.\nEncadenamiento hacia adelante (sensibilidad de dispersión). Mide cuánto lo requieren los demás sectores como proveedor de insumos. Es la suma de la fila del sector, normalizada de la misma forma.\nEmpleo por cada millón de dólares. La intensidad de empleo del sector.\nTipo de sector. Una clasificación automática que combina ambos índices.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -845,11 +965,11 @@
     ]
   },
   {
-    "objectID": "hojas/encadenamientos-internos.html#la-clasificación-de-rasmussen-hirschman",
-    "href": "hojas/encadenamientos-internos.html#la-clasificación-de-rasmussen-hirschman",
+    "objectID": "hojas/encadenamientos-internos.html#las-cuatro-categorías",
+    "href": "hojas/encadenamientos-internos.html#las-cuatro-categorías",
     "title": "Encadenamientos Internos",
-    "section": "La clasificación de Rasmussen-Hirschman",
-    "text": "La clasificación de Rasmussen-Hirschman\nComparando ambos encadenamientos contra el promedio surgen cuatro categorías:\n\n\n\n\nHacia adelante alto\nHacia adelante bajo\n\n\n\n\nHacia atrás alto\nClave\nImpulsor\n\n\nHacia atrás bajo\nBase o estratégico\nIndependiente\n\n\n\n\nClave: arrastra y es arrastrado.\nImpulsor: arrastra proveedores pero provee poco. Bueno para activar demanda.\nBase: provee mucho a otros. Un cuello de botella acá frena al resto.\nIndependiente: poco conectado en ambas direcciones.",
+    "section": "Las cuatro categorías",
+    "text": "Las cuatro categorías\n\n\n\n\n\n\n\nTipo\nQué significa\n\n\n\n\nClave (ambos &gt; 1)\nDifunde los impulsos en las dos direcciones: arrastra a proveedores y es requerido por otros\n\n\nDependiente sobre oferta (atrás &gt; 1)\nFuerte demandante de insumos: al crecer, arrastra sobre todo a sus proveedores\n\n\nDependiente en demanda (adelante &gt; 1)\nProveedor de muchos sectores: se activa cuando crece la demanda de otros\n\n\nIndependiente (ambos &lt; 1)\nPoco integrado en la cadena; sus impulsos se difunden poco\n\n\n\nLa clasificación vigente se lee directamente en la hoja, sector por sector.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -858,11 +978,11 @@
     ]
   },
   {
-    "objectID": "hojas/encadenamientos-internos.html#la-columna-de-empleo",
-    "href": "hojas/encadenamientos-internos.html#la-columna-de-empleo",
+    "objectID": "hojas/encadenamientos-internos.html#cómo-se-usa",
+    "href": "hojas/encadenamientos-internos.html#cómo-se-usa",
     "title": "Encadenamientos Internos",
-    "section": "La columna de empleo",
-    "text": "La columna de empleo\nMuestra los ocupados por millón de dólares de producción de cada sector. Vale la pena cruzarla con la clasificación: un sector clave no necesariamente genera empleo, y la combinación relevante para política de empleo es alto encadenamiento y alta intensidad laboral.\n\n\n\n\n\n\nAdvertencia\n\n\n\nLos multiplicadores no ordenan prioridades de política por sí solos. Un multiplicador alto indica capacidad de arrastre, no viabilidad, ni sostenibilidad, ni calidad del empleo.",
+    "section": "Cómo se usa",
+    "text": "Cómo se usa\nComo diagnóstico estructural puro. Leer qué sectores vertebran la economía, sin necesidad de simular nada.\nPara elegir dónde estimular. Los sectores clave difunden el impulso en ambas direcciones, con el mayor arrastre por dólar. Los dependientes sobre oferta generan mucho efecto aguas arriba, en sus proveedores.\nCombinado con la intensidad de empleo. Un sector a la vez clave e intensivo en empleo es un dinamizador del empleo: concentrar allí el estímulo maximiza los puestos por dólar invertido.\nPara interpretar una simulación. Explica por qué un choque tuvo grandes efectos indirectos —golpeó un sector muy encadenado— o por qué quedó contenido —un sector independiente—.\n\n\n\n\n\n\nAdvertencia\n\n\n\nLos multiplicadores no ordenan prioridades de política por sí solos. Un multiplicador alto indica capacidad de arrastre, no viabilidad, ni sostenibilidad, ni calidad del empleo.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -884,11 +1004,11 @@
     ]
   },
   {
-    "objectID": "hojas/estimulos-nacionales.html#qué-se-carga",
-    "href": "hojas/estimulos-nacionales.html#qué-se-carga",
+    "objectID": "hojas/estimulos-nacionales.html#los-elementos-de-la-hoja",
+    "href": "hojas/estimulos-nacionales.html#los-elementos-de-la-hoja",
     "title": "Estímulos Nacionales",
-    "section": "Qué se carga",
-    "text": "Qué se carga\nUna fila por sector, veintiuna en total. El valor se expresa en millones de dólares: si se quiere simular una inversión de 100 millones en construcción, se escribe 100 en esa fila.\n\n\n\n\n\n\nImportanteUnidades\n\n\n\nEsta hoja trabaja en montos absolutos, no en porcentajes. Es distinto de Estímulos Internacionales, que usa fracción decimal.",
+    "section": "Los elementos de la hoja",
+    "text": "Los elementos de la hoja\n\n\n\n\n\n\n\nElemento\nFunción\n\n\n\n\nSector\nLos veintiún sectores de la economía\n\n\nPIB (MUSD)\nEl PIB de referencia de cada sector, para dimensionar el estímulo\n\n\nEscenario Base\nEl bloque izquierdo, con las tres columnas descritas abajo\n\n\nEscenario Alternativo\nRéplica del anterior, para el modo comparado\n\n\nBotón Reiniciar Escenarios\nBorra todo lo cargado y devuelve la hoja a cero\n\n\nFila Total\nSuma el PIB de referencia de la economía y los estímulos ingresados\n\n\n\nDentro de cada bloque de escenario hay tres columnas:\n\nMUSD — la celda editable, donde se ingresa el estímulo en millones de dólares\nGuaraníes (millones) — la conversión automática con el tipo de cambio\n% PIB Sector — el estímulo como proporción del PIB de ese sector\n\n\n\n\n\n\n\nTipCómo reconocer lo editable\n\n\n\nLas celdas celestes son las únicas editables. El borde verde señala la celda activa. Todo lo demás es motor del modelo.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -897,11 +1017,24 @@
     ]
   },
   {
-    "objectID": "hojas/estimulos-nacionales.html#los-dos-modos-de-trabajo",
-    "href": "hojas/estimulos-nacionales.html#los-dos-modos-de-trabajo",
+    "objectID": "hojas/estimulos-nacionales.html#unidades",
+    "href": "hojas/estimulos-nacionales.html#unidades",
     "title": "Estímulos Nacionales",
-    "section": "Los dos modos de trabajo",
-    "text": "Los dos modos de trabajo\nEscenario único. Se carga un vector de estímulo y las hojas de resultados muestran los efectos de ese escenario.\nComparación de proyectos. Se cargan dos vectores y el simulador reporta la diferencia entre ambos. Sirve para comparar alternativas de inversión.\nEl título de las hojas de resultados cambia según el modo activo. Si dice “Diferencias entre los proyectos”, estás en modo comparación.",
+    "section": "Unidades",
+    "text": "Unidades\n\n\n\n\n\n\nImportante\n\n\n\nEsta hoja trabaja en montos absolutos en millones de dólares. Es distinto de Estímulos Internacionales, que usa índices o fracción decimal según el modo.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Entradas",
+      "Estímulos Nacionales"
+    ]
+  },
+  {
+    "objectID": "hojas/estimulos-nacionales.html#para-qué-sirve-la-columna-de-porcentaje",
+    "href": "hojas/estimulos-nacionales.html#para-qué-sirve-la-columna-de-porcentaje",
+    "title": "Estímulos Nacionales",
+    "section": "Para qué sirve la columna de porcentaje",
+    "text": "Para qué sirve la columna de porcentaje\nPermite dimensionar el choque. Un estímulo de 100 millones significa cosas muy distintas según el sector: puede ser marginal en comercio y desproporcionado en minería. La columna % PIB Sector hace visible esa diferencia antes de correr la simulación.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -927,7 +1060,7 @@
     "href": "hojas/estimulos-nacionales.html#errores-frecuentes",
     "title": "Estímulos Nacionales",
     "section": "Errores frecuentes",
-    "text": "Errores frecuentes\n\nCargar en el sector equivocado. Los veintiún sectores agrupan actividades heterogéneas. Conviene revisar la concordancia antes de decidir dónde va el estímulo.\nConfundir demanda final con producción. El estímulo es un aumento de demanda final: consumo, inversión o exportación. No es un aumento de producción, que es lo que el modelo calcula como resultado.\nOlvidar limpiar el escenario anterior. Si quedaron valores de una simulación previa, los resultados mezclan ambos.",
+    "text": "Errores frecuentes\n\nCargar en el sector equivocado. Los veintiún sectores agrupan actividades heterogéneas. Conviene revisar los anexos antes de decidir.\nConfundir demanda final con producción. El estímulo es un aumento de demanda final —consumo, inversión o exportación—, no de producción. La producción es lo que el modelo calcula como resultado.\nOlvidar limpiar el escenario anterior. Usar el botón Reiniciar entre ejercicios.\nCargar montos desproporcionados sin mirar la columna de porcentaje.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -936,133 +1069,190 @@
     ]
   },
   {
-    "objectID": "hojas/informacion-empleo.html",
-    "href": "hojas/informacion-empleo.html",
-    "title": "Información Empleo",
+    "objectID": "hojas/estimulos-nacionales.html#ver-también",
+    "href": "hojas/estimulos-nacionales.html#ver-también",
+    "title": "Estímulos Nacionales",
+    "section": "Ver también",
+    "text": "Ver también\n\nLos tres modos de uso\nBuenas prácticas",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Entradas",
+      "Estímulos Nacionales"
+    ]
+  },
+  {
+    "objectID": "hojas/index.html",
+    "href": "hojas/index.html",
+    "title": "Las hojas del simulador",
     "section": "",
-    "text": "Contiene el empleo de cada sector y los coeficientes que traducen producción en puestos de trabajo e ingreso.",
+    "text": "El libro tiene diecisiete hojas. Entender a qué capa pertenece cada una evita la confusión más frecuente: leer como resultado de un escenario algo que en realidad describe la economía de 2024, o al revés.",
     "crumbs": [
       "Inicio",
-      "Las hojas del simulador",
-      "Datos",
-      "Información Empleo"
+      "Las hojas del simulador"
     ]
   },
   {
-    "objectID": "hojas/informacion-empleo.html#los-bloques",
-    "href": "hojas/informacion-empleo.html#los-bloques",
-    "title": "Información Empleo",
-    "section": "Los bloques",
-    "text": "Los bloques\n\n\n\nBloque\nContenido\n\n\n\n\nTotal\nOcupados por sector y coeficiente de empleo\n\n\nSexo\nHombres y mujeres\n\n\nCalificación\nBaja, media y alta\n\n\nFormalidad\nFormal e informal\n\n\nÁrea\nUrbano y rural\n\n\n\nAdemás incorpora los coeficientes de ingreso —sueldos, contribuciones e ingreso mixto por unidad de producción— que alimentan la hoja de Ingreso Laboral.",
+    "objectID": "hojas/index.html#las-cuatro-capas",
+    "href": "hojas/index.html#las-cuatro-capas",
+    "title": "Las hojas del simulador",
+    "section": "Las cuatro capas",
+    "text": "Las cuatro capas\n\n\n\n\n\n\nTipLa regla práctica\n\n\n\nSi una hoja cambia cuando cargás un estímulo, es de resultados. Si no cambia, es estructural o de datos. Las hojas estructurales describen la economía tal como es, no lo que pasaría.\n\n\n\nEntradas\nDonde se define el escenario. Nada se calcula acá.\n\n\n\nHoja\nQué se carga\n\n\n\n\nEstímulos Nacionales\nVariación de demanda final por sector, en MUSD\n\n\nEstímulos Internacionales\nVariación de demanda por región y sector, en fracción decimal\n\n\n\n\n\nResultados\nDependen del escenario cargado. Las cuatro principales comparten estructura de columnas, de modo que se leen igual y se comparan celda a celda.\n\n\n\nHoja\nUnidad\n\n\n\n\nResumen Ejecutivo\nSíntesis\n\n\nProducción\nMUSD de valor bruto\n\n\nPIB\nMUSD de valor agregado\n\n\nEmpleo\nPersonas\n\n\nIngreso Laboral\nMUSD\n\n\n\n\n\nAnálisis estructural\nDescriben la economía de 2024. No cambian con el escenario.\n\n\n\nHoja\nQué muestra\n\n\n\n\nEncadenamientos Internos\nMultiplicadores y sectores clave\n\n\nEmpleo Exportador\nEmpleo asociado a exportaciones\n\n\nInserción Internacional\nRetención de valor y contenido importado\n\n\n\n\n\nDatos\nEl motor del modelo. No se editan salvo que se actualice la matriz.\n\n\n\nHoja\nContenido\n\n\n\n\nMatrices Nacionales\nZ, A, L, valor agregado, demanda final\n\n\nInformación Empleo\nEmpleo por sector y coeficientes\n\n\nMRIO\nMatrices internacionales\n\n\nVAX FVA source\nComposición importada y exportaciones por destino\n\n\nParámetros\nTipo de cambio y PIB de referencia\n\n\n\n\n\nDocumentación\nInfo y Créditos contienen la guía rápida de uso, los créditos y las fuentes. No intervienen en ningún cálculo.",
     "crumbs": [
       "Inicio",
-      "Las hojas del simulador",
-      "Datos",
-      "Información Empleo"
+      "Las hojas del simulador"
     ]
   },
   {
-    "objectID": "hojas/informacion-empleo.html#de-dónde-salen-los-datos",
-    "href": "hojas/informacion-empleo.html#de-dónde-salen-los-datos",
-    "title": "Información Empleo",
-    "section": "De dónde salen los datos",
-    "text": "De dónde salen los datos\nLos niveles vienen de la matriz insumo-producto: 3.102.209 ocupados en total, distribuidos entre los veintiún sectores.\nLa composición viene de la Encuesta Permanente de Hogares Continua 2024.",
+    "objectID": "hojas/index.html#páginas-transversales",
+    "href": "hojas/index.html#páginas-transversales",
+    "title": "Las hojas del simulador",
+    "section": "Páginas transversales",
+    "text": "Páginas transversales\nAdemás de la descripción hoja por hoja, esta sección incluye:\n\nLos tres modos de uso — cómo se opera el simulador\nBuenas prácticas y advertencias — qué hacer y qué evitar\nAnexos — los 21 sectores y las 10 regiones\nGlosario — los términos del modelo",
     "crumbs": [
       "Inicio",
-      "Las hojas del simulador",
-      "Datos",
-      "Información Empleo"
+      "Las hojas del simulador"
     ]
   },
   {
-    "objectID": "hojas/informacion-empleo.html#la-limitación-que-hay-que-conocer",
-    "href": "hojas/informacion-empleo.html#la-limitación-que-hay-que-conocer",
-    "title": "Información Empleo",
-    "section": "La limitación que hay que conocer",
-    "text": "La limitación que hay que conocer\n\n\n\n\n\n\nAdvertencia\n\n\n\nLa EPHC distingue ocho ramas de actividad frente a veintiún sectores. Los sectores que comparten rama reciben perfil idéntico.\nDiez sectores caen en industrias manufactureras y tienen la misma composición. Tres caen en finanzas, seguros e inmuebles. En cambio agricultura, electricidad, construcción y otros servicios tienen correspondencia directa con su rama y por lo tanto perfil específico.\nConsecuencia práctica: las comparaciones de perfil entre sectores solo aportan información cuando pertenecen a ramas distintas.",
+    "objectID": "hojas/index.html#cómo-usar-esta-sección",
+    "href": "hojas/index.html#cómo-usar-esta-sección",
+    "title": "Las hojas del simulador",
+    "section": "Cómo usar esta sección",
+    "text": "Cómo usar esta sección\nCada página sigue el mismo esquema: qué contiene la hoja, cómo se lee, de dónde salen los datos y qué errores conviene evitar. Sirve como consulta durante el taller y después, cuando aparezca la duda concreta.",
     "crumbs": [
       "Inicio",
-      "Las hojas del simulador",
-      "Datos",
-      "Información Empleo"
+      "Las hojas del simulador"
     ]
   },
   {
-    "objectID": "hojas/informacion-empleo.html#sobre-la-definición-de-formalidad",
-    "href": "hojas/informacion-empleo.html#sobre-la-definición-de-formalidad",
-    "title": "Información Empleo",
-    "section": "Sobre la definición de formalidad",
-    "text": "Sobre la definición de formalidad\nSe usa la definición mixta OIT/DGEEC: asalariados y personal doméstico son formales si aportan a una caja de jubilación; empleadores y cuenta propia, si el establecimiento tiene registro; los trabajadores familiares no remunerados son siempre informales.\nUsar solo el aporte jubilatorio sobreestima la informalidad, porque los independientes rara vez aportan aunque su negocio esté registrado.",
-    "crumbs": [
-      "Inicio",
-      "Las hojas del simulador",
-      "Datos",
-      "Información Empleo"
-    ]
-  },
-  {
-    "objectID": "hojas/insercion-internacional.html",
-    "href": "hojas/insercion-internacional.html",
-    "title": "Inserción Internacional",
+    "objectID": "hojas/ingreso-laboral.html",
+    "href": "hojas/ingreso-laboral.html",
+    "title": "Ingreso Laboral",
     "section": "",
-    "text": "Muestra cuánto valor retiene Paraguay de lo que produce y de dónde vienen los insumos importados que utiliza.",
+    "text": "Responde la pregunta que el empleo solo no contesta: los puestos generados, ¿con qué remuneración?",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Análisis estructural",
-      "Inserción Internacional"
+      "Resultados",
+      "Ingreso Laboral"
     ]
   },
   {
-    "objectID": "hojas/insercion-internacional.html#retención-de-valor",
-    "href": "hojas/insercion-internacional.html#retención-de-valor",
-    "title": "Inserción Internacional",
-    "section": "Retención de valor",
-    "text": "Retención de valor\nLa proporción del valor bruto de producción que corresponde a valor agregado doméstico. Un sector con retención baja produce mucho pero deja poco en el país, porque buena parte de su producción es insumo importado que solo pasa.",
+    "objectID": "hojas/ingreso-laboral.html#la-escalera-conceptual",
+    "href": "hojas/ingreso-laboral.html#la-escalera-conceptual",
+    "title": "Ingreso Laboral",
+    "section": "La escalera conceptual",
+    "text": "La escalera conceptual\nConviene tenerla clara antes de leer la hoja, porque “salarios” e “ingreso de los hogares” no son lo mismo.\n\n\n\n\n\n\n\n\nConcepto\n2024 (MUSD)\nQué es\n\n\n\n\nSueldos y salarios\n12.555,3\nLlega al hogar\n\n\n+ Contribuciones sociales\n1.277,5\nVa a la seguridad social\n\n\n= Remuneraciones\n13.832,8\nCosto laboral de la empresa\n\n\nIngreso mixto\n6.600,9\nRetribución de cuentapropistas\n\n\nIngreso laboral de los hogares\n19.156,2\nSueldos + ingreso mixto\n\n\n\nDos puntos que suelen confundirse:\n\nLas contribuciones sociales son costo laboral, no ingreso disponible. Sumarlas al ingreso de los hogares lo sobreestima.\nEl ingreso mixto es el 32,3% del ingreso laboral del país. Dejarlo fuera equivale a ignorar a un tercio de los perceptores, concentrados en el empleo por cuenta propia e informal.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Análisis estructural",
-      "Inserción Internacional"
+      "Resultados",
+      "Ingreso Laboral"
     ]
   },
   {
-    "objectID": "hojas/insercion-internacional.html#contenido-importado-por-origen",
-    "href": "hojas/insercion-internacional.html#contenido-importado-por-origen",
-    "title": "Inserción Internacional",
-    "section": "Contenido importado por origen",
-    "text": "Contenido importado por origen\nDesagrega los insumos importados de cada sector según la región de procedencia: Argentina, Brasil, Estados Unidos, China, Unión Europea, Reino Unido y las demás.\nSirve para identificar dependencias: si un sector concentra su abastecimiento en una sola región, una disrupción allí lo afecta de manera desproporcionada.",
+    "objectID": "hojas/ingreso-laboral.html#la-estructura-de-columnas",
+    "href": "hojas/ingreso-laboral.html#la-estructura-de-columnas",
+    "title": "Ingreso Laboral",
+    "section": "La estructura de columnas",
+    "text": "La estructura de columnas\nComparte formato con Producción, PIB, Empleo e Ingreso Laboral:\n\n\n\n\n\n\n\nColumna\nContenido\n\n\n\n\nEfecto inicial\nEl estímulo cargado, sin propagar\n\n\nEfecto directo\nProducción del sector estimulado. Se abre en nacional e internacional\n\n\nEfecto indirecto\nProducción de la cadena de proveedores. También se abre por origen\n\n\nEfecto inducido\nActivado por el gasto de los hogares\n\n\nEfecto total\nSuma de los anteriores\n\n\nCrecimiento sectorial\nVariación respecto de la línea base del sector\n\n\n\nQue las cuatro hojas compartan estructura permite comparar celda a celda: para el mismo sector y el mismo efecto, cuánta producción, cuánto valor agregado, cuántos empleos y cuánto ingreso.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Análisis estructural",
-      "Inserción Internacional"
+      "Resultados",
+      "Ingreso Laboral"
     ]
   },
   {
-    "objectID": "hojas/insercion-internacional.html#el-vax",
-    "href": "hojas/insercion-internacional.html#el-vax",
-    "title": "Inserción Internacional",
-    "section": "El VAX",
-    "text": "El VAX\nRelacionado pero distinto: es la proporción de valor agregado doméstico contenida en las exportaciones. En Paraguay 2024 es de 0,842, es decir que por cada dólar exportado 84,2 centavos son valor agregado nacional.\nEs un valor alto, coherente con una canasta exportadora concentrada en productos primarios y energía, que incorporan poco insumo importado.",
+    "objectID": "hojas/ingreso-laboral.html#los-bloques-adicionales",
+    "href": "hojas/ingreso-laboral.html#los-bloques-adicionales",
+    "title": "Ingreso Laboral",
+    "section": "Los bloques adicionales",
+    "text": "Los bloques adicionales\nComposición del ingreso generado. Separa sueldos, ingreso mixto y contribuciones sobre el efecto total.\nCalidad del ingreso generado. Cruza el ingreso con el empleo para dar el ingreso medio del empleo activado. Es la métrica que permite decir si un escenario genera empleo mejor o peor remunerado que el promedio.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Análisis estructural",
-      "Inserción Internacional"
+      "Resultados",
+      "Ingreso Laboral"
     ]
   },
   {
-    "objectID": "hojas/insercion-internacional.html#una-advertencia-sobre-la-fuente",
-    "href": "hojas/insercion-internacional.html#una-advertencia-sobre-la-fuente",
-    "title": "Inserción Internacional",
-    "section": "Una advertencia sobre la fuente",
-    "text": "Una advertencia sobre la fuente\nLos pesos de composición importada provienen de FIGARO 2018. Es apropiado para representar la tecnología de producción, que cambia lentamente. No es apropiado para estimar el destino de las exportaciones paraguayas: esa base sobreestima el mercado europeo en un factor de cuatro y omite las exportaciones de electricidad. Por eso el reparto por destino de Empleo Exportador se construyó con otras fuentes.",
+    "objectID": "hojas/ingreso-laboral.html#un-dato-de-referencia",
+    "href": "hojas/ingreso-laboral.html#un-dato-de-referencia",
+    "title": "Ingreso Laboral",
+    "section": "Un dato de referencia",
+    "text": "Un dato de referencia\nEl ingreso laboral medio del país es de 6.175 USD anuales, con una dispersión de seis a uno entre sectores: 20.560 en electricidad contra 3.483 en textiles.\n\n\n\n\n\n\nAdvertenciaSobre el efecto inducido\n\n\n\nSupone que los hogares gastan los ingresos generados con la misma estructura de consumo que hoy. Es el efecto más discutible de los tres y conviene reportarlo por separado en cualquier informe.\nAdemás usa una función disponible solo en Excel 365. En versiones anteriores y en LibreOffice esta columna devuelve #NAME?.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
-      "Análisis estructural",
-      "Inserción Internacional"
+      "Resultados",
+      "Ingreso Laboral"
+    ]
+  },
+  {
+    "objectID": "hojas/matrices-nacionales.html",
+    "href": "hojas/matrices-nacionales.html",
+    "title": "Matrices Nacionales",
+    "section": "",
+    "text": "El motor del modelo. Contiene la matriz de transacciones y todo lo que se deriva de ella.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Matrices Nacionales"
+    ]
+  },
+  {
+    "objectID": "hojas/matrices-nacionales.html#los-bloques-principales",
+    "href": "hojas/matrices-nacionales.html#los-bloques-principales",
+    "title": "Matrices Nacionales",
+    "section": "Los bloques principales",
+    "text": "Los bloques principales\n\n\n\n\n\n\n\nBloque\nContenido\n\n\n\n\nZ\nMatriz de transacciones, 21×21. Lo que cada sector compra a cada sector\n\n\nA\nCoeficientes técnicos, A = Z/x\n\n\nL\nInversa de Leontief, L = (I − A)⁻¹\n\n\nDemanda final\nConsumo, inversión, variación de existencias y exportaciones\n\n\nValor agregado\nCon su descomposición completa\n\n\nBloques inducidos\nMatrices ampliadas que incorporan a los hogares\n\n\nGhosh\nPara los encadenamientos hacia adelante",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Matrices Nacionales"
+    ]
+  },
+  {
+    "objectID": "hojas/matrices-nacionales.html#el-bloque-de-valor-agregado",
+    "href": "hojas/matrices-nacionales.html#el-bloque-de-valor-agregado",
+    "title": "Matrices Nacionales",
+    "section": "El bloque de valor agregado",
+    "text": "El bloque de valor agregado\nValor agregado\n├── Remuneraciones de asalariados\n│   ├── Sueldos y salarios\n│   └── Contribuciones sociales\n├── Ingreso mixto\n├── Excedente bruto de explotación\n└── Impuestos netos sobre la producción",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Matrices Nacionales"
+    ]
+  },
+  {
+    "objectID": "hojas/matrices-nacionales.html#las-identidades-contables",
+    "href": "hojas/matrices-nacionales.html#las-identidades-contables",
+    "title": "Matrices Nacionales",
+    "section": "Las identidades contables",
+    "text": "Las identidades contables\nAmbas cierran de manera exacta, lo que sirve de control:\nPor columna, para cada sector:\nconsumo intermedio + importaciones + impuestos sobre productos\n+ valor agregado = valor bruto de producción\nPor fila, para cada sector:\nventas intermedias + demanda final = producción\nSubsiste una diferencia de 2,6 millones entre la producción sumada por fila y por columna, atribuible al redondeo del archivo de origen sobre un total de 78.041,2.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Matrices Nacionales"
+    ]
+  },
+  {
+    "objectID": "hojas/matrices-nacionales.html#valores-de-control",
+    "href": "hojas/matrices-nacionales.html#valores-de-control",
+    "title": "Matrices Nacionales",
+    "section": "Valores de control",
+    "text": "Valores de control\nPara verificar que la hoja está bien cargada:\n\n\n\nMagnitud\nValor\n\n\n\n\nValor bruto de producción\n78.041,2\n\n\nValor agregado\n41.595,1\n\n\nConsumo intermedio doméstico\n28.451,2\n\n\nExportaciones\n12.419,2",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Matrices Nacionales"
     ]
   },
   {
@@ -1174,7 +1364,7 @@
     "href": "hojas/resumen-ejecutivo.html",
     "title": "Resumen Ejecutivo",
     "section": "",
-    "text": "Sintetiza en una sola vista los resultados de las cuatro hojas de detalle. Es la hoja para mostrar, no para analizar.",
+    "text": "Es el tablero de síntesis: integra en un solo panel todos los resultados de una simulación. La hoja para mostrar, no para analizar.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -1183,11 +1373,11 @@
     ]
   },
   {
-    "objectID": "hojas/resumen-ejecutivo.html#qué-muestra",
-    "href": "hojas/resumen-ejecutivo.html#qué-muestra",
+    "objectID": "hojas/resumen-ejecutivo.html#cómo-está-organizado",
+    "href": "hojas/resumen-ejecutivo.html#cómo-está-organizado",
     "title": "Resumen Ejecutivo",
-    "section": "Qué muestra",
-    "text": "Qué muestra\nLos agregados del escenario: producción activada, valor agregado, empleo generado e ingreso laboral, con la descomposición por tipo de efecto.",
+    "section": "Cómo está organizado",
+    "text": "Cómo está organizado\n\nBarra superior y tarjetas de indicadores\nLos agregados del escenario en formato de tarjetas: producción activada, valor agregado, empleo generado e ingreso laboral.\nSirve para verificar rápidamente que un escenario se cargó bien. Si los totales acá no tienen sentido, conviene revisar la hoja de estímulos antes de seguir.\n\n\nDescomposición del impacto por canal\nSepara el resultado en sus componentes:\n\n\n\n\n\n\n\nColumna\nSignificado\n\n\n\n\nEfecto inicial\nEl choque ingresado\n\n\nDirecto (nacional / internacional / total)\nCompras directas de insumos\n\n\nIndirecto (nacional / internacional / total)\nRondas sucesivas de la cadena\n\n\nInducido\nPor el consumo de los nuevos ingresos de los hogares\n\n\nTotal\nSuma de todos los canales\n\n\n% Nac. / % Intl. / % Inducido\nParticipación de cada canal\n\n\nΔ/PIB o Δ/Emp. base\nEl resultado como proporción de la base\n\n\nRetención local\nPorcentaje del impacto que queda en Paraguay\n\n\n\nLa retención local es especialmente útil: un estímulo grande en un sector con alto contenido importado deja menos en el país de lo que sugiere la cifra bruta.\n\n\nCalidad del empleo generado\nEl empleo del escenario abierto por sexo, nivel educativo, condición de formalidad y área. Es la base de la lectura de trabajo decente: no solo cuántos empleos, sino a quién llegan y de qué calidad son.\n\n\nRankings sectoriales\nCuatro tablas ordenan los sectores por su contribución:\n\nTop 5 — ΔProducción y Top 5 — ΔEmpleo: los cinco de mayor aumento\nPeores 5: los de menor aumento, o mayor caída en choques negativos\n\nCada ranking muestra el efecto total del sector, su descomposición en directo e indirecto, su participación en el efecto total, el efecto como proporción de la base sectorial y, para el empleo, los empleos por millón de dólares.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -1196,24 +1386,11 @@
     ]
   },
   {
-    "objectID": "hojas/resumen-ejecutivo.html#cuándo-usarla",
-    "href": "hojas/resumen-ejecutivo.html#cuándo-usarla",
+    "objectID": "hojas/resumen-ejecutivo.html#cuándo-no-usarlo",
+    "href": "hojas/resumen-ejecutivo.html#cuándo-no-usarlo",
     "title": "Resumen Ejecutivo",
-    "section": "Cuándo usarla",
-    "text": "Cuándo usarla\nPara presentar resultados y para verificar rápidamente que un escenario se cargó bien. Si los totales acá no tienen sentido, conviene revisar la hoja de estímulos antes de seguir.",
-    "crumbs": [
-      "Inicio",
-      "Las hojas del simulador",
-      "Resultados",
-      "Resumen Ejecutivo"
-    ]
-  },
-  {
-    "objectID": "hojas/resumen-ejecutivo.html#cuándo-no",
-    "href": "hojas/resumen-ejecutivo.html#cuándo-no",
-    "title": "Resumen Ejecutivo",
-    "section": "Cuándo no",
-    "text": "Cuándo no\nPara el análisis sectorial. Los agregados esconden justamente lo interesante: qué sectores se activan y por qué. Para eso están las hojas de detalle.",
+    "section": "Cuándo no usarlo",
+    "text": "Cuándo no usarlo\nPara el análisis sectorial fino. Los agregados esconden justamente lo interesante: qué sectores se activan y por qué. Para eso están las hojas de detalle.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador",
@@ -1298,6 +1475,30 @@
     ]
   },
   {
+    "objectID": "taller/seccion-1-estructura.html#los-cuatro-conceptos-que-organizan-todo",
+    "href": "taller/seccion-1-estructura.html#los-cuatro-conceptos-que-organizan-todo",
+    "title": "Sección 1 · La estructura del simulador",
+    "section": "Los cuatro conceptos que organizan todo",
+    "text": "Los cuatro conceptos que organizan todo\nAntes de operar el simulador conviene fijar estas cuatro ideas, porque son las que estructuran cada hoja de resultados.\n\n\n\n\n\n\n\nConcepto\nQué es\n\n\n\n\nEfecto inicial\nEl propio choque de demanda que se ingresa\n\n\nEfecto directo\nLos insumos que el sector estimulado compra a sus proveedores inmediatos\n\n\nEfecto indirecto\nLas rondas sucesivas de compras a lo largo de toda la cadena\n\n\nEfecto inducido\nLo que aparece cuando los hogares gastan los nuevos ingresos generados\n\n\n\nAdemás, cada efecto se separa en un componente nacional —dentro de Paraguay— y uno internacional, a través de las cadenas con el resto del mundo.\nLos resultados centrales comparten esta misma estructura de lectura, de modo que una vez entendida sirve para las cuatro hojas.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 1 · La estructura del simulador"
+    ]
+  },
+  {
+    "objectID": "taller/seccion-1-estructura.html#los-tres-modos-de-uso",
+    "href": "taller/seccion-1-estructura.html#los-tres-modos-de-uso",
+    "title": "Sección 1 · La estructura del simulador",
+    "section": "Los tres modos de uso",
+    "text": "Los tres modos de uso\nEl simulador admite tres formas de trabajo, descritas en detalle en Los tres modos de uso:\n\nImpacto nacional — un choque de demanda interna\nImpacto comparado — dos escenarios lado a lado\nImpacto internacional — cambios en la demanda de los socios comerciales",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 1 · La estructura del simulador"
+    ]
+  },
+  {
     "objectID": "taller/seccion-1-estructura.html#recorrido-propuesto",
     "href": "taller/seccion-1-estructura.html#recorrido-propuesto",
     "title": "Sección 1 · La estructura del simulador",
@@ -1326,7 +1527,7 @@
     "href": "taller/seccion-1-estructura.html#material-de-apoyo",
     "title": "Sección 1 · La estructura del simulador",
     "section": "Material de apoyo",
-    "text": "Material de apoyo\n\nLas hojas del simulador, con una página por hoja.",
+    "text": "Material de apoyo\n\nLas hojas del simulador — una página por hoja\nLos tres modos de uso\nBuenas prácticas y advertencias\nAnexos — sectores y regiones\nGlosario",
     "crumbs": [
       "Inicio",
       "Taller",

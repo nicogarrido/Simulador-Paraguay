@@ -3,46 +3,56 @@ title: "Encadenamientos Internos"
 subtitle: "Capa de análisis estructural"
 ---
 
-Mide la capacidad de arrastre de cada sector sobre el resto de la economía.
+Presenta los índices de Rasmussen-Hirschman calculados a partir de la inversa de
+Leontief. Es un mapa de la arquitectura productiva del país.
 
 ::: {.callout-note}
-Esta hoja **no cambia** con el escenario. Describe la estructura productiva de
-2024.
+No depende del choque ingresado. Sirve para elegir **qué sectores conviene
+simular** antes de correr nada.
 :::
 
-## Las dos direcciones
+## Qué información contiene
 
-**Hacia atrás.** Cuánto arrastra un sector a sus proveedores. Se lee en las
-columnas de la inversa de Leontief: si estimulo este sector, ¿cuánta producción
-total se moviliza?
+**Encadenamiento hacia atrás** (poder de dispersión). Mide cuánto arrastra el
+sector a sus proveedores cuando crece su producción. Se obtiene sumando la
+columna del sector en la inversa de Leontief y normalizando por el promedio de
+la economía. Un valor mayor que 1 indica arrastre superior al promedio.
 
-**Hacia adelante.** Cuánto depende el resto de la economía de lo que ese sector
-provee. Se calcula con la matriz de Ghosh.
+**Encadenamiento hacia adelante** (sensibilidad de dispersión). Mide cuánto lo
+requieren los demás sectores como proveedor de insumos. Es la suma de la fila
+del sector, normalizada de la misma forma.
 
-Un sector puede ser fuerte en una dimensión y débil en la otra. La construcción
-suele tener alto arrastre hacia atrás y bajo hacia adelante: compra mucho, pero
-casi nadie compra construcción como insumo.
+**Empleo por cada millón de dólares.** La intensidad de empleo del sector.
 
-## La clasificación de Rasmussen-Hirschman
+**Tipo de sector.** Una clasificación automática que combina ambos índices.
 
-Comparando ambos encadenamientos contra el promedio surgen cuatro categorías:
+## Las cuatro categorías
 
-| | Hacia adelante alto | Hacia adelante bajo |
-|---|---|---|
-| **Hacia atrás alto** | Clave | Impulsor |
-| **Hacia atrás bajo** | Base o estratégico | Independiente |
+| Tipo | Qué significa |
+|---|---|
+| **Clave** (ambos > 1) | Difunde los impulsos en las dos direcciones: arrastra a proveedores y es requerido por otros |
+| **Dependiente sobre oferta** (atrás > 1) | Fuerte demandante de insumos: al crecer, arrastra sobre todo a sus proveedores |
+| **Dependiente en demanda** (adelante > 1) | Proveedor de muchos sectores: se activa cuando crece la demanda de otros |
+| **Independiente** (ambos < 1) | Poco integrado en la cadena; sus impulsos se difunden poco |
 
-- **Clave:** arrastra y es arrastrado.
-- **Impulsor:** arrastra proveedores pero provee poco. Bueno para activar demanda.
-- **Base:** provee mucho a otros. Un cuello de botella acá frena al resto.
-- **Independiente:** poco conectado en ambas direcciones.
+La clasificación vigente se lee directamente en la hoja, sector por sector.
 
-## La columna de empleo
+## Cómo se usa
 
-Muestra los ocupados por millón de dólares de producción de cada sector. Vale la
-pena cruzarla con la clasificación: un sector clave no necesariamente genera
-empleo, y la combinación relevante para política de empleo es alto
-encadenamiento **y** alta intensidad laboral.
+**Como diagnóstico estructural puro.** Leer qué sectores vertebran la economía,
+sin necesidad de simular nada.
+
+**Para elegir dónde estimular.** Los sectores clave difunden el impulso en ambas
+direcciones, con el mayor arrastre por dólar. Los dependientes sobre oferta
+generan mucho efecto aguas arriba, en sus proveedores.
+
+**Combinado con la intensidad de empleo.** Un sector a la vez clave e intensivo
+en empleo es un dinamizador del empleo: concentrar allí el estímulo maximiza los
+puestos por dólar invertido.
+
+**Para interpretar una simulación.** Explica por qué un choque tuvo grandes
+efectos indirectos —golpeó un sector muy encadenado— o por qué quedó contenido
+—un sector independiente—.
 
 ::: {.callout-warning}
 Los multiplicadores no ordenan prioridades de política por sí solos. Un

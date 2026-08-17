@@ -221,6 +221,12 @@ window.Quarto = {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/modos-de-uso.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Los tres modos de uso</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
@@ -355,6 +361,35 @@ window.Quarto = {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Referencia</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/buenas-practicas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Buenas prácticas y advertencias</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/anexos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Anexos</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/glosario.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glosario</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -373,10 +408,12 @@ window.Quarto = {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#qué-se-carga" id="toc-qué-se-carga" class="nav-link active" data-scroll-target="#qué-se-carga">Qué se carga</a></li>
-  <li><a href="#los-dos-modos-de-trabajo" id="toc-los-dos-modos-de-trabajo" class="nav-link" data-scroll-target="#los-dos-modos-de-trabajo">Los dos modos de trabajo</a></li>
+  <li><a href="#los-elementos-de-la-hoja" id="toc-los-elementos-de-la-hoja" class="nav-link active" data-scroll-target="#los-elementos-de-la-hoja">Los elementos de la hoja</a></li>
+  <li><a href="#unidades" id="toc-unidades" class="nav-link" data-scroll-target="#unidades">Unidades</a></li>
+  <li><a href="#para-qué-sirve-la-columna-de-porcentaje" id="toc-para-qué-sirve-la-columna-de-porcentaje" class="nav-link" data-scroll-target="#para-qué-sirve-la-columna-de-porcentaje">Para qué sirve la columna de porcentaje</a></li>
   <li><a href="#qué-mira-el-modelo" id="toc-qué-mira-el-modelo" class="nav-link" data-scroll-target="#qué-mira-el-modelo">Qué mira el modelo</a></li>
   <li><a href="#errores-frecuentes" id="toc-errores-frecuentes" class="nav-link" data-scroll-target="#errores-frecuentes">Errores frecuentes</a></li>
+  <li><a href="#ver-también" id="toc-ver-también" class="nav-link" data-scroll-target="#ver-también">Ver también</a></li>
   </ul>
 </nav>
     </div>
@@ -404,28 +441,85 @@ window.Quarto = {
 
 
 <p>Es el punto de partida de cualquier simulación interna. Acá se define <strong>cuánto cambia la demanda final</strong> de cada sector.</p>
-<section id="qué-se-carga" class="level2">
-<h2 class="anchored" data-anchor-id="qué-se-carga">Qué se carga</h2>
-<p>Una fila por sector, veintiuna en total. El valor se expresa en <strong>millones de dólares</strong>: si se quiere simular una inversión de 100 millones en construcción, se escribe <code>100</code> en esa fila.</p>
+<section id="los-elementos-de-la-hoja" class="level2">
+<h2 class="anchored" data-anchor-id="los-elementos-de-la-hoja">Los elementos de la hoja</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Elemento</th>
+<th>Función</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Sector</strong></td>
+<td>Los veintiún sectores de la economía</td>
+</tr>
+<tr class="even">
+<td><strong>PIB (MUSD)</strong></td>
+<td>El PIB de referencia de cada sector, para dimensionar el estímulo</td>
+</tr>
+<tr class="odd">
+<td><strong>Escenario Base</strong></td>
+<td>El bloque izquierdo, con las tres columnas descritas abajo</td>
+</tr>
+<tr class="even">
+<td><strong>Escenario Alternativo</strong></td>
+<td>Réplica del anterior, para el modo comparado</td>
+</tr>
+<tr class="odd">
+<td><strong>Botón Reiniciar Escenarios</strong></td>
+<td>Borra todo lo cargado y devuelve la hoja a cero</td>
+</tr>
+<tr class="even">
+<td><strong>Fila Total</strong></td>
+<td>Suma el PIB de referencia de la economía y los estímulos ingresados</td>
+</tr>
+</tbody>
+</table>
+<p>Dentro de cada bloque de escenario hay tres columnas:</p>
+<ul>
+<li><strong>MUSD</strong> — la celda editable, donde se ingresa el estímulo en millones de dólares</li>
+<li><strong>Guaraníes (millones)</strong> — la conversión automática con el tipo de cambio</li>
+<li><strong>% PIB Sector</strong> — el estímulo como proporción del PIB de ese sector</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Cómo reconocer lo editable
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Las celdas celestes son las únicas editables. El borde verde señala la celda activa. Todo lo demás es motor del modelo.</p>
+</div>
+</div>
+</section>
+<section id="unidades" class="level2">
+<h2 class="anchored" data-anchor-id="unidades">Unidades</h2>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Importante</span>Unidades
+Importante
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Esta hoja trabaja en montos absolutos, no en porcentajes. Es distinto de Estímulos Internacionales, que usa fracción decimal.</p>
+<p>Esta hoja trabaja en <strong>montos absolutos</strong> en millones de dólares. Es distinto de Estímulos Internacionales, que usa índices o fracción decimal según el modo.</p>
 </div>
 </div>
 </section>
-<section id="los-dos-modos-de-trabajo" class="level2">
-<h2 class="anchored" data-anchor-id="los-dos-modos-de-trabajo">Los dos modos de trabajo</h2>
-<p><strong>Escenario único.</strong> Se carga un vector de estímulo y las hojas de resultados muestran los efectos de ese escenario.</p>
-<p><strong>Comparación de proyectos.</strong> Se cargan dos vectores y el simulador reporta la <strong>diferencia</strong> entre ambos. Sirve para comparar alternativas de inversión.</p>
-<p>El título de las hojas de resultados cambia según el modo activo. Si dice <em>“Diferencias entre los proyectos”</em>, estás en modo comparación.</p>
+<section id="para-qué-sirve-la-columna-de-porcentaje" class="level2">
+<h2 class="anchored" data-anchor-id="para-qué-sirve-la-columna-de-porcentaje">Para qué sirve la columna de porcentaje</h2>
+<p>Permite dimensionar el choque. Un estímulo de 100 millones significa cosas muy distintas según el sector: puede ser marginal en comercio y desproporcionado en minería. La columna <strong>% PIB Sector</strong> hace visible esa diferencia antes de correr la simulación.</p>
 </section>
 <section id="qué-mira-el-modelo" class="level2">
 <h2 class="anchored" data-anchor-id="qué-mira-el-modelo">Qué mira el modelo</h2>
@@ -438,9 +532,17 @@ x = (I - A)^{-1} \cdot f
 <section id="errores-frecuentes" class="level2">
 <h2 class="anchored" data-anchor-id="errores-frecuentes">Errores frecuentes</h2>
 <ul>
-<li><strong>Cargar en el sector equivocado.</strong> Los veintiún sectores agrupan actividades heterogéneas. Conviene revisar la concordancia antes de decidir dónde va el estímulo.</li>
-<li><strong>Confundir demanda final con producción.</strong> El estímulo es un aumento de demanda final: consumo, inversión o exportación. No es un aumento de producción, que es lo que el modelo calcula como resultado.</li>
-<li><strong>Olvidar limpiar el escenario anterior.</strong> Si quedaron valores de una simulación previa, los resultados mezclan ambos.</li>
+<li><strong>Cargar en el sector equivocado.</strong> Los veintiún sectores agrupan actividades heterogéneas. Conviene revisar los <a href="../hojas/anexos.html">anexos</a> antes de decidir.</li>
+<li><strong>Confundir demanda final con producción.</strong> El estímulo es un aumento de demanda final —consumo, inversión o exportación—, no de producción. La producción es lo que el modelo calcula como resultado.</li>
+<li><strong>Olvidar limpiar el escenario anterior.</strong> Usar el botón Reiniciar entre ejercicios.</li>
+<li><strong>Cargar montos desproporcionados</strong> sin mirar la columna de porcentaje.</li>
+</ul>
+</section>
+<section id="ver-también" class="level2">
+<h2 class="anchored" data-anchor-id="ver-también">Ver también</h2>
+<ul>
+<li><a href="../hojas/modos-de-uso.html">Los tres modos de uso</a></li>
+<li><a href="../hojas/buenas-practicas.html">Buenas prácticas</a></li>
 </ul>
 
 

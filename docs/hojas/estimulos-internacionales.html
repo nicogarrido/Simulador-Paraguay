@@ -192,6 +192,12 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/modos-de-uso.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Los tres modos de uso</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
@@ -326,6 +332,35 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Referencia</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/buenas-practicas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Buenas prácticas y advertencias</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/anexos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Anexos</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/glosario.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glosario</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -344,11 +379,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#las-once-regiones" id="toc-las-once-regiones" class="nav-link active" data-scroll-target="#las-once-regiones">Las once regiones</a></li>
-  <li><a href="#unidades-el-error-más-caro" id="toc-unidades-el-error-más-caro" class="nav-link" data-scroll-target="#unidades-el-error-más-caro">Unidades: el error más caro</a></li>
-  <li><a href="#los-dos-modos" id="toc-los-dos-modos" class="nav-link" data-scroll-target="#los-dos-modos">Los dos modos</a></li>
+  <li><a href="#las-diez-regiones" id="toc-las-diez-regiones" class="nav-link active" data-scroll-target="#las-diez-regiones">Las diez regiones</a></li>
+  <li><a href="#los-dos-modos-y-sus-unidades" id="toc-los-dos-modos-y-sus-unidades" class="nav-link" data-scroll-target="#los-dos-modos-y-sus-unidades">Los dos modos, y sus unidades</a>
+  <ul class="collapse">
+  <li><a href="#modo-a-shock-uniforme-por-región" id="toc-modo-a-shock-uniforme-por-región" class="nav-link" data-scroll-target="#modo-a-shock-uniforme-por-región">Modo A · shock uniforme por región</a></li>
+  <li><a href="#modo-b-shock-diferenciado-por-sector" id="toc-modo-b-shock-diferenciado-por-sector" class="nav-link" data-scroll-target="#modo-b-shock-diferenciado-por-sector">Modo B · shock diferenciado por sector</a></li>
+  </ul></li>
   <li><a href="#qué-hay-más-abajo-en-la-hoja" id="toc-qué-hay-más-abajo-en-la-hoja" class="nav-link" data-scroll-target="#qué-hay-más-abajo-en-la-hoja">Qué hay más abajo en la hoja</a></li>
-  <li><a href="#errores-frecuentes" id="toc-errores-frecuentes" class="nav-link" data-scroll-target="#errores-frecuentes">Errores frecuentes</a></li>
+  <li><a href="#cuándo-usar-cada-modo" id="toc-cuándo-usar-cada-modo" class="nav-link" data-scroll-target="#cuándo-usar-cada-modo">Cuándo usar cada modo</a></li>
+  <li><a href="#ver-también" id="toc-ver-también" class="nav-link" data-scroll-target="#ver-también">Ver también</a></li>
   </ul>
 </nav>
     </div>
@@ -376,44 +415,89 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Permite simular cambios en la demanda de los socios comerciales y ver cómo eso activa producción en Paraguay.</p>
-<section id="las-once-regiones" class="level2">
-<h2 class="anchored" data-anchor-id="las-once-regiones">Las once regiones</h2>
-<p>Paraguay, Brasil, Unión Europea, China, Estados Unidos, Argentina, Asia-Pacífico, resto de América Latina, resto del Mercosur, Reino Unido y resto del mundo.</p>
-<p>Detrás hay una matriz insumo-producto multirregional que captura cómo la demanda de cada socio se traduce en producción paraguaya, directa e indirectamente.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Paraguay <strong>no aparece como columna</strong>: el panel mide cómo la demanda del resto del mundo afecta a la economía paraguaya. Los estímulos internos van en la otra hoja.</p>
+</div>
+</div>
+<section id="las-diez-regiones" class="level2">
+<h2 class="anchored" data-anchor-id="las-diez-regiones">Las diez regiones</h2>
+<p>Brasil, Unión Europea, China, Estados Unidos, Argentina, Asia-Pacífico, América Latina resto, Mercosur resto, Reino Unido y resto del mundo. Están ordenadas según la intensidad del intercambio comercial con Paraguay.</p>
+<p>El listado completo con sus participaciones está en los <a href="../hojas/anexos.html">anexos</a>.</p>
 </section>
-<section id="unidades-el-error-más-caro" class="level2">
-<h2 class="anchored" data-anchor-id="unidades-el-error-más-caro">Unidades: el error más caro</h2>
+<section id="los-dos-modos-y-sus-unidades" class="level2">
+<h2 class="anchored" data-anchor-id="los-dos-modos-y-sus-unidades">Los dos modos, y sus unidades</h2>
+<p>Esta es la fuente de error más frecuente del simulador, porque <strong>cada modo usa una escala distinta</strong>.</p>
+<section id="modo-a-shock-uniforme-por-región" class="level3">
+<h3 class="anchored" data-anchor-id="modo-a-shock-uniforme-por-región">Modo A · shock uniforme por región</h3>
+<p>Se ingresa como <strong>índice</strong>:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Valor</th>
+<th>Significa</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>100</td>
+<td>Sin cambio</td>
+</tr>
+<tr class="even">
+<td>110</td>
+<td>Aumento del 10%</td>
+</tr>
+<tr class="odd">
+<td>90</td>
+<td>Caída del 10%</td>
+</tr>
+</tbody>
+</table>
+<p>Se puede escribir el número o usar las flechas ▲▼, que funcionan gracias a las macros del archivo.</p>
+</section>
+<section id="modo-b-shock-diferenciado-por-sector" class="level3">
+<h3 class="anchored" data-anchor-id="modo-b-shock-diferenciado-por-sector">Modo B · shock diferenciado por sector</h3>
+<p>Una matriz de veintiún sectores por diez regiones. Cada celda <strong>hereda</strong> el shock de su región y solo se sobrescriben las que se quieran diferenciar.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Advertencia</span>Fracción decimal, no porcentaje
+<span class="screen-reader-only">Advertencia</span>Las celdas del Modo B están en fracción decimal
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Para simular un aumento del 10% se escribe <strong><code>0,10</code></strong>, no <code>10</code>.</p>
-<p>Escribir <code>10</code> genera un shock del 1.000%, cien veces mayor al buscado. Los resultados salen enormes y suele costar advertir de dónde viene el problema.</p>
+<p>No en índice. Si se sobrescribe una celda a mano para simular un 10%, va <strong><code>0,10</code></strong> — no <code>110</code> ni <code>10</code>.</p>
+<p>Escribir <code>10</code> genera un shock del 1.000%: cien veces mayor al buscado. Los resultados salen enormes y suele costar advertir de dónde viene el problema.</p>
 </div>
 </div>
-<p>La razón está en cómo se calcula la variación de demanda: el simulador multiplica el valor bruto de producción de la región por el valor cargado, sin dividir por cien.</p>
+<p>La razón de la diferencia: el Modo A convierte el índice a fracción decimal internamente, y las celdas del Modo B leen ya el resultado de esa conversión.</p>
 </section>
-<section id="los-dos-modos" class="level2">
-<h2 class="anchored" data-anchor-id="los-dos-modos">Los dos modos</h2>
-<p>Igual que en Estímulos Nacionales, hay un modo global —un mismo shock para todos los sectores de una región— y un modo detallado, donde se define sector por sector.</p>
 </section>
 <section id="qué-hay-más-abajo-en-la-hoja" class="level2">
 <h2 class="anchored" data-anchor-id="qué-hay-más-abajo-en-la-hoja">Qué hay más abajo en la hoja</h2>
-<p>Debajo del panel hay un vector de 231 filas: once regiones por veintiún sectores. Contiene el valor agregado, el valor bruto de producción y la variación de demanda resultante de cada combinación.</p>
-<p>No se edita a mano. Es el puente entre el panel y el módulo internacional.</p>
+<p>Un vector de 231 filas —once regiones por veintiún sectores— con el valor agregado, el valor bruto de producción y la variación de demanda resultante de cada combinación. La fila <strong>ΔF TOTAL</strong> muestra la variación total por región.</p>
+<p>No se edita a mano: es el puente entre el panel y el módulo internacional.</p>
 </section>
-<section id="errores-frecuentes" class="level2">
-<h2 class="anchored" data-anchor-id="errores-frecuentes">Errores frecuentes</h2>
+<section id="cuándo-usar-cada-modo" class="level2">
+<h2 class="anchored" data-anchor-id="cuándo-usar-cada-modo">Cuándo usar cada modo</h2>
+<p><strong>Modo A</strong> para un choque general: una recesión en Brasil, una expansión de la demanda china.</p>
+<p><strong>Modo B</strong> para un acuerdo comercial, que típicamente afecta más a unos sectores que a otros. Es el modo indicado para analizar el acuerdo UE–Mercosur.</p>
+</section>
+<section id="ver-también" class="level2">
+<h2 class="anchored" data-anchor-id="ver-también">Ver también</h2>
 <ul>
-<li><strong>Escribir porcentajes</strong> en lugar de fracción decimal.</li>
-<li><strong>Cargar un shock en Paraguay</strong> en esta hoja. La fila de Paraguay está fijada en cero: los estímulos internos van en la otra hoja.</li>
-<li><strong>No limpiar el modo global</strong> antes de usar el detallado, con lo que ambos se suman.</li>
+<li><a href="../hojas/modos-de-uso.html">Los tres modos de uso</a></li>
+<li><a href="../hojas/anexos.html">Anexos: las diez regiones</a></li>
 </ul>
 
 

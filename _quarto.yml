@@ -46,6 +46,7 @@ website:
       - section: "Las hojas del simulador"
         href: hojas/index.qmd
         contents:
+          - hojas/modos-de-uso.qmd
           - section: "Entradas"
             contents:
               - hojas/estimulos-nacionales.qmd
@@ -69,6 +70,11 @@ website:
               - hojas/mrio.qmd
               - hojas/vax-fva-source.qmd
               - hojas/parametros.qmd
+          - section: "Referencia"
+            contents:
+              - hojas/buenas-practicas.qmd
+              - hojas/anexos.qmd
+              - hojas/glosario.qmd
       - href: guia-de-estilo.qmd
         text: Guía de estilo
   page-footer:

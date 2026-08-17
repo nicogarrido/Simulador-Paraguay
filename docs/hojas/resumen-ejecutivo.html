@@ -192,6 +192,12 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/modos-de-uso.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Los tres modos de uso</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
@@ -326,6 +332,35 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Referencia</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/buenas-practicas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Buenas prácticas y advertencias</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/anexos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Anexos</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/glosario.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glosario</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -344,9 +379,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#qué-muestra" id="toc-qué-muestra" class="nav-link active" data-scroll-target="#qué-muestra">Qué muestra</a></li>
-  <li><a href="#cuándo-usarla" id="toc-cuándo-usarla" class="nav-link" data-scroll-target="#cuándo-usarla">Cuándo usarla</a></li>
-  <li><a href="#cuándo-no" id="toc-cuándo-no" class="nav-link" data-scroll-target="#cuándo-no">Cuándo no</a></li>
+  <li><a href="#cómo-está-organizado" id="toc-cómo-está-organizado" class="nav-link active" data-scroll-target="#cómo-está-organizado">Cómo está organizado</a>
+  <ul class="collapse">
+  <li><a href="#barra-superior-y-tarjetas-de-indicadores" id="toc-barra-superior-y-tarjetas-de-indicadores" class="nav-link" data-scroll-target="#barra-superior-y-tarjetas-de-indicadores">Barra superior y tarjetas de indicadores</a></li>
+  <li><a href="#descomposición-del-impacto-por-canal" id="toc-descomposición-del-impacto-por-canal" class="nav-link" data-scroll-target="#descomposición-del-impacto-por-canal">Descomposición del impacto por canal</a></li>
+  <li><a href="#calidad-del-empleo-generado" id="toc-calidad-del-empleo-generado" class="nav-link" data-scroll-target="#calidad-del-empleo-generado">Calidad del empleo generado</a></li>
+  <li><a href="#rankings-sectoriales" id="toc-rankings-sectoriales" class="nav-link" data-scroll-target="#rankings-sectoriales">Rankings sectoriales</a></li>
+  </ul></li>
+  <li><a href="#cuándo-no-usarlo" id="toc-cuándo-no-usarlo" class="nav-link" data-scroll-target="#cuándo-no-usarlo">Cuándo no usarlo</a></li>
   </ul>
 </nav>
     </div>
@@ -373,18 +413,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Sintetiza en una sola vista los resultados de las cuatro hojas de detalle. Es la hoja para mostrar, no para analizar.</p>
-<section id="qué-muestra" class="level2">
-<h2 class="anchored" data-anchor-id="qué-muestra">Qué muestra</h2>
-<p>Los agregados del escenario: producción activada, valor agregado, empleo generado e ingreso laboral, con la descomposición por tipo de efecto.</p>
+<p>Es el tablero de síntesis: integra en un solo panel todos los resultados de una simulación. La hoja para mostrar, no para analizar.</p>
+<section id="cómo-está-organizado" class="level2">
+<h2 class="anchored" data-anchor-id="cómo-está-organizado">Cómo está organizado</h2>
+<section id="barra-superior-y-tarjetas-de-indicadores" class="level3">
+<h3 class="anchored" data-anchor-id="barra-superior-y-tarjetas-de-indicadores">Barra superior y tarjetas de indicadores</h3>
+<p>Los agregados del escenario en formato de tarjetas: producción activada, valor agregado, empleo generado e ingreso laboral.</p>
+<p>Sirve para verificar rápidamente que un escenario se cargó bien. Si los totales acá no tienen sentido, conviene revisar la hoja de estímulos antes de seguir.</p>
 </section>
-<section id="cuándo-usarla" class="level2">
-<h2 class="anchored" data-anchor-id="cuándo-usarla">Cuándo usarla</h2>
-<p>Para presentar resultados y para verificar rápidamente que un escenario se cargó bien. Si los totales acá no tienen sentido, conviene revisar la hoja de estímulos antes de seguir.</p>
+<section id="descomposición-del-impacto-por-canal" class="level3">
+<h3 class="anchored" data-anchor-id="descomposición-del-impacto-por-canal">Descomposición del impacto por canal</h3>
+<p>Separa el resultado en sus componentes:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Columna</th>
+<th>Significado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Efecto inicial</td>
+<td>El choque ingresado</td>
+</tr>
+<tr class="even">
+<td>Directo (nacional / internacional / total)</td>
+<td>Compras directas de insumos</td>
+</tr>
+<tr class="odd">
+<td>Indirecto (nacional / internacional / total)</td>
+<td>Rondas sucesivas de la cadena</td>
+</tr>
+<tr class="even">
+<td>Inducido</td>
+<td>Por el consumo de los nuevos ingresos de los hogares</td>
+</tr>
+<tr class="odd">
+<td><strong>Total</strong></td>
+<td>Suma de todos los canales</td>
+</tr>
+<tr class="even">
+<td>% Nac. / % Intl. / % Inducido</td>
+<td>Participación de cada canal</td>
+</tr>
+<tr class="odd">
+<td>Δ/PIB o Δ/Emp. base</td>
+<td>El resultado como proporción de la base</td>
+</tr>
+<tr class="even">
+<td>Retención local</td>
+<td>Porcentaje del impacto que queda en Paraguay</td>
+</tr>
+</tbody>
+</table>
+<p>La <strong>retención local</strong> es especialmente útil: un estímulo grande en un sector con alto contenido importado deja menos en el país de lo que sugiere la cifra bruta.</p>
 </section>
-<section id="cuándo-no" class="level2">
-<h2 class="anchored" data-anchor-id="cuándo-no">Cuándo no</h2>
-<p>Para el análisis sectorial. Los agregados esconden justamente lo interesante: qué sectores se activan y por qué. Para eso están las hojas de detalle.</p>
+<section id="calidad-del-empleo-generado" class="level3">
+<h3 class="anchored" data-anchor-id="calidad-del-empleo-generado">Calidad del empleo generado</h3>
+<p>El empleo del escenario abierto por sexo, nivel educativo, condición de formalidad y área. Es la base de la lectura de trabajo decente: no solo cuántos empleos, sino a quién llegan y de qué calidad son.</p>
+</section>
+<section id="rankings-sectoriales" class="level3">
+<h3 class="anchored" data-anchor-id="rankings-sectoriales">Rankings sectoriales</h3>
+<p>Cuatro tablas ordenan los sectores por su contribución:</p>
+<ul>
+<li><strong>Top 5 — ΔProducción</strong> y <strong>Top 5 — ΔEmpleo</strong>: los cinco de mayor aumento</li>
+<li><strong>Peores 5</strong>: los de menor aumento, o mayor caída en choques negativos</li>
+</ul>
+<p>Cada ranking muestra el efecto total del sector, su descomposición en directo e indirecto, su participación en el efecto total, el efecto como proporción de la base sectorial y, para el empleo, los empleos por millón de dólares.</p>
+</section>
+</section>
+<section id="cuándo-no-usarlo" class="level2">
+<h2 class="anchored" data-anchor-id="cuándo-no-usarlo">Cuándo no usarlo</h2>
+<p>Para el análisis sectorial fino. Los agregados esconden justamente lo interesante: qué sectores se activan y por qué. Para eso están las hojas de detalle.</p>
 
 
 </section>

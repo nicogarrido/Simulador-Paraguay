@@ -1,0 +1,71 @@
+---
+title: "Anexos"
+subtitle: "Sectores y regiones"
+---
+
+## Los 21 sectores
+
+| Código | Sector |
+|---|---|
+| AGR | Agricultura, ganadería, caza y pesca |
+| MNE | Minería |
+| ALI | Alimentos, bebidas y tabacos |
+| TEX | Textiles, confecciones y calzado |
+| MAD | Madera, papel y cartón |
+| QUI | Química, farmacia y caucho |
+| MNM | Minerales no metálicos |
+| HIE | Hierro y acero |
+| MET | Productos de metal |
+| MAQ | Maquinaria, equipo y vehículos |
+| OMF | Otras manufacturas y reparación |
+| EGA | Electricidad, gas, y agua |
+| CON | Construcción |
+| COM | Comercio al por mayor y menor |
+| TRA | Transporte |
+| TUR | Turismo (aloj., alimentación y recreación) |
+| TIC | Telecomunicaciones, edición y servicios de info. |
+| FIN | Finanzas y seguros |
+| INM | Servicios inmobiliarios |
+| SEM | Servicios a las empresas |
+| OTS | Otros servicios |
+
+La correspondencia con las clasificaciones de origen —la matriz de 33 sectores y
+las ocho ramas de la encuesta de hogares— está en las tablas de concordancia del
+repositorio.
+
+## Las 10 regiones del módulo internacional
+
+El agrupamiento responde a la intensidad del intercambio comercial de Paraguay:
+se distinguen individualmente los socios de mayor peso y se agrupan los demás en
+bloques regionales.
+
+| Código | Región | Participación en el comercio |
+|---|---|---|
+| BRA | Brasil | 22,1% |
+| ROW | Resto del mundo | 18,6% |
+| UE27 | Unión Europea (27) | 13,7% |
+| CHN | China | 12,0% |
+| USA | Estados Unidos | 11,7% |
+| ARG | Argentina | 9,5% |
+| ASIA | Asia-Pacífico | 5,3% |
+| LAC | América Latina (resto) | 4,1% |
+| MCS | Mercosur (resto) | 2,1% |
+| GBR | Reino Unido | 0,9% |
+
+::: {.callout-note}
+## Sobre estas participaciones
+Corresponden a la composición representativa del comercio por región en la
+matriz FIGARO. Pueden reemplazarse por las series oficiales de comercio exterior
+de Paraguay si se dispone de ellas.
+
+Paraguay no figura como región editable: el panel mide cómo la demanda del resto
+del mundo afecta a la economía paraguaya.
+:::
+
+::: {.callout-warning}
+## Advertencia metodológica
+Solo cuatro sectores —agricultura, silvicultura, minería y alimentos— tienen su
+propia composición regional en FIGARO. El resto usa una composición promedio,
+de modo que la distribución por región de esos sectores debe leerse como
+indicativa, no exacta.
+:::

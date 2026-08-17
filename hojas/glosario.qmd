@@ -1,0 +1,51 @@
+---
+title: "Glosario"
+---
+
+**MIP.** Matriz Insumo-Producto. Registra las compras y ventas entre sectores de
+la economía.
+
+**Inversa de Leontief.** Matriz que traduce un cambio en la demanda final en el
+total de producción necesario para satisfacerlo, incluyendo todas las rondas de
+la cadena. Se escribe $L = (I - A)^{-1}$.
+
+**Coeficiente técnico.** Cantidad de insumo de un sector requerida por unidad de
+producción de otro.
+
+**Multiplicador.** Cuántas unidades de producción o empleo totales se generan
+por cada unidad de estímulo.
+
+**Efecto inicial.** El propio choque de demanda que se ingresa.
+
+**Efecto directo.** Los insumos que el sector estimulado compra a sus
+proveedores inmediatos.
+
+**Efecto indirecto.** Las rondas sucesivas de compras a lo largo de toda la
+cadena de suministro.
+
+**Efecto inducido.** Producción y empleo adicionales que aparecen cuando los
+hogares gastan los nuevos ingresos generados.
+
+**Encadenamientos de Rasmussen-Hirschman.** Índices que miden el arrastre de un
+sector hacia atrás, sobre sus proveedores, y hacia adelante, sobre quienes lo
+demandan como insumo.
+
+**MRIO.** Matriz insumo-producto multirregional. Extiende el análisis a las
+cadenas internacionales.
+
+**Retención de valor.** Proporción del valor de la producción que queda en el
+país como valor agregado doméstico. Su contracara es el contenido importado.
+
+**VAX.** Proporción de valor agregado doméstico contenida en las exportaciones.
+En Paraguay 2024 es de 0,842.
+
+**Remuneraciones.** Sueldos y salarios más contribuciones sociales. Es el costo
+laboral de la empresa, no el ingreso disponible del hogar.
+
+**Ingreso mixto.** Retribución de trabajadores por cuenta propia y familiares no
+remunerados, donde no se distingue entre trabajo y capital.
+
+**Ingreso laboral de los hogares.** Sueldos y salarios más ingreso mixto.
+
+**Estática comparativa.** Método que compara dos situaciones —con y sin el
+choque— sin describir la trayectoria temporal entre ambas.

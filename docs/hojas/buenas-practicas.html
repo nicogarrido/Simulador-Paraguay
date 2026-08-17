@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sección 1 · La estructura del simulador – Simulador MIP Paraguay</title>
+<title>Buenas prácticas y advertencias – Simulador MIP Paraguay</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -130,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../taller/index.html">Taller</a></li><li class="breadcrumb-item"><a href="../taller/seccion-1-estructura.html">Sección 1 · La estructura del simulador</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../hojas/index.html">Las hojas del simulador</a></li><li class="breadcrumb-item"><a href="../hojas/buenas-practicas.html">Referencia</a></li><li class="breadcrumb-item"><a href="../hojas/buenas-practicas.html">Buenas prácticas y advertencias</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../taller/seccion-1-estructura.html" class="sidebar-item-text sidebar-link active">
+  <a href="../taller/seccion-1-estructura.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sección 1 · La estructura del simulador</span></a>
   </div>
 </li>
@@ -334,16 +334,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
  <span class="menu-text">Referencia</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../hojas/buenas-practicas.html" class="sidebar-item-text sidebar-link">
+  <a href="../hojas/buenas-practicas.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Buenas prácticas y advertencias</span></a>
   </div>
 </li>
@@ -379,23 +379,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#objetivo" id="toc-objetivo" class="nav-link active" data-scroll-target="#objetivo">Objetivo</a></li>
-  <li><a href="#las-cuatro-capas" id="toc-las-cuatro-capas" class="nav-link" data-scroll-target="#las-cuatro-capas">Las cuatro capas</a></li>
-  <li><a href="#los-cuatro-conceptos-que-organizan-todo" id="toc-los-cuatro-conceptos-que-organizan-todo" class="nav-link" data-scroll-target="#los-cuatro-conceptos-que-organizan-todo">Los cuatro conceptos que organizan todo</a></li>
-  <li><a href="#los-tres-modos-de-uso" id="toc-los-tres-modos-de-uso" class="nav-link" data-scroll-target="#los-tres-modos-de-uso">Los tres modos de uso</a></li>
-  <li><a href="#recorrido-propuesto" id="toc-recorrido-propuesto" class="nav-link" data-scroll-target="#recorrido-propuesto">Recorrido propuesto</a></li>
+  <li><a href="#al-operar-el-simulador" id="toc-al-operar-el-simulador" class="nav-link active" data-scroll-target="#al-operar-el-simulador">Al operar el simulador</a></li>
+  <li><a href="#al-interpretar-los-resultados" id="toc-al-interpretar-los-resultados" class="nav-link" data-scroll-target="#al-interpretar-los-resultados">Al interpretar los resultados</a></li>
+  <li><a href="#al-comunicar-los-resultados" id="toc-al-comunicar-los-resultados" class="nav-link" data-scroll-target="#al-comunicar-los-resultados">Al comunicar los resultados</a></li>
   <li><a href="#los-supuestos-del-modelo" id="toc-los-supuestos-del-modelo" class="nav-link" data-scroll-target="#los-supuestos-del-modelo">Los supuestos del modelo</a></li>
-  <li><a href="#material-de-apoyo" id="toc-material-de-apoyo" class="nav-link" data-scroll-target="#material-de-apoyo">Material de apoyo</a></li>
-  <li><a href="#notas-para-el-desarrollo" id="toc-notas-para-el-desarrollo" class="nav-link" data-scroll-target="#notas-para-el-desarrollo">Notas para el desarrollo</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../taller/index.html">Taller</a></li><li class="breadcrumb-item"><a href="../taller/seccion-1-estructura.html">Sección 1 · La estructura del simulador</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../hojas/index.html">Las hojas del simulador</a></li><li class="breadcrumb-item"><a href="../hojas/buenas-practicas.html">Referencia</a></li><li class="breadcrumb-item"><a href="../hojas/buenas-practicas.html">Buenas prácticas y advertencias</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Sección 1 · La estructura del simulador</h1>
+<h1 class="title">Buenas prácticas y advertencias</h1>
 </div>
 
 
@@ -412,67 +408,49 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Presentación del simulador por dentro: qué hay en cada hoja, cómo se conectan y qué lógica sigue el cálculo.</p>
-<section id="objetivo" class="level2">
-<h2 class="anchored" data-anchor-id="objetivo">Objetivo</h2>
-<p>Que al terminar quede claro dónde está cada cosa y por qué. El resto del taller supone este mapa.</p>
+<section id="al-operar-el-simulador" class="level2">
+<h2 class="anchored" data-anchor-id="al-operar-el-simulador">Al operar el simulador</h2>
+<ul>
+<li>Editar <strong>únicamente las celdas resaltadas</strong> de las hojas de entrada. Las matrices y las fórmulas son el motor del modelo y no deben modificarse.</li>
+<li>Trabajar siempre sobre una <strong>copia</strong> del archivo original, para conservar una versión limpia de referencia.</li>
+<li>Para volver a la situación inicial, usar el botón <strong>Reiniciar Escenarios</strong> o dejar todos los estímulos en cero.</li>
+<li><strong>Guardar cada ejercicio con un nombre distinto</strong> si se quieren conservar los resultados.</li>
+<li>Dimensionar los estímulos con la columna de porcentaje del PIB sectorial, para evitar choques desproporcionados respecto del tamaño real del sector.</li>
+</ul>
 </section>
-<section id="las-cuatro-capas" class="level2">
-<h2 class="anchored" data-anchor-id="las-cuatro-capas">Las cuatro capas</h2>
-<p>El libro tiene diecisiete hojas que se organizan en cuatro capas. Distinguirlas evita la confusión más frecuente: leer como resultado de un escenario algo que en realidad describe la economía de 2024.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Capa</th>
-<th>Hojas</th>
-<th>¿Cambian con el escenario?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Entradas</td>
-<td>Estímulos Nacionales e Internacionales</td>
-<td>Se editan</td>
-</tr>
-<tr class="even">
-<td>Resultados</td>
-<td>Producción, PIB, Empleo, Ingreso Laboral, Resumen</td>
-<td>Sí</td>
-</tr>
-<tr class="odd">
-<td>Análisis estructural</td>
-<td>Encadenamientos, Empleo Exportador, Inserción Internacional</td>
-<td>No</td>
-</tr>
-<tr class="even">
-<td>Datos</td>
-<td>Matrices Nacionales, Información Empleo, MRIO, VAX, Parámetros</td>
-<td>No</td>
-</tr>
-</tbody>
-</table>
-<div class="callout callout-style-default callout-tip callout-titled">
+<section id="al-interpretar-los-resultados" class="level2">
+<h2 class="anchored" data-anchor-id="al-interpretar-los-resultados">Al interpretar los resultados</h2>
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>La regla práctica
+<span class="screen-reader-only">Importante</span>Estática comparativa
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si una hoja cambia al cargar un estímulo, es de resultados. Si no cambia, describe la economía tal como es.</p>
+<p>Los resultados comparan una situación <strong>con y sin</strong> el choque. No describen una trayectoria en el tiempo ni indican cuánto tardaría en materializarse el efecto.</p>
 </div>
 </div>
+<ul>
+<li>Los coeficientes técnicos y de empleo son <strong>fijos</strong>. El modelo supone que la estructura productiva no cambia ante el estímulo.</li>
+<li>Las desagregaciones de empleo reflejan la estructura actual de cada sector.</li>
+<li>El modelo <strong>contabiliza requerimientos, no predice</strong>. Informa qué producción y qué empleo harían falta para sostener un nivel de demanda, no qué va a ocurrir.</li>
+</ul>
 </section>
-<section id="los-cuatro-conceptos-que-organizan-todo" class="level2">
-<h2 class="anchored" data-anchor-id="los-cuatro-conceptos-que-organizan-todo">Los cuatro conceptos que organizan todo</h2>
-<p>Antes de operar el simulador conviene fijar estas cuatro ideas, porque son las que estructuran cada hoja de resultados.</p>
+<section id="al-comunicar-los-resultados" class="level2">
+<h2 class="anchored" data-anchor-id="al-comunicar-los-resultados">Al comunicar los resultados</h2>
+<ul>
+<li><strong>Reportar el escenario junto con el resultado.</strong> Un número sin el supuesto que lo genera no significa nada.</li>
+<li><strong>Separar el efecto inducido</strong> y explicitar su supuesto: que los hogares gastan los nuevos ingresos con la misma estructura de consumo que hoy.</li>
+<li><strong>Señalar las limitaciones pertinentes</strong> a ese resultado en particular, no una lista genérica al pie.</li>
+<li>Al comparar perfiles de empleo entre sectores, verificar que pertenezcan a ramas distintas de la encuesta de hogares. Si comparten rama, la comparación no aporta información.</li>
+</ul>
+</section>
+<section id="los-supuestos-del-modelo" class="level2">
+<h2 class="anchored" data-anchor-id="los-supuestos-del-modelo">Los supuestos del modelo</h2>
+<p>Conviene tenerlos presentes porque condicionan toda lectura:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -480,70 +458,29 @@ ul.task-list li input[type="checkbox"] {
 </colgroup>
 <thead>
 <tr class="header">
-<th>Concepto</th>
-<th>Qué es</th>
+<th>Supuesto</th>
+<th>Implicancia</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Efecto inicial</strong></td>
-<td>El propio choque de demanda que se ingresa</td>
+<td>Coeficientes técnicos fijos</td>
+<td>No hay sustitución de insumos ni cambio técnico</td>
 </tr>
 <tr class="even">
-<td><strong>Efecto directo</strong></td>
-<td>Los insumos que el sector estimulado compra a sus proveedores inmediatos</td>
+<td>Sin restricciones de capacidad</td>
+<td>La oferta se ajusta sin cuellos de botella</td>
 </tr>
 <tr class="odd">
-<td><strong>Efecto indirecto</strong></td>
-<td>Las rondas sucesivas de compras a lo largo de toda la cadena</td>
+<td>Precios relativos constantes</td>
+<td>No hay respuesta de precios al aumento de demanda</td>
 </tr>
 <tr class="even">
-<td><strong>Efecto inducido</strong></td>
-<td>Lo que aparece cuando los hogares gastan los nuevos ingresos generados</td>
+<td>Rendimientos constantes a escala</td>
+<td>El costo unitario no varía con el volumen</td>
 </tr>
 </tbody>
 </table>
-<p>Además, cada efecto se separa en un componente <strong>nacional</strong> —dentro de Paraguay— y uno <strong>internacional</strong>, a través de las cadenas con el resto del mundo.</p>
-<p>Los resultados centrales comparten esta misma estructura de lectura, de modo que una vez entendida sirve para las cuatro hojas.</p>
-</section>
-<section id="los-tres-modos-de-uso" class="level2">
-<h2 class="anchored" data-anchor-id="los-tres-modos-de-uso">Los tres modos de uso</h2>
-<p>El simulador admite tres formas de trabajo, descritas en detalle en <a href="../hojas/modos-de-uso.html">Los tres modos de uso</a>:</p>
-<ol type="1">
-<li><strong>Impacto nacional</strong> — un choque de demanda interna</li>
-<li><strong>Impacto comparado</strong> — dos escenarios lado a lado</li>
-<li><strong>Impacto internacional</strong> — cambios en la demanda de los socios comerciales</li>
-</ol>
-</section>
-<section id="recorrido-propuesto" class="level2">
-<h2 class="anchored" data-anchor-id="recorrido-propuesto">Recorrido propuesto</h2>
-<p><em>[Ajustar el orden y los tiempos según la duración de la sesión.]</em></p>
-<ol type="1">
-<li><strong>De dónde salen los datos.</strong> Las fuentes y su año de referencia.</li>
-<li><strong>La capa de datos.</strong> Matrices Nacionales: Z, A, L y el bloque de valor agregado. Verificar una identidad contable en vivo.</li>
-<li><strong>La capa de entradas.</strong> Los dos modos de trabajo y la diferencia de unidades entre la hoja nacional y la internacional.</li>
-<li><strong>La capa de resultados.</strong> La estructura de columnas compartida y los tres efectos.</li>
-<li><strong>La capa estructural.</strong> Qué preguntas responde y por qué no depende del escenario.</li>
-</ol>
-</section>
-<section id="los-supuestos-del-modelo" class="level2">
-<h2 class="anchored" data-anchor-id="los-supuestos-del-modelo">Los supuestos del modelo</h2>
-<p>Conviene plantearlos en esta sección y no más adelante, porque condicionan toda lectura posterior. El modelo supone coeficientes técnicos fijos, ausencia de restricciones de capacidad, precios relativos constantes y rendimientos constantes a escala.</p>
-<p>En consecuencia, los resultados son <strong>el requerimiento de producción y empleo asociado a un nivel de demanda</strong>, no una predicción. El modelo contabiliza, no anticipa.</p>
-</section>
-<section id="material-de-apoyo" class="level2">
-<h2 class="anchored" data-anchor-id="material-de-apoyo">Material de apoyo</h2>
-<ul>
-<li><a href="../hojas/index.html">Las hojas del simulador</a> — una página por hoja</li>
-<li><a href="../hojas/modos-de-uso.html">Los tres modos de uso</a></li>
-<li><a href="../hojas/buenas-practicas.html">Buenas prácticas y advertencias</a></li>
-<li><a href="../hojas/anexos.html">Anexos</a> — sectores y regiones</li>
-<li><a href="../hojas/glosario.html">Glosario</a></li>
-</ul>
-</section>
-<section id="notas-para-el-desarrollo" class="level2">
-<h2 class="anchored" data-anchor-id="notas-para-el-desarrollo">Notas para el desarrollo</h2>
-<p><em>[Espacio para el contenido detallado de la sesión: qué mostrar en pantalla, qué verificar en vivo, qué preguntas plantear.]</em></p>
 
 
 </section>

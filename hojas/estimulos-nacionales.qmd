@@ -6,28 +6,42 @@ subtitle: "Capa de entradas"
 Es el punto de partida de cualquier simulación interna. Acá se define **cuánto
 cambia la demanda final** de cada sector.
 
-## Qué se carga
+## Los elementos de la hoja
 
-Una fila por sector, veintiuna en total. El valor se expresa en **millones de
-dólares**: si se quiere simular una inversión de 100 millones en construcción,
-se escribe `100` en esa fila.
+| Elemento | Función |
+|---|---|
+| **Sector** | Los veintiún sectores de la economía |
+| **PIB (MUSD)** | El PIB de referencia de cada sector, para dimensionar el estímulo |
+| **Escenario Base** | El bloque izquierdo, con las tres columnas descritas abajo |
+| **Escenario Alternativo** | Réplica del anterior, para el modo comparado |
+| **Botón Reiniciar Escenarios** | Borra todo lo cargado y devuelve la hoja a cero |
+| **Fila Total** | Suma el PIB de referencia de la economía y los estímulos ingresados |
 
-::: {.callout-important}
-## Unidades
-Esta hoja trabaja en montos absolutos, no en porcentajes. Es distinto de
-Estímulos Internacionales, que usa fracción decimal.
+Dentro de cada bloque de escenario hay tres columnas:
+
+- **MUSD** — la celda editable, donde se ingresa el estímulo en millones de dólares
+- **Guaraníes (millones)** — la conversión automática con el tipo de cambio
+- **% PIB Sector** — el estímulo como proporción del PIB de ese sector
+
+::: {.callout-tip}
+## Cómo reconocer lo editable
+Las celdas celestes son las únicas editables. El borde verde señala la celda
+activa. Todo lo demás es motor del modelo.
 :::
 
-## Los dos modos de trabajo
+## Unidades
 
-**Escenario único.** Se carga un vector de estímulo y las hojas de resultados
-muestran los efectos de ese escenario.
+::: {.callout-important}
+Esta hoja trabaja en **montos absolutos** en millones de dólares. Es distinto de
+Estímulos Internacionales, que usa índices o fracción decimal según el modo.
+:::
 
-**Comparación de proyectos.** Se cargan dos vectores y el simulador reporta la
-**diferencia** entre ambos. Sirve para comparar alternativas de inversión.
+## Para qué sirve la columna de porcentaje
 
-El título de las hojas de resultados cambia según el modo activo. Si dice
-*"Diferencias entre los proyectos"*, estás en modo comparación.
+Permite dimensionar el choque. Un estímulo de 100 millones significa cosas muy
+distintas según el sector: puede ser marginal en comercio y desproporcionado en
+minería. La columna **% PIB Sector** hace visible esa diferencia antes de correr
+la simulación.
 
 ## Qué mira el modelo
 
@@ -42,10 +56,15 @@ Todo lo demás se deriva de ahí.
 ## Errores frecuentes
 
 - **Cargar en el sector equivocado.** Los veintiún sectores agrupan actividades
-  heterogéneas. Conviene revisar la concordancia antes de decidir dónde va el
-  estímulo.
+  heterogéneas. Conviene revisar los [anexos](anexos.qmd) antes de decidir.
 - **Confundir demanda final con producción.** El estímulo es un aumento de
-  demanda final: consumo, inversión o exportación. No es un aumento de
-  producción, que es lo que el modelo calcula como resultado.
-- **Olvidar limpiar el escenario anterior.** Si quedaron valores de una
-  simulación previa, los resultados mezclan ambos.
+  demanda final —consumo, inversión o exportación—, no de producción. La
+  producción es lo que el modelo calcula como resultado.
+- **Olvidar limpiar el escenario anterior.** Usar el botón Reiniciar entre
+  ejercicios.
+- **Cargar montos desproporcionados** sin mirar la columna de porcentaje.
+
+## Ver también
+
+- [Los tres modos de uso](modos-de-uso.qmd)
+- [Buenas prácticas](buenas-practicas.qmd)

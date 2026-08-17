@@ -60,10 +60,19 @@ El motor del modelo. No se editan salvo que se actualice la matriz.
 | [VAX FVA source](vax-fva-source.qmd) | Composición importada y exportaciones por destino |
 | [Parámetros](parametros.qmd) | Tipo de cambio y PIB de referencia |
 
-## Las dos hojas restantes
+### Documentación
 
-**Info** y **Créditos** contienen la presentación del simulador y la autoría. No
-intervienen en ningún cálculo.
+**Info** y **Créditos** contienen la guía rápida de uso, los créditos y las
+fuentes. No intervienen en ningún cálculo.
+
+## Páginas transversales
+
+Además de la descripción hoja por hoja, esta sección incluye:
+
+- [Los tres modos de uso](modos-de-uso.qmd) — cómo se opera el simulador
+- [Buenas prácticas y advertencias](buenas-practicas.qmd) — qué hacer y qué evitar
+- [Anexos](anexos.qmd) — los 21 sectores y las 10 regiones
+- [Glosario](glosario.qmd) — los términos del modelo
 
 ## Cómo usar esta sección
 

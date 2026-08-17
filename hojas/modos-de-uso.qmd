@@ -1,0 +1,86 @@
+---
+title: "Los tres modos de uso"
+subtitle: "Cómo se opera el simulador"
+---
+
+El simulador admite tres modos de trabajo. Los tres alimentan las mismas hojas
+de resultados; lo que cambia es qué se carga y con qué propósito.
+
+## Modo 1 · Impacto nacional
+
+Evalúa el efecto de un cambio en la demanda final doméstica.
+
+1. Abrir la hoja **Estímulos Nacionales**.
+2. Ubicar el sector y escribir el monto en la columna **MUSD**, en millones de
+   dólares. La hoja lo convierte sola a guaraníes y calcula qué porcentaje
+   representa sobre el PIB de ese sector.
+3. Se pueden cargar varios sectores a la vez; el total aparece al pie.
+4. Consultar Producción, PIB, Empleo e Ingreso Laboral, y la síntesis en el
+   Resumen Ejecutivo.
+
+::: {.callout-tip}
+## Para dimensionar el choque
+La columna **% PIB Sector** expresa el estímulo como proporción del sector.
+Sirve para no cargar montos desproporcionados respecto del tamaño real de la
+actividad.
+:::
+
+## Modo 2 · Impacto comparado
+
+Contrasta dos escenarios sobre las mismas variables. Es el modo indicado para
+comparar diseños de política del mismo monto.
+
+1. Cargar el **escenario base** en la columna MUSD del bloque izquierdo.
+2. Cargar el **escenario alternativo** en la columna MUSD del bloque derecho.
+3. Comparar en el Resumen Ejecutivo, que los muestra lado a lado.
+
+Las hojas de resultados cambian su título cuando este modo está activo: si dice
+*"Diferencias entre los proyectos"*, se está viendo la comparación y no un
+escenario único.
+
+## Modo 3 · Impacto internacional
+
+Evalúa el efecto sobre Paraguay de cambios en la demanda de otras regiones.
+
+::: {.callout-note}
+Paraguay es **receptor** de los impactos: no figura como región editable en el
+panel externo. El objetivo es medir cómo la demanda del resto del mundo afecta
+a la economía paraguaya.
+:::
+
+### Modo A · shock uniforme por región
+
+Se fija un shock por región, igual para todos sus sectores. Se ingresa como
+**índice**:
+
+| Valor | Significa |
+|---|---|
+| 100 | Sin cambio |
+| 110 | Aumento del 10% |
+| 90 | Caída del 10% |
+
+Se puede escribir el número o usar las flechas ▲▼.
+
+### Modo B · shock diferenciado por sector
+
+Una matriz de veintiún sectores por diez regiones. Cada celda **hereda** por
+defecto el shock de su región, y se sobrescriben solo las que se quieran
+diferenciar.
+
+Es el modo indicado para representar un acuerdo comercial que afecta más a unos
+sectores que a otros.
+
+::: {.callout-warning}
+## Cuidado con las unidades al sobrescribir
+Las celdas del Modo B contienen **fracción decimal**, no índice. Si se
+sobrescribe una a mano para un 10%, va **`0,10`** — no `110` ni `10`.
+
+Escribir `10` genera un shock del 1.000%. Los resultados salen enormes y suele
+costar advertir de dónde viene el problema.
+:::
+
+## Volver a cero
+
+Ambas hojas de estímulos tienen un botón **Reiniciar Escenarios** que borra todo
+lo cargado. Conviene usarlo entre simulación y simulación: si quedan valores de
+un ejercicio anterior, los resultados mezclan ambos.

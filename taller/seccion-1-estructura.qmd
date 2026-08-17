@@ -29,6 +29,34 @@ Si una hoja cambia al cargar un estímulo, es de resultados. Si no cambia,
 describe la economía tal como es.
 :::
 
+## Los cuatro conceptos que organizan todo
+
+Antes de operar el simulador conviene fijar estas cuatro ideas, porque son las
+que estructuran cada hoja de resultados.
+
+| Concepto | Qué es |
+|---|---|
+| **Efecto inicial** | El propio choque de demanda que se ingresa |
+| **Efecto directo** | Los insumos que el sector estimulado compra a sus proveedores inmediatos |
+| **Efecto indirecto** | Las rondas sucesivas de compras a lo largo de toda la cadena |
+| **Efecto inducido** | Lo que aparece cuando los hogares gastan los nuevos ingresos generados |
+
+Además, cada efecto se separa en un componente **nacional** —dentro de
+Paraguay— y uno **internacional**, a través de las cadenas con el resto del
+mundo.
+
+Los resultados centrales comparten esta misma estructura de lectura, de modo que
+una vez entendida sirve para las cuatro hojas.
+
+## Los tres modos de uso
+
+El simulador admite tres formas de trabajo, descritas en detalle en
+[Los tres modos de uso](../hojas/modos-de-uso.qmd):
+
+1. **Impacto nacional** — un choque de demanda interna
+2. **Impacto comparado** — dos escenarios lado a lado
+3. **Impacto internacional** — cambios en la demanda de los socios comerciales
+
 ## Recorrido propuesto
 
 *[Ajustar el orden y los tiempos según la duración de la sesión.]*
@@ -56,7 +84,11 @@ anticipa.
 
 ## Material de apoyo
 
-- [Las hojas del simulador](../hojas/index.qmd), con una página por hoja.
+- [Las hojas del simulador](../hojas/index.qmd) — una página por hoja
+- [Los tres modos de uso](../hojas/modos-de-uso.qmd)
+- [Buenas prácticas y advertencias](../hojas/buenas-practicas.qmd)
+- [Anexos](../hojas/anexos.qmd) — sectores y regiones
+- [Glosario](../hojas/glosario.qmd)
 
 ## Notas para el desarrollo
 

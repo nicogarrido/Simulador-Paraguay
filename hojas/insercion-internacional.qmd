@@ -3,41 +3,71 @@ title: "Inserción Internacional"
 subtitle: "Capa de análisis estructural"
 ---
 
-Muestra cuánto valor retiene Paraguay de lo que produce y de dónde vienen los
-insumos importados que utiliza.
+Describe cómo Paraguay se conecta con el resto del mundo: cuánto valor retiene
+de lo que produce y de dónde vienen los insumos que utiliza.
 
 ::: {.callout-note}
-No cambia con el escenario.
+No depende del choque ingresado.
 :::
 
-## Retención de valor
+## Qué información contiene
 
-La proporción del valor bruto de producción que corresponde a valor agregado
-doméstico. Un sector con retención baja produce mucho pero deja poco en el país,
-porque buena parte de su producción es insumo importado que solo pasa.
+**Retención de valor.** La proporción del valor de la producción que queda en
+Paraguay como valor agregado doméstico. Una retención alta significa poco
+contenido importado; una baja, que buena parte del valor se va en insumos del
+exterior.
 
-## Contenido importado por origen
+**Contenido importado total.** La contracara de la retención.
 
-Desagrega los insumos importados de cada sector según la región de procedencia:
-Argentina, Brasil, Estados Unidos, China, Unión Europea, Reino Unido y las demás.
+**Empleo por cada millón de dólares.** La intensidad de empleo del sector.
 
-Sirve para identificar dependencias: si un sector concentra su abastecimiento en
-una sola región, una disrupción allí lo afecta de manera desproporcionada.
+**Tipo de encadenamiento.** Referencia cruzada con la hoja de
+[Encadenamientos Internos](encadenamientos-internos.qmd).
+
+**Composición del comercio por región.** Con qué regiones se vincula cada sector
+y cuál es su origen principal.
+
+**Lectura de semáforo.** Una clasificación cualitativa —alta retención, media, o
+baja y ensambladora— que compara la retención de cada sector con el valor de
+referencia fijado en el encabezado de la hoja.
+
+## Cómo se usa
+
+**Como diagnóstico de posicionamiento.** Distinguir los sectores que retienen
+valor, donde el impulso se queda en el país, de los sectores ensambladores con
+alto contenido importado, donde parte del impulso se filtra al exterior.
+
+**Antes de un choque internacional.** Identificar qué regiones y sectores son
+relevantes. Para el acuerdo UE–Mercosur, por ejemplo, los sectores con vínculo
+fuerte con la Unión Europea.
+
+**Para matizar una simulación.** Un gran aumento exportador en un sector de baja
+retención genera menos valor y empleo doméstico neto del que sugiere la cifra
+bruta, porque buena parte se va en insumos importados.
+
+**Con el semáforo.** Priorizar políticas de contenido local o de escalamiento en
+cadenas allí donde la retención sea baja.
 
 ## El VAX
 
-Relacionado pero distinto: es la proporción de valor agregado doméstico
-contenida en las **exportaciones**. En Paraguay 2024 es de **0,842**, es decir
-que por cada dólar exportado 84,2 centavos son valor agregado nacional.
+Relacionado pero distinto: es la proporción de valor agregado doméstico contenida
+en las **exportaciones**. En Paraguay 2024 es de **0,842**, es decir que por cada
+dólar exportado 84,2 centavos son valor agregado nacional.
 
 Es un valor alto, coherente con una canasta exportadora concentrada en productos
 primarios y energía, que incorporan poco insumo importado.
 
-## Una advertencia sobre la fuente
+::: {.callout-warning}
+## Advertencia metodológica
+Solo cuatro sectores —agricultura, silvicultura, minería y alimentos— tienen su
+propia composición regional en la matriz FIGARO. El resto usa una composición
+promedio, por lo que la distribución por región de esos sectores debe leerse
+como **indicativa, no exacta**.
 
-Los pesos de composición importada provienen de FIGARO 2018. Es apropiado para
-representar la **tecnología** de producción, que cambia lentamente. No es
-apropiado para estimar el destino de las exportaciones paraguayas: esa base
+FIGARO es apropiada para representar la **tecnología** de producción, que cambia
+lentamente. No lo es para estimar el destino de las exportaciones paraguayas:
 sobreestima el mercado europeo en un factor de cuatro y omite las exportaciones
 de electricidad. Por eso el reparto por destino de
-[Empleo Exportador](empleo-exportador.qmd) se construyó con otras fuentes.
+[Empleo Exportador](empleo-exportador.qmd) se construyó con estadísticas del
+Banco Central y de Eurostat.
+:::

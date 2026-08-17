@@ -192,6 +192,12 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/modos-de-uso.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Los tres modos de uso</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
@@ -326,6 +332,35 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">Referencia</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/buenas-practicas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Buenas prácticas y advertencias</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/anexos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Anexos</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hojas/glosario.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glosario</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -344,9 +379,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#las-dos-direcciones" id="toc-las-dos-direcciones" class="nav-link active" data-scroll-target="#las-dos-direcciones">Las dos direcciones</a></li>
-  <li><a href="#la-clasificación-de-rasmussen-hirschman" id="toc-la-clasificación-de-rasmussen-hirschman" class="nav-link" data-scroll-target="#la-clasificación-de-rasmussen-hirschman">La clasificación de Rasmussen-Hirschman</a></li>
-  <li><a href="#la-columna-de-empleo" id="toc-la-columna-de-empleo" class="nav-link" data-scroll-target="#la-columna-de-empleo">La columna de empleo</a></li>
+  <li><a href="#qué-información-contiene" id="toc-qué-información-contiene" class="nav-link active" data-scroll-target="#qué-información-contiene">Qué información contiene</a></li>
+  <li><a href="#las-cuatro-categorías" id="toc-las-cuatro-categorías" class="nav-link" data-scroll-target="#las-cuatro-categorías">Las cuatro categorías</a></li>
+  <li><a href="#cómo-se-usa" id="toc-cómo-se-usa" class="nav-link" data-scroll-target="#cómo-se-usa">Cómo se usa</a></li>
   </ul>
 </nav>
     </div>
@@ -373,7 +408,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Mide la capacidad de arrastre de cada sector sobre el resto de la economía.</p>
+<p>Presenta los índices de Rasmussen-Hirschman calculados a partir de la inversa de Leontief. Es un mapa de la arquitectura productiva del país.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -384,49 +419,56 @@ Nota
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Esta hoja <strong>no cambia</strong> con el escenario. Describe la estructura productiva de 2024.</p>
+<p>No depende del choque ingresado. Sirve para elegir <strong>qué sectores conviene simular</strong> antes de correr nada.</p>
 </div>
 </div>
-<section id="las-dos-direcciones" class="level2">
-<h2 class="anchored" data-anchor-id="las-dos-direcciones">Las dos direcciones</h2>
-<p><strong>Hacia atrás.</strong> Cuánto arrastra un sector a sus proveedores. Se lee en las columnas de la inversa de Leontief: si estimulo este sector, ¿cuánta producción total se moviliza?</p>
-<p><strong>Hacia adelante.</strong> Cuánto depende el resto de la economía de lo que ese sector provee. Se calcula con la matriz de Ghosh.</p>
-<p>Un sector puede ser fuerte en una dimensión y débil en la otra. La construcción suele tener alto arrastre hacia atrás y bajo hacia adelante: compra mucho, pero casi nadie compra construcción como insumo.</p>
+<section id="qué-información-contiene" class="level2">
+<h2 class="anchored" data-anchor-id="qué-información-contiene">Qué información contiene</h2>
+<p><strong>Encadenamiento hacia atrás</strong> (poder de dispersión). Mide cuánto arrastra el sector a sus proveedores cuando crece su producción. Se obtiene sumando la columna del sector en la inversa de Leontief y normalizando por el promedio de la economía. Un valor mayor que 1 indica arrastre superior al promedio.</p>
+<p><strong>Encadenamiento hacia adelante</strong> (sensibilidad de dispersión). Mide cuánto lo requieren los demás sectores como proveedor de insumos. Es la suma de la fila del sector, normalizada de la misma forma.</p>
+<p><strong>Empleo por cada millón de dólares.</strong> La intensidad de empleo del sector.</p>
+<p><strong>Tipo de sector.</strong> Una clasificación automática que combina ambos índices.</p>
 </section>
-<section id="la-clasificación-de-rasmussen-hirschman" class="level2">
-<h2 class="anchored" data-anchor-id="la-clasificación-de-rasmussen-hirschman">La clasificación de Rasmussen-Hirschman</h2>
-<p>Comparando ambos encadenamientos contra el promedio surgen cuatro categorías:</p>
+<section id="las-cuatro-categorías" class="level2">
+<h2 class="anchored" data-anchor-id="las-cuatro-categorías">Las cuatro categorías</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th>Hacia adelante alto</th>
-<th>Hacia adelante bajo</th>
+<th>Tipo</th>
+<th>Qué significa</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Hacia atrás alto</strong></td>
-<td>Clave</td>
-<td>Impulsor</td>
+<td><strong>Clave</strong> (ambos &gt; 1)</td>
+<td>Difunde los impulsos en las dos direcciones: arrastra a proveedores y es requerido por otros</td>
 </tr>
 <tr class="even">
-<td><strong>Hacia atrás bajo</strong></td>
-<td>Base o estratégico</td>
-<td>Independiente</td>
+<td><strong>Dependiente sobre oferta</strong> (atrás &gt; 1)</td>
+<td>Fuerte demandante de insumos: al crecer, arrastra sobre todo a sus proveedores</td>
+</tr>
+<tr class="odd">
+<td><strong>Dependiente en demanda</strong> (adelante &gt; 1)</td>
+<td>Proveedor de muchos sectores: se activa cuando crece la demanda de otros</td>
+</tr>
+<tr class="even">
+<td><strong>Independiente</strong> (ambos &lt; 1)</td>
+<td>Poco integrado en la cadena; sus impulsos se difunden poco</td>
 </tr>
 </tbody>
 </table>
-<ul>
-<li><strong>Clave:</strong> arrastra y es arrastrado.</li>
-<li><strong>Impulsor:</strong> arrastra proveedores pero provee poco. Bueno para activar demanda.</li>
-<li><strong>Base:</strong> provee mucho a otros. Un cuello de botella acá frena al resto.</li>
-<li><strong>Independiente:</strong> poco conectado en ambas direcciones.</li>
-</ul>
+<p>La clasificación vigente se lee directamente en la hoja, sector por sector.</p>
 </section>
-<section id="la-columna-de-empleo" class="level2">
-<h2 class="anchored" data-anchor-id="la-columna-de-empleo">La columna de empleo</h2>
-<p>Muestra los ocupados por millón de dólares de producción de cada sector. Vale la pena cruzarla con la clasificación: un sector clave no necesariamente genera empleo, y la combinación relevante para política de empleo es alto encadenamiento <strong>y</strong> alta intensidad laboral.</p>
+<section id="cómo-se-usa" class="level2">
+<h2 class="anchored" data-anchor-id="cómo-se-usa">Cómo se usa</h2>
+<p><strong>Como diagnóstico estructural puro.</strong> Leer qué sectores vertebran la economía, sin necesidad de simular nada.</p>
+<p><strong>Para elegir dónde estimular.</strong> Los sectores clave difunden el impulso en ambas direcciones, con el mayor arrastre por dólar. Los dependientes sobre oferta generan mucho efecto aguas arriba, en sus proveedores.</p>
+<p><strong>Combinado con la intensidad de empleo.</strong> Un sector a la vez clave e intensivo en empleo es un dinamizador del empleo: concentrar allí el estímulo maximiza los puestos por dólar invertido.</p>
+<p><strong>Para interpretar una simulación.</strong> Explica por qué un choque tuvo grandes efectos indirectos —golpeó un sector muy encadenado— o por qué quedó contenido —un sector independiente—.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
