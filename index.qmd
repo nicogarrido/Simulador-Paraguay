@@ -52,7 +52,8 @@ trabajar sobre casos distintos.
 
 **[Las hojas del simulador](hojas/index.qmd)** documenta cada hoja del libro por
 separado: qué contiene, cómo se lee, de dónde salen los datos y qué errores
-conviene evitar. Sirve para consultar durante las sesiones y después.
+conviene evitar. Incluye también cómo se construyó la clasificación sectorial.
+Sirve para consultar durante las sesiones y después.
 
 ::: {.callout-tip}
 ## Si es la primera vez

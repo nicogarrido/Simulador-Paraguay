@@ -55,6 +55,7 @@ El motor del modelo. No se editan salvo que se actualice la matriz.
 | Hoja | Contenido |
 |---|---|
 | [Matrices Nacionales](matrices-nacionales.qmd) | Z, A, L, valor agregado, demanda final |
+| [Agregación sectorial](agregacion-sectorial.qmd) | Cómo se pasa de 33 a 21 sectores |
 | [Información Empleo](informacion-empleo.qmd) | Empleo por sector y coeficientes |
 | [MRIO](mrio.qmd) | Matrices internacionales |
 | [Exportaciones](exportaciones.qmd) | Matriz de exportaciones por sector y destino |

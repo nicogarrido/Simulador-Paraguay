@@ -1011,7 +1011,7 @@
     "href": "hojas/index.html#las-cuatro-capas",
     "title": "Las hojas del simulador",
     "section": "Las cuatro capas",
-    "text": "Las cuatro capas\n\n\n\n\n\n\nTipLa regla práctica\n\n\n\nSi una hoja cambia cuando cargás un estímulo, es de resultados. Si no cambia, es estructural o de datos. Las hojas estructurales describen la economía tal como es, no lo que pasaría.\n\n\n\nEntradas\nDonde se define el escenario. Nada se calcula acá.\n\n\n\nHoja\nQué se carga\n\n\n\n\nEstímulos Nacionales\nVariación de demanda final por sector, en MUSD\n\n\nEstímulos Internacionales\nVariación de demanda por región y sector, en porcentaje\n\n\n\n\n\nResultados\nDependen del escenario cargado. Las cuatro principales comparten estructura de columnas, de modo que se leen igual y se comparan celda a celda.\n\n\n\nHoja\nUnidad\n\n\n\n\nResumen Ejecutivo\nSíntesis\n\n\nProducción\nMUSD de valor bruto\n\n\nPIB\nMUSD de valor agregado\n\n\nEmpleo\nPersonas\n\n\nIngreso Laboral\nMUSD\n\n\n\n\n\nAnálisis estructural\nDescriben la economía de 2024. No cambian con el escenario.\n\n\n\nHoja\nQué muestra\n\n\n\n\nEncadenamientos Internos\nMultiplicadores y sectores clave\n\n\nEmpleo Exportador\nEmpleo asociado a exportaciones\n\n\nInserción Internacional\nRetención de valor y contenido importado\n\n\n\n\n\nDatos\nEl motor del modelo. No se editan salvo que se actualice la matriz.\n\n\n\nHoja\nContenido\n\n\n\n\nMatrices Nacionales\nZ, A, L, valor agregado, demanda final\n\n\nInformación Empleo\nEmpleo por sector y coeficientes\n\n\nMRIO\nMatrices internacionales\n\n\nExportaciones\nMatriz de exportaciones por sector y destino\n\n\nParámetros\nTipo de cambio y PIB de referencia\n\n\n\n\n\nDocumentación\nInfo y Créditos contienen la guía rápida de uso, los créditos y las fuentes. No intervienen en ningún cálculo.",
+    "text": "Las cuatro capas\n\n\n\n\n\n\nTipLa regla práctica\n\n\n\nSi una hoja cambia cuando cargás un estímulo, es de resultados. Si no cambia, es estructural o de datos. Las hojas estructurales describen la economía tal como es, no lo que pasaría.\n\n\n\nEntradas\nDonde se define el escenario. Nada se calcula acá.\n\n\n\nHoja\nQué se carga\n\n\n\n\nEstímulos Nacionales\nVariación de demanda final por sector, en MUSD\n\n\nEstímulos Internacionales\nVariación de demanda por región y sector, en porcentaje\n\n\n\n\n\nResultados\nDependen del escenario cargado. Las cuatro principales comparten estructura de columnas, de modo que se leen igual y se comparan celda a celda.\n\n\n\nHoja\nUnidad\n\n\n\n\nResumen Ejecutivo\nSíntesis\n\n\nProducción\nMUSD de valor bruto\n\n\nPIB\nMUSD de valor agregado\n\n\nEmpleo\nPersonas\n\n\nIngreso Laboral\nMUSD\n\n\n\n\n\nAnálisis estructural\nDescriben la economía de 2024. No cambian con el escenario.\n\n\n\nHoja\nQué muestra\n\n\n\n\nEncadenamientos Internos\nMultiplicadores y sectores clave\n\n\nEmpleo Exportador\nEmpleo asociado a exportaciones\n\n\nInserción Internacional\nRetención de valor y contenido importado\n\n\n\n\n\nDatos\nEl motor del modelo. No se editan salvo que se actualice la matriz.\n\n\n\nHoja\nContenido\n\n\n\n\nMatrices Nacionales\nZ, A, L, valor agregado, demanda final\n\n\nAgregación sectorial\nCómo se pasa de 33 a 21 sectores\n\n\nInformación Empleo\nEmpleo por sector y coeficientes\n\n\nMRIO\nMatrices internacionales\n\n\nExportaciones\nMatriz de exportaciones por sector y destino\n\n\nParámetros\nTipo de cambio y PIB de referencia\n\n\n\n\n\nDocumentación\nInfo y Créditos contienen la guía rápida de uso, los créditos y las fuentes. No intervienen en ningún cálculo.",
     "crumbs": [
       "Inicio",
       "Las hojas del simulador"
@@ -1287,125 +1287,185 @@
     ]
   },
   {
+    "objectID": "hojas/agregacion-sectorial.html",
+    "href": "hojas/agregacion-sectorial.html",
+    "title": "Agregación sectorial",
+    "section": "",
+    "text": "La matriz de origen tiene 33 sectores; el simulador trabaja con 21. Esta página explica cómo se pasa de una clasificación a la otra y por qué.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Agregación sectorial"
+    ]
+  },
+  {
+    "objectID": "hojas/agregacion-sectorial.html#por-qué-no-se-usan-los-33",
+    "href": "hojas/agregacion-sectorial.html#por-qué-no-se-usan-los-33",
+    "title": "Agregación sectorial",
+    "section": "Por qué no se usan los 33",
+    "text": "Por qué no se usan los 33\nDos razones, y la segunda es la que definió el resultado.\nLos datos de empleo. La encuesta de hogares distingue ocho ramas de actividad. Cuanto más se desagrega la matriz, más frágil es la estimación del empleo de cada sector.\nLa homogeneidad interna. Si dos actividades con estructuras laborales muy distintas se agrupan, el coeficiente de empleo resultante no representa a ninguna de las dos. Para decidir cada agrupación se calculó el coeficiente de variación del coeficiente de empleo entre los subsectores candidatos.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Agregación sectorial"
+    ]
+  },
+  {
+    "objectID": "hojas/agregacion-sectorial.html#el-caso-que-fijó-el-número-en-21",
+    "href": "hojas/agregacion-sectorial.html#el-caso-que-fijó-el-número-en-21",
+    "title": "Agregación sectorial",
+    "section": "El caso que fijó el número en 21",
+    "text": "El caso que fijó el número en 21\nLa agrupación de servicios inmobiliarios con servicios a las empresas —que en principio parecía natural— resultó tener un coeficiente de variación del 82,9%:\n\n\n\nSubsector\nOcupados por millón de USD\n\n\n\n\nServicios inmobiliarios\n6,5\n\n\nServicios a las empresas\n69,1\n\n\n\nUna diferencia de diez a uno. Los servicios inmobiliarios son intensivos en capital; los servicios a las empresas —consultoría, seguridad, limpieza— son intensivos en trabajo. Fusionarlos habría producido un coeficiente sin significado económico para ninguno de los dos.\nPor eso se mantienen separados, y de ahí salen 21 sectores en lugar de 20.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Agregación sectorial"
+    ]
+  },
+  {
+    "objectID": "hojas/agregacion-sectorial.html#las-cuatro-fusiones",
+    "href": "hojas/agregacion-sectorial.html#las-cuatro-fusiones",
+    "title": "Agregación sectorial",
+    "section": "Las cuatro fusiones",
+    "text": "Las cuatro fusiones\nCuatro pares se fusionaron porque la matriz de 33 sectores no los separa:\n\n\n\n\n\n\n\nSector resultante\nComponentes\n\n\n\n\nQuímica, farmacia y caucho\nQuímica + caucho y plástico\n\n\nMaquinaria, equipo y vehículos\nMaquinaria + vehículos\n\n\nOtras manufacturas y reparación\nOtras manufacturas + reparación\n\n\nTelecomunicaciones, edición y servicios de información\nTelecomunicaciones + servicios postales y edición",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Agregación sectorial"
+    ]
+  },
+  {
+    "objectID": "hojas/agregacion-sectorial.html#grupos-con-heterogeneidad-moderada",
+    "href": "hojas/agregacion-sectorial.html#grupos-con-heterogeneidad-moderada",
+    "title": "Agregación sectorial",
+    "section": "Grupos con heterogeneidad moderada",
+    "text": "Grupos con heterogeneidad moderada\nEstos quedaron con coeficiente de variación entre 25% y 45%. Se mantuvieron porque agrupan actividades económicamente afines, pero conviene tenerlo presente al interpretar sus coeficientes:\n\n\n\nGrupo\nCV\n\n\n\n\nOtros servicios\n42,5%\n\n\nAlimentos, bebidas y tabacos\n38,8%\n\n\nMadera, papel y cartón\n37,0%\n\n\nTextiles, confecciones y calzado\n27,8%\n\n\nAgricultura, ganadería, caza y pesca\n26,6%",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Agregación sectorial"
+    ]
+  },
+  {
+    "objectID": "hojas/agregacion-sectorial.html#la-correspondencia-completa",
+    "href": "hojas/agregacion-sectorial.html#la-correspondencia-completa",
+    "title": "Agregación sectorial",
+    "section": "La correspondencia completa",
+    "text": "La correspondencia completa\nLa agregación es aditiva y sin ponderación: cada celda de la matriz de 21 sectores es la suma de las celdas correspondientes de la de 33.\n\n\n\n\n\n\n\n\n\n#\nCód.\nSector MIP-21\nSectores MIP-33 que agrupa\n\n\n\n\n1\nAGR\nAgricultura, ganadería, caza y pesca\n01 Agricultura · 02 Ganadería · 03 Forestal · 04 Pesca\n\n\n2\nMNE\nMinería\n05 Minería\n\n\n3\nALI\nAlimentos, bebidas y tabacos\n06 Producción de carne · 07 Elaboración de aceites · 08 Producción de lácteos · 09 Molinería y panadería · 10 Azúcar · 11 Otros alimentos · 12 Bebidas y tabaco\n\n\n4\nTEX\nTextiles, confecciones y calzado\n13 Productos textiles y prendas de vestir · 14 Cuero y calzado\n\n\n5\nMAD\nMadera, papel y cartón\n15 Industria de la madera · 16 Papel y productos del papel\n\n\n6\nQUI\nQuímica, farmacia y caucho\n17 Productos químicos\n\n\n7\nMNM\nMinerales no metálicos\n18 Fabricación de productos de minerales no metálicos\n\n\n8\nHIE\nHierro y acero\n19 Fabricación de metales comunes\n\n\n9\nMET\nProductos de metal\n20 Fabricación de productos metálicos\n\n\n10\nMAQ\nMaquinaria, equipo y vehículos\n21 Maquinaria y equipo\n\n\n11\nOMF\nOtras manufacturas y reparación\n22 Otras industrias manufactureras\n\n\n12\nEGA\nElectricidad, gas, y agua\n23 Electricidad y agua\n\n\n13\nCON\nConstrucción\n24 Construcción\n\n\n14\nCOM\nComercio al por mayor y menor\n25 Comercio\n\n\n15\nTRA\nTransporte\n26 Transportes\n\n\n16\nTUR\nTurismo (aloj., alimentación y recreación)\n31 Restaurantes y hoteles\n\n\n17\nTIC\nTelecomunicaciones, edición y servicios de info.\n27 Telecomunicaciones, información y comunicación\n\n\n18\nFIN\nFinanzas y seguros\n28 Intermediación financiera\n\n\n19\nINM\nServicios inmobiliarios\n29 Servicios inmobiliarios\n\n\n20\nSEM\nServicios a las empresas\n30 Servicios a las empresas\n\n\n21\nOTS\nOtros servicios\n32 Servicios a los hogares · 33 Servicios gubernamentales",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Agregación sectorial"
+    ]
+  },
+  {
+    "objectID": "hojas/agregacion-sectorial.html#cómo-se-aplica-a-cada-magnitud",
+    "href": "hojas/agregacion-sectorial.html#cómo-se-aplica-a-cada-magnitud",
+    "title": "Agregación sectorial",
+    "section": "Cómo se aplica a cada magnitud",
+    "text": "Cómo se aplica a cada magnitud\n\n\n\n\n\n\n\nMagnitud\nTratamiento\n\n\n\n\nMatriz de transacciones\nSuma de filas y columnas de los sectores que se agrupan\n\n\nValor agregado y sus componentes\nSuma directa\n\n\nDemanda final\nSuma directa\n\n\nProducción bruta\nSuma directa\n\n\nCoeficientes técnicos\nSe recalculan después de agregar: A = Z / x\n\n\nInversa de Leontief\nSe recalcula desde la A agregada\n\n\n\n\n\n\n\n\n\nImportante\n\n\n\nLos coeficientes y la inversa no se agregan: se calculan de nuevo sobre las matrices ya agregadas. Promediar coeficientes daría un resultado distinto y equivocado, porque cada uno tiene un denominador diferente.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Agregación sectorial"
+    ]
+  },
+  {
+    "objectID": "hojas/agregacion-sectorial.html#una-consecuencia-para-leer-los-resultados",
+    "href": "hojas/agregacion-sectorial.html#una-consecuencia-para-leer-los-resultados",
+    "title": "Agregación sectorial",
+    "section": "Una consecuencia para leer los resultados",
+    "text": "Una consecuencia para leer los resultados\nLos sectores que comparten rama en la encuesta de hogares reciben el mismo perfil de sexo, calificación, formalidad y área. Es una limitación distinta de la agregación sectorial, pero que se combina con ella.\nVer Información Empleo.",
+    "crumbs": [
+      "Inicio",
+      "Las hojas del simulador",
+      "Datos",
+      "Agregación sectorial"
+    ]
+  },
+  {
     "objectID": "guia-de-estilo.html",
     "href": "guia-de-estilo.html",
     "title": "Guía de estilo",
     "section": "",
-    "text": "Esta página muestra cómo se ve cada elemento disponible. Sirve de referencia al redactar y también para verificar que el sitio se renderiza bien tras un cambio de estilos.",
-    "crumbs": [
-      "Inicio",
-      "Guía de estilo"
-    ]
+    "text": "Esta página muestra cómo se ve cada elemento disponible. Sirve de referencia al redactar y también para verificar que el sitio se renderiza bien tras un cambio de estilos."
   },
   {
     "objectID": "guia-de-estilo.html#encabezados",
     "href": "guia-de-estilo.html#encabezados",
     "title": "Guía de estilo",
     "section": "Encabezados",
-    "text": "Encabezados\nSe usan hasta tres niveles. El primero es el título de la página y se define en el encabezado YAML, no en el cuerpo.\n\nTercer nivel\nAparece en el índice lateral, que se arma solo.",
-    "crumbs": [
-      "Inicio",
-      "Guía de estilo"
-    ]
+    "text": "Encabezados\nSe usan hasta tres niveles. El primero es el título de la página y se define en el encabezado YAML, no en el cuerpo.\n\nTercer nivel\nAparece en el índice lateral, que se arma solo."
   },
   {
     "objectID": "guia-de-estilo.html#texto",
     "href": "guia-de-estilo.html#texto",
     "title": "Guía de estilo",
     "section": "Texto",
-    "text": "Texto\nSe puede escribir en negrita, en cursiva y con código en línea. Los enlaces internos se escriben con el nombre del archivo, por ejemplo la portada, y Quarto verifica que existan al renderizar.\nLas notas al pie funcionan así.1",
-    "crumbs": [
-      "Inicio",
-      "Guía de estilo"
-    ]
+    "text": "Texto\nSe puede escribir en negrita, en cursiva y con código en línea. Los enlaces internos se escriben con el nombre del archivo, por ejemplo la portada, y Quarto verifica que existan al renderizar.\nLas notas al pie funcionan así.1"
   },
   {
     "objectID": "guia-de-estilo.html#tablas",
     "href": "guia-de-estilo.html#tablas",
     "title": "Guía de estilo",
     "section": "Tablas",
-    "text": "Tablas\nLas columnas numéricas se alinean a la derecha automáticamente.\n\n\n\nSector\nOcupados por millón USD\nParticipación\n\n\n\n\nOtros servicios\n83,8\n24,1%\n\n\nComercio\n82,3\n25,9%\n\n\nAgricultura\n57,4\n17,1%\n\n\nAlimentos\n7,7\n3,2%\n\n\nElectricidad\n7,6\n0,8%",
-    "crumbs": [
-      "Inicio",
-      "Guía de estilo"
-    ]
+    "text": "Tablas\nLas columnas numéricas se alinean a la derecha automáticamente.\n\n\n\nSector\nOcupados por millón USD\nParticipación\n\n\n\n\nOtros servicios\n83,8\n24,1%\n\n\nComercio\n82,3\n25,9%\n\n\nAgricultura\n57,4\n17,1%\n\n\nAlimentos\n7,7\n3,2%\n\n\nElectricidad\n7,6\n0,8%"
   },
   {
     "objectID": "guia-de-estilo.html#avisos",
     "href": "guia-de-estilo.html#avisos",
     "title": "Guía de estilo",
     "section": "Avisos",
-    "text": "Avisos\n\n\n\n\n\n\nNota\n\n\n\nPara información complementaria que no interrumpe la lectura.\n\n\n\n\n\n\n\n\nImportanteCon título propio\n\n\n\nPara advertencias que el lector no debería pasar por alto.\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nPara limitaciones metodológicas y errores frecuentes.\n\n\n\n\n\n\n\n\nTipPara recordar\n\n\n\nPara atajos y buenas prácticas.",
-    "crumbs": [
-      "Inicio",
-      "Guía de estilo"
-    ]
+    "text": "Avisos\n\n\n\n\n\n\nNota\n\n\n\nPara información complementaria que no interrumpe la lectura.\n\n\n\n\n\n\n\n\nImportanteCon título propio\n\n\n\nPara advertencias que el lector no debería pasar por alto.\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nPara limitaciones metodológicas y errores frecuentes.\n\n\n\n\n\n\n\n\nTipPara recordar\n\n\n\nPara atajos y buenas prácticas."
   },
   {
     "objectID": "guia-de-estilo.html#cifras-destacadas",
     "href": "guia-de-estilo.html#cifras-destacadas",
     "title": "Guía de estilo",
     "section": "Cifras destacadas",
-    "text": "Cifras destacadas\n\n\n712.052empleo exportador\n\n\n1,709multiplicador\n\n\n6.175USD por ocupado\n\n\nEl código para producirlas:\n::: {.tarjetas}\n::: {.tarjeta}\n[712.052]{.cifra}&lt;br&gt;[empleo exportador]{.cifra-etiqueta}\n:::\n:::",
-    "crumbs": [
-      "Inicio",
-      "Guía de estilo"
-    ]
+    "text": "Cifras destacadas\n\n\n712.052empleo exportador\n\n\n1,709multiplicador\n\n\n6.175USD por ocupado\n\n\nEl código para producirlas:\n::: {.tarjetas}\n::: {.tarjeta}\n[712.052]{.cifra}&lt;br&gt;[empleo exportador]{.cifra-etiqueta}\n:::\n:::"
   },
   {
     "objectID": "guia-de-estilo.html#citas",
     "href": "guia-de-estilo.html#citas",
     "title": "Guía de estilo",
     "section": "Citas",
-    "text": "Citas\n\nEl modelo contabiliza el requerimiento de producción y empleo asociado a un nivel de demanda. No predice: bajo el supuesto de coeficientes fijos, informa qué haría falta, no qué va a ocurrir.",
-    "crumbs": [
-      "Inicio",
-      "Guía de estilo"
-    ]
+    "text": "Citas\n\nEl modelo contabiliza el requerimiento de producción y empleo asociado a un nivel de demanda. No predice: bajo el supuesto de coeficientes fijos, informa qué haría falta, no qué va a ocurrir."
   },
   {
     "objectID": "guia-de-estilo.html#fórmulas",
     "href": "guia-de-estilo.html#fórmulas",
     "title": "Guía de estilo",
     "section": "Fórmulas",
-    "text": "Fórmulas\nEn línea, como \\(L = (I - A)^{-1}\\), o en bloque:\n\\[\nx = (I - A)^{-1} \\cdot f\n\\]",
-    "crumbs": [
-      "Inicio",
-      "Guía de estilo"
-    ]
+    "text": "Fórmulas\nEn línea, como \\(L = (I - A)^{-1}\\), o en bloque:\n\\[\nx = (I - A)^{-1} \\cdot f\n\\]"
   },
   {
     "objectID": "guia-de-estilo.html#código",
     "href": "guia-de-estilo.html#código",
     "title": "Guía de estilo",
     "section": "Código",
-    "text": "Código\n# Las matrices se precalculan en R y se cargan como valores fijos\nA &lt;- Z / matrix(x, nrow = 21, ncol = 21, byrow = TRUE)\nL &lt;- solve(diag(21) - A)",
-    "crumbs": [
-      "Inicio",
-      "Guía de estilo"
-    ]
+    "text": "Código\n# Las matrices se precalculan en R y se cargan como valores fijos\nA &lt;- Z / matrix(x, nrow = 21, ncol = 21, byrow = TRUE)\nL &lt;- solve(diag(21) - A)"
   },
   {
     "objectID": "guia-de-estilo.html#listas-de-verificación",
     "href": "guia-de-estilo.html#listas-de-verificación",
     "title": "Guía de estilo",
     "section": "Listas de verificación",
-    "text": "Listas de verificación\n\nEl escenario está documentado con sus supuestos\nEl efecto inducido se reporta por separado\nSe indica la versión del simulador utilizada",
-    "crumbs": [
-      "Inicio",
-      "Guía de estilo"
-    ]
+    "text": "Listas de verificación\n\nEl escenario está documentado con sus supuestos\nEl efecto inducido se reporta por separado\nSe indica la versión del simulador utilizada"
   },
   {
     "objectID": "guia-de-estilo.html#footnotes",
     "href": "guia-de-estilo.html#footnotes",
     "title": "Guía de estilo",
     "section": "Notas",
-    "text": "Notas\n\n\nAparecen al final de la página con un enlace de vuelta.↩︎",
-    "crumbs": [
-      "Inicio",
-      "Guía de estilo"
-    ]
+    "text": "Notas\n\n\nAparecen al final de la página con un enlace de vuelta.↩︎"
   },
   {
     "objectID": "hojas/anexos.html",
@@ -1970,7 +2030,7 @@
     "href": "index.html#cómo-está-organizado",
     "title": "Simulador de Impacto — MIP Paraguay",
     "section": "Cómo está organizado",
-    "text": "Cómo está organizado\nEl sitio tiene dos entradas que se complementan.\nEl taller sigue el hilo de las cuatro sesiones: la primera presenta el simulador por dentro, las tres siguientes lo ponen a trabajar sobre casos distintos.\nLas hojas del simulador documenta cada hoja del libro por separado: qué contiene, cómo se lee, de dónde salen los datos y qué errores conviene evitar. Sirve para consultar durante las sesiones y después.\n\n\n\n\n\n\nTipSi es la primera vez\n\n\n\nConviene empezar por la sección 1 del taller, que da el mapa general, y recurrir a la sección de hojas cuando aparezca la duda concreta.",
+    "text": "Cómo está organizado\nEl sitio tiene dos entradas que se complementan.\nEl taller sigue el hilo de las cuatro sesiones: la primera presenta el simulador por dentro, las tres siguientes lo ponen a trabajar sobre casos distintos.\nLas hojas del simulador documenta cada hoja del libro por separado: qué contiene, cómo se lee, de dónde salen los datos y qué errores conviene evitar. Incluye también cómo se construyó la clasificación sectorial. Sirve para consultar durante las sesiones y después.\n\n\n\n\n\n\nTipSi es la primera vez\n\n\n\nConviene empezar por la sección 1 del taller, que da el mapa general, y recurrir a la sección de hojas cuando aparezca la duda concreta.",
     "crumbs": [
       "Inicio"
     ]

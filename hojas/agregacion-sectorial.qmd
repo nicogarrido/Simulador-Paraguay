@@ -1,0 +1,117 @@
+---
+title: "Agregación sectorial"
+subtitle: "Capa de datos · de 33 a 21 sectores"
+---
+
+La matriz de origen tiene 33 sectores; el simulador trabaja con 21. Esta página
+explica cómo se pasa de una clasificación a la otra y por qué.
+
+## Por qué no se usan los 33
+
+Dos razones, y la segunda es la que definió el resultado.
+
+**Los datos de empleo.** La encuesta de hogares distingue ocho ramas de
+actividad. Cuanto más se desagrega la matriz, más frágil es la estimación del
+empleo de cada sector.
+
+**La homogeneidad interna.** Si dos actividades con estructuras laborales muy
+distintas se agrupan, el coeficiente de empleo resultante no representa a
+ninguna de las dos. Para decidir cada agrupación se calculó el coeficiente de
+variación del coeficiente de empleo entre los subsectores candidatos.
+
+## El caso que fijó el número en 21
+
+La agrupación de servicios inmobiliarios con servicios a las empresas —que en
+principio parecía natural— resultó tener un coeficiente de variación del
+**82,9%**:
+
+| Subsector | Ocupados por millón de USD |
+|---|---|
+| Servicios inmobiliarios | 6,5 |
+| Servicios a las empresas | 69,1 |
+
+Una diferencia de **diez a uno**. Los servicios inmobiliarios son intensivos en
+capital; los servicios a las empresas —consultoría, seguridad, limpieza— son
+intensivos en trabajo. Fusionarlos habría producido un coeficiente sin
+significado económico para ninguno de los dos.
+
+Por eso se mantienen separados, y de ahí salen 21 sectores en lugar de 20.
+
+## Las cuatro fusiones
+
+Cuatro pares se fusionaron porque la matriz de 33 sectores no los separa:
+
+| Sector resultante | Componentes |
+|---|---|
+| Química, farmacia y caucho | Química + caucho y plástico |
+| Maquinaria, equipo y vehículos | Maquinaria + vehículos |
+| Otras manufacturas y reparación | Otras manufacturas + reparación |
+| Telecomunicaciones, edición y servicios de información | Telecomunicaciones + servicios postales y edición |
+
+## Grupos con heterogeneidad moderada
+
+Estos quedaron con coeficiente de variación entre 25% y 45%. Se mantuvieron
+porque agrupan actividades económicamente afines, pero conviene tenerlo presente
+al interpretar sus coeficientes:
+
+| Grupo | CV |
+|---|---|
+| Otros servicios | 42,5% |
+| Alimentos, bebidas y tabacos | 38,8% |
+| Madera, papel y cartón | 37,0% |
+| Textiles, confecciones y calzado | 27,8% |
+| Agricultura, ganadería, caza y pesca | 26,6% |
+
+## La correspondencia completa
+
+La agregación es **aditiva y sin ponderación**: cada celda de la matriz de 21
+sectores es la suma de las celdas correspondientes de la de 33.
+
+| # | Cód. | Sector MIP-21 | Sectores MIP-33 que agrupa |
+|---|---|---|---|
+| 1 | **AGR** | Agricultura, ganadería, caza y pesca | 01 Agricultura · 02 Ganadería · 03 Forestal · 04 Pesca |
+| 2 | **MNE** | Minería | 05 Minería |
+| 3 | **ALI** | Alimentos, bebidas y tabacos | 06 Producción de carne · 07 Elaboración de aceites · 08 Producción de lácteos · 09 Molinería y panadería · 10 Azúcar · 11 Otros alimentos · 12 Bebidas y tabaco |
+| 4 | **TEX** | Textiles, confecciones y calzado | 13 Productos textiles y prendas de vestir · 14 Cuero y calzado |
+| 5 | **MAD** | Madera, papel y cartón | 15 Industria de la madera · 16 Papel y productos del papel |
+| 6 | **QUI** | Química, farmacia y caucho | 17 Productos químicos |
+| 7 | **MNM** | Minerales no metálicos | 18 Fabricación de productos de minerales no metálicos |
+| 8 | **HIE** | Hierro y acero | 19 Fabricación de metales comunes |
+| 9 | **MET** | Productos de metal | 20 Fabricación de productos metálicos |
+| 10 | **MAQ** | Maquinaria, equipo y vehículos | 21 Maquinaria y equipo |
+| 11 | **OMF** | Otras manufacturas y reparación | 22 Otras industrias manufactureras |
+| 12 | **EGA** | Electricidad, gas, y agua | 23 Electricidad y agua |
+| 13 | **CON** | Construcción | 24 Construcción |
+| 14 | **COM** | Comercio al por mayor y menor | 25 Comercio |
+| 15 | **TRA** | Transporte | 26 Transportes |
+| 16 | **TUR** | Turismo (aloj., alimentación y recreación) | 31 Restaurantes y hoteles |
+| 17 | **TIC** | Telecomunicaciones, edición y servicios de info. | 27 Telecomunicaciones, información y comunicación |
+| 18 | **FIN** | Finanzas y seguros | 28 Intermediación financiera |
+| 19 | **INM** | Servicios inmobiliarios | 29 Servicios inmobiliarios |
+| 20 | **SEM** | Servicios a las empresas | 30 Servicios a las empresas |
+| 21 | **OTS** | Otros servicios | 32 Servicios a los hogares · 33 Servicios gubernamentales |
+
+## Cómo se aplica a cada magnitud
+
+| Magnitud | Tratamiento |
+|---|---|
+| Matriz de transacciones | Suma de filas y columnas de los sectores que se agrupan |
+| Valor agregado y sus componentes | Suma directa |
+| Demanda final | Suma directa |
+| Producción bruta | Suma directa |
+| Coeficientes técnicos | **Se recalculan** después de agregar: `A = Z / x` |
+| Inversa de Leontief | **Se recalcula** desde la A agregada |
+
+::: {.callout-important}
+Los coeficientes y la inversa **no se agregan**: se calculan de nuevo sobre las
+matrices ya agregadas. Promediar coeficientes daría un resultado distinto y
+equivocado, porque cada uno tiene un denominador diferente.
+:::
+
+## Una consecuencia para leer los resultados
+
+Los sectores que comparten rama en la encuesta de hogares reciben el mismo perfil
+de sexo, calificación, formalidad y área. Es una limitación distinta de la
+agregación sectorial, pero que se combina con ella.
+
+Ver [Información Empleo](informacion-empleo.qmd).

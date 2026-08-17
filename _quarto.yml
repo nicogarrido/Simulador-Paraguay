@@ -13,7 +13,7 @@ project:
 website:
   title: "Simulador MIP Paraguay"
   description: "Material de formación del simulador de impacto insumo-producto"
-  site-url: "https://nicogarrido.github.io/Simulador-Paraguay"
+  site-url: "https://USUARIO.github.io/Simulador-Paraguay"
   favicon: recursos/favicon.svg
   reader-mode: true
   search:
@@ -31,7 +31,7 @@ website:
         text: Las hojas
     right:
       - icon: github
-        href: https://github.com/nicogarrido/Simulador-Paraguay
+        href: https://github.com/USUARIO/Simulador-Paraguay
         aria-label: Repositorio
   sidebar:
     style: floating
@@ -82,6 +82,7 @@ website:
           - section: "Datos"
             contents:
               - hojas/matrices-nacionales.qmd
+              - hojas/agregacion-sectorial.qmd
               - hojas/informacion-empleo.qmd
               - hojas/mrio.qmd
               - hojas/exportaciones.qmd
@@ -91,8 +92,6 @@ website:
               - hojas/buenas-practicas.qmd
               - hojas/anexos.qmd
               - hojas/glosario.qmd
-      - href: guia-de-estilo.qmd
-        text: Guía de estilo
   page-footer:
     background: "#2C3E50"
     left: "Simulador de impacto insumo-producto · Paraguay"
