@@ -1,0 +1,154 @@
+---
+title: "Caso · El Acuerdo UE–Mercosur"
+subtitle: "Modo internacional · un nuevo acceso de mercado"
+---
+
+## Por qué importa
+
+Tras más de dos décadas de negociación, la parte comercial del acuerdo alcanzó su
+cierre político a fines de 2025. Se firmó el **17 de enero de 2026** en la sede
+del Banco Central del Paraguay, en Asunción, y el Acuerdo Interino de Comercio se
+aplica de forma provisional desde el **1 de mayo de 2026**.
+
+Lo relevante para este caso: la aplicación provisional reduce progresivamente las
+barreras europeas a las exportaciones agroalimentarias del Mercosur. Ese aumento
+esperado de demanda europea es el choque que se carga en el simulador.
+
+## Qué cambia realmente en el acceso
+
+Un análisis honesto exige distinguir dónde el acuerdo cambia las condiciones y
+dónde no. La rebaja es **heterogénea por producto**, y esa heterogeneidad es
+central para interpretar los resultados.
+
+| Producto | Qué cambia |
+|---|---|
+| **Carne bovina** | Cuota Mercosur de 99.000 t con arancel reducido al 7,5%, repartida entre fresca/refrigerada (55%) y congelada (45%). No es acceso libre, pero sí una ampliación relevante |
+| **Soja y harina de soja** | La UE ya aplicaba **arancel cero**. El acuerdo no altera el escenario arancelario, aunque la UE sigue siendo el principal destino de la harina paraguaya |
+| **Azúcar** | Cuota libre de arancel de 10.000 t **específica para Paraguay** |
+| **Alimentos procesados, cuero y otras manufacturas** | Donde se concentran las rebajas proporcionalmente **más significativas**, por partir de aranceles europeos más altos |
+
+::: {.callout-important}
+## La implicancia para el diseño del escenario
+La asimetría es la clave: el impulso adicional por vía arancelaria es **limitado
+en el complejo sojero primario** —que ya entraba sin arancel— y **mayor en los
+segmentos elaborados**.
+
+Por eso el vector de shock asigna un aumento mayor a alimentos procesados que a
+agricultura primaria. Cargar lo contrario contradiría los términos del acuerdo.
+:::
+
+## Un condicionante no arancelario
+
+::: {.callout-warning}
+## El Reglamento EUDR
+El Reglamento de la UE sobre productos libres de deforestación alcanza
+justamente a **soja, carne y madera** — el núcleo de la canasta paraguaya hacia
+Europa.
+
+La capacidad de Paraguay para capturar el impulso dependerá tanto de la rebaja de
+aranceles como del cumplimiento de los requisitos de trazabilidad. Un acceso
+arancelario que no se puede usar no genera empleo.
+:::
+
+## Cómo cargarlo
+
+Hoja **Estímulos Internacionales**, **Modo B** (shock diferenciado por sector),
+columna **UE-27**. El resto de celdas y regiones en cero.
+
+| Sector | Conservador | Base | Optimista |
+|---|---|---|---|
+| Alimentos, bebidas y tabacos | +7,5% | **+15%** | +22,5% |
+| Agricultura, ganadería, caza y pesca | +5% | **+10%** | +15% |
+| Textiles, confecciones y calzado | +4% | **+8%** | +12% |
+| Madera, papel y cartón | +3% | **+6%** | +9% |
+
+::: {.callout-warning}
+## Las unidades del Modo B
+Las celdas del Modo B están en **fracción decimal**. Para un +15% se escribe
+`0,15` — no `15` ni `115`.
+:::
+
+::: {.callout-tip}
+## Por qué tres escenarios
+El conservador es la mitad del base; el optimista, una vez y media. Reportar los
+tres convierte la conclusión en **un rango con lectura de sensibilidad**, en vez
+de un número puntual que aparenta precisión que no tiene.
+
+Los porcentajes son ilustrativos. Su calibración fina debería contrastarse con
+estimaciones de elasticidad de demanda europea por producto.
+:::
+
+El Reino Unido puede cargarse de forma análoga para una variante ampliada.
+
+## Qué mirar
+
+| Hoja | Qué buscar | Por qué |
+|---|---|---|
+| Resumen Ejecutivo | Producción, PIB y empleo totales | La magnitud del impulso |
+| Empleo | Descomposición directo / indirecto | Si el impulso se difunde o queda encapsulado |
+| Empleo | Composición por sexo | A quién llega |
+| Empleo | Composición por calificación | De qué calidad es |
+| Inserción Internacional | Retención de valor y contenido importado | Cuánto del impulso se queda en el país |
+| Encadenamientos Internos | Empleo por millón de los sectores líderes | Contexto de intensidad laboral |
+
+Conviene completar cada indicador **para los tres escenarios**.
+
+## Interpretación sugerida
+
+**La descomposición directo / indirecto** muestra si el empleo se crea en el
+sector exportador o en su cadena de proveedores. Cuanto mayor el componente
+indirecto, más amplia es la base de sectores que se benefician. Un impulso que se
+agota en el sector directo tiene alcance más estrecho que uno que arrastra a
+proveedores de servicios, transporte y energía.
+
+**La composición por sexo y calificación** revela a quién llega ese empleo. Si el
+impulso se concentra en sectores masculinizados y de baja calificación, la
+oportunidad puede **ampliar brechas** en lugar de reducirlas. Identificarlo a
+tiempo es lo que permite diseñar el acompañamiento.
+
+**La retención de valor** matiza la magnitud: un impulso exportador grande puede
+filtrarse en buena parte hacia el exterior si el sector depende de insumos
+importados. No todo el empleo aparente se traduce en empleo doméstico duradero.
+
+**La comparación materia prima frente a producto procesado** conecta este caso
+con el [caso 1](../casos/caso-1-soja-o-industria.qmd): cuál de los dos genera más
+empleo y de mejor calidad por cada dólar de demanda europea.
+
+## Implicancias de política
+
+El acuerdo se lee como una **oportunidad condicionada**: para traducirse en
+trabajo decente requiere políticas que actúen sobre los eslabones que el propio
+análisis señala como más expuestos.
+
+**Formación orientada a la demanda.** Alinear la oferta formativa con los
+perfiles de calificación que efectivamente demanda la canasta exportadora,
+anticipando cuellos de botella de capital humano.
+
+**Formalización en los eslabones débiles.** Focalizar en los tramos más
+informales de la cadena —típicamente la producción primaria y los proveedores
+pequeños—, usando la definición mixta OIT/DGEEC para identificarlos
+correctamente.
+
+**Lectura de género.** Si el empleo generado favorece desproporcionadamente a un
+sexo, diseñar puentes de acceso para el otro.
+
+**Trazabilidad y cumplimiento EUDR.** Condición para que el acceso arancelario se
+materialice efectivamente en demanda y empleo.
+
+::: {.callout-note}
+## El mensaje de fondo
+La magnitud del beneficio no está dada por el acuerdo en sí, sino por la
+capacidad de la estructura productiva paraguaya de **retener y difundir** el
+impulso, y por las políticas que decidan acompañarlo.
+:::
+
+## Para discutir
+
+- La UE es el 3,5% de las exportaciones. ¿Justifica eso el esfuerzo analítico y
+  de política? ¿Qué cambia si se mira empleo por dólar en vez de valor?
+- Si el acuerdo mejora sobre todo el acceso de productos elaborados, ¿tiene
+  Paraguay capacidad instalada para responder?
+- ¿Qué pasa si el EUDR no se cumple? El modelo no lo ve, pero la política sí debe
+  considerarlo.
+- ¿Cómo se comunica un rango de resultados —conservador a optimista— a quien
+  toma la decisión?

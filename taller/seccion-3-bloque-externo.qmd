@@ -1,94 +1,178 @@
 ---
 title: "Sección 3 · El bloque externo"
+subtitle: "Comercio, integración y empleo"
 ---
 
-Cómo se conecta Paraguay con el resto del mundo, y qué empleo sostiene
-exportando.
+Dos transformaciones externas ponen a prueba la estructura productiva paraguaya:
+el **Acuerdo UE–Mercosur**, que abre un nuevo acceso de mercado, y el **Corredor
+Bioceánico**, que abre una nueva ruta logística.
 
-## Objetivo
+En ambos la pregunta que ordena el análisis es la misma: **cuánto y qué tipo de
+empleo paraguayo está en juego**.
 
-Que al terminar quede claro cómo opera el módulo internacional, cómo se lee la
-posición de Paraguay en las cadenas globales y qué caracteriza al empleo
-exportador.
+## En síntesis
 
-## Contenidos
+El interés de estos casos, desde la perspectiva de la OIT, no está solo en
+cuánto puede crecer la producción, sino en cuánto empleo —y de qué calidad—
+depende de la demanda externa.
 
-### El módulo internacional
+A diferencia de los casos de la sección anterior, donde el estímulo ocurre dentro
+del país, acá **la demanda que cambia está afuera** y Paraguay es receptor del
+impacto a través de las cadenas internacionales de suministro.
 
-Cómo funciona el panel de [Estímulos Internacionales](../hojas/estimulos-internacionales.qmd):
-las diez regiones, los dos modos y —el punto donde más se equivoca— la
-diferencia de unidades entre uno y otro.
+La lectura se organiza en tres planos:
 
-::: {.callout-warning}
-## Las unidades
-El **Modo A** usa índice: `110` para un aumento del 10%.
-El **Modo B** usa fracción decimal: `0,10` para lo mismo.
+| Plano | Qué responde |
+|---|---|
+| **El canal** | ¿El empleo se crea en el sector exportador o en sus proveedores? |
+| **La composición** | ¿A quién llega, con qué sexo y qué calificación? |
+| **La retención de valor** | ¿Cuánto del impulso externo se queda en el país? |
 
-Escribir `10` en una celda del Modo B genera un shock del 1.000%.
+## El contraste que ordena todo
+
+::: {.callout-important}
+## La Unión Europea pesa más de lo que sugiere su participación
+La UE representa hoy apenas el **3,5%** de las exportaciones paraguayas, frente a
+cerca del **14,8%** una década atrás. Pero sigue siendo el principal destino de
+productos procesados como la harina de soja, donde el contenido de empleo local
+es mayor.
+
+Un mismo dólar exportado **no genera el mismo empleo según a dónde vaya**.
 :::
 
-### La posición de Paraguay en las cadenas
+Paraguay exporta a sus vecinos productos poco procesados —soja en grano a
+Argentina, cereales y energía a Brasil— mientras que hacia Europa dirige
+proporcionalmente más producto elaborado. Si esos eslabones tienen mayor
+contenido de empleo doméstico, la UE puede sostener una fracción del empleo
+exportador superior a su peso en el valor.
 
-La hoja [Inserción Internacional](../hojas/insercion-internacional.qmd) permite
-distinguir los sectores que retienen valor de los ensambladores, donde parte del
-impulso se filtra al exterior.
+Eso es exactamente lo que el acuerdo pone en juego: al mejorar el acceso de los
+segmentos más elaborados, podría elevar la demanda europea justamente donde el
+empleo local por dólar es más alto.
 
-El VAX agregado es de **0,842**: por cada dólar exportado, 84,2 centavos son
-valor agregado nacional. Un valor alto, coherente con una canasta concentrada en
-productos primarios y energía.
+## El mapa de destinos
 
-### El empleo exportador
+**Por valor exportado** (estadísticas oficiales de comercio, cifras de
+referencia):
 
-La hoja [Empleo Exportador](../hojas/empleo-exportador.qmd) cuantifica y
-caracteriza el empleo que el país sostiene exportando.
+| Destino | Participación | Bloque |
+|---|---|---|
+| Brasil | ~35% | Mercosur |
+| Argentina | ~29% | Mercosur |
+| Resto de América Latina y el Caribe | ~10% | ALC |
+| Asia | ~6% | — |
+| Estados Unidos | ~5% | — |
+| Europa (de la cual UE ~3,5%) | ~4% | — |
+
+El Mercosur concentra en torno al 68% y América Latina y el Caribe cerca del 77%.
+
+**Por rubro**, el cuadro se agudiza: cada gran rubro tiene un destino dominante
+distinto.
+
+| Rubro | Destino principal | Participación |
+|---|---|---|
+| Oleaginosas (soja en grano) | Argentina | ~81% |
+| Cereales | Brasil | ~83% |
+| Energía eléctrica | Brasil | ~84% |
+| Carne bovina | Chile | ~39% |
+| **Harina y tortas de soja** | **Unión Europea** | **~26%** |
+
+La última fila es el punto clave: la UE lidera el destino del eslabón **más
+procesado** del complejo sojero.
+
+## El empleo por destino
+
+Acá está la pieza que entrega la comparación. Los valores provienen de la zona 4
+de [Empleo Exportador](../hojas/empleo-exportador.qmd), construida con anclas del
+Banco Central y de Eurostat.
+
+| Destino | Exportaciones (MUSD) | Empleo | Empleos por millón |
+|---|---|---|---|
+| Argentina | 3.019,8 | 212.673 | **70,4** |
+| Brasil | 2.975,9 | 103.898 | **34,9** |
+| América Latina resto | 1.588,3 | 72.772 | 45,8 |
+| Resto del mundo | 1.143,5 | 53.008 | 46,4 |
+| **Unión Europea** | **452,4** | **23.256** | **51,4** |
+| Estados Unidos | 313,0 | 14.256 | 45,6 |
+| **Total bienes** | **9.522,1** | **481.112** | 50,5 |
+
+::: {.callout-tip}
+## Lo que revela la última columna
+Argentina y Brasil compran montos casi idénticos, pero **Argentina moviliza el
+doble de empleo**. A Argentina va soja en grano, que arrastra toda la cadena
+agrícola; a Brasil, energía eléctrica, intensiva en capital y con requerimiento
+de trabajo casi nulo.
+
+La UE, con 51,4 empleos por millón, está **por encima del promedio de bienes**.
+Mercado chico, composición favorable.
+:::
+
+::: {.callout-warning}
+## Cobertura
+Cubre bienes: 9.522 de los 12.419 millones exportados, el **76,7%**. Los
+servicios no tienen asignación de destino en las fuentes disponibles. China,
+Asia-Pacífico y Reino Unido figuran en cero porque ninguna fuente los identifica
+como destino, no porque el flujo sea nulo.
+:::
+
+## El empleo exportador en conjunto
 
 | Indicador | Valor |
 |---|---|
 | Empleo asociado a exportaciones | 712.052 personas |
 | Participación en el empleo nacional | 23,0% |
+| Efecto directo | 58,5% |
+| Efecto indirecto | 41,5% |
 | Multiplicador | 1,709 |
+| VAX agregado | 0,842 |
 
 Cuatro de cada diez de esos empleos están en sectores que **no exportan
 directamente**: proveen a los que exportan.
 
-### El perfil, comparado con el promedio nacional
+Y su perfil difiere del promedio nacional: más rural (+13,0 pp), menos calificado
+(−7,6 pp en calificación alta) y más informal (+4,3 pp). Lo explica la
+composición, con agricultura aportando 276 mil de los 712 mil puestos.
 
-| Dimensión | Exportador | Nacional | Brecha |
-|---|---|---|---|
-| Calificación baja | 42,8% | 34,0% | +8,8 pp |
-| Calificación alta | 22,3% | 29,9% | −7,6 pp |
-| Informal | 71,8% | 67,5% | +4,3 pp |
-| Rural | 49,8% | 36,8% | +13,0 pp |
+## El marco metodológico: dos capas
 
-Más rural, menos calificado y más informal. Lo explica la composición:
-agricultura aporta 276 mil de los 712 mil empleos exportadores.
+El análisis combina dos planos que responden preguntas distintas y **no deben
+sumarse ni confundirse**.
 
-### El empleo por destino
+### Capa 1 · Posicionamiento (MRIO)
 
-| Destino | Exportaciones | Empleo | Empleos por millón |
-|---|---|---|---|
-| Argentina | 3.019,8 | 212.673 | 70,4 |
-| Brasil | 2.975,9 | 103.898 | 34,9 |
-| Unión Europea | 452,4 | 23.256 | 51,4 |
+Responde *dónde está parado Paraguay* en las cadenas que lo conectan con el
+mundo. Provee tres lecturas estructurales: los ratios VAX, los encadenamientos
+con las regiones socias, y el empleo incorporado en las exportaciones por
+destino.
 
-Argentina y Brasil compran montos casi idénticos, pero Argentina moviliza el
-doble de empleo: a Argentina va soja en grano, que arrastra toda la cadena
-agrícola; a Brasil, energía eléctrica, intensiva en capital.
+### Capa 2 · Cuantificación (MIP doméstica)
 
-## Un caso relacionado
+Traduce el impulso externo en impacto sectorial sobre las 21 ramas de la economía
+paraguaya. El aumento de demanda externa se propaga por la inversa de Leontief y
+se separa en efecto directo —producción del sector exportador— e indirecto —la
+cadena de proveedores—.
 
-El [caso 6](casos/caso-6-recesion-socio.qmd) de la sección anterior trabaja el
-módulo internacional desde el ángulo de la vulnerabilidad: qué pasa cuando cae
-la demanda de un socio.
+Sobre esos vectores se aplican los coeficientes de empleo y su composición por
+sexo y calificación.
 
-## Notas para el desarrollo
+::: {.callout-note}
+## Un límite de la capa MRIO
+FIGARO asigna insumos intermedios importados solo a unos pocos sectores
+—agricultura, minería y alimentos—. Para los demás, el contenido de valor
+extranjero se estima con una composición promedio ponderada, y esos resultados
+de VAX deben leerse con una marca de confiabilidad.
+:::
 
-*[Espacio para el contenido detallado de la sesión.]*
+## Los dos casos
+
+| Caso | Tema | Modo |
+|---|---|---|
+| [UE–Mercosur](internacional/caso-ue-mercosur.qmd) | Un nuevo acceso de mercado | Internacional, Modo B |
+| [Corredor Bioceánico](internacional/caso-corredor-bioceanico.qmd) | Una nueva ruta logística | Nacional + Internacional |
 
 ## Material de apoyo
 
 - [Estímulos Internacionales](../hojas/estimulos-internacionales.qmd)
 - [Inserción Internacional](../hojas/insercion-internacional.qmd)
 - [Empleo Exportador](../hojas/empleo-exportador.qmd)
-- [MRIO](../hojas/mrio.qmd)
-- [Anexos: las diez regiones](../hojas/anexos.qmd)
+- [MRIO](../hojas/mrio.qmd) · [Anexos](../hojas/anexos.qmd)

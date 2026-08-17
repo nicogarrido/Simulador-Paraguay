@@ -4,7 +4,7 @@
     "href": "taller/seccion-3-bloque-externo.html",
     "title": "Sección 3 · El bloque externo",
     "section": "",
-    "text": "Cómo se conecta Paraguay con el resto del mundo, y qué empleo sostiene exportando.",
+    "text": "Dos transformaciones externas ponen a prueba la estructura productiva paraguaya: el Acuerdo UE–Mercosur, que abre un nuevo acceso de mercado, y el Corredor Bioceánico, que abre una nueva ruta logística.\nEn ambos la pregunta que ordena el análisis es la misma: cuánto y qué tipo de empleo paraguayo está en juego.",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -12,11 +12,11 @@
     ]
   },
   {
-    "objectID": "taller/seccion-3-bloque-externo.html#objetivo",
-    "href": "taller/seccion-3-bloque-externo.html#objetivo",
+    "objectID": "taller/seccion-3-bloque-externo.html#en-síntesis",
+    "href": "taller/seccion-3-bloque-externo.html#en-síntesis",
     "title": "Sección 3 · El bloque externo",
-    "section": "Objetivo",
-    "text": "Objetivo\nQue al terminar quede claro cómo opera el módulo internacional, cómo se lee la posición de Paraguay en las cadenas globales y qué caracteriza al empleo exportador.",
+    "section": "En síntesis",
+    "text": "En síntesis\nEl interés de estos casos, desde la perspectiva de la OIT, no está solo en cuánto puede crecer la producción, sino en cuánto empleo —y de qué calidad— depende de la demanda externa.\nA diferencia de los casos de la sección anterior, donde el estímulo ocurre dentro del país, acá la demanda que cambia está afuera y Paraguay es receptor del impacto a través de las cadenas internacionales de suministro.\nLa lectura se organiza en tres planos:\n\n\n\n\n\n\n\nPlano\nQué responde\n\n\n\n\nEl canal\n¿El empleo se crea en el sector exportador o en sus proveedores?\n\n\nLa composición\n¿A quién llega, con qué sexo y qué calificación?\n\n\nLa retención de valor\n¿Cuánto del impulso externo se queda en el país?",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -24,11 +24,11 @@
     ]
   },
   {
-    "objectID": "taller/seccion-3-bloque-externo.html#contenidos",
-    "href": "taller/seccion-3-bloque-externo.html#contenidos",
+    "objectID": "taller/seccion-3-bloque-externo.html#el-contraste-que-ordena-todo",
+    "href": "taller/seccion-3-bloque-externo.html#el-contraste-que-ordena-todo",
     "title": "Sección 3 · El bloque externo",
-    "section": "Contenidos",
-    "text": "Contenidos\n\nEl módulo internacional\nCómo funciona el panel de Estímulos Internacionales: las diez regiones, los dos modos y —el punto donde más se equivoca— la diferencia de unidades entre uno y otro.\n\n\n\n\n\n\nAdvertenciaLas unidades\n\n\n\nEl Modo A usa índice: 110 para un aumento del 10%. El Modo B usa fracción decimal: 0,10 para lo mismo.\nEscribir 10 en una celda del Modo B genera un shock del 1.000%.\n\n\n\n\nLa posición de Paraguay en las cadenas\nLa hoja Inserción Internacional permite distinguir los sectores que retienen valor de los ensambladores, donde parte del impulso se filtra al exterior.\nEl VAX agregado es de 0,842: por cada dólar exportado, 84,2 centavos son valor agregado nacional. Un valor alto, coherente con una canasta concentrada en productos primarios y energía.\n\n\nEl empleo exportador\nLa hoja Empleo Exportador cuantifica y caracteriza el empleo que el país sostiene exportando.\n\n\n\nIndicador\nValor\n\n\n\n\nEmpleo asociado a exportaciones\n712.052 personas\n\n\nParticipación en el empleo nacional\n23,0%\n\n\nMultiplicador\n1,709\n\n\n\nCuatro de cada diez de esos empleos están en sectores que no exportan directamente: proveen a los que exportan.\n\n\nEl perfil, comparado con el promedio nacional\n\n\n\nDimensión\nExportador\nNacional\nBrecha\n\n\n\n\nCalificación baja\n42,8%\n34,0%\n+8,8 pp\n\n\nCalificación alta\n22,3%\n29,9%\n−7,6 pp\n\n\nInformal\n71,8%\n67,5%\n+4,3 pp\n\n\nRural\n49,8%\n36,8%\n+13,0 pp\n\n\n\nMás rural, menos calificado y más informal. Lo explica la composición: agricultura aporta 276 mil de los 712 mil empleos exportadores.\n\n\nEl empleo por destino\n\n\n\nDestino\nExportaciones\nEmpleo\nEmpleos por millón\n\n\n\n\nArgentina\n3.019,8\n212.673\n70,4\n\n\nBrasil\n2.975,9\n103.898\n34,9\n\n\nUnión Europea\n452,4\n23.256\n51,4\n\n\n\nArgentina y Brasil compran montos casi idénticos, pero Argentina moviliza el doble de empleo: a Argentina va soja en grano, que arrastra toda la cadena agrícola; a Brasil, energía eléctrica, intensiva en capital.",
+    "section": "El contraste que ordena todo",
+    "text": "El contraste que ordena todo\n\n\n\n\n\n\nImportanteLa Unión Europea pesa más de lo que sugiere su participación\n\n\n\nLa UE representa hoy apenas el 3,5% de las exportaciones paraguayas, frente a cerca del 14,8% una década atrás. Pero sigue siendo el principal destino de productos procesados como la harina de soja, donde el contenido de empleo local es mayor.\nUn mismo dólar exportado no genera el mismo empleo según a dónde vaya.\n\n\nParaguay exporta a sus vecinos productos poco procesados —soja en grano a Argentina, cereales y energía a Brasil— mientras que hacia Europa dirige proporcionalmente más producto elaborado. Si esos eslabones tienen mayor contenido de empleo doméstico, la UE puede sostener una fracción del empleo exportador superior a su peso en el valor.\nEso es exactamente lo que el acuerdo pone en juego: al mejorar el acceso de los segmentos más elaborados, podría elevar la demanda europea justamente donde el empleo local por dólar es más alto.",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -36,11 +36,11 @@
     ]
   },
   {
-    "objectID": "taller/seccion-3-bloque-externo.html#un-caso-relacionado",
-    "href": "taller/seccion-3-bloque-externo.html#un-caso-relacionado",
+    "objectID": "taller/seccion-3-bloque-externo.html#el-mapa-de-destinos",
+    "href": "taller/seccion-3-bloque-externo.html#el-mapa-de-destinos",
     "title": "Sección 3 · El bloque externo",
-    "section": "Un caso relacionado",
-    "text": "Un caso relacionado\nEl caso 6 de la sección anterior trabaja el módulo internacional desde el ángulo de la vulnerabilidad: qué pasa cuando cae la demanda de un socio.",
+    "section": "El mapa de destinos",
+    "text": "El mapa de destinos\nPor valor exportado (estadísticas oficiales de comercio, cifras de referencia):\n\n\n\nDestino\nParticipación\nBloque\n\n\n\n\nBrasil\n~35%\nMercosur\n\n\nArgentina\n~29%\nMercosur\n\n\nResto de América Latina y el Caribe\n~10%\nALC\n\n\nAsia\n~6%\n—\n\n\nEstados Unidos\n~5%\n—\n\n\nEuropa (de la cual UE ~3,5%)\n~4%\n—\n\n\n\nEl Mercosur concentra en torno al 68% y América Latina y el Caribe cerca del 77%.\nPor rubro, el cuadro se agudiza: cada gran rubro tiene un destino dominante distinto.\n\n\n\nRubro\nDestino principal\nParticipación\n\n\n\n\nOleaginosas (soja en grano)\nArgentina\n~81%\n\n\nCereales\nBrasil\n~83%\n\n\nEnergía eléctrica\nBrasil\n~84%\n\n\nCarne bovina\nChile\n~39%\n\n\nHarina y tortas de soja\nUnión Europea\n~26%\n\n\n\nLa última fila es el punto clave: la UE lidera el destino del eslabón más procesado del complejo sojero.",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -48,11 +48,47 @@
     ]
   },
   {
-    "objectID": "taller/seccion-3-bloque-externo.html#notas-para-el-desarrollo",
-    "href": "taller/seccion-3-bloque-externo.html#notas-para-el-desarrollo",
+    "objectID": "taller/seccion-3-bloque-externo.html#el-empleo-por-destino",
+    "href": "taller/seccion-3-bloque-externo.html#el-empleo-por-destino",
     "title": "Sección 3 · El bloque externo",
-    "section": "Notas para el desarrollo",
-    "text": "Notas para el desarrollo\n[Espacio para el contenido detallado de la sesión.]",
+    "section": "El empleo por destino",
+    "text": "El empleo por destino\nAcá está la pieza que entrega la comparación. Los valores provienen de la zona 4 de Empleo Exportador, construida con anclas del Banco Central y de Eurostat.\n\n\n\nDestino\nExportaciones (MUSD)\nEmpleo\nEmpleos por millón\n\n\n\n\nArgentina\n3.019,8\n212.673\n70,4\n\n\nBrasil\n2.975,9\n103.898\n34,9\n\n\nAmérica Latina resto\n1.588,3\n72.772\n45,8\n\n\nResto del mundo\n1.143,5\n53.008\n46,4\n\n\nUnión Europea\n452,4\n23.256\n51,4\n\n\nEstados Unidos\n313,0\n14.256\n45,6\n\n\nTotal bienes\n9.522,1\n481.112\n50,5\n\n\n\n\n\n\n\n\n\nTipLo que revela la última columna\n\n\n\nArgentina y Brasil compran montos casi idénticos, pero Argentina moviliza el doble de empleo. A Argentina va soja en grano, que arrastra toda la cadena agrícola; a Brasil, energía eléctrica, intensiva en capital y con requerimiento de trabajo casi nulo.\nLa UE, con 51,4 empleos por millón, está por encima del promedio de bienes. Mercado chico, composición favorable.\n\n\n\n\n\n\n\n\nAdvertenciaCobertura\n\n\n\nCubre bienes: 9.522 de los 12.419 millones exportados, el 76,7%. Los servicios no tienen asignación de destino en las fuentes disponibles. China, Asia-Pacífico y Reino Unido figuran en cero porque ninguna fuente los identifica como destino, no porque el flujo sea nulo.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo"
+    ]
+  },
+  {
+    "objectID": "taller/seccion-3-bloque-externo.html#el-empleo-exportador-en-conjunto",
+    "href": "taller/seccion-3-bloque-externo.html#el-empleo-exportador-en-conjunto",
+    "title": "Sección 3 · El bloque externo",
+    "section": "El empleo exportador en conjunto",
+    "text": "El empleo exportador en conjunto\n\n\n\nIndicador\nValor\n\n\n\n\nEmpleo asociado a exportaciones\n712.052 personas\n\n\nParticipación en el empleo nacional\n23,0%\n\n\nEfecto directo\n58,5%\n\n\nEfecto indirecto\n41,5%\n\n\nMultiplicador\n1,709\n\n\nVAX agregado\n0,842\n\n\n\nCuatro de cada diez de esos empleos están en sectores que no exportan directamente: proveen a los que exportan.\nY su perfil difiere del promedio nacional: más rural (+13,0 pp), menos calificado (−7,6 pp en calificación alta) y más informal (+4,3 pp). Lo explica la composición, con agricultura aportando 276 mil de los 712 mil puestos.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo"
+    ]
+  },
+  {
+    "objectID": "taller/seccion-3-bloque-externo.html#el-marco-metodológico-dos-capas",
+    "href": "taller/seccion-3-bloque-externo.html#el-marco-metodológico-dos-capas",
+    "title": "Sección 3 · El bloque externo",
+    "section": "El marco metodológico: dos capas",
+    "text": "El marco metodológico: dos capas\nEl análisis combina dos planos que responden preguntas distintas y no deben sumarse ni confundirse.\n\nCapa 1 · Posicionamiento (MRIO)\nResponde dónde está parado Paraguay en las cadenas que lo conectan con el mundo. Provee tres lecturas estructurales: los ratios VAX, los encadenamientos con las regiones socias, y el empleo incorporado en las exportaciones por destino.\n\n\nCapa 2 · Cuantificación (MIP doméstica)\nTraduce el impulso externo en impacto sectorial sobre las 21 ramas de la economía paraguaya. El aumento de demanda externa se propaga por la inversa de Leontief y se separa en efecto directo —producción del sector exportador— e indirecto —la cadena de proveedores—.\nSobre esos vectores se aplican los coeficientes de empleo y su composición por sexo y calificación.\n\n\n\n\n\n\nNotaUn límite de la capa MRIO\n\n\n\nFIGARO asigna insumos intermedios importados solo a unos pocos sectores —agricultura, minería y alimentos—. Para los demás, el contenido de valor extranjero se estima con una composición promedio ponderada, y esos resultados de VAX deben leerse con una marca de confiabilidad.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo"
+    ]
+  },
+  {
+    "objectID": "taller/seccion-3-bloque-externo.html#los-dos-casos",
+    "href": "taller/seccion-3-bloque-externo.html#los-dos-casos",
+    "title": "Sección 3 · El bloque externo",
+    "section": "Los dos casos",
+    "text": "Los dos casos\n\n\n\nCaso\nTema\nModo\n\n\n\n\nUE–Mercosur\nUn nuevo acceso de mercado\nInternacional, Modo B\n\n\nCorredor Bioceánico\nUna nueva ruta logística\nNacional + Internacional",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -64,7 +100,7 @@
     "href": "taller/seccion-3-bloque-externo.html#material-de-apoyo",
     "title": "Sección 3 · El bloque externo",
     "section": "Material de apoyo",
-    "text": "Material de apoyo\n\nEstímulos Internacionales\nInserción Internacional\nEmpleo Exportador\nMRIO\nAnexos: las diez regiones",
+    "text": "Material de apoyo\n\nEstímulos Internacionales\nInserción Internacional\nEmpleo Exportador\nMRIO · Anexos",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -177,6 +213,149 @@
       "Inicio",
       "Taller",
       "Sección 1 · La estructura del simulador"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-corredor-bioceanico.html",
+    "href": "taller/internacional/caso-corredor-bioceanico.html",
+    "title": "Caso · El Corredor Bioceánico",
+    "section": "",
+    "text": "El Corredor Bioceánico conecta puertos del Atlántico en Brasil con puertos del Pacífico —Antofagasta, Mejillones e Iquique, en el norte de Chile— atravesando el Chaco paraguayo a lo largo de unos 2.200 a 2.400 km.\nPara un país sin litoral marítimo, reduce la dependencia de la hidrovía Paraguay-Paraná y abre una salida terrestre hacia el Asia-Pacífico.\nEl tramo Carmelo Peralta–Loma Plata, de 275 km, ya opera con una inversión superior a 350 millones de dólares; el puente sobre el río Paraguay supera el 80% de avance y el inicio oficial se prevé para 2026.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Corredor Bioceánico"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-corredor-bioceanico.html#por-qué-importa",
+    "href": "taller/internacional/caso-corredor-bioceanico.html#por-qué-importa",
+    "title": "Caso · El Corredor Bioceánico",
+    "section": "",
+    "text": "El Corredor Bioceánico conecta puertos del Atlántico en Brasil con puertos del Pacífico —Antofagasta, Mejillones e Iquique, en el norte de Chile— atravesando el Chaco paraguayo a lo largo de unos 2.200 a 2.400 km.\nPara un país sin litoral marítimo, reduce la dependencia de la hidrovía Paraguay-Paraná y abre una salida terrestre hacia el Asia-Pacífico.\nEl tramo Carmelo Peralta–Loma Plata, de 275 km, ya opera con una inversión superior a 350 millones de dólares; el puente sobre el río Paraguay supera el 80% de avance y el inicio oficial se prevé para 2026.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Corredor Bioceánico"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-corredor-bioceanico.html#la-lección-metodológica",
+    "href": "taller/internacional/caso-corredor-bioceanico.html#la-lección-metodológica",
+    "title": "Caso · El Corredor Bioceánico",
+    "section": "La lección metodológica",
+    "text": "La lección metodológica\n\n\n\n\n\n\nImportanteUna misma obra, dos naturalezas económicas\n\n\n\nEl corredor representa dos cambios de demanda en momentos distintos:\n\nFase de construcción — la inversión física en el Chaco. Se modela como demanda final al sector Construcción, en el modo Nacional.\nFase de operación — la nueva logística exportadora hacia el Pacífico. Se modela como aumento de demanda externa, en el modo Internacional.\n\nNo deben confundirse ni sumarse mecánicamente: ocurren en momentos distintos y cuentan historias distintas.\n\n\nEs lo que hace a este caso distinto de todos los anteriores, y por qué vale la pena trabajarlo al final.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Corredor Bioceánico"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-corredor-bioceanico.html#un-límite-del-modelo-que-conviene-explicitar",
+    "href": "taller/internacional/caso-corredor-bioceanico.html#un-límite-del-modelo-que-conviene-explicitar",
+    "title": "Caso · El Corredor Bioceánico",
+    "section": "Un límite del modelo que conviene explicitar",
+    "text": "Un límite del modelo que conviene explicitar\n\n\n\n\n\n\nAdvertenciaEl insumo-producto no es un modelo de costos de transporte\n\n\n\nLa reducción de costos logísticos no se calcula dentro del modelo. Se representa como un aumento supuesto de la demanda exportadora.\nEl marco insumo-producto capta la propagación intersectorial de ese supuesto, no el mecanismo de precios ni el cambio modal. Quien lea los resultados debe saber que el supuesto de partida viene de afuera del modelo.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Corredor Bioceánico"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-corredor-bioceanico.html#cómo-cargarlo",
+    "href": "taller/internacional/caso-corredor-bioceanico.html#cómo-cargarlo",
+    "title": "Caso · El Corredor Bioceánico",
+    "section": "Cómo cargarlo",
+    "text": "Cómo cargarlo\nHoja Estímulos Nacionales, columna Base, sector Construcción.\n\n\n\nConcepto\nConservador\nBase\nOptimista\n\n\n\n\nInversión anual (MUSD)\n75\n150\n225\n\n\n\nMontos ilustrativos de ejecución anual de obra en territorio paraguayo, ajustables al cronograma real del MOPC.\n\n\n\n\n\n\nNota\n\n\n\nCada corrida representa un año de ejecución. La construcción es en rigor un flujo plurianual, y el modelo compara situaciones, no trayectorias.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Corredor Bioceánico"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-corredor-bioceanico.html#qué-mirar",
+    "href": "taller/internacional/caso-corredor-bioceanico.html#qué-mirar",
+    "title": "Caso · El Corredor Bioceánico",
+    "section": "Qué mirar",
+    "text": "Qué mirar\n\n\n\n\n\n\n\n\nHoja\nQué buscar\nPor qué\n\n\n\n\nProducción\nQué proveedores se activan más\nCemento, metales, maquinaria, transporte\n\n\nEmpleo\nEfecto directo frente a indirecto\nSi la obra arrastra o queda encapsulada\n\n\nEmpleo\nReparto por sexo\nConstrucción es 97,6% masculina\n\n\nEmpleo\nComposición por calificación\nPredominio de media-baja\n\n\nInserción Internacional\nRetención de valor de Construcción\nLa tabla que más matiza las cifras",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Corredor Bioceánico"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-corredor-bioceanico.html#interpretación-sugerida",
+    "href": "taller/internacional/caso-corredor-bioceanico.html#interpretación-sugerida",
+    "title": "Caso · El Corredor Bioceánico",
+    "section": "Interpretación sugerida",
+    "text": "Interpretación sugerida\nLa retención de valor es decisiva en esta fase. Buena parte de la maquinaria, el acero, el cemento y el combustible de una obra vial es importada, de modo que una fracción del impulso se filtra al exterior y no se traduce en empleo doméstico.\nUn monto de inversión grande puede rendir mucho menos de lo que sugiere la cifra bruta. Conviene mirar el contenido importado antes de celebrar el empleo directo.\nEl sesgo de género es estructural. Con 97,6% de participación masculina, esta fase tenderá a ampliar la brecha. Detectarlo es la señal para diseñar medidas de acceso para las mujeres, no un motivo para descartar la obra.\nEl empleo es transitorio. Sirve para generar puestos rápido, pero exige políticas de transición cuando la obra termina.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Corredor Bioceánico"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-corredor-bioceanico.html#cómo-cargarlo-1",
+    "href": "taller/internacional/caso-corredor-bioceanico.html#cómo-cargarlo-1",
+    "title": "Caso · El Corredor Bioceánico",
+    "section": "Cómo cargarlo",
+    "text": "Cómo cargarlo\nHoja Estímulos Internacionales, Modo B, columna ASIA.\n\n\n\nSector\nConservador\nBase\nOptimista\n\n\n\n\nAlimentos, bebidas y tabacos\n+4%\n+8%\n+12%\n\n\nAgricultura, ganadería, caza y pesca\n+2,5%\n+5%\n+7,5%\n\n\n\n\n\n\n\n\n\nNotaAdaptación a 21 sectores\n\n\n\nEl caso original separaba «carne y alimentos procesados» del «complejo sojero (harina, aceite)». En la clasificación de 21 sectores ambos están dentro de Alimentos, bebidas y tabacos, así que se cargan juntos con el porcentaje del rubro de mayor peso.\n\n\n\n\n\n\n\n\nAdvertencia\n\n\n\nLa región ASIA del modelo comprende Japón, Corea, India, Indonesia, Australia y Arabia Saudita. Taiwán y Hong Kong no figuran como países en la base de origen y quedan dentro de resto del mundo, pese a ser destinos relevantes de la carne paraguaya. Ver Anexos.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Corredor Bioceánico"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-corredor-bioceanico.html#qué-mirar-1",
+    "href": "taller/internacional/caso-corredor-bioceanico.html#qué-mirar-1",
+    "title": "Caso · El Corredor Bioceánico",
+    "section": "Qué mirar",
+    "text": "Qué mirar\n\n\n\n\n\n\n\n\nHoja\nQué buscar\nPor qué\n\n\n\n\nEmpleo\nSectores exportadores que ganan empleo\nDónde se localiza el beneficio\n\n\nEmpleo\nComposición por sexo y calificación\nComparar con la fase de construcción\n\n\nInserción Internacional\nRetención de valor de los sectores exportadores\nCuánto se queda en el país\n\n\nEmpleo Exportador\nPerfil del empleo activado\nContraste con la canasta actual",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Corredor Bioceánico"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-corredor-bioceanico.html#interpretación-sugerida-1",
+    "href": "taller/internacional/caso-corredor-bioceanico.html#interpretación-sugerida-1",
+    "title": "Caso · El Corredor Bioceánico",
+    "section": "Interpretación sugerida",
+    "text": "Interpretación sugerida\nEl empleo de esta fase es más permanente que el de la construcción y se localiza en los sectores exportadores. Puede requerir perfiles distintos —logística, agroindustria— y el desajuste entre lo que se crea y lo disponible marca la agenda de formación.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Corredor Bioceánico"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-corredor-bioceanico.html#para-discutir",
+    "href": "taller/internacional/caso-corredor-bioceanico.html#para-discutir",
+    "title": "Caso · El Corredor Bioceánico",
+    "section": "Para discutir",
+    "text": "Para discutir\n\nSobre la construcción\n\n¿Cuánto empleo genera la inversión y en qué sectores se concentra?\n¿Qué parte es directa y qué parte indirecta? ¿Qué proveedores se activan más?\n¿El impulso amplía la brecha de género?\nSegún la retención de valor, ¿cuánto del gasto se queda en Paraguay y cuánto se filtra vía maquinaria e insumos importados?\n\n\n\nSobre la operación\n\n¿Qué sectores exportadores ganan empleo? ¿Es de mejor o peor calidad que el de la construcción?\nComparando la salida por el Pacífico con las rutas actuales, ¿qué destinos y rubros se benefician más?\n¿Cuánto del impulso se retiene localmente?\n\n\n\nIntegradoras\n\n¿Qué fase genera más empleo doméstico por dólar? ¿Por qué?\n¿Qué políticas de contenido local en la obra pública maximizarían el empleo paraguayo?\n¿Qué formación y qué desarrollo regional del Chaco requiere aprovechar el corredor con trabajo decente?",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Corredor Bioceánico"
     ]
   },
   {
@@ -2048,7 +2227,7 @@
     "href": "taller/index.html",
     "title": "El taller",
     "section": "",
-    "text": "Sección\nTema\n\n\n\n\n1\nLa estructura del simulador\n\n\n2\nCambios en la demanda · siete casos aplicados\n\n\n3\nEl bloque externo",
+    "text": "Sección\nTema\n\n\n\n\n1\nLa estructura del simulador\n\n\n2\nCambios en la demanda · siete casos aplicados\n\n\n3\nEl bloque externo · dos casos de integración",
     "crumbs": [
       "Inicio",
       "Taller"
@@ -2059,7 +2238,7 @@
     "href": "taller/index.html#la-lógica-de-la-secuencia",
     "title": "El taller",
     "section": "La lógica de la secuencia",
-    "text": "La lógica de la secuencia\nLa sección 1 responde cómo está hecho. Sin eso los resultados se leen mal: es fácil confundir un efecto indirecto con uno directo, o tomar por predicción lo que es una contabilidad.\nLa sección 2 es el cuerpo del taller. Siete casos aplicados que van de la mecánica básica al diseño de política, cada uno construido sobre un rasgo real de la economía paraguaya.\nLa sección 3 abre el módulo internacional: cómo se conecta Paraguay con el resto del mundo y qué empleo sostiene exportando.",
+    "text": "La lógica de la secuencia\nLa sección 1 responde cómo está hecho. Sin eso los resultados se leen mal: es fácil confundir un efecto indirecto con uno directo, o tomar por predicción lo que es una contabilidad.\nLa sección 2 es el cuerpo del taller. Siete casos aplicados que van de la mecánica básica al diseño de política, cada uno construido sobre un rasgo real de la economía paraguaya.\nLa sección 3 abre el módulo internacional y culmina en dos casos de mayor alcance: el Acuerdo UE–Mercosur, un nuevo acceso de mercado, y el Corredor Bioceánico, una nueva ruta logística. Son los casos más ricos del taller y los que integran todo el instrumental.",
     "crumbs": [
       "Inicio",
       "Taller"
@@ -2074,6 +2253,123 @@
     "crumbs": [
       "Inicio",
       "Taller"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-ue-mercosur.html",
+    "href": "taller/internacional/caso-ue-mercosur.html",
+    "title": "Caso · El Acuerdo UE–Mercosur",
+    "section": "",
+    "text": "Tras más de dos décadas de negociación, la parte comercial del acuerdo alcanzó su cierre político a fines de 2025. Se firmó el 17 de enero de 2026 en la sede del Banco Central del Paraguay, en Asunción, y el Acuerdo Interino de Comercio se aplica de forma provisional desde el 1 de mayo de 2026.\nLo relevante para este caso: la aplicación provisional reduce progresivamente las barreras europeas a las exportaciones agroalimentarias del Mercosur. Ese aumento esperado de demanda europea es el choque que se carga en el simulador.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Acuerdo UE–Mercosur"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-ue-mercosur.html#por-qué-importa",
+    "href": "taller/internacional/caso-ue-mercosur.html#por-qué-importa",
+    "title": "Caso · El Acuerdo UE–Mercosur",
+    "section": "",
+    "text": "Tras más de dos décadas de negociación, la parte comercial del acuerdo alcanzó su cierre político a fines de 2025. Se firmó el 17 de enero de 2026 en la sede del Banco Central del Paraguay, en Asunción, y el Acuerdo Interino de Comercio se aplica de forma provisional desde el 1 de mayo de 2026.\nLo relevante para este caso: la aplicación provisional reduce progresivamente las barreras europeas a las exportaciones agroalimentarias del Mercosur. Ese aumento esperado de demanda europea es el choque que se carga en el simulador.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Acuerdo UE–Mercosur"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-ue-mercosur.html#qué-cambia-realmente-en-el-acceso",
+    "href": "taller/internacional/caso-ue-mercosur.html#qué-cambia-realmente-en-el-acceso",
+    "title": "Caso · El Acuerdo UE–Mercosur",
+    "section": "Qué cambia realmente en el acceso",
+    "text": "Qué cambia realmente en el acceso\nUn análisis honesto exige distinguir dónde el acuerdo cambia las condiciones y dónde no. La rebaja es heterogénea por producto, y esa heterogeneidad es central para interpretar los resultados.\n\n\n\n\n\n\n\nProducto\nQué cambia\n\n\n\n\nCarne bovina\nCuota Mercosur de 99.000 t con arancel reducido al 7,5%, repartida entre fresca/refrigerada (55%) y congelada (45%). No es acceso libre, pero sí una ampliación relevante\n\n\nSoja y harina de soja\nLa UE ya aplicaba arancel cero. El acuerdo no altera el escenario arancelario, aunque la UE sigue siendo el principal destino de la harina paraguaya\n\n\nAzúcar\nCuota libre de arancel de 10.000 t específica para Paraguay\n\n\nAlimentos procesados, cuero y otras manufacturas\nDonde se concentran las rebajas proporcionalmente más significativas, por partir de aranceles europeos más altos\n\n\n\n\n\n\n\n\n\nImportanteLa implicancia para el diseño del escenario\n\n\n\nLa asimetría es la clave: el impulso adicional por vía arancelaria es limitado en el complejo sojero primario —que ya entraba sin arancel— y mayor en los segmentos elaborados.\nPor eso el vector de shock asigna un aumento mayor a alimentos procesados que a agricultura primaria. Cargar lo contrario contradiría los términos del acuerdo.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Acuerdo UE–Mercosur"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-ue-mercosur.html#un-condicionante-no-arancelario",
+    "href": "taller/internacional/caso-ue-mercosur.html#un-condicionante-no-arancelario",
+    "title": "Caso · El Acuerdo UE–Mercosur",
+    "section": "Un condicionante no arancelario",
+    "text": "Un condicionante no arancelario\n\n\n\n\n\n\nAdvertenciaEl Reglamento EUDR\n\n\n\nEl Reglamento de la UE sobre productos libres de deforestación alcanza justamente a soja, carne y madera — el núcleo de la canasta paraguaya hacia Europa.\nLa capacidad de Paraguay para capturar el impulso dependerá tanto de la rebaja de aranceles como del cumplimiento de los requisitos de trazabilidad. Un acceso arancelario que no se puede usar no genera empleo.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Acuerdo UE–Mercosur"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-ue-mercosur.html#cómo-cargarlo",
+    "href": "taller/internacional/caso-ue-mercosur.html#cómo-cargarlo",
+    "title": "Caso · El Acuerdo UE–Mercosur",
+    "section": "Cómo cargarlo",
+    "text": "Cómo cargarlo\nHoja Estímulos Internacionales, Modo B (shock diferenciado por sector), columna UE-27. El resto de celdas y regiones en cero.\n\n\n\nSector\nConservador\nBase\nOptimista\n\n\n\n\nAlimentos, bebidas y tabacos\n+7,5%\n+15%\n+22,5%\n\n\nAgricultura, ganadería, caza y pesca\n+5%\n+10%\n+15%\n\n\nTextiles, confecciones y calzado\n+4%\n+8%\n+12%\n\n\nMadera, papel y cartón\n+3%\n+6%\n+9%\n\n\n\n\n\n\n\n\n\nAdvertenciaLas unidades del Modo B\n\n\n\nLas celdas del Modo B están en fracción decimal. Para un +15% se escribe 0,15 — no 15 ni 115.\n\n\n\n\n\n\n\n\nTipPor qué tres escenarios\n\n\n\nEl conservador es la mitad del base; el optimista, una vez y media. Reportar los tres convierte la conclusión en un rango con lectura de sensibilidad, en vez de un número puntual que aparenta precisión que no tiene.\nLos porcentajes son ilustrativos. Su calibración fina debería contrastarse con estimaciones de elasticidad de demanda europea por producto.\n\n\nEl Reino Unido puede cargarse de forma análoga para una variante ampliada.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Acuerdo UE–Mercosur"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-ue-mercosur.html#qué-mirar",
+    "href": "taller/internacional/caso-ue-mercosur.html#qué-mirar",
+    "title": "Caso · El Acuerdo UE–Mercosur",
+    "section": "Qué mirar",
+    "text": "Qué mirar\n\n\n\n\n\n\n\n\nHoja\nQué buscar\nPor qué\n\n\n\n\nResumen Ejecutivo\nProducción, PIB y empleo totales\nLa magnitud del impulso\n\n\nEmpleo\nDescomposición directo / indirecto\nSi el impulso se difunde o queda encapsulado\n\n\nEmpleo\nComposición por sexo\nA quién llega\n\n\nEmpleo\nComposición por calificación\nDe qué calidad es\n\n\nInserción Internacional\nRetención de valor y contenido importado\nCuánto del impulso se queda en el país\n\n\nEncadenamientos Internos\nEmpleo por millón de los sectores líderes\nContexto de intensidad laboral\n\n\n\nConviene completar cada indicador para los tres escenarios.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Acuerdo UE–Mercosur"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-ue-mercosur.html#interpretación-sugerida",
+    "href": "taller/internacional/caso-ue-mercosur.html#interpretación-sugerida",
+    "title": "Caso · El Acuerdo UE–Mercosur",
+    "section": "Interpretación sugerida",
+    "text": "Interpretación sugerida\nLa descomposición directo / indirecto muestra si el empleo se crea en el sector exportador o en su cadena de proveedores. Cuanto mayor el componente indirecto, más amplia es la base de sectores que se benefician. Un impulso que se agota en el sector directo tiene alcance más estrecho que uno que arrastra a proveedores de servicios, transporte y energía.\nLa composición por sexo y calificación revela a quién llega ese empleo. Si el impulso se concentra en sectores masculinizados y de baja calificación, la oportunidad puede ampliar brechas en lugar de reducirlas. Identificarlo a tiempo es lo que permite diseñar el acompañamiento.\nLa retención de valor matiza la magnitud: un impulso exportador grande puede filtrarse en buena parte hacia el exterior si el sector depende de insumos importados. No todo el empleo aparente se traduce en empleo doméstico duradero.\nLa comparación materia prima frente a producto procesado conecta este caso con el caso 1: cuál de los dos genera más empleo y de mejor calidad por cada dólar de demanda europea.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Acuerdo UE–Mercosur"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-ue-mercosur.html#implicancias-de-política",
+    "href": "taller/internacional/caso-ue-mercosur.html#implicancias-de-política",
+    "title": "Caso · El Acuerdo UE–Mercosur",
+    "section": "Implicancias de política",
+    "text": "Implicancias de política\nEl acuerdo se lee como una oportunidad condicionada: para traducirse en trabajo decente requiere políticas que actúen sobre los eslabones que el propio análisis señala como más expuestos.\nFormación orientada a la demanda. Alinear la oferta formativa con los perfiles de calificación que efectivamente demanda la canasta exportadora, anticipando cuellos de botella de capital humano.\nFormalización en los eslabones débiles. Focalizar en los tramos más informales de la cadena —típicamente la producción primaria y los proveedores pequeños—, usando la definición mixta OIT/DGEEC para identificarlos correctamente.\nLectura de género. Si el empleo generado favorece desproporcionadamente a un sexo, diseñar puentes de acceso para el otro.\nTrazabilidad y cumplimiento EUDR. Condición para que el acceso arancelario se materialice efectivamente en demanda y empleo.\n\n\n\n\n\n\nNotaEl mensaje de fondo\n\n\n\nLa magnitud del beneficio no está dada por el acuerdo en sí, sino por la capacidad de la estructura productiva paraguaya de retener y difundir el impulso, y por las políticas que decidan acompañarlo.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Acuerdo UE–Mercosur"
+    ]
+  },
+  {
+    "objectID": "taller/internacional/caso-ue-mercosur.html#para-discutir",
+    "href": "taller/internacional/caso-ue-mercosur.html#para-discutir",
+    "title": "Caso · El Acuerdo UE–Mercosur",
+    "section": "Para discutir",
+    "text": "Para discutir\n\nLa UE es el 3,5% de las exportaciones. ¿Justifica eso el esfuerzo analítico y de política? ¿Qué cambia si se mira empleo por dólar en vez de valor?\nSi el acuerdo mejora sobre todo el acceso de productos elaborados, ¿tiene Paraguay capacidad instalada para responder?\n¿Qué pasa si el EUDR no se cumple? El modelo no lo ve, pero la política sí debe considerarlo.\n¿Cómo se comunica un rango de resultados —conservador a optimista— a quien toma la decisión?",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 3 · El bloque externo",
+      "Caso · El Acuerdo UE–Mercosur"
     ]
   },
   {

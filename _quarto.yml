@@ -5,6 +5,7 @@ project:
     - "*.qmd"
     - "taller/*.qmd"
     - "taller/casos/*.qmd"
+    - "taller/internacional/*.qmd"
     - "hojas/*.qmd"
 
 website:
@@ -51,7 +52,11 @@ website:
               - taller/casos/caso-5-calificacion.qmd
               - taller/casos/caso-6-recesion-socio.qmd
               - taller/casos/caso-7-empleo-decente.qmd
-          - taller/seccion-3-bloque-externo.qmd
+          - section: "Sección 3 · El bloque externo"
+            href: taller/seccion-3-bloque-externo.qmd
+            contents:
+              - taller/internacional/caso-ue-mercosur.qmd
+              - taller/internacional/caso-corredor-bioceanico.qmd
       - section: "Las hojas del simulador"
         href: hojas/index.qmd
         contents:

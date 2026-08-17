@@ -7,7 +7,7 @@ subtitle: "Tres secciones"
 |---|---|
 | [1](seccion-1-estructura.qmd) | La estructura del simulador |
 | [2](seccion-2-cambios-demanda.qmd) | Cambios en la demanda · siete casos aplicados |
-| [3](seccion-3-bloque-externo.qmd) | El bloque externo |
+| [3](seccion-3-bloque-externo.qmd) | El bloque externo · dos casos de integración |
 
 ## La lógica de la secuencia
 
@@ -19,8 +19,10 @@ La **sección 2** es el cuerpo del taller. Siete casos aplicados que van de la
 mecánica básica al diseño de política, cada uno construido sobre un rasgo real
 de la economía paraguaya.
 
-La **sección 3** abre el módulo internacional: cómo se conecta Paraguay con el
-resto del mundo y qué empleo sostiene exportando.
+La **sección 3** abre el módulo internacional y culmina en dos casos de mayor
+alcance: el **Acuerdo UE–Mercosur**, un nuevo acceso de mercado, y el **Corredor
+Bioceánico**, una nueva ruta logística. Son los casos más ricos del taller y los
+que integran todo el instrumental.
 
 ## Antes de empezar
 

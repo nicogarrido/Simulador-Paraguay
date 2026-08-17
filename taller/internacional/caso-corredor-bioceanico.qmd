@@ -1,0 +1,209 @@
+---
+title: "Caso · El Corredor Bioceánico"
+subtitle: "Inversión hoy, logística exportadora mañana"
+---
+
+## Por qué importa
+
+El Corredor Bioceánico conecta puertos del Atlántico en Brasil con puertos del
+Pacífico —Antofagasta, Mejillones e Iquique, en el norte de Chile— atravesando el
+Chaco paraguayo a lo largo de unos **2.200 a 2.400 km**.
+
+Para un país sin litoral marítimo, reduce la dependencia de la hidrovía
+Paraguay-Paraná y abre una salida terrestre hacia el Asia-Pacífico.
+
+El tramo Carmelo Peralta–Loma Plata, de 275 km, ya opera con una inversión
+superior a **350 millones de dólares**; el puente sobre el río Paraguay supera el
+80% de avance y el inicio oficial se prevé para 2026.
+
+## La lección metodológica
+
+::: {.callout-important}
+## Una misma obra, dos naturalezas económicas
+El corredor representa **dos cambios de demanda en momentos distintos**:
+
+- **Fase de construcción** — la inversión física en el Chaco. Se modela como
+  demanda final al sector Construcción, en el **modo Nacional**.
+- **Fase de operación** — la nueva logística exportadora hacia el Pacífico. Se
+  modela como aumento de demanda externa, en el **modo Internacional**.
+
+No deben confundirse ni sumarse mecánicamente: ocurren en momentos distintos y
+cuentan historias distintas.
+:::
+
+Es lo que hace a este caso distinto de todos los anteriores, y por qué vale la
+pena trabajarlo al final.
+
+## Un límite del modelo que conviene explicitar
+
+::: {.callout-warning}
+## El insumo-producto no es un modelo de costos de transporte
+La reducción de costos logísticos **no se calcula dentro del modelo**. Se
+representa como un aumento supuesto de la demanda exportadora.
+
+El marco insumo-producto capta la propagación intersectorial de ese supuesto, no
+el mecanismo de precios ni el cambio modal. Quien lea los resultados debe saber
+que el supuesto de partida viene de afuera del modelo.
+:::
+
+---
+
+# Fase 1 · Construcción
+
+La inversión en rutas, puente y obras conexas es un aumento de demanda final en
+Construcción, que se propaga aguas arriba hacia cemento, metales, maquinaria,
+químicos y asfalto, transporte, energía y servicios de ingeniería.
+
+El empleo resultante es **intenso pero transitorio**, concentrado en un sector
+masculinizado y de calificación media-baja.
+
+## Cómo cargarlo
+
+Hoja **Estímulos Nacionales**, columna Base, sector **Construcción**.
+
+| Concepto | Conservador | Base | Optimista |
+|---|---|---|---|
+| Inversión anual (MUSD) | 75 | **150** | 225 |
+
+Montos ilustrativos de ejecución anual de obra en territorio paraguayo,
+ajustables al cronograma real del MOPC.
+
+::: {.callout-note}
+Cada corrida representa **un año de ejecución**. La construcción es en rigor un
+flujo plurianual, y el modelo compara situaciones, no trayectorias.
+:::
+
+## Qué mirar
+
+| Hoja | Qué buscar | Por qué |
+|---|---|---|
+| Producción | Qué proveedores se activan más | Cemento, metales, maquinaria, transporte |
+| Empleo | Efecto directo frente a indirecto | Si la obra arrastra o queda encapsulada |
+| Empleo | Reparto por sexo | Construcción es 97,6% masculina |
+| Empleo | Composición por calificación | Predominio de media-baja |
+| Inserción Internacional | Retención de valor de Construcción | **La tabla que más matiza las cifras** |
+
+## Interpretación sugerida
+
+**La retención de valor es decisiva en esta fase.** Buena parte de la maquinaria,
+el acero, el cemento y el combustible de una obra vial es importada, de modo que
+una fracción del impulso se filtra al exterior y no se traduce en empleo
+doméstico.
+
+Un monto de inversión grande puede rendir mucho menos de lo que sugiere la cifra
+bruta. Conviene mirar el contenido importado **antes** de celebrar el empleo
+directo.
+
+**El sesgo de género es estructural.** Con 97,6% de participación masculina, esta
+fase tenderá a ampliar la brecha. Detectarlo es la señal para diseñar medidas de
+acceso para las mujeres, no un motivo para descartar la obra.
+
+**El empleo es transitorio.** Sirve para generar puestos rápido, pero exige
+políticas de transición cuando la obra termina.
+
+---
+
+# Fase 2 · Operación
+
+Una vez en operación, el corredor abarata y acelera la salida de exportaciones
+hacia el Pacífico y, desde allí, hacia Asia.
+
+::: {.callout-tip}
+## Un matiz que suele confundirse
+**Chile es tránsito, no demanda final.** El destino que importa para el modelo es
+el mercado asiático, no el país por el que sale la carga.
+
+Por eso el shock se carga en la columna ASIA, no en América Latina.
+:::
+
+## Cómo cargarlo
+
+Hoja **Estímulos Internacionales**, **Modo B**, columna **ASIA**.
+
+| Sector | Conservador | Base | Optimista |
+|---|---|---|---|
+| Alimentos, bebidas y tabacos | +4% | **+8%** | +12% |
+| Agricultura, ganadería, caza y pesca | +2,5% | **+5%** | +7,5% |
+
+::: {.callout-note}
+## Adaptación a 21 sectores
+El caso original separaba «carne y alimentos procesados» del «complejo sojero
+(harina, aceite)». En la clasificación de 21 sectores ambos están dentro de
+**Alimentos, bebidas y tabacos**, así que se cargan juntos con el porcentaje del
+rubro de mayor peso.
+:::
+
+::: {.callout-warning}
+La región ASIA del modelo comprende Japón, Corea, India, Indonesia, Australia y
+Arabia Saudita. **Taiwán y Hong Kong no figuran** como países en la base de
+origen y quedan dentro de resto del mundo, pese a ser destinos relevantes de la
+carne paraguaya. Ver [Anexos](../../hojas/anexos.qmd).
+:::
+
+## Qué mirar
+
+| Hoja | Qué buscar | Por qué |
+|---|---|---|
+| Empleo | Sectores exportadores que ganan empleo | Dónde se localiza el beneficio |
+| Empleo | Composición por sexo y calificación | Comparar con la fase de construcción |
+| Inserción Internacional | Retención de valor de los sectores exportadores | Cuánto se queda en el país |
+| Empleo Exportador | Perfil del empleo activado | Contraste con la canasta actual |
+
+## Interpretación sugerida
+
+El empleo de esta fase es **más permanente** que el de la construcción y se
+localiza en los sectores exportadores. Puede requerir perfiles distintos
+—logística, agroindustria— y el desajuste entre lo que se crea y lo disponible
+marca la agenda de formación.
+
+---
+
+# La comparación entre fases
+
+::: {.callout-important}
+## El núcleo de la discusión de política
+Poner lado a lado el **empleo doméstico por millón de dólares** de cada fase.
+
+Es la comparación que ordena la conversación: dónde rinde más cada dólar —en
+construir la obra o en operar la nueva ruta— y **con qué durabilidad**, ya que el
+empleo de construcción es temporal y el de operación, más permanente.
+:::
+
+De ahí se desprenden líneas de política concretas:
+
+**Contenido local en la obra pública**, para maximizar el empleo paraguayo
+durante la construcción.
+
+**Formación orientada** a la nueva logística y a los rubros agroexportadores que
+ganan acceso al Pacífico.
+
+**Lectura de género** que atienda el sesgo masculino de la fase de construcción.
+
+**Desarrollo regional del Chaco**, para que el corredor no sea solo una ruta de
+paso.
+
+## Para discutir
+
+### Sobre la construcción
+
+- ¿Cuánto empleo genera la inversión y en qué sectores se concentra?
+- ¿Qué parte es directa y qué parte indirecta? ¿Qué proveedores se activan más?
+- ¿El impulso amplía la brecha de género?
+- Según la retención de valor, ¿cuánto del gasto se queda en Paraguay y cuánto se
+  filtra vía maquinaria e insumos importados?
+
+### Sobre la operación
+
+- ¿Qué sectores exportadores ganan empleo? ¿Es de mejor o peor calidad que el de
+  la construcción?
+- Comparando la salida por el Pacífico con las rutas actuales, ¿qué destinos y
+  rubros se benefician más?
+- ¿Cuánto del impulso se retiene localmente?
+
+### Integradoras
+
+- ¿Qué fase genera más empleo doméstico por dólar? ¿Por qué?
+- ¿Qué políticas de contenido local en la obra pública maximizarían el empleo
+  paraguayo?
+- ¿Qué formación y qué desarrollo regional del Chaco requiere aprovechar el
+  corredor con trabajo decente?
