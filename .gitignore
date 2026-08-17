@@ -26,3 +26,5 @@ desktop.ini
 
 # NOTA: la carpeta docs/ SÍ se versiona.
 # Es el sitio HTML que publica GitHub Pages.
+
+**/*.quarto_ipynb
