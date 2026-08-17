@@ -487,37 +487,33 @@ ul.task-list li input[type="checkbox"] {
 <tr class="header">
 <th>Escenario</th>
 <th>Región</th>
-<th>Índice</th>
-<th>Equivale a</th>
+<th>Valor a cargar</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>Base</strong></td>
 <td>Brasil</td>
-<td>90</td>
-<td>−10%</td>
+<td>−10</td>
 </tr>
 <tr class="even">
 <td><strong>Variante</strong></td>
 <td>China</td>
-<td>88</td>
-<td>−12%</td>
+<td>−12</td>
 </tr>
 </tbody>
 </table>
-<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Advertencia</span>Cuidado con las unidades
+<span class="screen-reader-only">Tip</span>Las unidades
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>El <strong>Modo A</strong> usa índice: <code>90</code> significa una caída del 10%.</p>
-<p>Si en cambio se sobrescribe una celda del <strong>Modo B</strong>, ahí va fracción decimal: <code>-0,10</code> para lo mismo. Ver <a href="../../hojas/estimulos-internacionales.html">Estímulos Internacionales</a>.</p>
+<p>Se carga el <strong>porcentaje directo</strong>: <code>-10</code> para una caída del 10%. Vale igual para el Modo A y para el Modo B. Ver <a href="../../hojas/estimulos-internacionales.html">Estímulos Internacionales</a>.</p>
 </div>
 </div>
 </section>
@@ -562,6 +558,16 @@ ul.task-list li input[type="checkbox"] {
 <td>Vínculo de cada sector con esa región</td>
 <td>Contexto estructural</td>
 </tr>
+<tr class="even">
+<td>Ingreso Laboral</td>
+<td>Masa salarial e ingreso mixto en riesgo</td>
+<td>Qué tipo de ingreso se pierde</td>
+</tr>
+<tr class="odd">
+<td>Empleo Exportador</td>
+<td>Empleo asociado a ese destino (zona 4)</td>
+<td>El punto de partida antes del shock</td>
+</tr>
 </tbody>
 </table>
 </section>
@@ -570,6 +576,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Brasil concentra el <strong>22,1%</strong> del comercio paraguayo, así que una caída del 10% en su demanda tiene efectos considerables. Pero la magnitud no es lo único interesante.</p>
 <p>Lo relevante para política es <strong>quién</strong> queda expuesto. La distribución del empleo en riesgo por sexo y calificación permite identificar a los grupos más vulnerables y focalizar la protección social antes de que el choque se materialice.</p>
 <p>El componente indirecto suele ser alto: el golpe no queda en los sectores que exportan a Brasil, sino que se transmite a sus proveedores domésticos.</p>
+<p>La hoja <strong>Empleo Exportador</strong> aporta el punto de partida: su zona 4 ya indica cuánto empleo depende de cada destino en la situación actual. Brasil sostiene 103.898 puestos y Argentina 212.673, pese a comprar montos similares. Ese dato dimensiona la exposición <strong>antes</strong> de simular nada, y explica por qué un shock de igual magnitud en uno u otro socio tiene consecuencias muy distintas.</p>
+<p><strong>Ingreso Laboral</strong> permite además distinguir qué parte del ingreso en riesgo es salario y qué parte ingreso mixto, lo que determina qué instrumento de protección social resulta aplicable.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1009,7 +1017,7 @@ Nota
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>OIT · Oficina para el Cono Sur de América Latina</p>
+<p>Simulador de impacto insumo-producto · Paraguay</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

@@ -34,6 +34,8 @@ Hoja **Estímulos Nacionales**, modo comparado. Ambos suman 120 millones.
 | Empleo | Composición por calificación en cada escenario | El foco del caso |
 | Empleo | Proporción de calificación media y alta | Indica la exigencia formativa |
 | Resumen Ejecutivo | Empleo total | El camino más exigente suele generar menos puestos |
+| Ingreso Laboral | Ingreso medio del empleo activado | Si la mayor calificación se traduce en mejor paga |
+| Ingreso Laboral | Composición sueldos / ingreso mixto | Cuánto del empleo es asalariado |
 
 ## Interpretación sugerida
 
@@ -51,6 +53,16 @@ sofisticados son menos intensivos en trabajo.
 Elegir un camino de escalamiento industrial implica aceptar menos puestos pero
 de mayor calificación, y requiere anticipar la formación necesaria para que la
 falta de competencias no frene el proceso.
+
+La hoja **Ingreso Laboral** cierra el razonamiento: si el camino más calificado
+genera menos puestos pero con mayor ingreso medio, la comparación deja de ser
+"más empleo contra mejor empleo" y pasa a ser una decisión sobre **masa salarial
+total**. Puede ocurrir que menos puestos mejor pagos generen más ingreso agregado
+para los hogares que muchos puestos de baja remuneración.
+
+Vale mirar también la proporción de **ingreso mixto**: los sectores industriales
+tienen relación salarial más extendida que la agricultura, donde el 70,1% del
+ingreso laboral es de cuenta propia.
 
 ::: {.callout-warning}
 ## Una limitación importante

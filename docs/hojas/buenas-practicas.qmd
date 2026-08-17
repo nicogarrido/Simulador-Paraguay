@@ -1,0 +1,53 @@
+---
+title: "Buenas prácticas y advertencias"
+---
+
+## Al operar el simulador
+
+- Editar **únicamente las celdas resaltadas** de las hojas de entrada. Las
+  matrices y las fórmulas son el motor del modelo y no deben modificarse.
+- Trabajar siempre sobre una **copia** del archivo original, para conservar una
+  versión limpia de referencia.
+- Para volver a la situación inicial, usar el botón **Reiniciar Escenarios** o
+  dejar todos los estímulos en cero.
+- **Guardar cada ejercicio con un nombre distinto** si se quieren conservar los
+  resultados.
+- Dimensionar los estímulos con la columna de porcentaje del PIB sectorial, para
+  evitar choques desproporcionados respecto del tamaño real del sector.
+
+## Al interpretar los resultados
+
+::: {.callout-important}
+## Estática comparativa
+Los resultados comparan una situación **con y sin** el choque. No describen una
+trayectoria en el tiempo ni indican cuánto tardaría en materializarse el efecto.
+:::
+
+- Los coeficientes técnicos y de empleo son **fijos**. El modelo supone que la
+  estructura productiva no cambia ante el estímulo.
+- Las desagregaciones de empleo reflejan la estructura actual de cada sector.
+- El modelo **contabiliza requerimientos, no predice**. Informa qué producción y
+  qué empleo harían falta para sostener un nivel de demanda, no qué va a ocurrir.
+
+## Al comunicar los resultados
+
+- **Reportar el escenario junto con el resultado.** Un número sin el supuesto
+  que lo genera no significa nada.
+- **Separar el efecto inducido** y explicitar su supuesto: que los hogares gastan
+  los nuevos ingresos con la misma estructura de consumo que hoy.
+- **Señalar las limitaciones pertinentes** a ese resultado en particular, no una
+  lista genérica al pie.
+- Al comparar perfiles de empleo entre sectores, verificar que pertenezcan a
+  ramas distintas de la encuesta de hogares. Si comparten rama, la comparación
+  no aporta información.
+
+## Los supuestos del modelo
+
+Conviene tenerlos presentes porque condicionan toda lectura:
+
+| Supuesto | Implicancia |
+|---|---|
+| Coeficientes técnicos fijos | No hay sustitución de insumos ni cambio técnico |
+| Sin restricciones de capacidad | La oferta se ajusta sin cuellos de botella |
+| Precios relativos constantes | No hay respuesta de precios al aumento de demanda |
+| Rendimientos constantes a escala | El costo unitario no varía con el volumen |

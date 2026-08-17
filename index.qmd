@@ -29,8 +29,11 @@ producción, el valor agregado, el empleo y el ingreso de los hogares.
 
 ## Descargar el simulador
 
-El archivo se distribuye desde la sección **Releases** del repositorio. Cada
-versión incluye una nota con los cambios respecto de la anterior.
+[**Descargar el simulador**](simulador/Simulador-MIP-Paraguay.xlsm)
+
+El enlace apunta siempre a la versión vigente. El nombre del archivo no cambia
+entre actualizaciones, de modo que cualquier enlace que se comparta sigue
+funcionando.
 
 ::: {.callout-important}
 ## Antes del taller

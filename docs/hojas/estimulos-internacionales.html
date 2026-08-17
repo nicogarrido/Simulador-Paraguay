@@ -496,7 +496,7 @@ Nota
 <p>Esta es la fuente de error más frecuente del simulador, porque <strong>cada modo usa una escala distinta</strong>.</p>
 <section id="modo-a-shock-uniforme-por-región" class="level3">
 <h3 class="anchored" data-anchor-id="modo-a-shock-uniforme-por-región">Modo A · shock uniforme por región</h3>
-<p>Se ingresa como <strong>índice</strong>:</p>
+<p>Se ingresa el <strong>porcentaje directo</strong>:</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -506,15 +506,15 @@ Nota
 </thead>
 <tbody>
 <tr class="odd">
-<td>100</td>
+<td>0</td>
 <td>Sin cambio</td>
 </tr>
 <tr class="even">
-<td>110</td>
+<td>10</td>
 <td>Aumento del 10%</td>
 </tr>
 <tr class="odd">
-<td>90</td>
+<td>−10</td>
 <td>Caída del 10%</td>
 </tr>
 </tbody>
@@ -524,21 +524,21 @@ Nota
 <section id="modo-b-shock-diferenciado-por-sector" class="level3">
 <h3 class="anchored" data-anchor-id="modo-b-shock-diferenciado-por-sector">Modo B · shock diferenciado por sector</h3>
 <p>Una matriz de veintiún sectores por diez regiones. Cada celda <strong>hereda</strong> el shock de su región y solo se sobrescriben las que se quieran diferenciar.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Advertencia</span>Las celdas del Modo B están en fracción decimal
+<span class="screen-reader-only">Tip</span>Las celdas del Modo B están en formato porcentaje
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>No en índice. Si se sobrescribe una celda a mano para simular un 10%, va <strong><code>0,10</code></strong> — no <code>110</code> ni <code>10</code>.</p>
-<p>Escribir <code>10</code> genera un shock del 1.000%: cien veces mayor al buscado. Los resultados salen enormes y suele costar advertir de dónde viene el problema.</p>
+<p>Para simular un aumento del 10% se escribe <strong><code>10</code></strong>. Para una caída, <strong><code>-10</code></strong>.</p>
+<p>La celda muestra el valor con su signo de porcentaje, de modo que se ve directamente qué shock está cargado.</p>
 </div>
 </div>
-<p>La razón de la diferencia: el Modo A convierte el índice a fracción decimal internamente, y las celdas del Modo B leen ya el resultado de esa conversión.</p>
+<p>Ambos modos usan la misma convención, de modo que el valor se lee igual en uno y otro. Lo que cambia es el alcance: el Modo A fija un shock por región y el Modo B permite diferenciarlo sector por sector.</p>
 </section>
 </section>
 <section id="qué-hay-más-abajo-en-la-hoja" class="level2">
@@ -971,7 +971,7 @@ Nota
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>OIT · Oficina para el Cono Sur de América Latina</p>
+<p>Simulador de impacto insumo-producto · Paraguay</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

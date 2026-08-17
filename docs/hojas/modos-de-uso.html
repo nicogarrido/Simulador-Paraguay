@@ -523,7 +523,7 @@ Nota
 </div>
 <section id="modo-a-shock-uniforme-por-región" class="level3">
 <h3 class="anchored" data-anchor-id="modo-a-shock-uniforme-por-región">Modo A · shock uniforme por región</h3>
-<p>Se fija un shock por región, igual para todos sus sectores. Se ingresa como <strong>índice</strong>:</p>
+<p>Se fija un shock por región, igual para todos sus sectores. Se ingresa el <strong>porcentaje directo</strong>:</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -533,15 +533,15 @@ Nota
 </thead>
 <tbody>
 <tr class="odd">
-<td>100</td>
+<td>0</td>
 <td>Sin cambio</td>
 </tr>
 <tr class="even">
-<td>110</td>
+<td>10</td>
 <td>Aumento del 10%</td>
 </tr>
 <tr class="odd">
-<td>90</td>
+<td>−10</td>
 <td>Caída del 10%</td>
 </tr>
 </tbody>
@@ -552,18 +552,18 @@ Nota
 <h3 class="anchored" data-anchor-id="modo-b-shock-diferenciado-por-sector">Modo B · shock diferenciado por sector</h3>
 <p>Una matriz de veintiún sectores por diez regiones. Cada celda <strong>hereda</strong> por defecto el shock de su región, y se sobrescriben solo las que se quieran diferenciar.</p>
 <p>Es el modo indicado para representar un acuerdo comercial que afecta más a unos sectores que a otros.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Advertencia</span>Cuidado con las unidades al sobrescribir
+<span class="screen-reader-only">Tip</span>Las unidades
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Las celdas del Modo B contienen <strong>fracción decimal</strong>, no índice. Si se sobrescribe una a mano para un 10%, va <strong><code>0,10</code></strong> — no <code>110</code> ni <code>10</code>.</p>
-<p>Escribir <code>10</code> genera un shock del 1.000%. Los resultados salen enormes y suele costar advertir de dónde viene el problema.</p>
+<p>Ambos modos trabajan en <strong>porcentaje directo</strong>: se escribe <code>10</code> para un aumento del 10% y <code>-10</code> para una caída.</p>
+<p>Lo que distingue a los modos no son las unidades sino el alcance: uno fija el shock por región y el otro lo diferencia por sector.</p>
 </div>
 </div>
 </section>
@@ -985,7 +985,7 @@ Nota
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>OIT · Oficina para el Cono Sur de América Latina</p>
+<p>Simulador de impacto insumo-producto · Paraguay</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

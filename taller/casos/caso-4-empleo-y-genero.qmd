@@ -10,7 +10,7 @@ invisible. Con brechas persistentes en el mercado laboral paraguayo, hacer
 visible **a quién llega el empleo** según la composición del gasto es clave para
 una política con perspectiva de género.
 
-Está en el centro de la agenda de trabajo decente de la OIT.
+Es una dimensión central de cualquier lectura de trabajo decente.
 
 ## Objetivo
 
@@ -45,6 +45,8 @@ del contraste se mantiene: infraestructura frente a servicios sociales.
 | Empleo | Reparto por sexo en cada escenario | El corazón del caso |
 | Empleo | Comparar con la estructura base | Cuál amplía y cuál cierra la brecha |
 | Encadenamientos Internos | Intensidad de empleo de cada sector | Explica las diferencias de cantidad |
+| Ingreso Laboral | Ingreso medio del empleo de cada paquete | La brecha no es solo de puestos |
+| Ingreso Laboral | Peso del ingreso mixto | Cuánto del empleo es por cuenta propia |
 
 ## Interpretación sugerida
 
@@ -59,10 +61,24 @@ Eso no significa que uno sea mejor que otro: significa que la decisión de gasto
 **tiene consecuencias distributivas de género** que conviene hacer explícitas al
 momento de decidir, no después.
 
+La hoja **Ingreso Laboral** permite ir un paso más allá del conteo. La brecha de
+género no se juega solo en cuántos puestos van a mujeres y cuántos a hombres,
+sino en **con qué remuneración**. Si un paquete genera más empleo femenino pero
+concentrado en sectores de bajo ingreso medio, el efecto sobre la brecha de
+ingresos puede ser menor que el que sugiere el reparto de puestos.
+
+Conviene mirar también el peso del **ingreso mixto** en cada paquete: un empleo
+sostenido por cuentapropismo tiene una protección social distinta a uno
+asalariado.
+
 ::: {.callout-warning}
 El modelo muestra cómo se distribuiría el empleo **si cada sector mantuviera su
 composición actual**. No anticipa cambios de conducta, como una mayor
 participación femenina en la construcción.
+
+Tampoco captura brechas salariales **dentro** de un mismo sector: las
+proporciones de la encuesta corresponden al número de ocupados, no a la masa
+salarial.
 :::
 
 ## Para discutir

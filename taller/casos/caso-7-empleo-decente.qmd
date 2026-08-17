@@ -51,6 +51,8 @@ Hoja **Estímulos Nacionales**, modo comparado. Ambos diseños suman 100 millone
 | Empleo | Efecto inducido en cada diseño | Se activa cuando hay masa salarial |
 | Empleo | Composición por sexo y calificación | La dimensión de calidad |
 | Ingreso Laboral | Ingreso medio del empleo generado | Cierra la lectura de calidad |
+| Ingreso Laboral | Composición sueldos / ingreso mixto | Empleo asalariado o por cuenta propia |
+| Empleo Exportador | Perfil de la canasta exportadora | Referencia externa de comparación |
 
 ## Interpretación sugerida
 
@@ -70,6 +72,12 @@ genera mejor empleo.
 Esa tensión es el eje de la noción de trabajo decente, y no se resuelve con el
 modelo: se resuelve con una decisión de política que el modelo ayuda a
 fundamentar.
+
+Un criterio adicional que aporta **Ingreso Laboral**: la proporción del ingreso
+generado que llega como **sueldo** frente a la que llega como **ingreso mixto**.
+Un diseño que genera empleo asalariado formal deja una base contributiva y una
+cobertura de seguridad social que uno equivalente en cuenta propia no genera,
+aunque el conteo de puestos sea el mismo.
 
 ## Para discutir
 

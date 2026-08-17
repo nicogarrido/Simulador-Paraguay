@@ -3,9 +3,10 @@
 *_files/
 *_cache/
 
-# El simulador se distribuye vía Releases, no versionado
+# Binarios de Excel, salvo el simulador publicado
 *.xlsm
 *.xlsb
+!simulador/Simulador-MIP-Paraguay.xlsm
 
 # Microdatos: no redistribuibles
 *.dta

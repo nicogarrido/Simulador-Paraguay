@@ -1,0 +1,58 @@
+---
+title: "Resumen Ejecutivo"
+subtitle: "Capa de resultados"
+---
+
+Es el tablero de síntesis: integra en un solo panel todos los resultados de una
+simulación. La hoja para mostrar, no para analizar.
+
+## Cómo está organizado
+
+### Barra superior y tarjetas de indicadores
+
+Los agregados del escenario en formato de tarjetas: producción activada, valor
+agregado, empleo generado e ingreso laboral.
+
+Sirve para verificar rápidamente que un escenario se cargó bien. Si los totales
+acá no tienen sentido, conviene revisar la hoja de estímulos antes de seguir.
+
+### Descomposición del impacto por canal
+
+Separa el resultado en sus componentes:
+
+| Columna | Significado |
+|---|---|
+| Efecto inicial | El choque ingresado |
+| Directo (nacional / internacional / total) | Compras directas de insumos |
+| Indirecto (nacional / internacional / total) | Rondas sucesivas de la cadena |
+| Inducido | Por el consumo de los nuevos ingresos de los hogares |
+| **Total** | Suma de todos los canales |
+| % Nac. / % Intl. / % Inducido | Participación de cada canal |
+| Δ/PIB o Δ/Emp. base | El resultado como proporción de la base |
+| Retención local | Porcentaje del impacto que queda en Paraguay |
+
+La **retención local** es especialmente útil: un estímulo grande en un sector con
+alto contenido importado deja menos en el país de lo que sugiere la cifra bruta.
+
+### Calidad del empleo generado
+
+El empleo del escenario abierto por sexo, nivel educativo, condición de
+formalidad y área. Es la base de la lectura de trabajo decente: no solo cuántos
+empleos, sino a quién llegan y de qué calidad son.
+
+### Rankings sectoriales
+
+Cuatro tablas ordenan los sectores por su contribución:
+
+- **Top 5 — ΔProducción** y **Top 5 — ΔEmpleo**: los cinco de mayor aumento
+- **Peores 5**: los de menor aumento, o mayor caída en choques negativos
+
+Cada ranking muestra el efecto total del sector, su descomposición en directo e
+indirecto, su participación en el efecto total, el efecto como proporción de la
+base sectorial y, para el empleo, los empleos por millón de dólares.
+
+## Cuándo no usarlo
+
+Para el análisis sectorial fino. Los agregados esconden justamente lo
+interesante: qué sectores se activan y por qué. Para eso están las hojas de
+detalle.

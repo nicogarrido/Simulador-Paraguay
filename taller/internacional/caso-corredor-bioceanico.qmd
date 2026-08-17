@@ -82,6 +82,7 @@ flujo plurianual, y el modelo compara situaciones, no trayectorias.
 | Empleo | Reparto por sexo | Construcción es 97,6% masculina |
 | Empleo | Composición por calificación | Predominio de media-baja |
 | Inserción Internacional | Retención de valor de Construcción | **La tabla que más matiza las cifras** |
+| Ingreso Laboral | Ingreso medio del empleo de obra | Para comparar con la fase de operación |
 
 ## Interpretación sugerida
 
@@ -147,7 +148,8 @@ carne paraguaya. Ver [Anexos](../../hojas/anexos.qmd).
 | Empleo | Sectores exportadores que ganan empleo | Dónde se localiza el beneficio |
 | Empleo | Composición por sexo y calificación | Comparar con la fase de construcción |
 | Inserción Internacional | Retención de valor de los sectores exportadores | Cuánto se queda en el país |
-| Empleo Exportador | Perfil del empleo activado | Contraste con la canasta actual |
+| Empleo Exportador · zona 5 | Perfil del empleo activado | Contraste con la canasta actual |
+| Ingreso Laboral | Ingreso medio del empleo exportador | La comparación decisiva entre fases |
 
 ## Interpretación sugerida
 
@@ -167,6 +169,11 @@ Poner lado a lado el **empleo doméstico por millón de dólares** de cada fase.
 Es la comparación que ordena la conversación: dónde rinde más cada dólar —en
 construir la obra o en operar la nueva ruta— y **con qué durabilidad**, ya que el
 empleo de construcción es temporal y el de operación, más permanente.
+
+A eso conviene agregarle el **ingreso medio** de cada fase, que se lee en Ingreso
+Laboral. Puede ocurrir que la obra genere más puestos pero peor pagos, o al
+revés; el conteo solo no lo dice. Y la composición entre sueldo e ingreso mixto
+indica cuál de las dos fases deja empleo con cobertura de seguridad social.
 :::
 
 De ahí se desprenden líneas de política concretas:

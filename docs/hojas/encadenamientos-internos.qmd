@@ -1,0 +1,61 @@
+---
+title: "Encadenamientos Internos"
+subtitle: "Capa de análisis estructural"
+---
+
+Presenta los índices de Rasmussen-Hirschman calculados a partir de la inversa de
+Leontief. Es un mapa de la arquitectura productiva del país.
+
+::: {.callout-note}
+No depende del choque ingresado. Sirve para elegir **qué sectores conviene
+simular** antes de correr nada.
+:::
+
+## Qué información contiene
+
+**Encadenamiento hacia atrás** (poder de dispersión). Mide cuánto arrastra el
+sector a sus proveedores cuando crece su producción. Se obtiene sumando la
+columna del sector en la inversa de Leontief y normalizando por el promedio de
+la economía. Un valor mayor que 1 indica arrastre superior al promedio.
+
+**Encadenamiento hacia adelante** (sensibilidad de dispersión). Mide cuánto lo
+requieren los demás sectores como proveedor de insumos. Es la suma de la fila
+del sector, normalizada de la misma forma.
+
+**Empleo por cada millón de dólares.** La intensidad de empleo del sector.
+
+**Tipo de sector.** Una clasificación automática que combina ambos índices.
+
+## Las cuatro categorías
+
+| Tipo | Qué significa |
+|---|---|
+| **Clave** (ambos > 1) | Difunde los impulsos en las dos direcciones: arrastra a proveedores y es requerido por otros |
+| **Dependiente sobre oferta** (atrás > 1) | Fuerte demandante de insumos: al crecer, arrastra sobre todo a sus proveedores |
+| **Dependiente en demanda** (adelante > 1) | Proveedor de muchos sectores: se activa cuando crece la demanda de otros |
+| **Independiente** (ambos < 1) | Poco integrado en la cadena; sus impulsos se difunden poco |
+
+La clasificación vigente se lee directamente en la hoja, sector por sector.
+
+## Cómo se usa
+
+**Como diagnóstico estructural puro.** Leer qué sectores vertebran la economía,
+sin necesidad de simular nada.
+
+**Para elegir dónde estimular.** Los sectores clave difunden el impulso en ambas
+direcciones, con el mayor arrastre por dólar. Los dependientes sobre oferta
+generan mucho efecto aguas arriba, en sus proveedores.
+
+**Combinado con la intensidad de empleo.** Un sector a la vez clave e intensivo
+en empleo es un dinamizador del empleo: concentrar allí el estímulo maximiza los
+puestos por dólar invertido.
+
+**Para interpretar una simulación.** Explica por qué un choque tuvo grandes
+efectos indirectos —golpeó un sector muy encadenado— o por qué quedó contenido
+—un sector independiente—.
+
+::: {.callout-warning}
+Los multiplicadores no ordenan prioridades de política por sí solos. Un
+multiplicador alto indica capacidad de arrastre, no viabilidad, ni
+sostenibilidad, ni calidad del empleo.
+:::

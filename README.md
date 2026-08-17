@@ -25,8 +25,7 @@ para generar el HTML en `docs/`, y se sube con GitHub Desktop.
 
 ## Créditos
 
-Material desarrollado en el marco del programa RBSA de la Oficina de la OIT para
-el Cono Sur de América Latina, en colaboración con la CEPAL, el MTESS y el MIC
-de Paraguay.
+Material de formación sobre el simulador de impacto construido a partir de la
+Matriz Insumo-Producto de Paraguay 2024.
 
 Licencia [CC BY 4.0](LICENSE).

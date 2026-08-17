@@ -1,0 +1,69 @@
+---
+title: "Empleo"
+subtitle: "Capa de resultados"
+---
+
+Muestra las personas ocupadas asociadas al escenario, sector por sector.
+
+## Cómo se calcula
+
+Multiplicando la producción activada por el coeficiente de empleo de cada
+sector: personas ocupadas por millón de dólares de producción.
+
+La dispersión entre sectores es grande y explica buena parte de los resultados:
+
+| Sector | Ocupados por millón USD |
+|---|---|
+| Otros servicios | 83,8 |
+| Comercio | 82,3 |
+| Agricultura | 57,4 |
+| Turismo | 48,2 |
+| Alimentos | 7,7 |
+| Electricidad | 7,6 |
+
+## La estructura de columnas
+
+Comparte formato con Producción, PIB, Empleo e Ingreso Laboral:
+
+| Columna | Contenido |
+|---|---|
+| Efecto inicial | El estímulo cargado, sin propagar |
+| Efecto directo | Producción del sector estimulado. Se abre en nacional e internacional |
+| Efecto indirecto | Producción de la cadena de proveedores. También se abre por origen |
+| Efecto inducido | Activado por el gasto de los hogares |
+| Efecto total | Suma de los anteriores |
+| Crecimiento sectorial | Variación respecto de la línea base del sector |
+
+Que las cuatro hojas compartan estructura permite comparar celda a celda: para
+el mismo sector y el mismo efecto, cuánta producción, cuánto valor agregado,
+cuántos empleos y cuánto ingreso.
+
+## Los bloques de desagregación
+
+Más abajo la hoja abre el empleo generado en cuatro dimensiones: sexo, nivel
+educativo, condición de formalidad y área de residencia.
+
+::: {.callout-warning}
+## Una limitación que hay que conocer
+Las proporciones provienen de la EPHC, que distingue **ocho ramas** frente a
+veintiún sectores. Los sectores que comparten rama reciben perfil idéntico.
+
+Comparar el perfil de dos sectores industriales no aporta información: los diez
+tienen la misma composición. Comparar entre ramas distintas, sí.
+:::
+
+Los bloques de composición se calculan sobre el efecto **total**, que mezcla el
+canal nacional, el internacional y el inducido. Si se quiere el perfil del
+empleo activado solo por exportaciones, hay que ir a
+[Empleo Exportador](empleo-exportador.qmd).
+
+::: {.callout-warning}
+## Sobre el efecto inducido
+Supone que los hogares gastan los ingresos generados con la misma estructura de
+consumo que hoy. Es el efecto más discutible de los tres y conviene reportarlo
+por separado en cualquier informe.
+
+Además usa una función disponible solo en Excel 365. En versiones anteriores y
+en LibreOffice esta columna devuelve `#NAME?`.
+:::
+

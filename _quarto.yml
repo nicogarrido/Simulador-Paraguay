@@ -6,6 +6,8 @@ project:
     - "taller/*.qmd"
     - "taller/casos/*.qmd"
     - "taller/internacional/*.qmd"
+  resources:
+    - simulador/**
     - "hojas/*.qmd"
 
 website:
@@ -93,7 +95,7 @@ website:
         text: Guía de estilo
   page-footer:
     background: "#2C3E50"
-    left: "OIT · Oficina para el Cono Sur de América Latina"
+    left: "Simulador de impacto insumo-producto · Paraguay"
     right: "Material bajo licencia CC BY 4.0"
 
 format:

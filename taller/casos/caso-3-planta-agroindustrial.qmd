@@ -42,6 +42,8 @@ atribuir cada efecto a su fase.
 | Producción | Efecto directo frente a indirecto | Cuánto queda en el sector y cuánto se difunde |
 | Empleo | Empleo generado en cada fase | Insumo para la decisión sobre incentivos |
 | Encadenamientos Internos | Posición de Construcción y Alimentos | Contexto estructural |
+| Ingreso Laboral | Ingreso medio de cada fase | Construcción y operación pagan distinto |
+| Inserción Internacional | Retención de valor de Construcción | Cuánto se filtra vía maquinaria importada |
 
 ## Interpretación sugerida
 
@@ -54,6 +56,12 @@ parte importante del empleo desaparece cuando termina la construcción.
 
 Para evaluar incentivos fiscales, lo relevante es el empleo **permanente** por
 peso de incentivo, no el pico transitorio.
+
+La hoja **Ingreso Laboral** agrega una dimensión que suele faltar en estas
+evaluaciones: las dos fases no solo generan cantidades distintas de empleo, sino
+**ingresos medios distintos**. Comparar el ingreso por ocupado de cada fase
+permite decir si el empleo permanente que deja la planta es de mejor calidad que
+el transitorio de la obra, o al revés.
 
 ## Para discutir
 

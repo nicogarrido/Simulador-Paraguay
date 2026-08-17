@@ -1,0 +1,71 @@
+---
+title: "Ingreso Laboral"
+subtitle: "Capa de resultados"
+---
+
+Responde la pregunta que el empleo solo no contesta: los puestos generados,
+¿con qué remuneración?
+
+## La escalera conceptual
+
+Conviene tenerla clara antes de leer la hoja, porque "salarios" e "ingreso de
+los hogares" no son lo mismo.
+
+| Concepto | 2024 (MUSD) | Qué es |
+|---|---|---|
+| Sueldos y salarios | 12.555,3 | Llega al hogar |
+| + Contribuciones sociales | 1.277,5 | Va a la seguridad social |
+| = Remuneraciones | 13.832,8 | Costo laboral de la empresa |
+| Ingreso mixto | 6.600,9 | Retribución de cuentapropistas |
+| **Ingreso laboral de los hogares** | **19.156,2** | Sueldos + ingreso mixto |
+
+Dos puntos que suelen confundirse:
+
+- Las **contribuciones sociales** son costo laboral, no ingreso disponible.
+  Sumarlas al ingreso de los hogares lo sobreestima.
+- El **ingreso mixto** es el 32,3% del ingreso laboral del país. Dejarlo fuera
+  equivale a ignorar a un tercio de los perceptores, concentrados en el empleo
+  por cuenta propia e informal.
+
+## La estructura de columnas
+
+Comparte formato con Producción, PIB, Empleo e Ingreso Laboral:
+
+| Columna | Contenido |
+|---|---|
+| Efecto inicial | El estímulo cargado, sin propagar |
+| Efecto directo | Producción del sector estimulado. Se abre en nacional e internacional |
+| Efecto indirecto | Producción de la cadena de proveedores. También se abre por origen |
+| Efecto inducido | Activado por el gasto de los hogares |
+| Efecto total | Suma de los anteriores |
+| Crecimiento sectorial | Variación respecto de la línea base del sector |
+
+Que las cuatro hojas compartan estructura permite comparar celda a celda: para
+el mismo sector y el mismo efecto, cuánta producción, cuánto valor agregado,
+cuántos empleos y cuánto ingreso.
+
+## Los bloques adicionales
+
+**Composición del ingreso generado.** Separa sueldos, ingreso mixto y
+contribuciones sobre el efecto total.
+
+**Calidad del ingreso generado.** Cruza el ingreso con el empleo para dar el
+ingreso medio del empleo activado. Es la métrica que permite decir si un
+escenario genera empleo mejor o peor remunerado que el promedio.
+
+## Un dato de referencia
+
+El ingreso laboral medio del país es de **6.175 USD anuales**, con una
+dispersión de seis a uno entre sectores: 20.560 en electricidad contra 3.483 en
+textiles.
+
+::: {.callout-warning}
+## Sobre el efecto inducido
+Supone que los hogares gastan los ingresos generados con la misma estructura de
+consumo que hoy. Es el efecto más discutible de los tres y conviene reportarlo
+por separado en cualquier informe.
+
+Además usa una función disponible solo en Excel 365. En versiones anteriores y
+en LibreOffice esta columna devuelve `#NAME?`.
+:::
+

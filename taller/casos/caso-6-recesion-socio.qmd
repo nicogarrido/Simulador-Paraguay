@@ -21,17 +21,16 @@ comercial.
 Hoja **Estímulos Internacionales**, **Modo A**. El resto de las regiones sin
 cambios.
 
-| Escenario | Región | Índice | Equivale a |
-|---|---|---|---|
-| **Base** | Brasil | 90 | −10% |
-| **Variante** | China | 88 | −12% |
+| Escenario | Región | Valor a cargar |
+|---|---|---|
+| **Base** | Brasil | −10 |
+| **Variante** | China | −12 |
 
-::: {.callout-warning}
-## Cuidado con las unidades
-El **Modo A** usa índice: `90` significa una caída del 10%.
-
-Si en cambio se sobrescribe una celda del **Modo B**, ahí va fracción decimal:
-`-0,10` para lo mismo. Ver [Estímulos Internacionales](../../hojas/estimulos-internacionales.qmd).
+::: {.callout-tip}
+## Las unidades
+Se carga el **porcentaje directo**: `-10` para una caída del 10%. Vale igual para
+el Modo A y para el Modo B. Ver
+[Estímulos Internacionales](../../hojas/estimulos-internacionales.qmd).
 :::
 
 ## Qué mirar
@@ -43,6 +42,8 @@ Si en cambio se sobrescribe una celda del **Modo B**, ahí va fracción decimal:
 | Empleo | Distribución del riesgo por sexo y calificación | Para focalizar la protección social |
 | Empleo | Componente indirecto | Cuánto del golpe llega por la cadena |
 | Inserción Internacional | Vínculo de cada sector con esa región | Contexto estructural |
+| Ingreso Laboral | Masa salarial e ingreso mixto en riesgo | Qué tipo de ingreso se pierde |
+| Empleo Exportador | Empleo asociado a ese destino (zona 4) | El punto de partida antes del shock |
 
 ## Interpretación sugerida
 
@@ -57,6 +58,16 @@ materialice.
 
 El componente indirecto suele ser alto: el golpe no queda en los sectores que
 exportan a Brasil, sino que se transmite a sus proveedores domésticos.
+
+La hoja **Empleo Exportador** aporta el punto de partida: su zona 4 ya indica
+cuánto empleo depende de cada destino en la situación actual. Brasil sostiene
+103.898 puestos y Argentina 212.673, pese a comprar montos similares. Ese dato
+dimensiona la exposición **antes** de simular nada, y explica por qué un shock de
+igual magnitud en uno u otro socio tiene consecuencias muy distintas.
+
+**Ingreso Laboral** permite además distinguir qué parte del ingreso en riesgo es
+salario y qué parte ingreso mixto, lo que determina qué instrumento de
+protección social resulta aplicable.
 
 ::: {.callout-note}
 La dimensión internacional es **indicativa**. Se apoya en una matriz con

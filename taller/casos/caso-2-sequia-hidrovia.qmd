@@ -41,6 +41,8 @@ uno positivo, y los resultados aparecen con signo negativo.
 | Producción | Efecto indirecto | Es el canal que transmite el golpe |
 | Empleo | Empleo total en riesgo y su distribución | Base para pensar mitigación |
 | Encadenamientos Internos | Posición de Transporte | Explica por qué se propaga tanto |
+| Ingreso Laboral | Masa salarial e ingreso mixto en riesgo | Qué tipo de ingreso se pierde |
+| Empleo Exportador | Empleo exportador por destino | La hidrovía sirve a mercados concretos |
 
 ## Interpretación sugerida
 
@@ -53,6 +55,15 @@ producción de sectores que no tienen nada que ver con el río.
 
 El empleo en riesgo y su distribución sectorial es el insumo directo para
 pensar medidas de mitigación y protección social focalizada.
+
+La hoja **Ingreso Laboral** afina esa lectura. Distinguir qué parte del ingreso
+en riesgo es **sueldo** y qué parte es **ingreso mixto** importa para el diseño
+de la respuesta: el seguro de desempleo alcanza al asalariado formal, no al
+cuentapropista. Y el ingreso mixto es el 32,3% del ingreso laboral del país.
+
+En **Empleo Exportador**, la zona de destinos permite ver qué mercados dependen
+de la logística fluvial, que no son los mismos que se abastecen por vía
+terrestre.
 
 ## Para discutir
 

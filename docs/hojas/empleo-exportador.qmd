@@ -1,0 +1,74 @@
+---
+title: "Empleo Exportador"
+subtitle: "Capa de análisis estructural"
+---
+
+Cuantifica y caracteriza el empleo que Paraguay sostiene exportando.
+
+## Cómo está organizada
+
+La hoja tiene cinco zonas. Las cuatro primeras describen la situación de 2024 y
+**no cambian** con el escenario. La quinta sí responde al escenario cargado.
+
+### Zona 1 · Síntesis
+
+| Indicador | Valor |
+|---|---|
+| Empleo asociado a exportaciones | 712.052 personas |
+| Participación en el empleo nacional | 23,0% |
+| Multiplicador | 1,709 |
+
+### Zona 2 · Por sector
+
+Separa el empleo directo —en el sector que exporta— del indirecto, en su cadena
+de proveedores nacional.
+
+El dato que suele sorprender: **cuatro de cada diez** de esos empleos están en
+sectores que no exportan directamente. Es el argumento más fuerte a favor de
+mirar cadenas y no sectores aislados.
+
+### Zona 3 · Composición
+
+Compara el perfil del empleo exportador contra el promedio nacional:
+
+| Dimensión | Exportador | Nacional | Brecha |
+|---|---|---|---|
+| Calificación baja | 42,8% | 34,0% | +8,8 pp |
+| Calificación alta | 22,3% | 29,9% | −7,6 pp |
+| Informal | 71,8% | 67,5% | +4,3 pp |
+| Rural | 49,8% | 36,8% | +13,0 pp |
+
+Más rural, menos calificado y más informal. La explicación está en la
+composición: agricultura aporta 276 mil de los 712 mil empleos exportadores.
+
+### Zona 4 · Por destino
+
+Reparte el empleo exportador entre las regiones de destino. El indicador
+interesante es la última columna, empleos por millón exportado:
+
+| Destino | Exportaciones | Empleo | Empleos por millón |
+|---|---|---|---|
+| Argentina | 3.019,8 | 212.673 | 70,4 |
+| Brasil | 2.975,9 | 103.898 | 34,9 |
+| Unión Europea | 452,4 | 23.256 | 51,4 |
+
+Argentina y Brasil compran montos casi idénticos pero Argentina moviliza el
+doble de empleo: a Argentina va soja en grano, que arrastra toda la cadena
+agrícola; a Brasil, energía eléctrica, intensiva en capital.
+
+::: {.callout-warning}
+## Cobertura de la zona 4
+Cubre bienes, el 76,7% del vector exportador. Los servicios no tienen asignación
+de destino en las fuentes disponibles. China, Asia-Pacífico y Reino Unido
+figuran en cero porque ninguna fuente los identifica como destino, no porque el
+flujo sea nulo.
+:::
+
+### Zona 5 · Escenario simulado
+
+La única zona dinámica. Muestra el empleo activado por el canal internacional y
+compara su perfil contra la canasta exportadora vigente.
+
+Responde la pregunta de fondo de cualquier análisis de acuerdo comercial: el
+empleo que crea este escenario, ¿es de mejor o peor calidad que el que el país
+ya tiene exportando?

@@ -37,6 +37,8 @@ Ambos suman 100 millones. La diferencia está en **dónde** entra el estímulo.
 | Resumen Ejecutivo | PIB de cada escenario | Cuánto valor agregado queda en el país |
 | Producción | Efecto indirecto | Es donde se ve la diferencia entre ambos |
 | Empleo | Empleo total y composición | Cantidad y calidad de los puestos |
+| Ingreso Laboral | Ingreso medio del empleo generado | Si procesar además paga mejor |
+| Empleo Exportador | Perfil de la canasta exportadora actual | Contra qué se compara cada proyecto |
 
 ## Interpretación sugerida
 
@@ -50,6 +52,16 @@ doméstica y genera más empleo.
 
 Conviene mirar también el **valor agregado**: no solo cuánta producción se
 activa, sino cuánta queda efectivamente en el país.
+
+La hoja **Ingreso Laboral** agrega la pregunta que cierra el argumento: ¿el
+empleo que genera procesar está además mejor remunerado? Si el ingreso medio del
+empleo activado por el proyecto B supera al del A, el caso a favor de
+industrializar es más fuerte que el que muestra el conteo de puestos.
+
+Y **Empleo Exportador** aporta el punto de comparación: ambos proyectos son
+exportadores, así que vale contrastar el perfil que generan contra el de la
+canasta exportadora vigente, que hoy es más rural, menos calificada y más
+informal que el promedio nacional.
 
 ## Para discutir
 

@@ -62,10 +62,10 @@ columna **UE-27**. El resto de celdas y regiones en cero.
 | Textiles, confecciones y calzado | +4% | **+8%** | +12% |
 | Madera, papel y cartón | +3% | **+6%** | +9% |
 
-::: {.callout-warning}
+::: {.callout-tip}
 ## Las unidades del Modo B
-Las celdas del Modo B están en **fracción decimal**. Para un +15% se escribe
-`0,15` — no `15` ni `115`.
+Las celdas del Modo B están en **formato porcentaje**. Para un +15% se escribe
+directamente `15`.
 :::
 
 ::: {.callout-tip}
@@ -90,6 +90,9 @@ El Reino Unido puede cargarse de forma análoga para una variante ampliada.
 | Empleo | Composición por calificación | De qué calidad es |
 | Inserción Internacional | Retención de valor y contenido importado | Cuánto del impulso se queda en el país |
 | Encadenamientos Internos | Empleo por millón de los sectores líderes | Contexto de intensidad laboral |
+| Ingreso Laboral | Ingreso medio del empleo activado | Si el impulso europeo paga mejor o peor |
+| Empleo Exportador · zona 4 | Empleo hoy asociado a la UE-27 | La base sobre la que se agrega el shock |
+| Empleo Exportador · zona 5 | Perfil del empleo activado vs canasta actual | Si mejora o empeora la calidad |
 
 Conviene completar cada indicador **para los tres escenarios**.
 
@@ -114,6 +117,16 @@ importados. No todo el empleo aparente se traduce en empleo doméstico duradero.
 con el [caso 1](../casos/caso-1-soja-o-industria.qmd): cuál de los dos genera más
 empleo y de mejor calidad por cada dólar de demanda europea.
 
+**La zona 5 de Empleo Exportador** responde directamente la pregunta de fondo:
+compara el perfil del empleo que activa el escenario contra el de la canasta
+exportadora vigente. Si el impulso europeo genera empleo menos rural, más
+calificado y más formal que el que Paraguay ya sostiene exportando, el acuerdo
+mejora la calidad del empleo exportador aunque su volumen sea modesto.
+
+**Ingreso Laboral** completa esa lectura con la remuneración: un empleo mejor
+calificado debería traducirse en mayor ingreso medio. Si no lo hace, conviene
+preguntarse por qué.
+
 ## Implicancias de política
 
 El acuerdo se lee como una **oportunidad condicionada**: para traducirse en
@@ -126,7 +139,7 @@ anticipando cuellos de botella de capital humano.
 
 **Formalización en los eslabones débiles.** Focalizar en los tramos más
 informales de la cadena —típicamente la producción primaria y los proveedores
-pequeños—, usando la definición mixta OIT/DGEEC para identificarlos
+pequeños—, usando la definición mixta de formalidad para identificarlos
 correctamente.
 
 **Lectura de género.** Si el empleo generado favorece desproporcionadamente a un
