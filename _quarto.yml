@@ -31,7 +31,7 @@ website:
         text: Las hojas
     right:
       - icon: github
-        href: https://github.com/USUARIO/Simulador-Paraguay
+        href: https://github.com/nicogarrido/Simulador-Paraguay
         aria-label: Repositorio
   sidebar:
     style: floating

@@ -5,8 +5,8 @@
 
 # Binarios de Excel, salvo el simulador publicado
 *.xlsm
-*.xlsb
-!simulador/Simulador-MIP-Paraguay.xlsm
+!simulador/*.xlsm
+!docs/simulador/*.xlsm
 
 # Microdatos: no redistribuibles
 *.dta
