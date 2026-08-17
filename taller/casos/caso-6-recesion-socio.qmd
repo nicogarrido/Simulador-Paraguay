@@ -1,0 +1,78 @@
+---
+title: "Caso 6 · Recesión en un socio"
+subtitle: "Modo internacional · vulnerabilidad externa"
+---
+
+## Por qué importa
+
+El comercio de Paraguay está concentrado en pocos socios, y esa concentración es
+a la vez oportunidad y fuente de vulnerabilidad. Una recesión en un socio clave
+se transmite a la producción y el empleo paraguayos.
+
+Este caso pone a prueba esa exposición e identifica a los grupos más expuestos.
+
+## Objetivo
+
+Estimar el empleo paraguayo en riesgo ante la caída de demanda de un socio
+comercial.
+
+## Cómo cargarlo
+
+Hoja **Estímulos Internacionales**, **Modo A**. El resto de las regiones sin
+cambios.
+
+| Escenario | Región | Índice | Equivale a |
+|---|---|---|---|
+| **Base** | Brasil | 90 | −10% |
+| **Variante** | China | 88 | −12% |
+
+::: {.callout-warning}
+## Cuidado con las unidades
+El **Modo A** usa índice: `90` significa una caída del 10%.
+
+Si en cambio se sobrescribe una celda del **Modo B**, ahí va fracción decimal:
+`-0,10` para lo mismo. Ver [Estímulos Internacionales](../../hojas/estimulos-internacionales.qmd).
+:::
+
+## Qué mirar
+
+| Hoja | Qué buscar | Por qué |
+|---|---|---|
+| Resumen Ejecutivo | Producción y empleo en riesgo | La magnitud de la exposición |
+| Producción | Sectores más expuestos | Dónde golpea |
+| Empleo | Distribución del riesgo por sexo y calificación | Para focalizar la protección social |
+| Empleo | Componente indirecto | Cuánto del golpe llega por la cadena |
+| Inserción Internacional | Vínculo de cada sector con esa región | Contexto estructural |
+
+## Interpretación sugerida
+
+Brasil concentra el **22,1%** del comercio paraguayo, así que una caída del 10%
+en su demanda tiene efectos considerables. Pero la magnitud no es lo único
+interesante.
+
+Lo relevante para política es **quién** queda expuesto. La distribución del
+empleo en riesgo por sexo y calificación permite identificar a los grupos más
+vulnerables y focalizar la protección social antes de que el choque se
+materialice.
+
+El componente indirecto suele ser alto: el golpe no queda en los sectores que
+exportan a Brasil, sino que se transmite a sus proveedores domésticos.
+
+::: {.callout-note}
+La dimensión internacional es **indicativa**. Se apoya en una matriz con
+cobertura desigual entre sectores: sirve para posicionar y ordenar, no para
+cifras finas.
+:::
+
+## Para discutir
+
+- ¿Qué diferencia hay entre el impacto de Brasil y el de China? ¿Por qué?
+- Si el objetivo fuera reducir la vulnerabilidad, ¿diversificar mercados o
+  diversificar productos?
+- El caso mide exposición, no probabilidad. ¿Cómo se combinan ambas para
+  priorizar?
+
+## Ver también
+
+La [sección 3](../seccion-3-bloque-externo.qmd) desarrolla el módulo
+internacional en profundidad.

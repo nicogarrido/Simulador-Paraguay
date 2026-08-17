@@ -4,6 +4,7 @@ project:
   render:
     - "*.qmd"
     - "taller/*.qmd"
+    - "taller/casos/*.qmd"
     - "hojas/*.qmd"
 
 website:
@@ -40,9 +41,17 @@ website:
         href: taller/index.qmd
         contents:
           - taller/seccion-1-estructura.qmd
-          - taller/seccion-2-demanda-interna.qmd
-          - taller/seccion-3-empleo-e-ingreso.qmd
-          - taller/seccion-4-comercio-exterior.qmd
+          - section: "Sección 2 · Cambios en la demanda"
+            href: taller/seccion-2-cambios-demanda.qmd
+            contents:
+              - taller/casos/caso-1-soja-o-industria.qmd
+              - taller/casos/caso-2-sequia-hidrovia.qmd
+              - taller/casos/caso-3-planta-agroindustrial.qmd
+              - taller/casos/caso-4-empleo-y-genero.qmd
+              - taller/casos/caso-5-calificacion.qmd
+              - taller/casos/caso-6-recesion-socio.qmd
+              - taller/casos/caso-7-empleo-decente.qmd
+          - taller/seccion-3-bloque-externo.qmd
       - section: "Las hojas del simulador"
         href: hojas/index.qmd
         contents:

@@ -1,0 +1,70 @@
+---
+title: "Caso 5 · Empleo por calificación"
+subtitle: "Modo comparado · el reto de la formación"
+---
+
+## Por qué importa
+
+El escalamiento industrial exige competencias, y un cuello de botella recurrente
+es el desajuste entre las calificaciones que demandan los sectores más
+sofisticados y las que ofrece la fuerza de trabajo.
+
+Anticipar el perfil de calificación que requiere cada camino de desarrollo
+permite alinear a tiempo la política de formación.
+
+## Objetivo
+
+Contrastar la demanda de calificaciones de dos caminos productivos.
+
+## Cómo cargarlo
+
+Hoja **Estímulos Nacionales**, modo comparado. Ambos suman 120 millones.
+
+| Escenario | Columna | Sector | Monto |
+|---|---|---|---|
+| **A · Manufactura sofisticada** | Base | Maquinaria, equipo y vehículos | +70 |
+| | Base | Química, farmacia y caucho | +50 |
+| **B · Agroindustria tradicional** | Alternativo | Alimentos, bebidas y tabacos | +80 |
+| | Alternativo | Agricultura, ganadería, caza y pesca | +40 |
+
+## Qué mirar
+
+| Hoja | Qué buscar | Por qué |
+|---|---|---|
+| Empleo | Composición por calificación en cada escenario | El foco del caso |
+| Empleo | Proporción de calificación media y alta | Indica la exigencia formativa |
+| Resumen Ejecutivo | Empleo total | El camino más exigente suele generar menos puestos |
+
+## Interpretación sugerida
+
+Hay una tensión que el caso hace visible: el camino que demanda **más
+calificación** suele generar **menos empleo total**, porque los sectores
+sofisticados son menos intensivos en trabajo.
+
+| Sector | Ocupados por millón USD |
+|---|---|
+| Agricultura | 57,4 |
+| Alimentos | 7,7 |
+| Maquinaria | 23,2 |
+| Química | 6,8 |
+
+Elegir un camino de escalamiento industrial implica aceptar menos puestos pero
+de mayor calificación, y requiere anticipar la formación necesaria para que la
+falta de competencias no frene el proceso.
+
+::: {.callout-warning}
+## Una limitación importante
+Los sectores industriales comparten rama en la encuesta de hogares, de modo que
+**reciben el mismo perfil de calificación**. La comparación entre escenario A y B
+es válida porque involucra ramas distintas —industria frente a agricultura—,
+pero comparar maquinaria contra química no aportaría información.
+
+Ver [Información Empleo](../../hojas/informacion-empleo.qmd).
+:::
+
+## Para discutir
+
+- ¿Cuánto tiempo lleva formar las competencias que demanda el camino A?
+- Si esa formación no está disponible, ¿qué pasa con el escenario? El modelo no
+  lo ve, pero la política sí debe considerarlo.
+- ¿Es posible un camino intermedio que combine ambos objetivos?

@@ -1,0 +1,71 @@
+---
+title: "Sección 2 · Cambios en la demanda"
+subtitle: "Siete casos aplicados"
+---
+
+El núcleo del taller. Siete casos que no son ejercicios abstractos: cada uno
+pone el foco en un rasgo real de la economía paraguaya.
+
+## Los casos
+
+| # | Caso | Modo | Qué introduce |
+|---|---|---|---|
+| [1](casos/caso-1-soja-o-industria.qmd) | ¿Exportar soja o industrializar? | Comparado | Multiplicadores y efecto indirecto |
+| [2](casos/caso-2-sequia-hidrovia.qmd) | La gran sequía de la Hidrovía | Nacional | Choques negativos y propagación |
+| [3](casos/caso-3-planta-agroindustrial.qmd) | Una nueva planta agroindustrial | Nacional | Fases transitoria y permanente |
+| [4](casos/caso-4-empleo-y-genero.qmd) | ¿A quién llega el estímulo? | Comparado | Empleo por sexo |
+| [5](casos/caso-5-calificacion.qmd) | Empleo por calificación | Comparado | Empleo por nivel educativo |
+| [6](casos/caso-6-recesion-socio.qmd) | Recesión en un socio | Internacional | Vulnerabilidad externa |
+| [7](casos/caso-7-empleo-decente.qmd) | Maximizar el empleo decente | Diagnóstico + comparado | Integración de todo |
+
+## El trasfondo
+
+Los casos se apoyan en cuatro rasgos de la economía paraguaya.
+
+**Una base primaria y agroexportadora.** Soja y carne, sobre todo. Buena parte
+de la producción sale del país con poca transformación, y el debate central de
+desarrollo es cómo agregarle valor procesando más adentro. Casos **1** y **3**.
+
+**Dependencia crítica de la logística fluvial.** Sin salida al mar, la mayor
+parte del comercio exterior se mueve por la hidrovía Paraguay-Paraná. Y el
+comercio está concentrado en pocos socios: Brasil y Argentina primero, y cada
+vez más China y la Unión Europea. Casos **2** y **6**.
+
+**Rasgos del mercado de trabajo.** Alta informalidad, brechas entre mujeres y
+hombres, diferencias por calificación y una distinción marcada entre lo urbano y
+lo rural. Casos **4** y **5**.
+
+**Sectores que no pesan ni se conectan igual.** Algunos vertebran la economía;
+otros retienen poco valor. Entender esa arquitectura, con recursos fiscales
+escasos, es lo que permite diseñar políticas que rindan más empleo y de mejor
+calidad. Caso **7**.
+
+## La progresión
+
+Los casos están ordenados por dificultad creciente:
+
+- **1 a 3** introducen la mecánica: modo nacional y comparado, choques positivos
+  y negativos, lectura de encadenamientos.
+- **4 y 5** incorporan el empleo desagregado, central para el enfoque de trabajo
+  decente.
+- **6** introduce la dimensión internacional y el análisis de vulnerabilidad.
+- **7** integra todo el instrumental en un ejercicio de diseño de política.
+
+::: {.callout-tip}
+## Cómo trabajar cada caso
+El objetivo no es obtener un número, sino apropiarse del razonamiento: qué canal
+explica el resultado, a quién llega el empleo y de qué calidad es.
+:::
+
+## Cautelas que atraviesan todos los casos
+
+- Son **órdenes de magnitud**, no cifras exactas. El valor está en comparar y en
+  entender por qué.
+- Tienden a mostrar el **efecto máximo**: el modelo supone capacidad ilimitada,
+  así que conviene leerlos como un techo.
+- **No incluyen reacciones de política ni de mercado.** Son punto de partida del
+  análisis, no la última palabra.
+- El reparto del empleo refleja la **estructura actual**: muestra cómo se
+  distribuiría si cada sector mantuviera su composición de hoy.
+
+El detalle está en [Buenas prácticas](../hojas/buenas-practicas.qmd).

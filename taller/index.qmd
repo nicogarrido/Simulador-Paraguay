@@ -1,28 +1,26 @@
 ---
 title: "El taller"
-subtitle: "Cuatro secciones"
+subtitle: "Tres secciones"
 ---
-
-El taller está organizado en cuatro secciones. La primera presenta el simulador
-por dentro; las tres siguientes lo ponen a trabajar sobre casos distintos.
 
 | Sección | Tema |
 |---|---|
 | [1](seccion-1-estructura.qmd) | La estructura del simulador |
-| [2](seccion-2-demanda-interna.qmd) | Un choque de demanda interna |
-| [3](seccion-3-empleo-e-ingreso.qmd) | Empleo, calidad e ingreso |
-| [4](seccion-4-comercio-exterior.qmd) | Comercio exterior y empleo exportador |
+| [2](seccion-2-cambios-demanda.qmd) | Cambios en la demanda · siete casos aplicados |
+| [3](seccion-3-bloque-externo.qmd) | El bloque externo |
 
 ## La lógica de la secuencia
 
-La primera sección responde *cómo está hecho*. Sin eso, los resultados de las
-siguientes se leen mal: es fácil confundir un efecto indirecto con uno directo,
-o tomar por predicción lo que es una contabilidad.
+La **sección 1** responde *cómo está hecho*. Sin eso los resultados se leen mal:
+es fácil confundir un efecto indirecto con uno directo, o tomar por predicción
+lo que es una contabilidad.
 
-Las tres restantes van de lo simple a lo complejo. La segunda trabaja un
-escenario interno de un solo sector, donde se puede rastrear la cadena completa
-a mano. La tercera agrega la dimensión del empleo y su calidad. La cuarta
-incorpora el módulo internacional, que es el más elaborado.
+La **sección 2** es el cuerpo del taller. Siete casos aplicados que van de la
+mecánica básica al diseño de política, cada uno construido sobre un rasgo real
+de la economía paraguaya.
+
+La **sección 3** abre el módulo internacional: cómo se conecta Paraguay con el
+resto del mundo y qué empleo sostiene exportando.
 
 ## Antes de empezar
 
@@ -32,9 +30,7 @@ mejor resolverla antes que durante.
 
 ::: {.callout-tip}
 ## La sección de referencia
-Paralelamente al taller, la sección [Las hojas del simulador](../hojas/index.qmd)
-documenta cada hoja del libro: qué contiene, cómo leerla y qué errores evitar.
-
-Sirve para consultar durante las sesiones y después, cuando aparezca la duda
-concreta.
+Paralelamente al taller, [Las hojas del simulador](../hojas/index.qmd) documenta
+cada hoja del libro. Sirve para consultar durante las sesiones y después, cuando
+aparezca la duda concreta.
 :::

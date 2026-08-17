@@ -1,0 +1,74 @@
+---
+title: "Caso 4 · ¿A quién llega el estímulo?"
+subtitle: "Modo comparado · empleo y género"
+---
+
+## Por qué importa
+
+Las decisiones de gasto público tienen una huella de género que suele quedar
+invisible. Con brechas persistentes en el mercado laboral paraguayo, hacer
+visible **a quién llega el empleo** según la composición del gasto es clave para
+una política con perspectiva de género.
+
+Está en el centro de la agenda de trabajo decente de la OIT.
+
+## Objetivo
+
+Comparar la huella de género de dos paquetes de gasto del mismo monto.
+
+## Cómo cargarlo
+
+Hoja **Estímulos Nacionales**, modo comparado. Ambos paquetes suman 150
+millones.
+
+| Escenario | Columna | Sector | Monto |
+|---|---|---|---|
+| **A · Infraestructura** | Base | Construcción | +90 |
+| | Base | Maquinaria, equipo y vehículos | +40 |
+| | Base | Servicios a las empresas | +20 |
+| **B · Servicios y agroalimentos** | Alternativo | Otros servicios | +90 |
+| | Alternativo | Alimentos, bebidas y tabacos | +40 |
+| | Alternativo | Comercio al por mayor y menor | +20 |
+
+::: {.callout-note}
+## Adaptación a 21 sectores
+El caso original separaba Educación y Salud. En la clasificación de 21 sectores
+ambas están dentro de **Otros servicios**, así que se cargan juntas. La lógica
+del contraste se mantiene: infraestructura frente a servicios sociales.
+:::
+
+## Qué mirar
+
+| Hoja | Qué buscar | Por qué |
+|---|---|---|
+| Resumen Ejecutivo | Empleo total de cada paquete | Cantidad, antes de la composición |
+| Empleo | Reparto por sexo en cada escenario | El corazón del caso |
+| Empleo | Comparar con la estructura base | Cuál amplía y cuál cierra la brecha |
+| Encadenamientos Internos | Intensidad de empleo de cada sector | Explica las diferencias de cantidad |
+
+## Interpretación sugerida
+
+Construcción tiene **97,6% de participación masculina**; Otros servicios, apenas
+**35,3%**. Con el mismo monto, la composición del gasto determina en gran medida
+a quién llega el empleo.
+
+El paquete de infraestructura tiende a generar empleo predominantemente
+masculino; el de servicios, un reparto más equilibrado o de mayoría femenina.
+
+Eso no significa que uno sea mejor que otro: significa que la decisión de gasto
+**tiene consecuencias distributivas de género** que conviene hacer explícitas al
+momento de decidir, no después.
+
+::: {.callout-warning}
+El modelo muestra cómo se distribuiría el empleo **si cada sector mantuviera su
+composición actual**. No anticipa cambios de conducta, como una mayor
+participación femenina en la construcción.
+:::
+
+## Para discutir
+
+- Si el objetivo declarado fuera reducir la brecha de género, ¿cómo se
+  rediseñaría el paquete?
+- ¿Es legítimo usar la composición del gasto como instrumento de política de
+  género, o eso debería resolverse con otras herramientas?
+- ¿Qué pasaría si se combinaran ambos paquetes en proporciones distintas?

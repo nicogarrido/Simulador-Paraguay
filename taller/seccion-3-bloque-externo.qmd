@@ -1,0 +1,94 @@
+---
+title: "Sección 3 · El bloque externo"
+---
+
+Cómo se conecta Paraguay con el resto del mundo, y qué empleo sostiene
+exportando.
+
+## Objetivo
+
+Que al terminar quede claro cómo opera el módulo internacional, cómo se lee la
+posición de Paraguay en las cadenas globales y qué caracteriza al empleo
+exportador.
+
+## Contenidos
+
+### El módulo internacional
+
+Cómo funciona el panel de [Estímulos Internacionales](../hojas/estimulos-internacionales.qmd):
+las diez regiones, los dos modos y —el punto donde más se equivoca— la
+diferencia de unidades entre uno y otro.
+
+::: {.callout-warning}
+## Las unidades
+El **Modo A** usa índice: `110` para un aumento del 10%.
+El **Modo B** usa fracción decimal: `0,10` para lo mismo.
+
+Escribir `10` en una celda del Modo B genera un shock del 1.000%.
+:::
+
+### La posición de Paraguay en las cadenas
+
+La hoja [Inserción Internacional](../hojas/insercion-internacional.qmd) permite
+distinguir los sectores que retienen valor de los ensambladores, donde parte del
+impulso se filtra al exterior.
+
+El VAX agregado es de **0,842**: por cada dólar exportado, 84,2 centavos son
+valor agregado nacional. Un valor alto, coherente con una canasta concentrada en
+productos primarios y energía.
+
+### El empleo exportador
+
+La hoja [Empleo Exportador](../hojas/empleo-exportador.qmd) cuantifica y
+caracteriza el empleo que el país sostiene exportando.
+
+| Indicador | Valor |
+|---|---|
+| Empleo asociado a exportaciones | 712.052 personas |
+| Participación en el empleo nacional | 23,0% |
+| Multiplicador | 1,709 |
+
+Cuatro de cada diez de esos empleos están en sectores que **no exportan
+directamente**: proveen a los que exportan.
+
+### El perfil, comparado con el promedio nacional
+
+| Dimensión | Exportador | Nacional | Brecha |
+|---|---|---|---|
+| Calificación baja | 42,8% | 34,0% | +8,8 pp |
+| Calificación alta | 22,3% | 29,9% | −7,6 pp |
+| Informal | 71,8% | 67,5% | +4,3 pp |
+| Rural | 49,8% | 36,8% | +13,0 pp |
+
+Más rural, menos calificado y más informal. Lo explica la composición:
+agricultura aporta 276 mil de los 712 mil empleos exportadores.
+
+### El empleo por destino
+
+| Destino | Exportaciones | Empleo | Empleos por millón |
+|---|---|---|---|
+| Argentina | 3.019,8 | 212.673 | 70,4 |
+| Brasil | 2.975,9 | 103.898 | 34,9 |
+| Unión Europea | 452,4 | 23.256 | 51,4 |
+
+Argentina y Brasil compran montos casi idénticos, pero Argentina moviliza el
+doble de empleo: a Argentina va soja en grano, que arrastra toda la cadena
+agrícola; a Brasil, energía eléctrica, intensiva en capital.
+
+## Un caso relacionado
+
+El [caso 6](casos/caso-6-recesion-socio.qmd) de la sección anterior trabaja el
+módulo internacional desde el ángulo de la vulnerabilidad: qué pasa cuando cae
+la demanda de un socio.
+
+## Notas para el desarrollo
+
+*[Espacio para el contenido detallado de la sesión.]*
+
+## Material de apoyo
+
+- [Estímulos Internacionales](../hojas/estimulos-internacionales.qmd)
+- [Inserción Internacional](../hojas/insercion-internacional.qmd)
+- [Empleo Exportador](../hojas/empleo-exportador.qmd)
+- [MRIO](../hojas/mrio.qmd)
+- [Anexos: las diez regiones](../hojas/anexos.qmd)

@@ -1,0 +1,64 @@
+---
+title: "Caso 2 · La gran sequía de la Hidrovía"
+subtitle: "Modo nacional, choque negativo"
+---
+
+## Por qué importa
+
+Paraguay es un país sin litoral y la mayor parte de su comercio exterior se
+moviliza por la hidrovía Paraguay-Paraná. Las bajantes del río, recurrentes y
+agravadas por el cambio climático, encarecen la logística de toda la economía.
+
+El caso muestra cómo un problema logístico se convierte en un problema de
+producción y empleo.
+
+## Objetivo
+
+Estimar el impacto de un choque logístico negativo que reduce la actividad del
+transporte fluvial.
+
+## Cómo cargarlo
+
+Hoja **Estímulos Nacionales**, columna Base. **Valores negativos**.
+
+| Sector | Monto |
+|---|---|
+| Transporte | −60 |
+| Agricultura, ganadería, caza y pesca | −40 |
+| Alimentos, bebidas y tabacos | −25 |
+| Comercio al por mayor y menor | −15 |
+
+::: {.callout-note}
+El modelo es simétrico: un choque negativo se propaga con la misma mecánica que
+uno positivo, y los resultados aparecen con signo negativo.
+:::
+
+## Qué mirar
+
+| Hoja | Qué buscar | Por qué |
+|---|---|---|
+| Producción | Sectores con valores negativos | Muestra hasta dónde llega la onda |
+| Producción | Efecto indirecto | Es el canal que transmite el golpe |
+| Empleo | Empleo total en riesgo y su distribución | Base para pensar mitigación |
+| Encadenamientos Internos | Posición de Transporte | Explica por qué se propaga tanto |
+
+## Interpretación sugerida
+
+Lo revelador es que aparecen afectados **sectores alejados del transporte**. Eso
+ocurre porque el transporte es un insumo transversal: casi toda actividad
+necesita mover mercadería.
+
+Un problema logístico no queda contenido en la logística. Se transmite a la
+producción de sectores que no tienen nada que ver con el río.
+
+El empleo en riesgo y su distribución sectorial es el insumo directo para
+pensar medidas de mitigación y protección social focalizada.
+
+## Para discutir
+
+- ¿Qué sectores conviene proteger primero si los recursos son limitados?
+- El modelo supone que la caída de demanda se traduce en menos producción.
+  ¿Qué pasaría si las empresas absorbieran el golpe con márgenes en vez de
+  producción?
+- ¿Cómo se compara este choque con uno del mismo monto concentrado en un solo
+  sector?

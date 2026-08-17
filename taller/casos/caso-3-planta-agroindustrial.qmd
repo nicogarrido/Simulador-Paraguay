@@ -1,0 +1,65 @@
+---
+title: "Caso 3 · Una nueva planta agroindustrial"
+subtitle: "Modo nacional"
+---
+
+## Por qué importa
+
+Atraer inversión en agroindustria es un pilar de la política industrial, y suele
+acompañarse de incentivos fiscales que se otorgan **sin conocer su retorno
+real**.
+
+Este caso permite sopesar, antes de conceder incentivos, cuánto empleo y qué
+encadenamientos deja la inversión, y distinguir lo transitorio de lo permanente.
+
+## Objetivo
+
+Evaluar los efectos de una inversión distinguiendo la fase de construcción de la
+de operación.
+
+## Cómo cargarlo
+
+Hoja **Estímulos Nacionales**, columna Base.
+
+| Fase | Sector | Monto |
+|---|---|---|
+| **Construcción** (transitoria) | Construcción | +70 |
+| | Maquinaria, equipo y vehículos | +40 |
+| | Servicios a las empresas | +15 |
+| | Electricidad, gas, y agua | +5 |
+| **Operación** (permanente) | Alimentos, bebidas y tabacos | +50 |
+
+::: {.callout-tip}
+Conviene correr las dos fases **por separado** además de juntas, para poder
+atribuir cada efecto a su fase.
+:::
+
+## Qué mirar
+
+| Hoja | Qué buscar | Por qué |
+|---|---|---|
+| Producción | Qué sectores capturan los mayores encadenamientos | Dónde se derrama la inversión |
+| Producción | Efecto directo frente a indirecto | Cuánto queda en el sector y cuánto se difunde |
+| Empleo | Empleo generado en cada fase | Insumo para la decisión sobre incentivos |
+| Encadenamientos Internos | Posición de Construcción y Alimentos | Contexto estructural |
+
+## Interpretación sugerida
+
+La distinción entre fases es la clave del caso. La construcción genera un pico
+de empleo que **dura lo que dura la obra**; la operación genera un flujo menor
+pero permanente.
+
+Presentar el total sin esa distinción sobreestima el beneficio del proyecto: una
+parte importante del empleo desaparece cuando termina la construcción.
+
+Para evaluar incentivos fiscales, lo relevante es el empleo **permanente** por
+peso de incentivo, no el pico transitorio.
+
+## Para discutir
+
+- Si el incentivo se otorga por diez años, ¿qué fase debería pesar más en la
+  evaluación?
+- ¿Cuánto del efecto de la fase de construcción se filtra al exterior vía
+  maquinaria importada?
+- ¿Qué información falta para decidir? Pensar en costo fiscal, alternativas de
+  uso de esos recursos y sostenibilidad del proyecto.

@@ -1,0 +1,81 @@
+---
+title: "Caso 7 · Maximizar el empleo decente"
+subtitle: "Diagnóstico y modo comparado · integración"
+---
+
+## Por qué importa
+
+El espacio fiscal es escaso, por lo que **cómo** se asigna un estímulo importa
+tanto como su monto.
+
+Este caso muestra que usar los diagnósticos estructurales para focalizar el
+gasto puede rendir mucho más empleo —y de mejor calidad— por el mismo dinero.
+Convierte el objetivo de trabajo decente en un criterio concreto de asignación.
+
+## Objetivo
+
+Diseñar la asignación de un estímulo usando los diagnósticos estructurales, y
+medir su calidad de empleo.
+
+## Cómo cargarlo
+
+Este caso tiene **dos etapas**.
+
+### Etapa 1 · Diagnóstico
+
+Antes de simular nada, abrir **Encadenamientos Internos** e identificar:
+
+- Los sectores **clave**, con ambos encadenamientos por encima del promedio
+- Los sectores de **alta intensidad de empleo**, en la columna de ocupados por
+  millón
+
+El cuadrante que interesa es la intersección de ambos.
+
+### Etapa 2 · Comparación
+
+Hoja **Estímulos Nacionales**, modo comparado. Ambos diseños suman 100 millones.
+
+| Diseño | Columna | Sector | Monto |
+|---|---|---|---|
+| **Ingenuo** | Base | Electricidad, gas, y agua | +100 |
+| **Orientado al empleo** | Alternativo | Alimentos, bebidas y tabacos | +40 |
+| | Alternativo | Construcción | +30 |
+| | Alternativo | Servicios a las empresas | +30 |
+
+## Qué mirar
+
+| Hoja | Qué buscar | Por qué |
+|---|---|---|
+| Encadenamientos Internos | Sectores clave e intensivos en empleo | Fundamenta el diseño |
+| Resumen Ejecutivo | Diferencia de empleo total entre diseños | El resultado central |
+| Empleo | Efecto inducido en cada diseño | Se activa cuando hay masa salarial |
+| Empleo | Composición por sexo y calificación | La dimensión de calidad |
+| Ingreso Laboral | Ingreso medio del empleo generado | Cierra la lectura de calidad |
+
+## Interpretación sugerida
+
+Electricidad tiene un coeficiente de **7,6 ocupados por millón**; los sectores
+del diseño alternativo están muy por encima. Con el mismo monto, la diferencia
+de empleo total puede ser de varias veces.
+
+El **efecto inducido** amplifica esa brecha: un diseño que genera más masa
+salarial activa más consumo de los hogares, que a su vez genera más producción y
+empleo.
+
+Pero el caso no termina en la cantidad. La composición por calificación y
+formalidad, y el ingreso medio del empleo generado, muestran la **tensión entre
+cantidad y calidad**: el diseño que más empleo genera no siempre es el que
+genera mejor empleo.
+
+Esa tensión es el eje de la noción de trabajo decente, y no se resuelve con el
+modelo: se resuelve con una decisión de política que el modelo ayuda a
+fundamentar.
+
+## Para discutir
+
+- Si hubiera que elegir entre más empleo o mejor empleo, ¿con qué criterio?
+- El diseño orientado al empleo, ¿es viable? ¿Existen proyectos concretos en
+  esos sectores donde asignar los recursos?
+- ¿Qué otros criterios deberían entrar en la decisión además del empleo?
+- ¿Cómo se comunica un resultado así a quien toma la decisión, sin
+  sobreafirmar?

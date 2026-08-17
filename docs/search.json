@@ -1,227 +1,546 @@
 [
   {
-    "objectID": "taller/seccion-4-comercio-exterior.html",
-    "href": "taller/seccion-4-comercio-exterior.html",
-    "title": "Sección 4 · Comercio exterior y empleo exportador",
+    "objectID": "taller/seccion-3-bloque-externo.html",
+    "href": "taller/seccion-3-bloque-externo.html",
+    "title": "Sección 3 · El bloque externo",
     "section": "",
-    "text": "El módulo internacional y la caracterización del empleo que Paraguay sostiene exportando.",
+    "text": "Cómo se conecta Paraguay con el resto del mundo, y qué empleo sostiene exportando.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 4 · Comercio exterior y empleo exportador"
+      "Sección 3 · El bloque externo"
     ]
   },
   {
-    "objectID": "taller/seccion-4-comercio-exterior.html#objetivo",
-    "href": "taller/seccion-4-comercio-exterior.html#objetivo",
-    "title": "Sección 4 · Comercio exterior y empleo exportador",
+    "objectID": "taller/seccion-3-bloque-externo.html#objetivo",
+    "href": "taller/seccion-3-bloque-externo.html#objetivo",
+    "title": "Sección 3 · El bloque externo",
     "section": "Objetivo",
-    "text": "Objetivo\n[Definir qué debería poder hacer un participante al terminar esta sección.]",
+    "text": "Objetivo\nQue al terminar quede claro cómo opera el módulo internacional, cómo se lee la posición de Paraguay en las cadenas globales y qué caracteriza al empleo exportador.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 4 · Comercio exterior y empleo exportador"
+      "Sección 3 · El bloque externo"
     ]
   },
   {
-    "objectID": "taller/seccion-4-comercio-exterior.html#el-caso",
-    "href": "taller/seccion-4-comercio-exterior.html#el-caso",
-    "title": "Sección 4 · Comercio exterior y empleo exportador",
-    "section": "El caso",
-    "text": "El caso\n[Describir el escenario que se va a trabajar: de qué se trata, por qué es relevante y qué supuestos lo sostienen.]",
+    "objectID": "taller/seccion-3-bloque-externo.html#contenidos",
+    "href": "taller/seccion-3-bloque-externo.html#contenidos",
+    "title": "Sección 3 · El bloque externo",
+    "section": "Contenidos",
+    "text": "Contenidos\n\nEl módulo internacional\nCómo funciona el panel de Estímulos Internacionales: las diez regiones, los dos modos y —el punto donde más se equivoca— la diferencia de unidades entre uno y otro.\n\n\n\n\n\n\nAdvertenciaLas unidades\n\n\n\nEl Modo A usa índice: 110 para un aumento del 10%. El Modo B usa fracción decimal: 0,10 para lo mismo.\nEscribir 10 en una celda del Modo B genera un shock del 1.000%.\n\n\n\n\nLa posición de Paraguay en las cadenas\nLa hoja Inserción Internacional permite distinguir los sectores que retienen valor de los ensambladores, donde parte del impulso se filtra al exterior.\nEl VAX agregado es de 0,842: por cada dólar exportado, 84,2 centavos son valor agregado nacional. Un valor alto, coherente con una canasta concentrada en productos primarios y energía.\n\n\nEl empleo exportador\nLa hoja Empleo Exportador cuantifica y caracteriza el empleo que el país sostiene exportando.\n\n\n\nIndicador\nValor\n\n\n\n\nEmpleo asociado a exportaciones\n712.052 personas\n\n\nParticipación en el empleo nacional\n23,0%\n\n\nMultiplicador\n1,709\n\n\n\nCuatro de cada diez de esos empleos están en sectores que no exportan directamente: proveen a los que exportan.\n\n\nEl perfil, comparado con el promedio nacional\n\n\n\nDimensión\nExportador\nNacional\nBrecha\n\n\n\n\nCalificación baja\n42,8%\n34,0%\n+8,8 pp\n\n\nCalificación alta\n22,3%\n29,9%\n−7,6 pp\n\n\nInformal\n71,8%\n67,5%\n+4,3 pp\n\n\nRural\n49,8%\n36,8%\n+13,0 pp\n\n\n\nMás rural, menos calificado y más informal. Lo explica la composición: agricultura aporta 276 mil de los 712 mil empleos exportadores.\n\n\nEl empleo por destino\n\n\n\nDestino\nExportaciones\nEmpleo\nEmpleos por millón\n\n\n\n\nArgentina\n3.019,8\n212.673\n70,4\n\n\nBrasil\n2.975,9\n103.898\n34,9\n\n\nUnión Europea\n452,4\n23.256\n51,4\n\n\n\nArgentina y Brasil compran montos casi idénticos, pero Argentina moviliza el doble de empleo: a Argentina va soja en grano, que arrastra toda la cadena agrícola; a Brasil, energía eléctrica, intensiva en capital.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 4 · Comercio exterior y empleo exportador"
+      "Sección 3 · El bloque externo"
     ]
   },
   {
-    "objectID": "taller/seccion-4-comercio-exterior.html#desarrollo",
-    "href": "taller/seccion-4-comercio-exterior.html#desarrollo",
-    "title": "Sección 4 · Comercio exterior y empleo exportador",
-    "section": "Desarrollo",
-    "text": "Desarrollo\n[Los pasos de la sesión: qué se carga, qué se observa, qué se discute.]",
+    "objectID": "taller/seccion-3-bloque-externo.html#un-caso-relacionado",
+    "href": "taller/seccion-3-bloque-externo.html#un-caso-relacionado",
+    "title": "Sección 3 · El bloque externo",
+    "section": "Un caso relacionado",
+    "text": "Un caso relacionado\nEl caso 6 de la sección anterior trabaja el módulo internacional desde el ángulo de la vulnerabilidad: qué pasa cuando cae la demanda de un socio.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 4 · Comercio exterior y empleo exportador"
+      "Sección 3 · El bloque externo"
     ]
   },
   {
-    "objectID": "taller/seccion-4-comercio-exterior.html#qué-mirar-en-el-simulador",
-    "href": "taller/seccion-4-comercio-exterior.html#qué-mirar-en-el-simulador",
-    "title": "Sección 4 · Comercio exterior y empleo exportador",
-    "section": "Qué mirar en el simulador",
-    "text": "Qué mirar en el simulador\n[Las hojas que intervienen en este caso y qué buscar en cada una.]",
+    "objectID": "taller/seccion-3-bloque-externo.html#notas-para-el-desarrollo",
+    "href": "taller/seccion-3-bloque-externo.html#notas-para-el-desarrollo",
+    "title": "Sección 3 · El bloque externo",
+    "section": "Notas para el desarrollo",
+    "text": "Notas para el desarrollo\n[Espacio para el contenido detallado de la sesión.]",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 4 · Comercio exterior y empleo exportador"
+      "Sección 3 · El bloque externo"
     ]
   },
   {
-    "objectID": "taller/seccion-4-comercio-exterior.html#puntos-de-discusión",
-    "href": "taller/seccion-4-comercio-exterior.html#puntos-de-discusión",
-    "title": "Sección 4 · Comercio exterior y empleo exportador",
-    "section": "Puntos de discusión",
-    "text": "Puntos de discusión\n[Las preguntas que abren debate y no tienen respuesta única.]",
-    "crumbs": [
-      "Inicio",
-      "Taller",
-      "Sección 4 · Comercio exterior y empleo exportador"
-    ]
-  },
-  {
-    "objectID": "taller/seccion-4-comercio-exterior.html#errores-frecuentes",
-    "href": "taller/seccion-4-comercio-exterior.html#errores-frecuentes",
-    "title": "Sección 4 · Comercio exterior y empleo exportador",
-    "section": "Errores frecuentes",
-    "text": "Errores frecuentes\n[Lo que suele salir mal al hacer este tipo de análisis.]",
-    "crumbs": [
-      "Inicio",
-      "Taller",
-      "Sección 4 · Comercio exterior y empleo exportador"
-    ]
-  },
-  {
-    "objectID": "taller/seccion-4-comercio-exterior.html#material-de-apoyo",
-    "href": "taller/seccion-4-comercio-exterior.html#material-de-apoyo",
-    "title": "Sección 4 · Comercio exterior y empleo exportador",
+    "objectID": "taller/seccion-3-bloque-externo.html#material-de-apoyo",
+    "href": "taller/seccion-3-bloque-externo.html#material-de-apoyo",
+    "title": "Sección 3 · El bloque externo",
     "section": "Material de apoyo",
-    "text": "Material de apoyo\n\nLas hojas del simulador",
+    "text": "Material de apoyo\n\nEstímulos Internacionales\nInserción Internacional\nEmpleo Exportador\nMRIO\nAnexos: las diez regiones",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 4 · Comercio exterior y empleo exportador"
+      "Sección 3 · El bloque externo"
     ]
   },
   {
-    "objectID": "taller/seccion-2-demanda-interna.html",
-    "href": "taller/seccion-2-demanda-interna.html",
-    "title": "Sección 2 · Un choque de demanda interna",
+    "objectID": "taller/seccion-1-estructura.html",
+    "href": "taller/seccion-1-estructura.html",
+    "title": "Sección 1 · La estructura del simulador",
     "section": "",
-    "text": "Primer ejemplo con el simulador. Un escenario interno permite rastrear la cadena completa a mano y entender de dónde sale cada número.",
+    "text": "Presentación del simulador por dentro: qué hay en cada hoja, cómo se conectan y qué lógica sigue el cálculo.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 2 · Un choque de demanda interna"
+      "Sección 1 · La estructura del simulador"
     ]
   },
   {
-    "objectID": "taller/seccion-2-demanda-interna.html#objetivo",
-    "href": "taller/seccion-2-demanda-interna.html#objetivo",
-    "title": "Sección 2 · Un choque de demanda interna",
+    "objectID": "taller/seccion-1-estructura.html#objetivo",
+    "href": "taller/seccion-1-estructura.html#objetivo",
+    "title": "Sección 1 · La estructura del simulador",
     "section": "Objetivo",
-    "text": "Objetivo\n[Definir qué debería poder hacer un participante al terminar esta sección.]",
+    "text": "Objetivo\nQue al terminar quede claro dónde está cada cosa y por qué. El resto del taller supone este mapa.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 2 · Un choque de demanda interna"
+      "Sección 1 · La estructura del simulador"
     ]
   },
   {
-    "objectID": "taller/seccion-2-demanda-interna.html#el-caso",
-    "href": "taller/seccion-2-demanda-interna.html#el-caso",
-    "title": "Sección 2 · Un choque de demanda interna",
-    "section": "El caso",
-    "text": "El caso\n[Describir el escenario que se va a trabajar: de qué se trata, por qué es relevante y qué supuestos lo sostienen.]",
+    "objectID": "taller/seccion-1-estructura.html#las-cuatro-capas",
+    "href": "taller/seccion-1-estructura.html#las-cuatro-capas",
+    "title": "Sección 1 · La estructura del simulador",
+    "section": "Las cuatro capas",
+    "text": "Las cuatro capas\nEl libro tiene diecisiete hojas que se organizan en cuatro capas. Distinguirlas evita la confusión más frecuente: leer como resultado de un escenario algo que en realidad describe la economía de 2024.\n\n\n\n\n\n\n\n\nCapa\nHojas\n¿Cambian con el escenario?\n\n\n\n\nEntradas\nEstímulos Nacionales e Internacionales\nSe editan\n\n\nResultados\nProducción, PIB, Empleo, Ingreso Laboral, Resumen\nSí\n\n\nAnálisis estructural\nEncadenamientos, Empleo Exportador, Inserción Internacional\nNo\n\n\nDatos\nMatrices Nacionales, Información Empleo, MRIO, VAX, Parámetros\nNo\n\n\n\n\n\n\n\n\n\nTipLa regla práctica\n\n\n\nSi una hoja cambia al cargar un estímulo, es de resultados. Si no cambia, describe la economía tal como es.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 2 · Un choque de demanda interna"
+      "Sección 1 · La estructura del simulador"
     ]
   },
   {
-    "objectID": "taller/seccion-2-demanda-interna.html#desarrollo",
-    "href": "taller/seccion-2-demanda-interna.html#desarrollo",
-    "title": "Sección 2 · Un choque de demanda interna",
-    "section": "Desarrollo",
-    "text": "Desarrollo\n[Los pasos de la sesión: qué se carga, qué se observa, qué se discute.]",
+    "objectID": "taller/seccion-1-estructura.html#los-cuatro-conceptos-que-organizan-todo",
+    "href": "taller/seccion-1-estructura.html#los-cuatro-conceptos-que-organizan-todo",
+    "title": "Sección 1 · La estructura del simulador",
+    "section": "Los cuatro conceptos que organizan todo",
+    "text": "Los cuatro conceptos que organizan todo\nAntes de operar el simulador conviene fijar estas cuatro ideas, porque son las que estructuran cada hoja de resultados.\n\n\n\n\n\n\n\nConcepto\nQué es\n\n\n\n\nEfecto inicial\nEl propio choque de demanda que se ingresa\n\n\nEfecto directo\nLos insumos que el sector estimulado compra a sus proveedores inmediatos\n\n\nEfecto indirecto\nLas rondas sucesivas de compras a lo largo de toda la cadena\n\n\nEfecto inducido\nLo que aparece cuando los hogares gastan los nuevos ingresos generados\n\n\n\nAdemás, cada efecto se separa en un componente nacional —dentro de Paraguay— y uno internacional, a través de las cadenas con el resto del mundo.\nLos resultados centrales comparten esta misma estructura de lectura, de modo que una vez entendida sirve para las cuatro hojas.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 2 · Un choque de demanda interna"
+      "Sección 1 · La estructura del simulador"
     ]
   },
   {
-    "objectID": "taller/seccion-2-demanda-interna.html#qué-mirar-en-el-simulador",
-    "href": "taller/seccion-2-demanda-interna.html#qué-mirar-en-el-simulador",
-    "title": "Sección 2 · Un choque de demanda interna",
-    "section": "Qué mirar en el simulador",
-    "text": "Qué mirar en el simulador\n[Las hojas que intervienen en este caso y qué buscar en cada una.]",
+    "objectID": "taller/seccion-1-estructura.html#los-tres-modos-de-uso",
+    "href": "taller/seccion-1-estructura.html#los-tres-modos-de-uso",
+    "title": "Sección 1 · La estructura del simulador",
+    "section": "Los tres modos de uso",
+    "text": "Los tres modos de uso\nEl simulador admite tres formas de trabajo, descritas en detalle en Los tres modos de uso:\n\nImpacto nacional — un choque de demanda interna\nImpacto comparado — dos escenarios lado a lado\nImpacto internacional — cambios en la demanda de los socios comerciales",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 2 · Un choque de demanda interna"
+      "Sección 1 · La estructura del simulador"
     ]
   },
   {
-    "objectID": "taller/seccion-2-demanda-interna.html#puntos-de-discusión",
-    "href": "taller/seccion-2-demanda-interna.html#puntos-de-discusión",
-    "title": "Sección 2 · Un choque de demanda interna",
-    "section": "Puntos de discusión",
-    "text": "Puntos de discusión\n[Las preguntas que abren debate y no tienen respuesta única.]",
+    "objectID": "taller/seccion-1-estructura.html#recorrido-propuesto",
+    "href": "taller/seccion-1-estructura.html#recorrido-propuesto",
+    "title": "Sección 1 · La estructura del simulador",
+    "section": "Recorrido propuesto",
+    "text": "Recorrido propuesto\n[Ajustar el orden y los tiempos según la duración de la sesión.]\n\nDe dónde salen los datos. Las fuentes y su año de referencia.\nLa capa de datos. Matrices Nacionales: Z, A, L y el bloque de valor agregado. Verificar una identidad contable en vivo.\nLa capa de entradas. Los dos modos de trabajo y la diferencia de unidades entre la hoja nacional y la internacional.\nLa capa de resultados. La estructura de columnas compartida y los tres efectos.\nLa capa estructural. Qué preguntas responde y por qué no depende del escenario.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 2 · Un choque de demanda interna"
+      "Sección 1 · La estructura del simulador"
     ]
   },
   {
-    "objectID": "taller/seccion-2-demanda-interna.html#errores-frecuentes",
-    "href": "taller/seccion-2-demanda-interna.html#errores-frecuentes",
-    "title": "Sección 2 · Un choque de demanda interna",
-    "section": "Errores frecuentes",
-    "text": "Errores frecuentes\n[Lo que suele salir mal al hacer este tipo de análisis.]",
+    "objectID": "taller/seccion-1-estructura.html#los-supuestos-del-modelo",
+    "href": "taller/seccion-1-estructura.html#los-supuestos-del-modelo",
+    "title": "Sección 1 · La estructura del simulador",
+    "section": "Los supuestos del modelo",
+    "text": "Los supuestos del modelo\nConviene plantearlos en esta sección y no más adelante, porque condicionan toda lectura posterior. El modelo supone coeficientes técnicos fijos, ausencia de restricciones de capacidad, precios relativos constantes y rendimientos constantes a escala.\nEn consecuencia, los resultados son el requerimiento de producción y empleo asociado a un nivel de demanda, no una predicción. El modelo contabiliza, no anticipa.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 2 · Un choque de demanda interna"
+      "Sección 1 · La estructura del simulador"
     ]
   },
   {
-    "objectID": "taller/seccion-2-demanda-interna.html#material-de-apoyo",
-    "href": "taller/seccion-2-demanda-interna.html#material-de-apoyo",
-    "title": "Sección 2 · Un choque de demanda interna",
+    "objectID": "taller/seccion-1-estructura.html#material-de-apoyo",
+    "href": "taller/seccion-1-estructura.html#material-de-apoyo",
+    "title": "Sección 1 · La estructura del simulador",
     "section": "Material de apoyo",
-    "text": "Material de apoyo\n\nLas hojas del simulador",
+    "text": "Material de apoyo\n\nLas hojas del simulador — una página por hoja\nLos tres modos de uso\nBuenas prácticas y advertencias\nAnexos — sectores y regiones\nGlosario",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 2 · Un choque de demanda interna"
+      "Sección 1 · La estructura del simulador"
     ]
   },
   {
-    "objectID": "taller/index.html",
-    "href": "taller/index.html",
-    "title": "El taller",
+    "objectID": "taller/seccion-1-estructura.html#notas-para-el-desarrollo",
+    "href": "taller/seccion-1-estructura.html#notas-para-el-desarrollo",
+    "title": "Sección 1 · La estructura del simulador",
+    "section": "Notas para el desarrollo",
+    "text": "Notas para el desarrollo\n[Espacio para el contenido detallado de la sesión: qué mostrar en pantalla, qué verificar en vivo, qué preguntas plantear.]",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 1 · La estructura del simulador"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-7-empleo-decente.html",
+    "href": "taller/casos/caso-7-empleo-decente.html",
+    "title": "Caso 7 · Maximizar el empleo decente",
     "section": "",
-    "text": "El taller está organizado en cuatro secciones. La primera presenta el simulador por dentro; las tres siguientes lo ponen a trabajar sobre casos distintos.",
+    "text": "El espacio fiscal es escaso, por lo que cómo se asigna un estímulo importa tanto como su monto.\nEste caso muestra que usar los diagnósticos estructurales para focalizar el gasto puede rendir mucho más empleo —y de mejor calidad— por el mismo dinero. Convierte el objetivo de trabajo decente en un criterio concreto de asignación.",
     "crumbs": [
       "Inicio",
-      "Taller"
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 7 · Maximizar el empleo decente"
     ]
   },
   {
-    "objectID": "taller/index.html#la-lógica-de-la-secuencia",
-    "href": "taller/index.html#la-lógica-de-la-secuencia",
-    "title": "El taller",
-    "section": "La lógica de la secuencia",
-    "text": "La lógica de la secuencia\nLa primera sección responde cómo está hecho. Sin eso, los resultados de las siguientes se leen mal: es fácil confundir un efecto indirecto con uno directo, o tomar por predicción lo que es una contabilidad.\nLas tres restantes van de lo simple a lo complejo. La segunda trabaja un escenario interno de un solo sector, donde se puede rastrear la cadena completa a mano. La tercera agrega la dimensión del empleo y su calidad. La cuarta incorpora el módulo internacional, que es el más elaborado.",
+    "objectID": "taller/casos/caso-7-empleo-decente.html#por-qué-importa",
+    "href": "taller/casos/caso-7-empleo-decente.html#por-qué-importa",
+    "title": "Caso 7 · Maximizar el empleo decente",
+    "section": "",
+    "text": "El espacio fiscal es escaso, por lo que cómo se asigna un estímulo importa tanto como su monto.\nEste caso muestra que usar los diagnósticos estructurales para focalizar el gasto puede rendir mucho más empleo —y de mejor calidad— por el mismo dinero. Convierte el objetivo de trabajo decente en un criterio concreto de asignación.",
     "crumbs": [
       "Inicio",
-      "Taller"
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 7 · Maximizar el empleo decente"
     ]
   },
   {
-    "objectID": "taller/index.html#antes-de-empezar",
-    "href": "taller/index.html#antes-de-empezar",
-    "title": "El taller",
-    "section": "Antes de empezar",
-    "text": "Antes de empezar\nConviene tener el simulador descargado y abierto al menos una vez, con las macros habilitadas. La verificación técnica lleva unos minutos por persona y es mejor resolverla antes que durante.\n\n\n\n\n\n\nTipLa sección de referencia\n\n\n\nParalelamente al taller, la sección Las hojas del simulador documenta cada hoja del libro: qué contiene, cómo leerla y qué errores evitar.\nSirve para consultar durante las sesiones y después, cuando aparezca la duda concreta.",
+    "objectID": "taller/casos/caso-7-empleo-decente.html#objetivo",
+    "href": "taller/casos/caso-7-empleo-decente.html#objetivo",
+    "title": "Caso 7 · Maximizar el empleo decente",
+    "section": "Objetivo",
+    "text": "Objetivo\nDiseñar la asignación de un estímulo usando los diagnósticos estructurales, y medir su calidad de empleo.",
     "crumbs": [
       "Inicio",
-      "Taller"
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 7 · Maximizar el empleo decente"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-7-empleo-decente.html#cómo-cargarlo",
+    "href": "taller/casos/caso-7-empleo-decente.html#cómo-cargarlo",
+    "title": "Caso 7 · Maximizar el empleo decente",
+    "section": "Cómo cargarlo",
+    "text": "Cómo cargarlo\nEste caso tiene dos etapas.\n\nEtapa 1 · Diagnóstico\nAntes de simular nada, abrir Encadenamientos Internos e identificar:\n\nLos sectores clave, con ambos encadenamientos por encima del promedio\nLos sectores de alta intensidad de empleo, en la columna de ocupados por millón\n\nEl cuadrante que interesa es la intersección de ambos.\n\n\nEtapa 2 · Comparación\nHoja Estímulos Nacionales, modo comparado. Ambos diseños suman 100 millones.\n\n\n\n\n\n\n\n\n\nDiseño\nColumna\nSector\nMonto\n\n\n\n\nIngenuo\nBase\nElectricidad, gas, y agua\n+100\n\n\nOrientado al empleo\nAlternativo\nAlimentos, bebidas y tabacos\n+40\n\n\n\nAlternativo\nConstrucción\n+30\n\n\n\nAlternativo\nServicios a las empresas\n+30",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 7 · Maximizar el empleo decente"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-7-empleo-decente.html#qué-mirar",
+    "href": "taller/casos/caso-7-empleo-decente.html#qué-mirar",
+    "title": "Caso 7 · Maximizar el empleo decente",
+    "section": "Qué mirar",
+    "text": "Qué mirar\n\n\n\n\n\n\n\n\nHoja\nQué buscar\nPor qué\n\n\n\n\nEncadenamientos Internos\nSectores clave e intensivos en empleo\nFundamenta el diseño\n\n\nResumen Ejecutivo\nDiferencia de empleo total entre diseños\nEl resultado central\n\n\nEmpleo\nEfecto inducido en cada diseño\nSe activa cuando hay masa salarial\n\n\nEmpleo\nComposición por sexo y calificación\nLa dimensión de calidad\n\n\nIngreso Laboral\nIngreso medio del empleo generado\nCierra la lectura de calidad",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 7 · Maximizar el empleo decente"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-7-empleo-decente.html#interpretación-sugerida",
+    "href": "taller/casos/caso-7-empleo-decente.html#interpretación-sugerida",
+    "title": "Caso 7 · Maximizar el empleo decente",
+    "section": "Interpretación sugerida",
+    "text": "Interpretación sugerida\nElectricidad tiene un coeficiente de 7,6 ocupados por millón; los sectores del diseño alternativo están muy por encima. Con el mismo monto, la diferencia de empleo total puede ser de varias veces.\nEl efecto inducido amplifica esa brecha: un diseño que genera más masa salarial activa más consumo de los hogares, que a su vez genera más producción y empleo.\nPero el caso no termina en la cantidad. La composición por calificación y formalidad, y el ingreso medio del empleo generado, muestran la tensión entre cantidad y calidad: el diseño que más empleo genera no siempre es el que genera mejor empleo.\nEsa tensión es el eje de la noción de trabajo decente, y no se resuelve con el modelo: se resuelve con una decisión de política que el modelo ayuda a fundamentar.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 7 · Maximizar el empleo decente"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-7-empleo-decente.html#para-discutir",
+    "href": "taller/casos/caso-7-empleo-decente.html#para-discutir",
+    "title": "Caso 7 · Maximizar el empleo decente",
+    "section": "Para discutir",
+    "text": "Para discutir\n\nSi hubiera que elegir entre más empleo o mejor empleo, ¿con qué criterio?\nEl diseño orientado al empleo, ¿es viable? ¿Existen proyectos concretos en esos sectores donde asignar los recursos?\n¿Qué otros criterios deberían entrar en la decisión además del empleo?\n¿Cómo se comunica un resultado así a quien toma la decisión, sin sobreafirmar?",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 7 · Maximizar el empleo decente"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-5-calificacion.html",
+    "href": "taller/casos/caso-5-calificacion.html",
+    "title": "Caso 5 · Empleo por calificación",
+    "section": "",
+    "text": "El escalamiento industrial exige competencias, y un cuello de botella recurrente es el desajuste entre las calificaciones que demandan los sectores más sofisticados y las que ofrece la fuerza de trabajo.\nAnticipar el perfil de calificación que requiere cada camino de desarrollo permite alinear a tiempo la política de formación.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 5 · Empleo por calificación"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-5-calificacion.html#por-qué-importa",
+    "href": "taller/casos/caso-5-calificacion.html#por-qué-importa",
+    "title": "Caso 5 · Empleo por calificación",
+    "section": "",
+    "text": "El escalamiento industrial exige competencias, y un cuello de botella recurrente es el desajuste entre las calificaciones que demandan los sectores más sofisticados y las que ofrece la fuerza de trabajo.\nAnticipar el perfil de calificación que requiere cada camino de desarrollo permite alinear a tiempo la política de formación.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 5 · Empleo por calificación"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-5-calificacion.html#objetivo",
+    "href": "taller/casos/caso-5-calificacion.html#objetivo",
+    "title": "Caso 5 · Empleo por calificación",
+    "section": "Objetivo",
+    "text": "Objetivo\nContrastar la demanda de calificaciones de dos caminos productivos.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 5 · Empleo por calificación"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-5-calificacion.html#cómo-cargarlo",
+    "href": "taller/casos/caso-5-calificacion.html#cómo-cargarlo",
+    "title": "Caso 5 · Empleo por calificación",
+    "section": "Cómo cargarlo",
+    "text": "Cómo cargarlo\nHoja Estímulos Nacionales, modo comparado. Ambos suman 120 millones.\n\n\n\n\n\n\n\n\n\nEscenario\nColumna\nSector\nMonto\n\n\n\n\nA · Manufactura sofisticada\nBase\nMaquinaria, equipo y vehículos\n+70\n\n\n\nBase\nQuímica, farmacia y caucho\n+50\n\n\nB · Agroindustria tradicional\nAlternativo\nAlimentos, bebidas y tabacos\n+80\n\n\n\nAlternativo\nAgricultura, ganadería, caza y pesca\n+40",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 5 · Empleo por calificación"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-5-calificacion.html#qué-mirar",
+    "href": "taller/casos/caso-5-calificacion.html#qué-mirar",
+    "title": "Caso 5 · Empleo por calificación",
+    "section": "Qué mirar",
+    "text": "Qué mirar\n\n\n\n\n\n\n\n\nHoja\nQué buscar\nPor qué\n\n\n\n\nEmpleo\nComposición por calificación en cada escenario\nEl foco del caso\n\n\nEmpleo\nProporción de calificación media y alta\nIndica la exigencia formativa\n\n\nResumen Ejecutivo\nEmpleo total\nEl camino más exigente suele generar menos puestos",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 5 · Empleo por calificación"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-5-calificacion.html#interpretación-sugerida",
+    "href": "taller/casos/caso-5-calificacion.html#interpretación-sugerida",
+    "title": "Caso 5 · Empleo por calificación",
+    "section": "Interpretación sugerida",
+    "text": "Interpretación sugerida\nHay una tensión que el caso hace visible: el camino que demanda más calificación suele generar menos empleo total, porque los sectores sofisticados son menos intensivos en trabajo.\n\n\n\nSector\nOcupados por millón USD\n\n\n\n\nAgricultura\n57,4\n\n\nAlimentos\n7,7\n\n\nMaquinaria\n23,2\n\n\nQuímica\n6,8\n\n\n\nElegir un camino de escalamiento industrial implica aceptar menos puestos pero de mayor calificación, y requiere anticipar la formación necesaria para que la falta de competencias no frene el proceso.\n\n\n\n\n\n\nAdvertenciaUna limitación importante\n\n\n\nLos sectores industriales comparten rama en la encuesta de hogares, de modo que reciben el mismo perfil de calificación. La comparación entre escenario A y B es válida porque involucra ramas distintas —industria frente a agricultura—, pero comparar maquinaria contra química no aportaría información.\nVer Información Empleo.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 5 · Empleo por calificación"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-5-calificacion.html#para-discutir",
+    "href": "taller/casos/caso-5-calificacion.html#para-discutir",
+    "title": "Caso 5 · Empleo por calificación",
+    "section": "Para discutir",
+    "text": "Para discutir\n\n¿Cuánto tiempo lleva formar las competencias que demanda el camino A?\nSi esa formación no está disponible, ¿qué pasa con el escenario? El modelo no lo ve, pero la política sí debe considerarlo.\n¿Es posible un camino intermedio que combine ambos objetivos?",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 5 · Empleo por calificación"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-3-planta-agroindustrial.html",
+    "href": "taller/casos/caso-3-planta-agroindustrial.html",
+    "title": "Caso 3 · Una nueva planta agroindustrial",
+    "section": "",
+    "text": "Atraer inversión en agroindustria es un pilar de la política industrial, y suele acompañarse de incentivos fiscales que se otorgan sin conocer su retorno real.\nEste caso permite sopesar, antes de conceder incentivos, cuánto empleo y qué encadenamientos deja la inversión, y distinguir lo transitorio de lo permanente.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 3 · Una nueva planta agroindustrial"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-3-planta-agroindustrial.html#por-qué-importa",
+    "href": "taller/casos/caso-3-planta-agroindustrial.html#por-qué-importa",
+    "title": "Caso 3 · Una nueva planta agroindustrial",
+    "section": "",
+    "text": "Atraer inversión en agroindustria es un pilar de la política industrial, y suele acompañarse de incentivos fiscales que se otorgan sin conocer su retorno real.\nEste caso permite sopesar, antes de conceder incentivos, cuánto empleo y qué encadenamientos deja la inversión, y distinguir lo transitorio de lo permanente.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 3 · Una nueva planta agroindustrial"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-3-planta-agroindustrial.html#objetivo",
+    "href": "taller/casos/caso-3-planta-agroindustrial.html#objetivo",
+    "title": "Caso 3 · Una nueva planta agroindustrial",
+    "section": "Objetivo",
+    "text": "Objetivo\nEvaluar los efectos de una inversión distinguiendo la fase de construcción de la de operación.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 3 · Una nueva planta agroindustrial"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-3-planta-agroindustrial.html#cómo-cargarlo",
+    "href": "taller/casos/caso-3-planta-agroindustrial.html#cómo-cargarlo",
+    "title": "Caso 3 · Una nueva planta agroindustrial",
+    "section": "Cómo cargarlo",
+    "text": "Cómo cargarlo\nHoja Estímulos Nacionales, columna Base.\n\n\n\nFase\nSector\nMonto\n\n\n\n\nConstrucción (transitoria)\nConstrucción\n+70\n\n\n\nMaquinaria, equipo y vehículos\n+40\n\n\n\nServicios a las empresas\n+15\n\n\n\nElectricidad, gas, y agua\n+5\n\n\nOperación (permanente)\nAlimentos, bebidas y tabacos\n+50\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nConviene correr las dos fases por separado además de juntas, para poder atribuir cada efecto a su fase.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 3 · Una nueva planta agroindustrial"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-3-planta-agroindustrial.html#qué-mirar",
+    "href": "taller/casos/caso-3-planta-agroindustrial.html#qué-mirar",
+    "title": "Caso 3 · Una nueva planta agroindustrial",
+    "section": "Qué mirar",
+    "text": "Qué mirar\n\n\n\n\n\n\n\n\nHoja\nQué buscar\nPor qué\n\n\n\n\nProducción\nQué sectores capturan los mayores encadenamientos\nDónde se derrama la inversión\n\n\nProducción\nEfecto directo frente a indirecto\nCuánto queda en el sector y cuánto se difunde\n\n\nEmpleo\nEmpleo generado en cada fase\nInsumo para la decisión sobre incentivos\n\n\nEncadenamientos Internos\nPosición de Construcción y Alimentos\nContexto estructural",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 3 · Una nueva planta agroindustrial"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-3-planta-agroindustrial.html#interpretación-sugerida",
+    "href": "taller/casos/caso-3-planta-agroindustrial.html#interpretación-sugerida",
+    "title": "Caso 3 · Una nueva planta agroindustrial",
+    "section": "Interpretación sugerida",
+    "text": "Interpretación sugerida\nLa distinción entre fases es la clave del caso. La construcción genera un pico de empleo que dura lo que dura la obra; la operación genera un flujo menor pero permanente.\nPresentar el total sin esa distinción sobreestima el beneficio del proyecto: una parte importante del empleo desaparece cuando termina la construcción.\nPara evaluar incentivos fiscales, lo relevante es el empleo permanente por peso de incentivo, no el pico transitorio.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 3 · Una nueva planta agroindustrial"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-3-planta-agroindustrial.html#para-discutir",
+    "href": "taller/casos/caso-3-planta-agroindustrial.html#para-discutir",
+    "title": "Caso 3 · Una nueva planta agroindustrial",
+    "section": "Para discutir",
+    "text": "Para discutir\n\nSi el incentivo se otorga por diez años, ¿qué fase debería pesar más en la evaluación?\n¿Cuánto del efecto de la fase de construcción se filtra al exterior vía maquinaria importada?\n¿Qué información falta para decidir? Pensar en costo fiscal, alternativas de uso de esos recursos y sostenibilidad del proyecto.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 3 · Una nueva planta agroindustrial"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-1-soja-o-industria.html",
+    "href": "taller/casos/caso-1-soja-o-industria.html",
+    "title": "Caso 1 · ¿Exportar soja o industrializar?",
+    "section": "",
+    "text": "Paraguay concentra su economía en la exportación de productos primarios, con la soja a la cabeza. El debate central de su estrategia de desarrollo —y del Plan Nacional de Industria— es si conviene seguir exportando materia prima o agregar valor industrializándola.\nEste caso pone en números ese dilema fundacional.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 1 · ¿Exportar soja o industrializar?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-1-soja-o-industria.html#por-qué-importa",
+    "href": "taller/casos/caso-1-soja-o-industria.html#por-qué-importa",
+    "title": "Caso 1 · ¿Exportar soja o industrializar?",
+    "section": "",
+    "text": "Paraguay concentra su economía en la exportación de productos primarios, con la soja a la cabeza. El debate central de su estrategia de desarrollo —y del Plan Nacional de Industria— es si conviene seguir exportando materia prima o agregar valor industrializándola.\nEste caso pone en números ese dilema fundacional.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 1 · ¿Exportar soja o industrializar?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-1-soja-o-industria.html#objetivo",
+    "href": "taller/casos/caso-1-soja-o-industria.html#objetivo",
+    "title": "Caso 1 · ¿Exportar soja o industrializar?",
+    "section": "Objetivo",
+    "text": "Objetivo\nComparar dos proyectos exportadores del mismo valor: exportar soja en grano frente a procesarla.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 1 · ¿Exportar soja o industrializar?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-1-soja-o-industria.html#cómo-cargarlo",
+    "href": "taller/casos/caso-1-soja-o-industria.html#cómo-cargarlo",
+    "title": "Caso 1 · ¿Exportar soja o industrializar?",
+    "section": "Cómo cargarlo",
+    "text": "Cómo cargarlo\nHoja Estímulos Nacionales, modo comparado. Montos en millones de dólares.\n\n\n\n\n\n\n\n\n\nEscenario\nColumna\nSector\nMonto\n\n\n\n\nA · Exportar grano\nBase\nAgricultura, ganadería, caza y pesca\n+100\n\n\nB · Procesar\nAlternativo\nAgricultura, ganadería, caza y pesca\n+20\n\n\n\nAlternativo\nAlimentos, bebidas y tabacos\n+80\n\n\n\nAmbos suman 100 millones. La diferencia está en dónde entra el estímulo.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 1 · ¿Exportar soja o industrializar?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-1-soja-o-industria.html#qué-mirar",
+    "href": "taller/casos/caso-1-soja-o-industria.html#qué-mirar",
+    "title": "Caso 1 · ¿Exportar soja o industrializar?",
+    "section": "Qué mirar",
+    "text": "Qué mirar\n\n\n\n\n\n\n\n\nHoja\nQué buscar\nPor qué\n\n\n\n\nResumen Ejecutivo\nProducción total de cada escenario\nEl proyecto que procesa moviliza más la cadena\n\n\nResumen Ejecutivo\nPIB de cada escenario\nCuánto valor agregado queda en el país\n\n\nProducción\nEfecto indirecto\nEs donde se ve la diferencia entre ambos\n\n\nEmpleo\nEmpleo total y composición\nCantidad y calidad de los puestos",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 1 · ¿Exportar soja o industrializar?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-1-soja-o-industria.html#interpretación-sugerida",
+    "href": "taller/casos/caso-1-soja-o-industria.html#interpretación-sugerida",
+    "title": "Caso 1 · ¿Exportar soja o industrializar?",
+    "section": "Interpretación sugerida",
+    "text": "Interpretación sugerida\nEl proyecto que procesa suele mostrar mayor efecto indirecto, porque la industria alimentaria compra insumos a más sectores que la producción agrícola primaria: envases, energía, transporte, servicios.\nEsa diferencia es el argumento cuantitativo del debate sobre agregación de valor: con el mismo valor exportado, industrializar moviliza más cadena doméstica y genera más empleo.\nConviene mirar también el valor agregado: no solo cuánta producción se activa, sino cuánta queda efectivamente en el país.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 1 · ¿Exportar soja o industrializar?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-1-soja-o-industria.html#para-discutir",
+    "href": "taller/casos/caso-1-soja-o-industria.html#para-discutir",
+    "title": "Caso 1 · ¿Exportar soja o industrializar?",
+    "section": "Para discutir",
+    "text": "Para discutir\n\n¿La diferencia justifica una política de incentivos a la industrialización?\n¿Qué no está viendo el modelo? Pensar en capacidad instalada, acceso a mercados y disponibilidad de calificaciones.\nSi el procesamiento requiere insumos importados, ¿cómo afecta eso al resultado? Ver Inserción Internacional.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 1 · ¿Exportar soja o industrializar?"
     ]
   },
   {
@@ -1439,207 +1758,382 @@
     ]
   },
   {
-    "objectID": "taller/seccion-1-estructura.html",
-    "href": "taller/seccion-1-estructura.html",
-    "title": "Sección 1 · La estructura del simulador",
+    "objectID": "taller/casos/caso-2-sequia-hidrovia.html",
+    "href": "taller/casos/caso-2-sequia-hidrovia.html",
+    "title": "Caso 2 · La gran sequía de la Hidrovía",
     "section": "",
-    "text": "Presentación del simulador por dentro: qué hay en cada hoja, cómo se conectan y qué lógica sigue el cálculo.",
+    "text": "Paraguay es un país sin litoral y la mayor parte de su comercio exterior se moviliza por la hidrovía Paraguay-Paraná. Las bajantes del río, recurrentes y agravadas por el cambio climático, encarecen la logística de toda la economía.\nEl caso muestra cómo un problema logístico se convierte en un problema de producción y empleo.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 1 · La estructura del simulador"
+      "Sección 2 · Cambios en la demanda",
+      "Caso 2 · La gran sequía de la Hidrovía"
     ]
   },
   {
-    "objectID": "taller/seccion-1-estructura.html#objetivo",
-    "href": "taller/seccion-1-estructura.html#objetivo",
-    "title": "Sección 1 · La estructura del simulador",
-    "section": "Objetivo",
-    "text": "Objetivo\nQue al terminar quede claro dónde está cada cosa y por qué. El resto del taller supone este mapa.",
-    "crumbs": [
-      "Inicio",
-      "Taller",
-      "Sección 1 · La estructura del simulador"
-    ]
-  },
-  {
-    "objectID": "taller/seccion-1-estructura.html#las-cuatro-capas",
-    "href": "taller/seccion-1-estructura.html#las-cuatro-capas",
-    "title": "Sección 1 · La estructura del simulador",
-    "section": "Las cuatro capas",
-    "text": "Las cuatro capas\nEl libro tiene diecisiete hojas que se organizan en cuatro capas. Distinguirlas evita la confusión más frecuente: leer como resultado de un escenario algo que en realidad describe la economía de 2024.\n\n\n\n\n\n\n\n\nCapa\nHojas\n¿Cambian con el escenario?\n\n\n\n\nEntradas\nEstímulos Nacionales e Internacionales\nSe editan\n\n\nResultados\nProducción, PIB, Empleo, Ingreso Laboral, Resumen\nSí\n\n\nAnálisis estructural\nEncadenamientos, Empleo Exportador, Inserción Internacional\nNo\n\n\nDatos\nMatrices Nacionales, Información Empleo, MRIO, VAX, Parámetros\nNo\n\n\n\n\n\n\n\n\n\nTipLa regla práctica\n\n\n\nSi una hoja cambia al cargar un estímulo, es de resultados. Si no cambia, describe la economía tal como es.",
-    "crumbs": [
-      "Inicio",
-      "Taller",
-      "Sección 1 · La estructura del simulador"
-    ]
-  },
-  {
-    "objectID": "taller/seccion-1-estructura.html#los-cuatro-conceptos-que-organizan-todo",
-    "href": "taller/seccion-1-estructura.html#los-cuatro-conceptos-que-organizan-todo",
-    "title": "Sección 1 · La estructura del simulador",
-    "section": "Los cuatro conceptos que organizan todo",
-    "text": "Los cuatro conceptos que organizan todo\nAntes de operar el simulador conviene fijar estas cuatro ideas, porque son las que estructuran cada hoja de resultados.\n\n\n\n\n\n\n\nConcepto\nQué es\n\n\n\n\nEfecto inicial\nEl propio choque de demanda que se ingresa\n\n\nEfecto directo\nLos insumos que el sector estimulado compra a sus proveedores inmediatos\n\n\nEfecto indirecto\nLas rondas sucesivas de compras a lo largo de toda la cadena\n\n\nEfecto inducido\nLo que aparece cuando los hogares gastan los nuevos ingresos generados\n\n\n\nAdemás, cada efecto se separa en un componente nacional —dentro de Paraguay— y uno internacional, a través de las cadenas con el resto del mundo.\nLos resultados centrales comparten esta misma estructura de lectura, de modo que una vez entendida sirve para las cuatro hojas.",
-    "crumbs": [
-      "Inicio",
-      "Taller",
-      "Sección 1 · La estructura del simulador"
-    ]
-  },
-  {
-    "objectID": "taller/seccion-1-estructura.html#los-tres-modos-de-uso",
-    "href": "taller/seccion-1-estructura.html#los-tres-modos-de-uso",
-    "title": "Sección 1 · La estructura del simulador",
-    "section": "Los tres modos de uso",
-    "text": "Los tres modos de uso\nEl simulador admite tres formas de trabajo, descritas en detalle en Los tres modos de uso:\n\nImpacto nacional — un choque de demanda interna\nImpacto comparado — dos escenarios lado a lado\nImpacto internacional — cambios en la demanda de los socios comerciales",
-    "crumbs": [
-      "Inicio",
-      "Taller",
-      "Sección 1 · La estructura del simulador"
-    ]
-  },
-  {
-    "objectID": "taller/seccion-1-estructura.html#recorrido-propuesto",
-    "href": "taller/seccion-1-estructura.html#recorrido-propuesto",
-    "title": "Sección 1 · La estructura del simulador",
-    "section": "Recorrido propuesto",
-    "text": "Recorrido propuesto\n[Ajustar el orden y los tiempos según la duración de la sesión.]\n\nDe dónde salen los datos. Las fuentes y su año de referencia.\nLa capa de datos. Matrices Nacionales: Z, A, L y el bloque de valor agregado. Verificar una identidad contable en vivo.\nLa capa de entradas. Los dos modos de trabajo y la diferencia de unidades entre la hoja nacional y la internacional.\nLa capa de resultados. La estructura de columnas compartida y los tres efectos.\nLa capa estructural. Qué preguntas responde y por qué no depende del escenario.",
-    "crumbs": [
-      "Inicio",
-      "Taller",
-      "Sección 1 · La estructura del simulador"
-    ]
-  },
-  {
-    "objectID": "taller/seccion-1-estructura.html#los-supuestos-del-modelo",
-    "href": "taller/seccion-1-estructura.html#los-supuestos-del-modelo",
-    "title": "Sección 1 · La estructura del simulador",
-    "section": "Los supuestos del modelo",
-    "text": "Los supuestos del modelo\nConviene plantearlos en esta sección y no más adelante, porque condicionan toda lectura posterior. El modelo supone coeficientes técnicos fijos, ausencia de restricciones de capacidad, precios relativos constantes y rendimientos constantes a escala.\nEn consecuencia, los resultados son el requerimiento de producción y empleo asociado a un nivel de demanda, no una predicción. El modelo contabiliza, no anticipa.",
-    "crumbs": [
-      "Inicio",
-      "Taller",
-      "Sección 1 · La estructura del simulador"
-    ]
-  },
-  {
-    "objectID": "taller/seccion-1-estructura.html#material-de-apoyo",
-    "href": "taller/seccion-1-estructura.html#material-de-apoyo",
-    "title": "Sección 1 · La estructura del simulador",
-    "section": "Material de apoyo",
-    "text": "Material de apoyo\n\nLas hojas del simulador — una página por hoja\nLos tres modos de uso\nBuenas prácticas y advertencias\nAnexos — sectores y regiones\nGlosario",
-    "crumbs": [
-      "Inicio",
-      "Taller",
-      "Sección 1 · La estructura del simulador"
-    ]
-  },
-  {
-    "objectID": "taller/seccion-1-estructura.html#notas-para-el-desarrollo",
-    "href": "taller/seccion-1-estructura.html#notas-para-el-desarrollo",
-    "title": "Sección 1 · La estructura del simulador",
-    "section": "Notas para el desarrollo",
-    "text": "Notas para el desarrollo\n[Espacio para el contenido detallado de la sesión: qué mostrar en pantalla, qué verificar en vivo, qué preguntas plantear.]",
-    "crumbs": [
-      "Inicio",
-      "Taller",
-      "Sección 1 · La estructura del simulador"
-    ]
-  },
-  {
-    "objectID": "taller/seccion-3-empleo-e-ingreso.html",
-    "href": "taller/seccion-3-empleo-e-ingreso.html",
-    "title": "Sección 3 · Empleo, calidad e ingreso",
+    "objectID": "taller/casos/caso-2-sequia-hidrovia.html#por-qué-importa",
+    "href": "taller/casos/caso-2-sequia-hidrovia.html#por-qué-importa",
+    "title": "Caso 2 · La gran sequía de la Hidrovía",
     "section": "",
-    "text": "Del impacto en producción al impacto en las personas: cuántos puestos, de qué tipo y con qué remuneración.",
+    "text": "Paraguay es un país sin litoral y la mayor parte de su comercio exterior se moviliza por la hidrovía Paraguay-Paraná. Las bajantes del río, recurrentes y agravadas por el cambio climático, encarecen la logística de toda la economía.\nEl caso muestra cómo un problema logístico se convierte en un problema de producción y empleo.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 3 · Empleo, calidad e ingreso"
+      "Sección 2 · Cambios en la demanda",
+      "Caso 2 · La gran sequía de la Hidrovía"
     ]
   },
   {
-    "objectID": "taller/seccion-3-empleo-e-ingreso.html#objetivo",
-    "href": "taller/seccion-3-empleo-e-ingreso.html#objetivo",
-    "title": "Sección 3 · Empleo, calidad e ingreso",
+    "objectID": "taller/casos/caso-2-sequia-hidrovia.html#objetivo",
+    "href": "taller/casos/caso-2-sequia-hidrovia.html#objetivo",
+    "title": "Caso 2 · La gran sequía de la Hidrovía",
     "section": "Objetivo",
-    "text": "Objetivo\n[Definir qué debería poder hacer un participante al terminar esta sección.]",
+    "text": "Objetivo\nEstimar el impacto de un choque logístico negativo que reduce la actividad del transporte fluvial.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 3 · Empleo, calidad e ingreso"
+      "Sección 2 · Cambios en la demanda",
+      "Caso 2 · La gran sequía de la Hidrovía"
     ]
   },
   {
-    "objectID": "taller/seccion-3-empleo-e-ingreso.html#el-caso",
-    "href": "taller/seccion-3-empleo-e-ingreso.html#el-caso",
-    "title": "Sección 3 · Empleo, calidad e ingreso",
-    "section": "El caso",
-    "text": "El caso\n[Describir el escenario que se va a trabajar: de qué se trata, por qué es relevante y qué supuestos lo sostienen.]",
+    "objectID": "taller/casos/caso-2-sequia-hidrovia.html#cómo-cargarlo",
+    "href": "taller/casos/caso-2-sequia-hidrovia.html#cómo-cargarlo",
+    "title": "Caso 2 · La gran sequía de la Hidrovía",
+    "section": "Cómo cargarlo",
+    "text": "Cómo cargarlo\nHoja Estímulos Nacionales, columna Base. Valores negativos.\n\n\n\nSector\nMonto\n\n\n\n\nTransporte\n−60\n\n\nAgricultura, ganadería, caza y pesca\n−40\n\n\nAlimentos, bebidas y tabacos\n−25\n\n\nComercio al por mayor y menor\n−15\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nEl modelo es simétrico: un choque negativo se propaga con la misma mecánica que uno positivo, y los resultados aparecen con signo negativo.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 3 · Empleo, calidad e ingreso"
+      "Sección 2 · Cambios en la demanda",
+      "Caso 2 · La gran sequía de la Hidrovía"
     ]
   },
   {
-    "objectID": "taller/seccion-3-empleo-e-ingreso.html#desarrollo",
-    "href": "taller/seccion-3-empleo-e-ingreso.html#desarrollo",
-    "title": "Sección 3 · Empleo, calidad e ingreso",
-    "section": "Desarrollo",
-    "text": "Desarrollo\n[Los pasos de la sesión: qué se carga, qué se observa, qué se discute.]",
+    "objectID": "taller/casos/caso-2-sequia-hidrovia.html#qué-mirar",
+    "href": "taller/casos/caso-2-sequia-hidrovia.html#qué-mirar",
+    "title": "Caso 2 · La gran sequía de la Hidrovía",
+    "section": "Qué mirar",
+    "text": "Qué mirar\n\n\n\n\n\n\n\n\nHoja\nQué buscar\nPor qué\n\n\n\n\nProducción\nSectores con valores negativos\nMuestra hasta dónde llega la onda\n\n\nProducción\nEfecto indirecto\nEs el canal que transmite el golpe\n\n\nEmpleo\nEmpleo total en riesgo y su distribución\nBase para pensar mitigación\n\n\nEncadenamientos Internos\nPosición de Transporte\nExplica por qué se propaga tanto",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 3 · Empleo, calidad e ingreso"
+      "Sección 2 · Cambios en la demanda",
+      "Caso 2 · La gran sequía de la Hidrovía"
     ]
   },
   {
-    "objectID": "taller/seccion-3-empleo-e-ingreso.html#qué-mirar-en-el-simulador",
-    "href": "taller/seccion-3-empleo-e-ingreso.html#qué-mirar-en-el-simulador",
-    "title": "Sección 3 · Empleo, calidad e ingreso",
-    "section": "Qué mirar en el simulador",
-    "text": "Qué mirar en el simulador\n[Las hojas que intervienen en este caso y qué buscar en cada una.]",
+    "objectID": "taller/casos/caso-2-sequia-hidrovia.html#interpretación-sugerida",
+    "href": "taller/casos/caso-2-sequia-hidrovia.html#interpretación-sugerida",
+    "title": "Caso 2 · La gran sequía de la Hidrovía",
+    "section": "Interpretación sugerida",
+    "text": "Interpretación sugerida\nLo revelador es que aparecen afectados sectores alejados del transporte. Eso ocurre porque el transporte es un insumo transversal: casi toda actividad necesita mover mercadería.\nUn problema logístico no queda contenido en la logística. Se transmite a la producción de sectores que no tienen nada que ver con el río.\nEl empleo en riesgo y su distribución sectorial es el insumo directo para pensar medidas de mitigación y protección social focalizada.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 3 · Empleo, calidad e ingreso"
+      "Sección 2 · Cambios en la demanda",
+      "Caso 2 · La gran sequía de la Hidrovía"
     ]
   },
   {
-    "objectID": "taller/seccion-3-empleo-e-ingreso.html#puntos-de-discusión",
-    "href": "taller/seccion-3-empleo-e-ingreso.html#puntos-de-discusión",
-    "title": "Sección 3 · Empleo, calidad e ingreso",
-    "section": "Puntos de discusión",
-    "text": "Puntos de discusión\n[Las preguntas que abren debate y no tienen respuesta única.]",
+    "objectID": "taller/casos/caso-2-sequia-hidrovia.html#para-discutir",
+    "href": "taller/casos/caso-2-sequia-hidrovia.html#para-discutir",
+    "title": "Caso 2 · La gran sequía de la Hidrovía",
+    "section": "Para discutir",
+    "text": "Para discutir\n\n¿Qué sectores conviene proteger primero si los recursos son limitados?\nEl modelo supone que la caída de demanda se traduce en menos producción. ¿Qué pasaría si las empresas absorbieran el golpe con márgenes en vez de producción?\n¿Cómo se compara este choque con uno del mismo monto concentrado en un solo sector?",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 3 · Empleo, calidad e ingreso"
+      "Sección 2 · Cambios en la demanda",
+      "Caso 2 · La gran sequía de la Hidrovía"
     ]
   },
   {
-    "objectID": "taller/seccion-3-empleo-e-ingreso.html#errores-frecuentes",
-    "href": "taller/seccion-3-empleo-e-ingreso.html#errores-frecuentes",
-    "title": "Sección 3 · Empleo, calidad e ingreso",
-    "section": "Errores frecuentes",
-    "text": "Errores frecuentes\n[Lo que suele salir mal al hacer este tipo de análisis.]",
+    "objectID": "taller/casos/caso-4-empleo-y-genero.html",
+    "href": "taller/casos/caso-4-empleo-y-genero.html",
+    "title": "Caso 4 · ¿A quién llega el estímulo?",
+    "section": "",
+    "text": "Las decisiones de gasto público tienen una huella de género que suele quedar invisible. Con brechas persistentes en el mercado laboral paraguayo, hacer visible a quién llega el empleo según la composición del gasto es clave para una política con perspectiva de género.\nEstá en el centro de la agenda de trabajo decente de la OIT.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 3 · Empleo, calidad e ingreso"
+      "Sección 2 · Cambios en la demanda",
+      "Caso 4 · ¿A quién llega el estímulo?"
     ]
   },
   {
-    "objectID": "taller/seccion-3-empleo-e-ingreso.html#material-de-apoyo",
-    "href": "taller/seccion-3-empleo-e-ingreso.html#material-de-apoyo",
-    "title": "Sección 3 · Empleo, calidad e ingreso",
-    "section": "Material de apoyo",
-    "text": "Material de apoyo\n\nLas hojas del simulador",
+    "objectID": "taller/casos/caso-4-empleo-y-genero.html#por-qué-importa",
+    "href": "taller/casos/caso-4-empleo-y-genero.html#por-qué-importa",
+    "title": "Caso 4 · ¿A quién llega el estímulo?",
+    "section": "",
+    "text": "Las decisiones de gasto público tienen una huella de género que suele quedar invisible. Con brechas persistentes en el mercado laboral paraguayo, hacer visible a quién llega el empleo según la composición del gasto es clave para una política con perspectiva de género.\nEstá en el centro de la agenda de trabajo decente de la OIT.",
     "crumbs": [
       "Inicio",
       "Taller",
-      "Sección 3 · Empleo, calidad e ingreso"
+      "Sección 2 · Cambios en la demanda",
+      "Caso 4 · ¿A quién llega el estímulo?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-4-empleo-y-genero.html#objetivo",
+    "href": "taller/casos/caso-4-empleo-y-genero.html#objetivo",
+    "title": "Caso 4 · ¿A quién llega el estímulo?",
+    "section": "Objetivo",
+    "text": "Objetivo\nComparar la huella de género de dos paquetes de gasto del mismo monto.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 4 · ¿A quién llega el estímulo?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-4-empleo-y-genero.html#cómo-cargarlo",
+    "href": "taller/casos/caso-4-empleo-y-genero.html#cómo-cargarlo",
+    "title": "Caso 4 · ¿A quién llega el estímulo?",
+    "section": "Cómo cargarlo",
+    "text": "Cómo cargarlo\nHoja Estímulos Nacionales, modo comparado. Ambos paquetes suman 150 millones.\n\n\n\n\n\n\n\n\n\nEscenario\nColumna\nSector\nMonto\n\n\n\n\nA · Infraestructura\nBase\nConstrucción\n+90\n\n\n\nBase\nMaquinaria, equipo y vehículos\n+40\n\n\n\nBase\nServicios a las empresas\n+20\n\n\nB · Servicios y agroalimentos\nAlternativo\nOtros servicios\n+90\n\n\n\nAlternativo\nAlimentos, bebidas y tabacos\n+40\n\n\n\nAlternativo\nComercio al por mayor y menor\n+20\n\n\n\n\n\n\n\n\n\nNotaAdaptación a 21 sectores\n\n\n\nEl caso original separaba Educación y Salud. En la clasificación de 21 sectores ambas están dentro de Otros servicios, así que se cargan juntas. La lógica del contraste se mantiene: infraestructura frente a servicios sociales.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 4 · ¿A quién llega el estímulo?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-4-empleo-y-genero.html#qué-mirar",
+    "href": "taller/casos/caso-4-empleo-y-genero.html#qué-mirar",
+    "title": "Caso 4 · ¿A quién llega el estímulo?",
+    "section": "Qué mirar",
+    "text": "Qué mirar\n\n\n\n\n\n\n\n\nHoja\nQué buscar\nPor qué\n\n\n\n\nResumen Ejecutivo\nEmpleo total de cada paquete\nCantidad, antes de la composición\n\n\nEmpleo\nReparto por sexo en cada escenario\nEl corazón del caso\n\n\nEmpleo\nComparar con la estructura base\nCuál amplía y cuál cierra la brecha\n\n\nEncadenamientos Internos\nIntensidad de empleo de cada sector\nExplica las diferencias de cantidad",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 4 · ¿A quién llega el estímulo?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-4-empleo-y-genero.html#interpretación-sugerida",
+    "href": "taller/casos/caso-4-empleo-y-genero.html#interpretación-sugerida",
+    "title": "Caso 4 · ¿A quién llega el estímulo?",
+    "section": "Interpretación sugerida",
+    "text": "Interpretación sugerida\nConstrucción tiene 97,6% de participación masculina; Otros servicios, apenas 35,3%. Con el mismo monto, la composición del gasto determina en gran medida a quién llega el empleo.\nEl paquete de infraestructura tiende a generar empleo predominantemente masculino; el de servicios, un reparto más equilibrado o de mayoría femenina.\nEso no significa que uno sea mejor que otro: significa que la decisión de gasto tiene consecuencias distributivas de género que conviene hacer explícitas al momento de decidir, no después.\n\n\n\n\n\n\nAdvertencia\n\n\n\nEl modelo muestra cómo se distribuiría el empleo si cada sector mantuviera su composición actual. No anticipa cambios de conducta, como una mayor participación femenina en la construcción.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 4 · ¿A quién llega el estímulo?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-4-empleo-y-genero.html#para-discutir",
+    "href": "taller/casos/caso-4-empleo-y-genero.html#para-discutir",
+    "title": "Caso 4 · ¿A quién llega el estímulo?",
+    "section": "Para discutir",
+    "text": "Para discutir\n\nSi el objetivo declarado fuera reducir la brecha de género, ¿cómo se rediseñaría el paquete?\n¿Es legítimo usar la composición del gasto como instrumento de política de género, o eso debería resolverse con otras herramientas?\n¿Qué pasaría si se combinaran ambos paquetes en proporciones distintas?",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 4 · ¿A quién llega el estímulo?"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-6-recesion-socio.html",
+    "href": "taller/casos/caso-6-recesion-socio.html",
+    "title": "Caso 6 · Recesión en un socio",
+    "section": "",
+    "text": "El comercio de Paraguay está concentrado en pocos socios, y esa concentración es a la vez oportunidad y fuente de vulnerabilidad. Una recesión en un socio clave se transmite a la producción y el empleo paraguayos.\nEste caso pone a prueba esa exposición e identifica a los grupos más expuestos.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 6 · Recesión en un socio"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-6-recesion-socio.html#por-qué-importa",
+    "href": "taller/casos/caso-6-recesion-socio.html#por-qué-importa",
+    "title": "Caso 6 · Recesión en un socio",
+    "section": "",
+    "text": "El comercio de Paraguay está concentrado en pocos socios, y esa concentración es a la vez oportunidad y fuente de vulnerabilidad. Una recesión en un socio clave se transmite a la producción y el empleo paraguayos.\nEste caso pone a prueba esa exposición e identifica a los grupos más expuestos.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 6 · Recesión en un socio"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-6-recesion-socio.html#objetivo",
+    "href": "taller/casos/caso-6-recesion-socio.html#objetivo",
+    "title": "Caso 6 · Recesión en un socio",
+    "section": "Objetivo",
+    "text": "Objetivo\nEstimar el empleo paraguayo en riesgo ante la caída de demanda de un socio comercial.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 6 · Recesión en un socio"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-6-recesion-socio.html#cómo-cargarlo",
+    "href": "taller/casos/caso-6-recesion-socio.html#cómo-cargarlo",
+    "title": "Caso 6 · Recesión en un socio",
+    "section": "Cómo cargarlo",
+    "text": "Cómo cargarlo\nHoja Estímulos Internacionales, Modo A. El resto de las regiones sin cambios.\n\n\n\nEscenario\nRegión\nÍndice\nEquivale a\n\n\n\n\nBase\nBrasil\n90\n−10%\n\n\nVariante\nChina\n88\n−12%\n\n\n\n\n\n\n\n\n\nAdvertenciaCuidado con las unidades\n\n\n\nEl Modo A usa índice: 90 significa una caída del 10%.\nSi en cambio se sobrescribe una celda del Modo B, ahí va fracción decimal: -0,10 para lo mismo. Ver Estímulos Internacionales.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 6 · Recesión en un socio"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-6-recesion-socio.html#qué-mirar",
+    "href": "taller/casos/caso-6-recesion-socio.html#qué-mirar",
+    "title": "Caso 6 · Recesión en un socio",
+    "section": "Qué mirar",
+    "text": "Qué mirar\n\n\n\n\n\n\n\n\nHoja\nQué buscar\nPor qué\n\n\n\n\nResumen Ejecutivo\nProducción y empleo en riesgo\nLa magnitud de la exposición\n\n\nProducción\nSectores más expuestos\nDónde golpea\n\n\nEmpleo\nDistribución del riesgo por sexo y calificación\nPara focalizar la protección social\n\n\nEmpleo\nComponente indirecto\nCuánto del golpe llega por la cadena\n\n\nInserción Internacional\nVínculo de cada sector con esa región\nContexto estructural",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 6 · Recesión en un socio"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-6-recesion-socio.html#interpretación-sugerida",
+    "href": "taller/casos/caso-6-recesion-socio.html#interpretación-sugerida",
+    "title": "Caso 6 · Recesión en un socio",
+    "section": "Interpretación sugerida",
+    "text": "Interpretación sugerida\nBrasil concentra el 22,1% del comercio paraguayo, así que una caída del 10% en su demanda tiene efectos considerables. Pero la magnitud no es lo único interesante.\nLo relevante para política es quién queda expuesto. La distribución del empleo en riesgo por sexo y calificación permite identificar a los grupos más vulnerables y focalizar la protección social antes de que el choque se materialice.\nEl componente indirecto suele ser alto: el golpe no queda en los sectores que exportan a Brasil, sino que se transmite a sus proveedores domésticos.\n\n\n\n\n\n\nNota\n\n\n\nLa dimensión internacional es indicativa. Se apoya en una matriz con cobertura desigual entre sectores: sirve para posicionar y ordenar, no para cifras finas.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 6 · Recesión en un socio"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-6-recesion-socio.html#para-discutir",
+    "href": "taller/casos/caso-6-recesion-socio.html#para-discutir",
+    "title": "Caso 6 · Recesión en un socio",
+    "section": "Para discutir",
+    "text": "Para discutir\n\n¿Qué diferencia hay entre el impacto de Brasil y el de China? ¿Por qué?\nSi el objetivo fuera reducir la vulnerabilidad, ¿diversificar mercados o diversificar productos?\nEl caso mide exposición, no probabilidad. ¿Cómo se combinan ambas para priorizar?",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 6 · Recesión en un socio"
+    ]
+  },
+  {
+    "objectID": "taller/casos/caso-6-recesion-socio.html#ver-también",
+    "href": "taller/casos/caso-6-recesion-socio.html#ver-también",
+    "title": "Caso 6 · Recesión en un socio",
+    "section": "Ver también",
+    "text": "Ver también\nLa sección 3 desarrolla el módulo internacional en profundidad.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda",
+      "Caso 6 · Recesión en un socio"
+    ]
+  },
+  {
+    "objectID": "taller/index.html",
+    "href": "taller/index.html",
+    "title": "El taller",
+    "section": "",
+    "text": "Sección\nTema\n\n\n\n\n1\nLa estructura del simulador\n\n\n2\nCambios en la demanda · siete casos aplicados\n\n\n3\nEl bloque externo",
+    "crumbs": [
+      "Inicio",
+      "Taller"
+    ]
+  },
+  {
+    "objectID": "taller/index.html#la-lógica-de-la-secuencia",
+    "href": "taller/index.html#la-lógica-de-la-secuencia",
+    "title": "El taller",
+    "section": "La lógica de la secuencia",
+    "text": "La lógica de la secuencia\nLa sección 1 responde cómo está hecho. Sin eso los resultados se leen mal: es fácil confundir un efecto indirecto con uno directo, o tomar por predicción lo que es una contabilidad.\nLa sección 2 es el cuerpo del taller. Siete casos aplicados que van de la mecánica básica al diseño de política, cada uno construido sobre un rasgo real de la economía paraguaya.\nLa sección 3 abre el módulo internacional: cómo se conecta Paraguay con el resto del mundo y qué empleo sostiene exportando.",
+    "crumbs": [
+      "Inicio",
+      "Taller"
+    ]
+  },
+  {
+    "objectID": "taller/index.html#antes-de-empezar",
+    "href": "taller/index.html#antes-de-empezar",
+    "title": "El taller",
+    "section": "Antes de empezar",
+    "text": "Antes de empezar\nConviene tener el simulador descargado y abierto al menos una vez, con las macros habilitadas. La verificación técnica lleva unos minutos por persona y es mejor resolverla antes que durante.\n\n\n\n\n\n\nTipLa sección de referencia\n\n\n\nParalelamente al taller, Las hojas del simulador documenta cada hoja del libro. Sirve para consultar durante las sesiones y después, cuando aparezca la duda concreta.",
+    "crumbs": [
+      "Inicio",
+      "Taller"
+    ]
+  },
+  {
+    "objectID": "taller/seccion-2-cambios-demanda.html",
+    "href": "taller/seccion-2-cambios-demanda.html",
+    "title": "Sección 2 · Cambios en la demanda",
+    "section": "",
+    "text": "El núcleo del taller. Siete casos que no son ejercicios abstractos: cada uno pone el foco en un rasgo real de la economía paraguaya.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda"
+    ]
+  },
+  {
+    "objectID": "taller/seccion-2-cambios-demanda.html#los-casos",
+    "href": "taller/seccion-2-cambios-demanda.html#los-casos",
+    "title": "Sección 2 · Cambios en la demanda",
+    "section": "Los casos",
+    "text": "Los casos\n\n\n\n#\nCaso\nModo\nQué introduce\n\n\n\n\n1\n¿Exportar soja o industrializar?\nComparado\nMultiplicadores y efecto indirecto\n\n\n2\nLa gran sequía de la Hidrovía\nNacional\nChoques negativos y propagación\n\n\n3\nUna nueva planta agroindustrial\nNacional\nFases transitoria y permanente\n\n\n4\n¿A quién llega el estímulo?\nComparado\nEmpleo por sexo\n\n\n5\nEmpleo por calificación\nComparado\nEmpleo por nivel educativo\n\n\n6\nRecesión en un socio\nInternacional\nVulnerabilidad externa\n\n\n7\nMaximizar el empleo decente\nDiagnóstico + comparado\nIntegración de todo",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda"
+    ]
+  },
+  {
+    "objectID": "taller/seccion-2-cambios-demanda.html#el-trasfondo",
+    "href": "taller/seccion-2-cambios-demanda.html#el-trasfondo",
+    "title": "Sección 2 · Cambios en la demanda",
+    "section": "El trasfondo",
+    "text": "El trasfondo\nLos casos se apoyan en cuatro rasgos de la economía paraguaya.\nUna base primaria y agroexportadora. Soja y carne, sobre todo. Buena parte de la producción sale del país con poca transformación, y el debate central de desarrollo es cómo agregarle valor procesando más adentro. Casos 1 y 3.\nDependencia crítica de la logística fluvial. Sin salida al mar, la mayor parte del comercio exterior se mueve por la hidrovía Paraguay-Paraná. Y el comercio está concentrado en pocos socios: Brasil y Argentina primero, y cada vez más China y la Unión Europea. Casos 2 y 6.\nRasgos del mercado de trabajo. Alta informalidad, brechas entre mujeres y hombres, diferencias por calificación y una distinción marcada entre lo urbano y lo rural. Casos 4 y 5.\nSectores que no pesan ni se conectan igual. Algunos vertebran la economía; otros retienen poco valor. Entender esa arquitectura, con recursos fiscales escasos, es lo que permite diseñar políticas que rindan más empleo y de mejor calidad. Caso 7.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda"
+    ]
+  },
+  {
+    "objectID": "taller/seccion-2-cambios-demanda.html#la-progresión",
+    "href": "taller/seccion-2-cambios-demanda.html#la-progresión",
+    "title": "Sección 2 · Cambios en la demanda",
+    "section": "La progresión",
+    "text": "La progresión\nLos casos están ordenados por dificultad creciente:\n\n1 a 3 introducen la mecánica: modo nacional y comparado, choques positivos y negativos, lectura de encadenamientos.\n4 y 5 incorporan el empleo desagregado, central para el enfoque de trabajo decente.\n6 introduce la dimensión internacional y el análisis de vulnerabilidad.\n7 integra todo el instrumental en un ejercicio de diseño de política.\n\n\n\n\n\n\n\nTipCómo trabajar cada caso\n\n\n\nEl objetivo no es obtener un número, sino apropiarse del razonamiento: qué canal explica el resultado, a quién llega el empleo y de qué calidad es.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda"
+    ]
+  },
+  {
+    "objectID": "taller/seccion-2-cambios-demanda.html#cautelas-que-atraviesan-todos-los-casos",
+    "href": "taller/seccion-2-cambios-demanda.html#cautelas-que-atraviesan-todos-los-casos",
+    "title": "Sección 2 · Cambios en la demanda",
+    "section": "Cautelas que atraviesan todos los casos",
+    "text": "Cautelas que atraviesan todos los casos\n\nSon órdenes de magnitud, no cifras exactas. El valor está en comparar y en entender por qué.\nTienden a mostrar el efecto máximo: el modelo supone capacidad ilimitada, así que conviene leerlos como un techo.\nNo incluyen reacciones de política ni de mercado. Son punto de partida del análisis, no la última palabra.\nEl reparto del empleo refleja la estructura actual: muestra cómo se distribuiría si cada sector mantuviera su composición de hoy.\n\nEl detalle está en Buenas prácticas.",
+    "crumbs": [
+      "Inicio",
+      "Taller",
+      "Sección 2 · Cambios en la demanda"
     ]
   }
 ]

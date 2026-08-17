@@ -1,0 +1,60 @@
+---
+title: "Caso 1 · ¿Exportar soja o industrializar?"
+subtitle: "Modo comparado"
+---
+
+## Por qué importa
+
+Paraguay concentra su economía en la exportación de productos primarios, con la
+soja a la cabeza. El debate central de su estrategia de desarrollo —y del Plan
+Nacional de Industria— es si conviene seguir exportando materia prima o agregar
+valor industrializándola.
+
+Este caso pone en números ese dilema fundacional.
+
+## Objetivo
+
+Comparar dos proyectos exportadores **del mismo valor**: exportar soja en grano
+frente a procesarla.
+
+## Cómo cargarlo
+
+Hoja **Estímulos Nacionales**, modo comparado. Montos en millones de dólares.
+
+| Escenario | Columna | Sector | Monto |
+|---|---|---|---|
+| **A · Exportar grano** | Base | Agricultura, ganadería, caza y pesca | +100 |
+| **B · Procesar** | Alternativo | Agricultura, ganadería, caza y pesca | +20 |
+| | Alternativo | Alimentos, bebidas y tabacos | +80 |
+
+Ambos suman 100 millones. La diferencia está en **dónde** entra el estímulo.
+
+## Qué mirar
+
+| Hoja | Qué buscar | Por qué |
+|---|---|---|
+| Resumen Ejecutivo | Producción total de cada escenario | El proyecto que procesa moviliza más la cadena |
+| Resumen Ejecutivo | PIB de cada escenario | Cuánto valor agregado queda en el país |
+| Producción | Efecto indirecto | Es donde se ve la diferencia entre ambos |
+| Empleo | Empleo total y composición | Cantidad y calidad de los puestos |
+
+## Interpretación sugerida
+
+El proyecto que procesa suele mostrar **mayor efecto indirecto**, porque la
+industria alimentaria compra insumos a más sectores que la producción agrícola
+primaria: envases, energía, transporte, servicios.
+
+Esa diferencia es el argumento cuantitativo del debate sobre agregación de
+valor: con el mismo valor exportado, industrializar moviliza más cadena
+doméstica y genera más empleo.
+
+Conviene mirar también el **valor agregado**: no solo cuánta producción se
+activa, sino cuánta queda efectivamente en el país.
+
+## Para discutir
+
+- ¿La diferencia justifica una política de incentivos a la industrialización?
+- ¿Qué no está viendo el modelo? Pensar en capacidad instalada, acceso a
+  mercados y disponibilidad de calificaciones.
+- Si el procesamiento requiere insumos importados, ¿cómo afecta eso al
+  resultado? Ver [Inserción Internacional](../../hojas/insercion-internacional.qmd).
