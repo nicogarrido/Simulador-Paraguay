@@ -57,7 +57,7 @@ El motor del modelo. No se editan salvo que se actualice la matriz.
 | [Matrices Nacionales](matrices-nacionales.qmd) | Z, A, L, valor agregado, demanda final |
 | [Información Empleo](informacion-empleo.qmd) | Empleo por sector y coeficientes |
 | [MRIO](mrio.qmd) | Matrices internacionales |
-| [VAX FVA source](vax-fva-source.qmd) | Composición importada y exportaciones por destino |
+| [Exportaciones](exportaciones.qmd) | Matriz de exportaciones por sector y destino |
 | [Parámetros](parametros.qmd) | Tipo de cambio y PIB de referencia |
 
 ### Documentación

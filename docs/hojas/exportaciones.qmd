@@ -1,0 +1,43 @@
+---
+title: "Exportaciones"
+subtitle: "Capa de datos"
+---
+
+Contiene la matriz de exportaciones por sector y destino que alimenta la zona 4
+de [Empleo Exportador](empleo-exportador.qmd).
+
+## Qué contiene
+
+Veintiún sectores por diez regiones de destino, en millones de dólares. Rango
+nombrado `Exp_Destino`.
+
+## Cómo se construyó
+
+Con anclas de fuentes oficiales, no con la matriz internacional:
+
+| Fuente | Aporta |
+|---|---|
+| BCP, Reporte de Comercio Exterior dic-2024 | Soja, carne bovina, arroz, harina de soja, energía eléctrica, maquila |
+| Eurostat Comext 2024 | El total de la Unión Europea, por sección arancelaria |
+
+Los residuos se reparten en proporción a los destinos identificados.
+
+::: {.callout-warning}
+## Cobertura
+La matriz cubre **bienes**: 9.522 de los 12.419 millones exportados, el 76,7%.
+
+Los servicios —comercio, turismo, transporte y servicios a empresas— no tienen
+asignación de destino en las fuentes de comercio disponibles y figuran en cero.
+
+China, Asia-Pacífico y Reino Unido también figuran en cero porque ninguna fuente
+los identifica como destino, no porque el flujo sea nulo.
+:::
+
+## Por qué no se usó la matriz internacional
+
+FIGARO asigna 4.804 millones de dólares a servicios profesionales —el 50% de las
+exportaciones paraguayas, cifra implausible—, omite las exportaciones de
+electricidad y no registra ventas de alimentos hacia Europa, a la que
+sobreestima en un factor de cuatro.
+
+Es apropiada para la tecnología de producción, no para el destino del comercio.

@@ -28,9 +28,8 @@ cambios.
 
 ::: {.callout-tip}
 ## Las unidades
-Se carga el **porcentaje directo**: `-10` para una caída del 10%. Vale igual para
-el Modo A y para el Modo B. Ver
-[Estímulos Internacionales](../../hojas/estimulos-internacionales.qmd).
+Todo se carga en **porcentaje**: `10` para un aumento del 10%, `-10` para una
+caída. Vale para el Modo A —escribiendo en la fila 8— y para el Modo B.
 :::
 
 ## Qué mirar

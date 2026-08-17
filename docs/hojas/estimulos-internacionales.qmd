@@ -26,15 +26,17 @@ una escala distinta**.
 
 ### Modo A · shock uniforme por región
 
-Se ingresa el **porcentaje directo**:
+Se fija un shock por región, igual para todos sus sectores. El panel tiene **dos
+filas**:
 
-| Valor | Significa |
+| Fila | Para qué |
 |---|---|
-| 0 | Sin cambio |
-| 10 | Aumento del 10% |
-| −10 | Caída del 10% |
+| **Fila 7** | Las flechas ▲▼. Trabaja con un índice interno donde 100 es sin cambio |
+| **Fila 8** | Para escribir. Está en formato porcentaje: se escribe `10` o `-10` |
 
-Se puede escribir el número o usar las flechas ▲▼, que funcionan gracias a las
+Lo habitual es escribir directamente en la **fila 8**. Las flechas de la fila 7
+sirven para tantear valores sin teclear.
+
 macros del archivo.
 
 ### Modo B · shock diferenciado por sector

@@ -62,10 +62,11 @@ Paraguay no figura como región editable: el panel mide cómo la demanda del res
 del mundo afecta a la economía paraguaya.
 :::
 
-::: {.callout-warning}
-## Advertencia metodológica
-Solo cuatro sectores —agricultura, silvicultura, minería y alimentos— tienen su
-propia composición regional en FIGARO. El resto usa una composición promedio,
-de modo que la distribución por región de esos sectores debe leerse como
-indicativa, no exacta.
+::: {.callout-note}
+## Sobre el uso de estas regiones
+El agrupamiento se usa para el módulo internacional —los shocks de demanda
+externa— y para el reparto del empleo exportador por destino.
+
+Ese reparto no proviene de la matriz internacional sino de estadísticas del Banco
+Central y de Eurostat. Ver [Exportaciones](exportaciones.qmd).
 :::

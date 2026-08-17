@@ -3,11 +3,11 @@ title: "Inserción Internacional"
 subtitle: "Capa de análisis estructural"
 ---
 
-Describe cómo Paraguay se conecta con el resto del mundo: cuánto valor retiene
-de lo que produce y de dónde vienen los insumos que utiliza.
+Describe cuánto valor retiene cada sector de lo que produce y cuánto se le va en
+insumos importados.
 
 ::: {.callout-note}
-No depende del choque ingresado.
+No depende del choque ingresado. Describe la estructura de 2024.
 :::
 
 ## Qué información contiene
@@ -21,53 +21,62 @@ exterior.
 
 **Empleo por cada millón de dólares.** La intensidad de empleo del sector.
 
-**Tipo de encadenamiento.** Referencia cruzada con la hoja de
+**Tipo de encadenamiento.** Referencia cruzada con
 [Encadenamientos Internos](encadenamientos-internos.qmd).
 
-**Composición del comercio por región.** Con qué regiones se vincula cada sector
-y cuál es su origen principal.
+**Lectura de semáforo.** Clasificación cualitativa —alta retención, media, o baja
+y ensambladora— que compara la retención de cada sector con el valor de
+referencia y la banda fijados en el encabezado de la hoja, ambos editables.
 
-**Lectura de semáforo.** Una clasificación cualitativa —alta retención, media, o
-baja y ensambladora— que compara la retención de cada sector con el valor de
-referencia fijado en el encabezado de la hoja.
+Las cinco columnas se calculan desde la MIP de Paraguay 2024. Son dato firme para
+los veintiún sectores.
+
+## Los extremos
+
+| Sector | Retención | Lectura |
+|---|---|---|
+| Servicios inmobiliarios | 0,882 | Alta retención |
+| Electricidad, gas y agua | 0,832 | Alta retención |
+| Finanzas y seguros | 0,762 | Alta retención |
+| Química, farmacia y caucho | 0,338 | Baja / ensamblaje |
+| Minería | 0,321 | Baja / ensamblaje |
+
+El promedio nacional es **0,533**. La hidroeléctrica retiene mucho porque casi no
+usa insumos importados; química y minería retienen un tercio porque dependen de
+ellos.
 
 ## Cómo se usa
 
 **Como diagnóstico de posicionamiento.** Distinguir los sectores que retienen
-valor, donde el impulso se queda en el país, de los sectores ensambladores con
-alto contenido importado, donde parte del impulso se filtra al exterior.
+valor, donde el impulso se queda en el país, de los ensambladores, donde parte se
+filtra al exterior.
 
-**Antes de un choque internacional.** Identificar qué regiones y sectores son
-relevantes. Para el acuerdo UE–Mercosur, por ejemplo, los sectores con vínculo
-fuerte con la Unión Europea.
+**Para matizar una simulación.** Un aumento exportador grande en un sector de
+baja retención genera menos valor y empleo doméstico neto del que sugiere la
+cifra bruta.
 
-**Para matizar una simulación.** Un gran aumento exportador en un sector de baja
-retención genera menos valor y empleo doméstico neto del que sugiere la cifra
-bruta, porque buena parte se va en insumos importados.
+**Con el semáforo.** Priorizar políticas de contenido local allí donde la
+retención sea baja.
 
-**Con el semáforo.** Priorizar políticas de contenido local o de escalamiento en
-cadenas allí donde la retención sea baja.
+## Lo que esta hoja ya no incluye
+
+::: {.callout-note}
+El desglose del contenido importado por región de origen fue retirado.
+
+La matriz internacional solo identifica el origen de los insumos para tres
+sectores, que concentran el 96,7% del flujo registrado. Para los dieciocho
+restantes la distribución era una imputación con el promedio nacional: no
+aportaba información por sector y podía sostener conclusiones falsas.
+
+El nivel de insumos importados por sector sí es dato firme y se conserva en la
+columna correspondiente.
+:::
 
 ## El VAX
 
-Relacionado pero distinto: es la proporción de valor agregado doméstico contenida
-en las **exportaciones**. En Paraguay 2024 es de **0,842**, es decir que por cada
-dólar exportado 84,2 centavos son valor agregado nacional.
+Concepto relacionado pero distinto: la proporción de valor agregado doméstico
+contenida en las **exportaciones**. En Paraguay 2024 es de **0,842**, es decir
+que por cada dólar exportado 84,2 centavos son valor agregado nacional.
 
-Es un valor alto, coherente con una canasta exportadora concentrada en productos
-primarios y energía, que incorporan poco insumo importado.
-
-::: {.callout-warning}
-## Advertencia metodológica
-Solo cuatro sectores —agricultura, silvicultura, minería y alimentos— tienen su
-propia composición regional en la matriz FIGARO. El resto usa una composición
-promedio, por lo que la distribución por región de esos sectores debe leerse
-como **indicativa, no exacta**.
-
-FIGARO es apropiada para representar la **tecnología** de producción, que cambia
-lentamente. No lo es para estimar el destino de las exportaciones paraguayas:
-sobreestima el mercado europeo en un factor de cuatro y omite las exportaciones
-de electricidad. Por eso el reparto por destino de
-[Empleo Exportador](empleo-exportador.qmd) se construyó con estadísticas del
-Banco Central y de Eurostat.
-:::
+Es un valor alto, coherente con una canasta concentrada en productos primarios y
+energía, que incorporan poco insumo importado.

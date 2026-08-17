@@ -11,7 +11,33 @@ que conviene revisar al actualizar el año de referencia.
 | Parámetro | Valor | Uso |
 |---|---|---|
 | Tipo de cambio | 6.107 PYG/USD | Conversión de resultados a moneda local |
-| PIB de referencia | 44.460 MUSD | Cálculo de participaciones |
+| PIB de referencia | 41.595 MUSD | Cálculo de participaciones |
+
+El PIB de referencia coincide con el valor agregado de la MIP 2024.
+
+## El bloque de escala del módulo internacional
+
+Más abajo en la hoja hay un segundo bloque, con un factor por región que
+reescala el VBP de la matriz internacional —de 2018— al año de la MIP doméstica.
+
+| Elemento | Dónde |
+|---|---|
+| Interruptor: 1 aplica, 0 usa escala original | Celda F11 |
+| Los once factores, editables | Filas 14 a 24 |
+
+Sin el reescalamiento los impactos internacionales quedan subestimados por el
+crecimiento nominal del producto de la región que recibe el shock: un 22% en el
+caso europeo, un 42% en el estadounidense.
+
+Los coeficientes técnicos y la inversa de Leontief **no se modifican**: solo se
+corrige la escala sobre la que se calcula la variación de demanda.
+
+::: {.callout-note}
+El factor de Paraguay —1,134— se obtiene de la propia matriz, dividiendo el VBP
+de la MIP 2024 por el de la matriz internacional de 2018. Los otros diez son
+aproximados y editables; conviene validarlos contra el World Economic Outlook del
+FMI antes de usarlos en un producto publicado.
+:::
 
 ## Cuándo modificarlos
 
@@ -21,6 +47,9 @@ cotización distinta. No afecta ningún cálculo interno: el modelo trabaja
 
 **El PIB de referencia**, solo al actualizar la matriz a otro año. Se usa para
 expresar los impactos como proporción del producto.
+
+**Los factores de escala**, al validar contra una fuente oficial o al actualizar
+la matriz internacional a una edición más reciente.
 
 ::: {.callout-note}
 Cambiar estos valores no altera los multiplicadores ni la estructura del modelo.

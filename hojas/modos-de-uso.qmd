@@ -50,16 +50,17 @@ a la economía paraguaya.
 
 ### Modo A · shock uniforme por región
 
-Se fija un shock por región, igual para todos sus sectores. Se ingresa el
-**porcentaje directo**:
+Se fija un shock por región, igual para todos sus sectores. El panel tiene **dos
+filas**:
 
-| Valor | Significa |
+| Fila | Para qué |
 |---|---|
-| 0 | Sin cambio |
-| 10 | Aumento del 10% |
-| −10 | Caída del 10% |
+| **Fila 7** | Las flechas ▲▼. Trabaja con un índice interno donde 100 es sin cambio |
+| **Fila 8** | Para escribir. Está en formato porcentaje: se escribe `10` o `-10` |
 
-Se puede escribir el número o usar las flechas ▲▼.
+Lo habitual es escribir directamente en la **fila 8**. Las flechas de la fila 7
+sirven para tantear valores sin teclear.
+
 
 ### Modo B · shock diferenciado por sector
 
@@ -72,11 +73,8 @@ sectores que a otros.
 
 ::: {.callout-tip}
 ## Las unidades
-Ambos modos trabajan en **porcentaje directo**: se escribe `10` para un aumento
-del 10% y `-10` para una caída.
-
-Lo que distingue a los modos no son las unidades sino el alcance: uno fija el
-shock por región y el otro lo diferencia por sector.
+Todo se carga en **porcentaje**: `10` para un aumento del 10%, `-10` para una
+caída. Vale para el Modo A —escribiendo en la fila 8— y para el Modo B.
 :::
 
 ## Volver a cero
