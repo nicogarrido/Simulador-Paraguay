@@ -7,7 +7,7 @@ cambia.
 ## El enlace
 
 ```
-https://USUARIO.github.io/Simulador-Paraguay/simulador/Simulador-MIP-Paraguay.xlsm
+https://nicogarrido.github.io/Simulador-Paraguay/simulador/Simulador-MIP-Paraguay.xlsm
 ```
 
 Ese enlace se puede compartir por correo, ponerlo en una presentación o en el
@@ -53,7 +53,7 @@ esquema de Releases, donde los binarios no engordan el historial.
 Si se prefiere no depender de GitHub Pages, el archivo también es accesible por:
 
 ```
-https://github.com/USUARIO/Simulador-Paraguay/raw/main/simulador/Simulador-MIP-Paraguay.xlsm
+https://github.com/nicogarrido/Simulador-Paraguay/raw/main/simulador/Simulador-MIP-Paraguay.xlsm
 ```
 
 Funciona igual y también es un enlace estable. La ventaja del primero es que

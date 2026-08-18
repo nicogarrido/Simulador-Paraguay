@@ -74,6 +74,7 @@ Además de la descripción hoja por hoja, esta sección incluye:
 - [Buenas prácticas y advertencias](buenas-practicas.qmd) — qué hacer y qué evitar
 - [Anexos](anexos.qmd) — los 21 sectores y las 10 regiones
 - [Glosario](glosario.qmd) — los términos del modelo
+- [Presentaciones](presentaciones.qmd) — el material que se proyecta en cada sesión, para descargar
 
 ## Cómo usar esta sección
 

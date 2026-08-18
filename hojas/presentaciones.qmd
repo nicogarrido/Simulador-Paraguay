@@ -1,0 +1,45 @@
+---
+title: "Presentaciones"
+subtitle: "El material que se proyecta en cada sesión"
+---
+
+Las presentaciones del taller, para descargar. Se publican en dos formatos: `.pptx`
+para editar o reutilizar diapositivas sueltas, y `.pdf` para consultar sin abrir
+PowerPoint.
+
+## Sección 1 · La estructura del simulador
+
+Presenta el simulador por dentro: de dónde salen los datos, las cuatro capas del
+libro, los cuatro efectos que organizan los resultados, los tres modos de uso y los
+supuestos del modelo. Es la sesión que entrega el mapa que el resto del taller
+supone.
+
+[**Descargar en PowerPoint**](../presentaciones/Taller-Seccion-1-Estructura.pptx)
+ · [**Ver en PDF**](../presentaciones/Taller-Seccion-1-Estructura.pdf)
+
+| | |
+|---|---|
+| Diapositivas | 23 |
+| Duración estimada | 30 minutos |
+| Corresponde a | [Sección 1 del taller](../taller/seccion-1-estructura.qmd) |
+
+::: {.callout-note}
+## Sobre las versiones
+El nombre del archivo no cambia entre actualizaciones, de modo que cualquier enlace
+que se comparta sigue funcionando. El enlace apunta siempre a la versión vigente.
+:::
+
+## Secciones 2 y 3
+
+En preparación. Las presentaciones de [Cambios en la
+demanda](../taller/seccion-2-cambios-demanda.qmd) y [El bloque
+externo](../taller/seccion-3-bloque-externo.qmd) se publicarán acá a medida que se
+dicten las sesiones.
+
+::: {.callout-tip}
+## Para quien reutilice el material
+Las presentaciones siguen la misma paleta y la misma terminología que este sitio:
+las cuatro capas, los cuatro efectos y los tres modos de uso se nombran igual en la
+diapositiva y en la página de referencia. Conviene mantener esa correspondencia al
+adaptar el material.
+:::
