@@ -123,7 +123,6 @@ como destino, no porque el flujo sea nulo.
 | Efecto directo | 58,5% |
 | Efecto indirecto | 41,5% |
 | Multiplicador | 1,709 |
-| VAX agregado | 0,842 |
 
 Cuatro de cada diez de esos empleos están en sectores que **no exportan
 directamente**: proveen a los que exportan.
@@ -140,9 +139,8 @@ sumarse ni confundirse**.
 ### Capa 1 · Posicionamiento (MRIO)
 
 Responde *dónde está parado Paraguay* en las cadenas que lo conectan con el
-mundo. Provee tres lecturas estructurales: los ratios VAX, los encadenamientos
-con las regiones socias, y el empleo incorporado en las exportaciones por
-destino.
+mundo. Provee dos lecturas estructurales: los encadenamientos con las regiones
+socias, y el empleo incorporado en las exportaciones por destino.
 
 ### Capa 2 · Cuantificación (MIP doméstica)
 
@@ -153,14 +151,6 @@ cadena de proveedores—.
 
 Sobre esos vectores se aplican los coeficientes de empleo y su composición por
 sexo y calificación.
-
-::: {.callout-note}
-## Un límite de la capa MRIO
-FIGARO asigna insumos intermedios importados solo a unos pocos sectores
-—agricultura, minería y alimentos—. Para los demás, el contenido de valor
-extranjero se estima con una composición promedio ponderada, y esos resultados
-de VAX deben leerse con una marca de confiabilidad.
-:::
 
 ## Los dos casos
 

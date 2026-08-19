@@ -1,23 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/seccion-3-bloque-externo.html</loc>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/seccion-4-tu-caso.html</loc>
+    <lastmod>2026-08-19T17:31:33.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/seccion-2-cambios-demanda.html</loc>
+    <lastmod>2026-08-19T17:31:35.017Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/internacional/caso-ue-mercosur.html</loc>
+    <lastmod>2026-08-17T05:25:34.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/index.html</loc>
+    <lastmod>2026-08-19T17:31:33.946Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-6-recesion-socio.html</loc>
     <lastmod>2026-08-17T06:40:32.000Z</lastmod>
   </url>
   <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/seccion-1-estructura.html</loc>
-    <lastmod>2026-08-17T04:04:09.000Z</lastmod>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-4-empleo-y-genero.html</loc>
+    <lastmod>2026-08-17T05:25:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/internacional/caso-corredor-bioceanico.html</loc>
-    <lastmod>2026-08-17T05:25:34.000Z</lastmod>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-2-sequia-hidrovia.html</loc>
+    <lastmod>2026-08-17T05:25:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-7-empleo-decente.html</loc>
-    <lastmod>2026-08-17T05:25:34.000Z</lastmod>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/index.html</loc>
+    <lastmod>2026-08-17T10:58:22.000Z</lastmod>
   </url>
   <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-5-calificacion.html</loc>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/produccion.html</loc>
+    <lastmod>2026-08-16T23:19:10.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/pib.html</loc>
+    <lastmod>2026-08-16T23:19:10.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/mrio.html</loc>
+    <lastmod>2026-08-16T23:20:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/matrices-nacionales.html</loc>
+    <lastmod>2026-08-16T23:20:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/ingreso-laboral.html</loc>
+    <lastmod>2026-08-16T23:19:10.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/index.html</loc>
+    <lastmod>2026-08-18T11:52:46.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/exportaciones.html</loc>
+    <lastmod>2026-08-17T06:39:54.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/estimulos-internacionales.html</loc>
+    <lastmod>2026-08-17T06:40:32.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/empleo.html</loc>
+    <lastmod>2026-08-16T23:19:10.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/buenas-practicas.html</loc>
+    <lastmod>2026-08-17T04:02:36.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/agregacion-sectorial.html</loc>
+    <lastmod>2026-08-17T10:58:22.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/guia-de-estilo.html</loc>
+    <lastmod>2026-08-16T22:53:03.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/anexos.html</loc>
+    <lastmod>2026-08-17T06:40:16.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/empleo-exportador.html</loc>
+    <lastmod>2026-08-16T23:19:44.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/encadenamientos-internos.html</loc>
+    <lastmod>2026-08-17T04:03:49.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/estimulos-nacionales.html</loc>
+    <lastmod>2026-08-17T05:30:23.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/glosario.html</loc>
+    <lastmod>2026-08-19T17:37:37.518Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/informacion-empleo.html</loc>
+    <lastmod>2026-08-17T05:24:14.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/insercion-internacional.html</loc>
+    <lastmod>2026-08-19T17:37:37.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/modos-de-uso.html</loc>
+    <lastmod>2026-08-17T06:40:32.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/parametros.html</loc>
+    <lastmod>2026-08-17T06:40:16.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/presentaciones.html</loc>
+    <lastmod>2026-08-18T11:52:21.531Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/resumen-ejecutivo.html</loc>
+    <lastmod>2026-08-17T04:03:16.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-1-soja-o-industria.html</loc>
     <lastmod>2026-08-17T05:25:00.000Z</lastmod>
   </url>
   <url>
@@ -25,127 +133,23 @@
     <lastmod>2026-08-17T05:25:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-1-soja-o-industria.html</loc>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-5-calificacion.html</loc>
     <lastmod>2026-08-17T05:25:00.000Z</lastmod>
   </url>
   <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/resumen-ejecutivo.html</loc>
-    <lastmod>2026-08-17T04:03:16.000Z</lastmod>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-7-empleo-decente.html</loc>
+    <lastmod>2026-08-19T17:31:35.475Z</lastmod>
   </url>
   <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/presentaciones.html</loc>
-    <lastmod>2026-08-18T11:52:21.531Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/parametros.html</loc>
-    <lastmod>2026-08-17T06:40:16.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/modos-de-uso.html</loc>
-    <lastmod>2026-08-17T06:40:32.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/insercion-internacional.html</loc>
-    <lastmod>2026-08-17T06:39:54.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/informacion-empleo.html</loc>
-    <lastmod>2026-08-17T05:24:14.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/glosario.html</loc>
-    <lastmod>2026-08-17T04:02:36.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/estimulos-nacionales.html</loc>
-    <lastmod>2026-08-17T05:30:23.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/encadenamientos-internos.html</loc>
-    <lastmod>2026-08-17T04:03:49.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/empleo-exportador.html</loc>
-    <lastmod>2026-08-16T23:19:44.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/anexos.html</loc>
-    <lastmod>2026-08-17T06:40:16.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/guia-de-estilo.html</loc>
-    <lastmod>2026-08-16T22:53:03.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/agregacion-sectorial.html</loc>
-    <lastmod>2026-08-17T10:58:22.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/buenas-practicas.html</loc>
-    <lastmod>2026-08-17T04:02:36.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/empleo.html</loc>
-    <lastmod>2026-08-16T23:19:10.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/estimulos-internacionales.html</loc>
-    <lastmod>2026-08-17T06:40:32.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/exportaciones.html</loc>
-    <lastmod>2026-08-17T06:39:54.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/index.html</loc>
-    <lastmod>2026-08-18T11:52:46.325Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/ingreso-laboral.html</loc>
-    <lastmod>2026-08-16T23:19:10.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/matrices-nacionales.html</loc>
-    <lastmod>2026-08-16T23:20:28.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/mrio.html</loc>
-    <lastmod>2026-08-16T23:20:28.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/pib.html</loc>
-    <lastmod>2026-08-16T23:19:10.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/hojas/produccion.html</loc>
-    <lastmod>2026-08-16T23:19:10.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/index.html</loc>
-    <lastmod>2026-08-17T10:58:22.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-2-sequia-hidrovia.html</loc>
-    <lastmod>2026-08-17T05:25:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-4-empleo-y-genero.html</loc>
-    <lastmod>2026-08-17T05:25:00.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/casos/caso-6-recesion-socio.html</loc>
-    <lastmod>2026-08-17T06:40:32.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/index.html</loc>
-    <lastmod>2026-08-17T04:45:36.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/internacional/caso-ue-mercosur.html</loc>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/internacional/caso-corredor-bioceanico.html</loc>
     <lastmod>2026-08-17T05:25:34.000Z</lastmod>
   </url>
   <url>
-    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/seccion-2-cambios-demanda.html</loc>
-    <lastmod>2026-08-17T04:15:40.000Z</lastmod>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/seccion-1-estructura.html</loc>
+    <lastmod>2026-08-19T17:37:38.720Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nicogarrido.github.io/Simulador-Paraguay/taller/seccion-3-bloque-externo.html</loc>
+    <lastmod>2026-08-19T17:37:39.613Z</lastmod>
   </url>
 </urlset>

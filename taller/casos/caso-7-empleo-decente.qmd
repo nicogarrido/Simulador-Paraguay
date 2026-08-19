@@ -87,3 +87,11 @@ aunque el conteo de puestos sea el mismo.
 - ¿Qué otros criterios deberían entrar en la decisión además del empleo?
 - ¿Cómo se comunica un resultado así a quien toma la decisión, sin
   sobreafirmar?
+
+::: {.callout-tip}
+## Un paso más
+Acá los dos diseños ya vinieron armados. La [Sección 4](../seccion-4-tu-caso.qmd)
+propone lo mismo pero con el problema en blanco: ustedes eligen qué maximizar y
+encuentran la asignación óptima con Solver, en lugar de comparar dos
+alternativas dadas.
+:::

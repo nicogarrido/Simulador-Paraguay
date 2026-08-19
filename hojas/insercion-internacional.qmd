@@ -71,12 +71,3 @@ aportaba información por sector y podía sostener conclusiones falsas.
 El nivel de insumos importados por sector sí es dato firme y se conserva en la
 columna correspondiente.
 :::
-
-## El VAX
-
-Concepto relacionado pero distinto: la proporción de valor agregado doméstico
-contenida en las **exportaciones**. En Paraguay 2024 es de **0,842**, es decir
-que por cada dólar exportado 84,2 centavos son valor agregado nacional.
-
-Es un valor alto, coherente con una canasta concentrada en productos primarios y
-energía, que incorporan poco insumo importado.

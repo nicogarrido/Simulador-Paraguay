@@ -1,0 +1,121 @@
+---
+title: "Caso 8 · Planteá tu propio caso"
+subtitle: "Optimización con Solver · el problema lo definís vos"
+---
+
+## Por qué importa
+
+Los siete casos anteriores vinieron con el diseño ya armado: qué sector, qué
+monto, qué comparar. Eso es deliberado — sirve para aprender la mecánica sin
+distraerse con la formulación del problema.
+
+Pero ningún problema de política real llega con las columnas prellenadas.
+Alguien tiene que decidir qué se quiere lograr, con cuánto presupuesto, y bajo
+qué reglas. Ese paso —formular el problema, no solo resolverlo— es el que este
+caso pone en manos del grupo.
+
+## Objetivo
+
+Plantear y resolver, con **Solver**, un problema de asignación propio: elegir
+qué maximizar, con qué presupuesto y bajo qué restricciones, y contrastar el
+resultado contra una hipótesis hecha antes de correrlo.
+
+## El método en cinco preguntas
+
+Antes de tocar Solver, conviene que el grupo responda estas cinco preguntas y
+las deje escritas. Van a hacer falta para cargar el problema y para discutirlo
+después.
+
+| # | Pregunta | Ejemplos |
+|---|---|---|
+| 1 | ¿Qué querés maximizar? | Empleo total · empleo de alta calificación · empleo formal · empleo femenino · ingreso laboral de los hogares · PIB |
+| 2 | ¿Cuánto hay para "gastar"? | El presupuesto total del estímulo, en MUSD — la restricción central del ejercicio |
+| 3 | ¿Qué sectores entran en juego? | Los veintiún sectores, o un subconjunto acotado al problema (p. ej., solo agroindustria si el tema es agregación de valor) |
+| 4 | ¿Hay reglas adicionales? | Topes máximos por sector, pisos mínimos, sectores excluidos |
+| 5 | ¿Qué esperás que gane, y por qué? | Una hipótesis previa, apoyada en Encadenamientos Internos, antes de correr nada |
+
+::: {.callout-important}
+## Por qué la pregunta 4 no es opcional
+Sin ningún tope, Solver casi siempre entrega una **solución de esquina**: todo
+el presupuesto concentrado en el sector con mejor resultado por dólar. Es una
+respuesta matemáticamente correcta, pero rara vez es una política viable. Si el
+grupo no quiere ese resultado, tiene que fijar el tope antes de correr Solver,
+no después de ver que ganó un solo sector.
+:::
+
+## Cómo cargarlo
+
+**Antes:** revisar **Encadenamientos Internos** para fundamentar la hipótesis
+de la pregunta 5. El resultado de Solver no enseña nada si no hay una
+expectativa previa contra la cual contrastarlo.
+
+**En Excel:**
+
+1. En **Estímulos Nacionales**, ubicar las celdas de estímulo de los sectores
+   que entran en juego (respuesta a la pregunta 3) — son las celdas variables
+   de Solver.
+2. Agregar una celda que sume esas celdas: es la que se va a restringir al
+   presupuesto (pregunta 2).
+3. Identificar la celda objetivo: la que mide lo que el grupo decidió
+   maximizar (pregunta 1). Si no existe como celda única en las hojas de
+   resultados, armar una celda auxiliar que la calcule.
+4. Abrir **Datos → Solver** y cargar:
+
+| Parámetro de Solver | Qué va ahí |
+|---|---|
+| Establecer objetivo | La celda del paso 3 → **Max** |
+| Cambiando las celdas de variables | Las celdas de estímulo del paso 1 |
+| Restricción de presupuesto | Celda del paso 2 `<=` monto de la pregunta 2 |
+| Restricción de no negatividad | Cada celda de estímulo `>=` 0 |
+| Restricciones adicionales | Los topes de la pregunta 4, si el grupo los definió |
+| Método de resolución | **Simplex LP** — la relación entre estímulo y resultado es lineal |
+
+5. Resolver, y guardar también el **informe de sensibilidad**: muestra cuánto
+   más se ganaría por cada dólar adicional de presupuesto, sector por sector.
+
+::: {.callout-tip}
+## Si no aparece Solver en el menú Datos
+Archivo → Opciones → Complementos → Complementos de Excel → Ir → tildar
+**Solver**.
+:::
+
+## Qué mirar
+
+| Hoja | Qué buscar | Por qué |
+|---|---|---|
+| Encadenamientos Internos | El sector que la hipótesis previa señalaba como ganador | Para contrastarla con el resultado |
+| La celda objetivo elegida | El valor que Solver maximizó | El resultado central del ejercicio |
+| Resumen Ejecutivo | Empleo y PIB totales del escenario óptimo | Contexto del resultado, más allá del objetivo elegido |
+| Empleo | Composición del empleo generado | Si el objetivo no era "calidad de empleo", igual vale revisarla |
+| Informe de sensibilidad de Solver | Costo reducido de cada sector | Cuánto ganaría el objetivo si el presupuesto o los topes cambiaran |
+
+## Interpretación sugerida
+
+Si Solver concentró todo en un sector, no es un error: es la naturaleza lineal
+del problema. La pregunta que vale discutir no es "¿por qué solo un sector?"
+sino "¿qué tope habría hecho falta para forzar una repartición, y a qué costo
+en el objetivo?" — eso es exactamente lo que muestra el informe de
+sensibilidad.
+
+Si la hipótesis previa (pregunta 5) no coincidió con el resultado, es el
+momento más valioso del caso: volver a Encadenamientos Internos y entender qué
+se pasó por alto — ¿el sector ganador tenía mejor intensidad de empleo de lo
+esperado? ¿un encadenamiento hacia atrás más fuerte?
+
+## Para discutir
+
+- ¿El resultado coincidió con la hipótesis del grupo? Si no, ¿qué explicaba la
+  diferencia?
+- ¿La solución que entregó Solver es una política viable? ¿Existen proyectos
+  concretos en ese sector donde asignar los recursos?
+- Si otro grupo planteó un objetivo distinto con el mismo presupuesto, ¿qué
+  sector ganó en cada caso? ¿Qué dice eso sobre la tensión entre objetivos?
+- ¿Qué reglas (pregunta 4) hicieron falta para que el resultado fuera
+  políticamente aceptable, y qué costo tuvieron en el objetivo maximizado?
+
+::: {.callout-tip}
+## Ver también
+[Los tres modos de uso](../../hojas/modos-de-uso.qmd) y
+[Estímulos Nacionales](../../hojas/estimulos-nacionales.qmd) para repasar cómo
+se carga cualquier escenario antes de este caso.
+:::

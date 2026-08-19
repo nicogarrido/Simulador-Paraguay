@@ -36,9 +36,6 @@ cadenas internacionales.
 **Retención de valor.** Proporción del valor de la producción que queda en el
 país como valor agregado doméstico. Su contracara es el contenido importado.
 
-**VAX.** Proporción de valor agregado doméstico contenida en las exportaciones.
-En Paraguay 2024 es de 0,842.
-
 **Remuneraciones.** Sueldos y salarios más contribuciones sociales. Es el costo
 laboral de la empresa, no el ingreso disponible del hogar.
 

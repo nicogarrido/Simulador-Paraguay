@@ -1,6 +1,6 @@
 ---
 title: "El taller"
-subtitle: "Tres secciones"
+subtitle: "Cuatro secciones"
 ---
 
 | Sección | Tema |
@@ -8,6 +8,7 @@ subtitle: "Tres secciones"
 | [1](seccion-1-estructura.qmd) | La estructura del simulador |
 | [2](seccion-2-cambios-demanda.qmd) | Cambios en la demanda · siete casos aplicados |
 | [3](seccion-3-bloque-externo.qmd) | El bloque externo · dos casos de integración |
+| [4](seccion-4-tu-caso.qmd) | Tu propio caso · optimización con Solver |
 
 ## La lógica de la secuencia
 
@@ -23,6 +24,11 @@ La **sección 3** abre el módulo internacional y culmina en dos casos de mayor
 alcance: el **Acuerdo UE–Mercosur**, un nuevo acceso de mercado, y el **Corredor
 Bioceánico**, una nueva ruta logística. Son los casos más ricos del taller y los
 que integran todo el instrumental.
+
+La **sección 4** cierra el taller invirtiendo el ejercicio: ya no hay un caso
+dado para resolver. Cada grupo formula el suyo —qué maximizar, con qué
+presupuesto, bajo qué reglas— y lo resuelve con Solver, aplicando por su
+cuenta todo lo recorrido en las secciones anteriores.
 
 ## Antes de empezar
 

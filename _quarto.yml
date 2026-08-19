@@ -60,6 +60,7 @@ website:
             contents:
               - taller/internacional/caso-ue-mercosur.qmd
               - taller/internacional/caso-corredor-bioceanico.qmd
+          - taller/seccion-4-tu-caso.qmd
       - section: "Las hojas del simulador"
         href: hojas/index.qmd
         contents:

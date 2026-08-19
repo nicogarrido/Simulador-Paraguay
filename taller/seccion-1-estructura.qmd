@@ -21,7 +21,7 @@ en realidad describe la economía de 2024.
 | Entradas | Estímulos Nacionales e Internacionales | Se editan |
 | Resultados | Producción, PIB, Empleo, Ingreso Laboral, Resumen | Sí |
 | Análisis estructural | Encadenamientos, Empleo Exportador, Inserción Internacional | No |
-| Datos | Matrices Nacionales, Información Empleo, MRIO, VAX, Parámetros | No |
+| Datos | Matrices Nacionales, Información Empleo, MRIO, Parámetros | No |
 
 ::: {.callout-tip}
 ## La regla práctica
