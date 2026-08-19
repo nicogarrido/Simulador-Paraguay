@@ -4,7 +4,7 @@
     "href": "taller/seccion-4-tu-caso.html",
     "title": "Sección 4 · Tu propio caso",
     "section": "",
-    "text": "Las tres secciones anteriores vinieron con el diseño ya armado: qué sector, qué monto, qué comparar. Eso fue deliberado — sirve para aprender la mecánica sin distraerse con la formulación del problema.\nPero ningún problema de política real llega con las columnas prellenadas. Alguien tiene que decidir qué se quiere lograr, con cuánto presupuesto, y bajo qué reglas. Esta sección invierte el ejercicio: en vez de resolver un caso ya planteado, cada grupo formula el suyo y lo resuelve con Solver, usando el mismo instrumental de las secciones 1 a 3.",
+    "text": "Las tres secciones anteriores vinieron con el caso ya armado: qué sector, qué monto, qué comparar. Eso fue deliberado — sirve para aprender la mecánica sin distraerse con la formulación del problema.\nPero ninguna pregunta de política real llega con el escenario prellenado. Alguien tiene que decidir qué cambio de demanda vale la pena simular y por qué. Esta sección invierte el ejercicio: cada grupo elige su propio caso —a partir de una noticia, una decisión que esté evaluando su institución, o una duda propia— y lo analiza con el simulador, aplicando el mismo instrumental de las secciones 1 a 3.",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -16,7 +16,7 @@
     "href": "taller/seccion-4-tu-caso.html#objetivo",
     "title": "Sección 4 · Tu propio caso",
     "section": "Objetivo",
-    "text": "Objetivo\nPlantear y resolver, con Solver, un problema de asignación propio: elegir qué maximizar, con qué presupuesto y bajo qué restricciones, y contrastar el resultado contra una hipótesis hecha antes de correrlo.",
+    "text": "Objetivo\nPlantear y cargar un caso propio en el simulador: una pregunta real, un cambio de demanda que la represente, una hipótesis previa, y una lectura de resultados que la conteste.",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -28,7 +28,7 @@
     "href": "taller/seccion-4-tu-caso.html#el-método-en-cinco-preguntas",
     "title": "Sección 4 · Tu propio caso",
     "section": "El método en cinco preguntas",
-    "text": "El método en cinco preguntas\nAntes de tocar Solver, conviene que el grupo responda estas cinco preguntas y las deje escritas. Van a hacer falta para cargar el problema y para discutirlo después.\n\n\n\n\n\n\n\n\n#\nPregunta\nEjemplos\n\n\n\n\n1\n¿Qué querés maximizar?\nEmpleo total · empleo de alta calificación · empleo formal · empleo femenino · ingreso laboral de los hogares · PIB\n\n\n2\n¿Cuánto hay para “gastar”?\nEl presupuesto total del estímulo, en MUSD — la restricción central del ejercicio\n\n\n3\n¿Qué sectores entran en juego?\nLos veintiún sectores, o un subconjunto acotado al problema (p. ej., solo agroindustria si el tema es agregación de valor)\n\n\n4\n¿Hay reglas adicionales?\nTopes máximos por sector, pisos mínimos, sectores excluidos\n\n\n5\n¿Qué esperás que gane, y por qué?\nUna hipótesis previa, apoyada en Encadenamientos Internos, antes de correr nada\n\n\n\n\n\n\n\n\n\nImportantePor qué la pregunta 4 no es opcional\n\n\n\nSin ningún tope, Solver casi siempre entrega una solución de esquina: todo el presupuesto concentrado en el sector con mejor resultado por dólar. Es una respuesta matemáticamente correcta, pero rara vez es una política viable. Si el grupo no quiere ese resultado, tiene que fijar el tope antes de correr Solver, no después de ver que ganó un solo sector.",
+    "text": "El método en cinco preguntas\nAntes de tocar el simulador, conviene que el grupo responda estas cinco preguntas y las deje escritas. Van a hacer falta para cargar el caso y para discutirlo después.\n\n\n\n\n\n\n\n\n#\nPregunta\nPara pensarla\n\n\n\n\n1\n¿Qué pregunta querés responder?\nUna noticia, una decisión de política que estén evaluando, o una duda de su institución — cuanto más concreta, mejor\n\n\n2\n¿Qué cambio de demanda la representa?\nUn proyecto de inversión, una caída de exportaciones, un programa de gasto público, un choque externo\n\n\n3\n¿Qué modo del simulador corresponde?\nNacional (un choque interno) · Comparado (dos alternativas) · Internacional (un cambio en la demanda de un socio)\n\n\n4\n¿En qué sector o sectores, y con qué magnitud?\nConviene mirar la columna % PIB Sector para no cargar un monto desproporcionado\n\n\n5\n¿Qué esperás encontrar, y por qué?\nUna hipótesis previa, apoyada en Encadenamientos Internos, antes de correr nada\n\n\n\n\n\n\n\n\n\nTipDe dónde sacar la pregunta 1\n\n\n\nNo hace falta inventar un escenario abstracto. Sirve una noticia reciente —una inversión anunciada, una sequía, un cambio de arancel—, un proyecto que esté evaluando la institución de alguien del grupo, o directamente una versión más simple de alguno de los siete casos anteriores, adaptada a un sector que les interese.",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -40,7 +40,7 @@
     "href": "taller/seccion-4-tu-caso.html#cómo-cargarlo",
     "title": "Sección 4 · Tu propio caso",
     "section": "Cómo cargarlo",
-    "text": "Cómo cargarlo\nAntes: revisar Encadenamientos Internos para fundamentar la hipótesis de la pregunta 5. El resultado de Solver no enseña nada si no hay una expectativa previa contra la cual contrastarlo.\nEn Excel:\n\nEn Estímulos Nacionales, ubicar las celdas de estímulo de los sectores que entran en juego (respuesta a la pregunta 3) — son las celdas variables de Solver.\nAgregar una celda que sume esas celdas: es la que se va a restringir al presupuesto (pregunta 2).\nIdentificar la celda objetivo: la que mide lo que el grupo decidió maximizar (pregunta 1). Si no existe como celda única en las hojas de resultados, armar una celda auxiliar que la calcule.\nAbrir Datos → Solver y cargar:\n\n\n\n\n\n\n\n\nParámetro de Solver\nQué va ahí\n\n\n\n\nEstablecer objetivo\nLa celda del paso 3 → Max\n\n\nCambiando las celdas de variables\nLas celdas de estímulo del paso 1\n\n\nRestricción de presupuesto\nCelda del paso 2 &lt;= monto de la pregunta 2\n\n\nRestricción de no negatividad\nCada celda de estímulo &gt;= 0\n\n\nRestricciones adicionales\nLos topes de la pregunta 4, si el grupo los definió\n\n\nMétodo de resolución\nSimplex LP — la relación entre estímulo y resultado es lineal\n\n\n\n\nResolver, y guardar también el informe de sensibilidad: muestra cuánto más se ganaría por cada dólar adicional de presupuesto, sector por sector.\n\n\n\n\n\n\n\nTipSi no aparece Solver en el menú Datos\n\n\n\nArchivo → Opciones → Complementos → Complementos de Excel → Ir → tildar Solver.",
+    "text": "Cómo cargarlo\nAntes: revisar Encadenamientos Internos para fundamentar la hipótesis de la pregunta 5. El resultado no enseña nada si no hay una expectativa previa contra la cual contrastarlo.\nEn Excel, según el modo elegido en la pregunta 3:\n\nNacional: en Estímulos Nacionales, cargar el monto en la columna MUSD del sector o sectores elegidos.\nComparado: cargar el escenario base en el bloque izquierdo y la alternativa en el bloque derecho, ambos en Estímulos Nacionales.\nInternacional: en Estímulos Internacionales, cargar la variación porcentual en la región —y el sector, si corresponde— elegidos.\n\nEl detalle de cada modo está en Los tres modos de uso.",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -52,7 +52,7 @@
     "href": "taller/seccion-4-tu-caso.html#qué-mirar",
     "title": "Sección 4 · Tu propio caso",
     "section": "Qué mirar",
-    "text": "Qué mirar\n\n\n\n\n\n\n\n\nHoja\nQué buscar\nPor qué\n\n\n\n\nEncadenamientos Internos\nEl sector que la hipótesis previa señalaba como ganador\nPara contrastarla con el resultado\n\n\nLa celda objetivo elegida\nEl valor que Solver maximizó\nEl resultado central del ejercicio\n\n\nResumen Ejecutivo\nEmpleo y PIB totales del escenario óptimo\nContexto del resultado, más allá del objetivo elegido\n\n\nEmpleo\nComposición del empleo generado\nSi el objetivo no era “calidad de empleo”, igual vale revisarla\n\n\nInforme de sensibilidad de Solver\nCosto reducido de cada sector\nCuánto ganaría el objetivo si el presupuesto o los topes cambiaran",
+    "text": "Qué mirar\nNo hay una hoja fija: depende de la pregunta del grupo. Como guía general:\n\n\n\n\n\n\n\nSi la pregunta es sobre…\nMirar en…\n\n\n\n\nEl resultado agregado del escenario\nResumen Ejecutivo\n\n\nQué parte del efecto es directo, indirecto o inducido\nProducción, o la hoja de la variable de interés\n\n\nA quién llega el empleo\nEmpleo — sexo, calificación, formalidad, área\n\n\nCon qué ingreso\nIngreso Laboral\n\n\nPor qué un sector arrastra más que otro\nEncadenamientos Internos\n\n\nUn choque que viene del exterior\nEmpleo Exportador, Inserción Internacional",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -64,7 +64,7 @@
     "href": "taller/seccion-4-tu-caso.html#interpretación-sugerida",
     "title": "Sección 4 · Tu propio caso",
     "section": "Interpretación sugerida",
-    "text": "Interpretación sugerida\nSi Solver concentró todo en un sector, no es un error: es la naturaleza lineal del problema. La pregunta que vale discutir no es “¿por qué solo un sector?” sino “¿qué tope habría hecho falta para forzar una repartición, y a qué costo en el objetivo?” — eso es exactamente lo que muestra el informe de sensibilidad.\nSi la hipótesis previa (pregunta 5) no coincidió con el resultado, es el momento más valioso del ejercicio: volver a Encadenamientos Internos y entender qué se pasó por alto — ¿el sector ganador tenía mejor intensidad de empleo de lo esperado? ¿un encadenamiento hacia atrás más fuerte?",
+    "text": "Interpretación sugerida\nEl punto de partida es siempre la hipótesis de la pregunta 5. Si el resultado la confirma, vale preguntarse por qué —qué mecanismo del modelo lo explica—. Si no la confirma, ese desajuste suele ser lo más instructivo del ejercicio: señala algo de la estructura productiva que el grupo no tenía en cuenta.\nValen las mismas cautelas que en los siete casos anteriores: son órdenes de magnitud, no cifras exactas; tienden a mostrar el efecto máximo, sin restricciones de capacidad; no incluyen reacciones de política ni de mercado; y el reparto del empleo refleja la estructura actual de cada sector. El detalle está en Buenas prácticas.",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -76,7 +76,7 @@
     "href": "taller/seccion-4-tu-caso.html#para-discutir",
     "title": "Sección 4 · Tu propio caso",
     "section": "Para discutir",
-    "text": "Para discutir\n\n¿El resultado coincidió con la hipótesis del grupo? Si no, ¿qué explicaba la diferencia?\n¿La solución que entregó Solver es una política viable? ¿Existen proyectos concretos en ese sector donde asignar los recursos?\nSi otro grupo planteó un objetivo distinto con el mismo presupuesto, ¿qué sector ganó en cada caso? ¿Qué dice eso sobre la tensión entre objetivos?\n¿Qué reglas (pregunta 4) hicieron falta para que el resultado fuera políticamente aceptable, y qué costo tuvieron en el objetivo maximizado?",
+    "text": "Para discutir\n\n¿El resultado confirmó la hipótesis del grupo? Si no, ¿qué explicaba la diferencia?\n¿El caso elegido es realista? ¿El monto y el sector reflejan algo que podría pasar de verdad?\n¿Qué información necesitaría el grupo, fuera del simulador, para completar el análisis?\n¿Cómo se comunicaría este resultado a quien toma la decisión, sin sobreafirmar?",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -88,7 +88,7 @@
     "href": "taller/seccion-4-tu-caso.html#material-de-apoyo",
     "title": "Sección 4 · Tu propio caso",
     "section": "Material de apoyo",
-    "text": "Material de apoyo\n\nLos tres modos de uso\nEstímulos Nacionales\nEncadenamientos Internos\nCaso 7 · Maximizar el empleo decente — el mismo tipo de decisión, resuelta ahí con dos diseños ya dados",
+    "text": "Material de apoyo\n\nLos tres modos de uso\nEstímulos Nacionales · Estímulos Internacionales\nEncadenamientos Internos\nBuenas prácticas",
     "crumbs": [
       "Inicio",
       "Taller",
@@ -277,7 +277,7 @@
     "href": "taller/index.html",
     "title": "El taller",
     "section": "",
-    "text": "Sección\nTema\n\n\n\n\n1\nLa estructura del simulador\n\n\n2\nCambios en la demanda · siete casos aplicados\n\n\n3\nEl bloque externo · dos casos de integración\n\n\n4\nTu propio caso · optimización con Solver",
+    "text": "Sección\nTema\n\n\n\n\n1\nLa estructura del simulador\n\n\n2\nCambios en la demanda · siete casos aplicados\n\n\n3\nEl bloque externo · dos casos de integración\n\n\n4\nTu propio caso · un cambio de demanda elegido por el grupo",
     "crumbs": [
       "Inicio",
       "Taller"
@@ -288,7 +288,7 @@
     "href": "taller/index.html#la-lógica-de-la-secuencia",
     "title": "El taller",
     "section": "La lógica de la secuencia",
-    "text": "La lógica de la secuencia\nLa sección 1 responde cómo está hecho. Sin eso los resultados se leen mal: es fácil confundir un efecto indirecto con uno directo, o tomar por predicción lo que es una contabilidad.\nLa sección 2 es el cuerpo del taller. Siete casos aplicados que van de la mecánica básica al diseño de política, cada uno construido sobre un rasgo real de la economía paraguaya.\nLa sección 3 abre el módulo internacional y culmina en dos casos de mayor alcance: el Acuerdo UE–Mercosur, un nuevo acceso de mercado, y el Corredor Bioceánico, una nueva ruta logística. Son los casos más ricos del taller y los que integran todo el instrumental.\nLa sección 4 cierra el taller invirtiendo el ejercicio: ya no hay un caso dado para resolver. Cada grupo formula el suyo —qué maximizar, con qué presupuesto, bajo qué reglas— y lo resuelve con Solver, aplicando por su cuenta todo lo recorrido en las secciones anteriores.",
+    "text": "La lógica de la secuencia\nLa sección 1 responde cómo está hecho. Sin eso los resultados se leen mal: es fácil confundir un efecto indirecto con uno directo, o tomar por predicción lo que es una contabilidad.\nLa sección 2 es el cuerpo del taller. Siete casos aplicados que van de la mecánica básica al diseño de política, cada uno construido sobre un rasgo real de la economía paraguaya.\nLa sección 3 abre el módulo internacional y culmina en dos casos de mayor alcance: el Acuerdo UE–Mercosur, un nuevo acceso de mercado, y el Corredor Bioceánico, una nueva ruta logística. Son los casos más ricos del taller y los que integran todo el instrumental.\nLa sección 4 cierra el taller invirtiendo el ejercicio: ya no hay un caso dado para resolver. Cada grupo elige su propio cambio de demanda —a partir de una pregunta real— y lo analiza con el simulador, aplicando por su cuenta todo lo recorrido en las secciones anteriores.",
     "crumbs": [
       "Inicio",
       "Taller"
@@ -2286,7 +2286,7 @@
     "href": "taller/casos/caso-7-empleo-decente.html#para-discutir",
     "title": "Caso 7 · Maximizar el empleo decente",
     "section": "Para discutir",
-    "text": "Para discutir\n\nSi hubiera que elegir entre más empleo o mejor empleo, ¿con qué criterio?\nEl diseño orientado al empleo, ¿es viable? ¿Existen proyectos concretos en esos sectores donde asignar los recursos?\n¿Qué otros criterios deberían entrar en la decisión además del empleo?\n¿Cómo se comunica un resultado así a quien toma la decisión, sin sobreafirmar?\n\n\n\n\n\n\n\nTipUn paso más\n\n\n\nAcá los dos diseños ya vinieron armados. La Sección 4 propone lo mismo pero con el problema en blanco: ustedes eligen qué maximizar y encuentran la asignación óptima con Solver, en lugar de comparar dos alternativas dadas.",
+    "text": "Para discutir\n\nSi hubiera que elegir entre más empleo o mejor empleo, ¿con qué criterio?\nEl diseño orientado al empleo, ¿es viable? ¿Existen proyectos concretos en esos sectores donde asignar los recursos?\n¿Qué otros criterios deberían entrar en la decisión además del empleo?\n¿Cómo se comunica un resultado así a quien toma la decisión, sin sobreafirmar?\n\n\n\n\n\n\n\nTipUn paso más\n\n\n\nAcá el caso ya vino armado. La Sección 4 propone lo mismo pero en blanco: ustedes eligen su propio cambio de demanda y lo analizan, en lugar de partir de un escenario ya dado.",
     "crumbs": [
       "Inicio",
       "Taller",

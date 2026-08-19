@@ -465,7 +465,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../taller/index.html">Taller</a></li><li class="breadcrumb-item"><a href="../taller/seccion-4-tu-caso.html">Sección 4 · Tu propio caso</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Sección 4 · Tu propio caso</h1>
-<p class="subtitle lead">Optimización con Solver · el problema lo definís vos</p>
+<p class="subtitle lead">Un cambio de demanda real, elegido y analizado por el grupo</p>
 </div>
 
 
@@ -482,15 +482,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Las tres secciones anteriores vinieron con el diseño ya armado: qué sector, qué monto, qué comparar. Eso fue deliberado — sirve para aprender la mecánica sin distraerse con la formulación del problema.</p>
-<p>Pero ningún problema de política real llega con las columnas prellenadas. Alguien tiene que decidir qué se quiere lograr, con cuánto presupuesto, y bajo qué reglas. Esta sección invierte el ejercicio: en vez de resolver un caso ya planteado, cada grupo formula el suyo y lo resuelve con <strong>Solver</strong>, usando el mismo instrumental de las secciones 1 a 3.</p>
+<p>Las tres secciones anteriores vinieron con el caso ya armado: qué sector, qué monto, qué comparar. Eso fue deliberado — sirve para aprender la mecánica sin distraerse con la formulación del problema.</p>
+<p>Pero ninguna pregunta de política real llega con el escenario prellenado. Alguien tiene que decidir qué cambio de demanda vale la pena simular y por qué. Esta sección invierte el ejercicio: cada grupo elige su propio caso —a partir de una noticia, una decisión que esté evaluando su institución, o una duda propia— y lo analiza con el simulador, aplicando el mismo instrumental de las secciones 1 a 3.</p>
 <section id="objetivo" class="level2">
 <h2 class="anchored" data-anchor-id="objetivo">Objetivo</h2>
-<p>Plantear y resolver, con Solver, un problema de asignación propio: elegir qué maximizar, con qué presupuesto y bajo qué restricciones, y contrastar el resultado contra una hipótesis hecha antes de correrlo.</p>
+<p>Plantear y cargar un caso propio en el simulador: una pregunta real, un cambio de demanda que la represente, una hipótesis previa, y una lectura de resultados que la conteste.</p>
 </section>
 <section id="el-método-en-cinco-preguntas" class="level2">
 <h2 class="anchored" data-anchor-id="el-método-en-cinco-preguntas">El método en cinco preguntas</h2>
-<p>Antes de tocar Solver, conviene que el grupo responda estas cinco preguntas y las deje escritas. Van a hacer falta para cargar el problema y para discutirlo después.</p>
+<p>Antes de tocar el simulador, conviene que el grupo responda estas cinco preguntas y las deje escritas. Van a hacer falta para cargar el caso y para discutirlo después.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -501,181 +501,125 @@ ul.task-list li input[type="checkbox"] {
 <tr class="header">
 <th>#</th>
 <th>Pregunta</th>
-<th>Ejemplos</th>
+<th>Para pensarla</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td>¿Qué querés maximizar?</td>
-<td>Empleo total · empleo de alta calificación · empleo formal · empleo femenino · ingreso laboral de los hogares · PIB</td>
+<td>¿Qué pregunta querés responder?</td>
+<td>Una noticia, una decisión de política que estén evaluando, o una duda de su institución — cuanto más concreta, mejor</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td>¿Cuánto hay para “gastar”?</td>
-<td>El presupuesto total del estímulo, en MUSD — la restricción central del ejercicio</td>
+<td>¿Qué cambio de demanda la representa?</td>
+<td>Un proyecto de inversión, una caída de exportaciones, un programa de gasto público, un choque externo</td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td>¿Qué sectores entran en juego?</td>
-<td>Los veintiún sectores, o un subconjunto acotado al problema (p.&nbsp;ej., solo agroindustria si el tema es agregación de valor)</td>
+<td>¿Qué modo del simulador corresponde?</td>
+<td>Nacional (un choque interno) · Comparado (dos alternativas) · Internacional (un cambio en la demanda de un socio)</td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>¿Hay reglas adicionales?</td>
-<td>Topes máximos por sector, pisos mínimos, sectores excluidos</td>
+<td>¿En qué sector o sectores, y con qué magnitud?</td>
+<td>Conviene mirar la columna % PIB Sector para no cargar un monto desproporcionado</td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td>¿Qué esperás que gane, y por qué?</td>
+<td>¿Qué esperás encontrar, y por qué?</td>
 <td>Una hipótesis previa, apoyada en Encadenamientos Internos, antes de correr nada</td>
 </tr>
 </tbody>
 </table>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Importante</span>Por qué la pregunta 4 no es opcional
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Sin ningún tope, Solver casi siempre entrega una <strong>solución de esquina</strong>: todo el presupuesto concentrado en el sector con mejor resultado por dólar. Es una respuesta matemáticamente correcta, pero rara vez es una política viable. Si el grupo no quiere ese resultado, tiene que fijar el tope antes de correr Solver, no después de ver que ganó un solo sector.</p>
-</div>
-</div>
-</section>
-<section id="cómo-cargarlo" class="level2">
-<h2 class="anchored" data-anchor-id="cómo-cargarlo">Cómo cargarlo</h2>
-<p><strong>Antes:</strong> revisar <a href="../hojas/encadenamientos-internos.html">Encadenamientos Internos</a> para fundamentar la hipótesis de la pregunta 5. El resultado de Solver no enseña nada si no hay una expectativa previa contra la cual contrastarlo.</p>
-<p><strong>En Excel:</strong></p>
-<ol type="1">
-<li>En <strong>Estímulos Nacionales</strong>, ubicar las celdas de estímulo de los sectores que entran en juego (respuesta a la pregunta 3) — son las celdas variables de Solver.</li>
-<li>Agregar una celda que sume esas celdas: es la que se va a restringir al presupuesto (pregunta 2).</li>
-<li>Identificar la celda objetivo: la que mide lo que el grupo decidió maximizar (pregunta 1). Si no existe como celda única en las hojas de resultados, armar una celda auxiliar que la calcule.</li>
-<li>Abrir <strong>Datos → Solver</strong> y cargar:</li>
-</ol>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Parámetro de Solver</th>
-<th>Qué va ahí</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Establecer objetivo</td>
-<td>La celda del paso 3 → <strong>Max</strong></td>
-</tr>
-<tr class="even">
-<td>Cambiando las celdas de variables</td>
-<td>Las celdas de estímulo del paso 1</td>
-</tr>
-<tr class="odd">
-<td>Restricción de presupuesto</td>
-<td>Celda del paso 2 <code>&lt;=</code> monto de la pregunta 2</td>
-</tr>
-<tr class="even">
-<td>Restricción de no negatividad</td>
-<td>Cada celda de estímulo <code>&gt;=</code> 0</td>
-</tr>
-<tr class="odd">
-<td>Restricciones adicionales</td>
-<td>Los topes de la pregunta 4, si el grupo los definió</td>
-</tr>
-<tr class="even">
-<td>Método de resolución</td>
-<td><strong>Simplex LP</strong> — la relación entre estímulo y resultado es lineal</td>
-</tr>
-</tbody>
-</table>
-<ol start="5" type="1">
-<li>Resolver, y guardar también el <strong>informe de sensibilidad</strong>: muestra cuánto más se ganaría por cada dólar adicional de presupuesto, sector por sector.</li>
-</ol>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Si no aparece Solver en el menú Datos
+<span class="screen-reader-only">Tip</span>De dónde sacar la pregunta 1
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Archivo → Opciones → Complementos → Complementos de Excel → Ir → tildar <strong>Solver</strong>.</p>
+<p>No hace falta inventar un escenario abstracto. Sirve una noticia reciente —una inversión anunciada, una sequía, un cambio de arancel—, un proyecto que esté evaluando la institución de alguien del grupo, o directamente una versión más simple de alguno de los siete casos anteriores, adaptada a un sector que les interese.</p>
 </div>
 </div>
 </section>
+<section id="cómo-cargarlo" class="level2">
+<h2 class="anchored" data-anchor-id="cómo-cargarlo">Cómo cargarlo</h2>
+<p><strong>Antes:</strong> revisar <a href="../hojas/encadenamientos-internos.html">Encadenamientos Internos</a> para fundamentar la hipótesis de la pregunta 5. El resultado no enseña nada si no hay una expectativa previa contra la cual contrastarlo.</p>
+<p><strong>En Excel</strong>, según el modo elegido en la pregunta 3:</p>
+<ul>
+<li><strong>Nacional:</strong> en <strong>Estímulos Nacionales</strong>, cargar el monto en la columna MUSD del sector o sectores elegidos.</li>
+<li><strong>Comparado:</strong> cargar el escenario base en el bloque izquierdo y la alternativa en el bloque derecho, ambos en <strong>Estímulos Nacionales</strong>.</li>
+<li><strong>Internacional:</strong> en <strong>Estímulos Internacionales</strong>, cargar la variación porcentual en la región —y el sector, si corresponde— elegidos.</li>
+</ul>
+<p>El detalle de cada modo está en <a href="../hojas/modos-de-uso.html">Los tres modos de uso</a>.</p>
+</section>
 <section id="qué-mirar" class="level2">
 <h2 class="anchored" data-anchor-id="qué-mirar">Qué mirar</h2>
+<p>No hay una hoja fija: depende de la pregunta del grupo. Como guía general:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 50%">
+<col style="width: 50%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Hoja</th>
-<th>Qué buscar</th>
-<th>Por qué</th>
+<th>Si la pregunta es sobre…</th>
+<th>Mirar en…</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Encadenamientos Internos</td>
-<td>El sector que la hipótesis previa señalaba como ganador</td>
-<td>Para contrastarla con el resultado</td>
-</tr>
-<tr class="even">
-<td>La celda objetivo elegida</td>
-<td>El valor que Solver maximizó</td>
-<td>El resultado central del ejercicio</td>
-</tr>
-<tr class="odd">
+<td>El resultado agregado del escenario</td>
 <td>Resumen Ejecutivo</td>
-<td>Empleo y PIB totales del escenario óptimo</td>
-<td>Contexto del resultado, más allá del objetivo elegido</td>
 </tr>
 <tr class="even">
-<td>Empleo</td>
-<td>Composición del empleo generado</td>
-<td>Si el objetivo no era “calidad de empleo”, igual vale revisarla</td>
+<td>Qué parte del efecto es directo, indirecto o inducido</td>
+<td>Producción, o la hoja de la variable de interés</td>
 </tr>
 <tr class="odd">
-<td>Informe de sensibilidad de Solver</td>
-<td>Costo reducido de cada sector</td>
-<td>Cuánto ganaría el objetivo si el presupuesto o los topes cambiaran</td>
+<td>A quién llega el empleo</td>
+<td>Empleo — sexo, calificación, formalidad, área</td>
+</tr>
+<tr class="even">
+<td>Con qué ingreso</td>
+<td>Ingreso Laboral</td>
+</tr>
+<tr class="odd">
+<td>Por qué un sector arrastra más que otro</td>
+<td>Encadenamientos Internos</td>
+</tr>
+<tr class="even">
+<td>Un choque que viene del exterior</td>
+<td>Empleo Exportador, Inserción Internacional</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="interpretación-sugerida" class="level2">
 <h2 class="anchored" data-anchor-id="interpretación-sugerida">Interpretación sugerida</h2>
-<p>Si Solver concentró todo en un sector, no es un error: es la naturaleza lineal del problema. La pregunta que vale discutir no es “¿por qué solo un sector?” sino “¿qué tope habría hecho falta para forzar una repartición, y a qué costo en el objetivo?” — eso es exactamente lo que muestra el informe de sensibilidad.</p>
-<p>Si la hipótesis previa (pregunta 5) no coincidió con el resultado, es el momento más valioso del ejercicio: volver a Encadenamientos Internos y entender qué se pasó por alto — ¿el sector ganador tenía mejor intensidad de empleo de lo esperado? ¿un encadenamiento hacia atrás más fuerte?</p>
+<p>El punto de partida es siempre la hipótesis de la pregunta 5. Si el resultado la confirma, vale preguntarse por qué —qué mecanismo del modelo lo explica—. Si no la confirma, ese desajuste suele ser lo más instructivo del ejercicio: señala algo de la estructura productiva que el grupo no tenía en cuenta.</p>
+<p>Valen las mismas cautelas que en los siete casos anteriores: son órdenes de magnitud, no cifras exactas; tienden a mostrar el efecto máximo, sin restricciones de capacidad; no incluyen reacciones de política ni de mercado; y el reparto del empleo refleja la estructura actual de cada sector. El detalle está en <a href="../hojas/buenas-practicas.html">Buenas prácticas</a>.</p>
 </section>
 <section id="para-discutir" class="level2">
 <h2 class="anchored" data-anchor-id="para-discutir">Para discutir</h2>
 <ul>
-<li>¿El resultado coincidió con la hipótesis del grupo? Si no, ¿qué explicaba la diferencia?</li>
-<li>¿La solución que entregó Solver es una política viable? ¿Existen proyectos concretos en ese sector donde asignar los recursos?</li>
-<li>Si otro grupo planteó un objetivo distinto con el mismo presupuesto, ¿qué sector ganó en cada caso? ¿Qué dice eso sobre la tensión entre objetivos?</li>
-<li>¿Qué reglas (pregunta 4) hicieron falta para que el resultado fuera políticamente aceptable, y qué costo tuvieron en el objetivo maximizado?</li>
+<li>¿El resultado confirmó la hipótesis del grupo? Si no, ¿qué explicaba la diferencia?</li>
+<li>¿El caso elegido es realista? ¿El monto y el sector reflejan algo que podría pasar de verdad?</li>
+<li>¿Qué información necesitaría el grupo, fuera del simulador, para completar el análisis?</li>
+<li>¿Cómo se comunicaría este resultado a quien toma la decisión, sin sobreafirmar?</li>
 </ul>
 </section>
 <section id="material-de-apoyo" class="level2">
 <h2 class="anchored" data-anchor-id="material-de-apoyo">Material de apoyo</h2>
 <ul>
 <li><a href="../hojas/modos-de-uso.html">Los tres modos de uso</a></li>
-<li><a href="../hojas/estimulos-nacionales.html">Estímulos Nacionales</a></li>
+<li><a href="../hojas/estimulos-nacionales.html">Estímulos Nacionales</a> · <a href="../hojas/estimulos-internacionales.html">Estímulos Internacionales</a></li>
 <li><a href="../hojas/encadenamientos-internos.html">Encadenamientos Internos</a></li>
-<li><a href="../taller/casos/caso-7-empleo-decente.html">Caso 7 · Maximizar el empleo decente</a> — el mismo tipo de decisión, resuelta ahí con dos diseños ya dados</li>
+<li><a href="../hojas/buenas-practicas.html">Buenas prácticas</a></li>
 </ul>
 
 

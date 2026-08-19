@@ -90,8 +90,7 @@ aunque el conteo de puestos sea el mismo.
 
 ::: {.callout-tip}
 ## Un paso más
-Acá los dos diseños ya vinieron armados. La [Sección 4](../seccion-4-tu-caso.qmd)
-propone lo mismo pero con el problema en blanco: ustedes eligen qué maximizar y
-encuentran la asignación óptima con Solver, en lugar de comparar dos
-alternativas dadas.
+Acá el caso ya vino armado. La [Sección 4](../seccion-4-tu-caso.qmd) propone lo
+mismo pero en blanco: ustedes eligen su propio cambio de demanda y lo
+analizan, en lugar de partir de un escenario ya dado.
 :::
