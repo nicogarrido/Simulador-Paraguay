@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Guía de estilo – Simulador MIP Paraguay</title>
+<title>Caso · La negociación en curso – Simulador MIP Paraguay</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,62 +26,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./recursos/favicon.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-23bfbcec9134bf71ae640538f631fb0e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../recursos/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-23bfbcec9134bf71ae640538f631fb0e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -110,35 +75,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -149,7 +85,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Simulador MIP Paraguay</span>
     </a>
   </div>
@@ -160,15 +96,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link active" href="../../index.html" aria-current="page"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./taller/index.html"> 
+    <a class="nav-link" href="../../taller/index.html"> 
 <span class="menu-text">Taller</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./hojas/index.html"> 
+    <a class="nav-link" href="../../hojas/index.html"> 
 <span class="menu-text">Las hojas</span></a>
   </li>  
 </ul>
@@ -194,7 +130,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Guía de estilo</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../taller/index.html">Taller</a></li><li class="breadcrumb-item"><a href="../../taller/seccion-3-bloque-externo.html">Sección 3 · El bloque externo</a></li><li class="breadcrumb-item"><a href="../../taller/internacional/caso-negociacion-ue-mercosur.html">Caso · La negociación en curso</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -208,13 +144,13 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Inicio</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./taller/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../taller/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Taller</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -223,13 +159,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/seccion-1-estructura.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/seccion-1-estructura.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sección 1 · La estructura del simulador</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./taller/seccion-2-cambios-demanda.html" class="sidebar-item-text sidebar-link">
+            <a href="../../taller/seccion-2-cambios-demanda.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sección 2 · Cambios en la demanda</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -238,43 +174,43 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/casos/caso-1-soja-o-industria.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/casos/caso-1-soja-o-industria.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Caso 1 · ¿Exportar soja o industrializar?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/casos/caso-2-sequia-hidrovia.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/casos/caso-2-sequia-hidrovia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Caso 2 · La gran sequía de la Hidrovía</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/casos/caso-3-planta-agroindustrial.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/casos/caso-3-planta-agroindustrial.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Caso 3 · Una nueva planta agroindustrial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/casos/caso-4-empleo-y-genero.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/casos/caso-4-empleo-y-genero.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Caso 4 · ¿A quién llega el estímulo?</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/casos/caso-5-calificacion.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/casos/caso-5-calificacion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Caso 5 · Empleo por calificación</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/casos/caso-6-recesion-socio.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/casos/caso-6-recesion-socio.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Caso 6 · Recesión en un socio</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/casos/caso-7-empleo-decente.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/casos/caso-7-empleo-decente.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Caso 7 · Maximizar el empleo decente</span></a>
   </div>
 </li>
@@ -282,28 +218,28 @@ window.Quarto = {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./taller/seccion-3-bloque-externo.html" class="sidebar-item-text sidebar-link">
+            <a href="../../taller/seccion-3-bloque-externo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sección 3 · El bloque externo</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/internacional/caso-ue-mercosur.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/internacional/caso-ue-mercosur.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Caso · El Acuerdo UE–Mercosur</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/internacional/caso-negociacion-ue-mercosur.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/internacional/caso-negociacion-ue-mercosur.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Caso · La negociación en curso</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/internacional/caso-corredor-bioceanico.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/internacional/caso-corredor-bioceanico.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Caso · El Corredor Bioceánico</span></a>
   </div>
 </li>
@@ -311,7 +247,7 @@ window.Quarto = {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./taller/seccion-4-tu-caso.html" class="sidebar-item-text sidebar-link">
+  <a href="../../taller/seccion-4-tu-caso.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sección 4 · Tu propio caso</span></a>
   </div>
 </li>
@@ -319,7 +255,7 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./hojas/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../hojas/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Las hojas del simulador</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -328,7 +264,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/modos-de-uso.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/modos-de-uso.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Los tres modos de uso</span></a>
   </div>
 </li>
@@ -343,13 +279,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/estimulos-nacionales.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/estimulos-nacionales.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Estímulos Nacionales</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/estimulos-internacionales.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/estimulos-internacionales.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Estímulos Internacionales</span></a>
   </div>
 </li>
@@ -366,31 +302,31 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/resumen-ejecutivo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/resumen-ejecutivo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resumen Ejecutivo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/produccion.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/produccion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Producción</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/pib.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/pib.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">PIB</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/empleo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/empleo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Empleo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/ingreso-laboral.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/ingreso-laboral.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ingreso Laboral</span></a>
   </div>
 </li>
@@ -407,19 +343,19 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/encadenamientos-internos.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/encadenamientos-internos.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Encadenamientos Internos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/empleo-exportador.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/empleo-exportador.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Empleo Exportador</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/insercion-internacional.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/insercion-internacional.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Inserción Internacional</span></a>
   </div>
 </li>
@@ -436,37 +372,37 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/matrices-nacionales.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/matrices-nacionales.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Matrices Nacionales</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/agregacion-sectorial.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/agregacion-sectorial.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Agregación sectorial</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/informacion-empleo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/informacion-empleo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Información Empleo</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/mrio.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/mrio.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">MRIO</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/exportaciones.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/exportaciones.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Exportaciones</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/parametros.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/parametros.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Parámetros</span></a>
   </div>
 </li>
@@ -483,25 +419,25 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/buenas-practicas.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/buenas-practicas.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Buenas prácticas y advertencias</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/anexos.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/anexos.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Anexos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/glosario.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/glosario.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Glosario</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hojas/presentaciones.html" class="sidebar-item-text sidebar-link">
+  <a href="../../hojas/presentaciones.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Presentaciones</span></a>
   </div>
 </li>
@@ -519,28 +455,20 @@ window.Quarto = {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#encabezados" id="toc-encabezados" class="nav-link active" data-scroll-target="#encabezados">Encabezados</a>
-  <ul class="collapse">
-  <li><a href="#tercer-nivel" id="toc-tercer-nivel" class="nav-link" data-scroll-target="#tercer-nivel">Tercer nivel</a></li>
-  </ul></li>
-  <li><a href="#texto" id="toc-texto" class="nav-link" data-scroll-target="#texto">Texto</a></li>
-  <li><a href="#tablas" id="toc-tablas" class="nav-link" data-scroll-target="#tablas">Tablas</a></li>
-  <li><a href="#avisos" id="toc-avisos" class="nav-link" data-scroll-target="#avisos">Avisos</a></li>
-  <li><a href="#cifras-destacadas" id="toc-cifras-destacadas" class="nav-link" data-scroll-target="#cifras-destacadas">Cifras destacadas</a></li>
-  <li><a href="#citas" id="toc-citas" class="nav-link" data-scroll-target="#citas">Citas</a></li>
-  <li><a href="#fórmulas" id="toc-fórmulas" class="nav-link" data-scroll-target="#fórmulas">Fórmulas</a></li>
-  <li><a href="#código" id="toc-código" class="nav-link" data-scroll-target="#código">Código</a></li>
-  <li><a href="#listas-de-verificación" id="toc-listas-de-verificación" class="nav-link" data-scroll-target="#listas-de-verificación">Listas de verificación</a></li>
+  <li><a href="#por-qué-importa" id="toc-por-qué-importa" class="nav-link active" data-scroll-target="#por-qué-importa">Por qué importa</a></li>
+  <li><a href="#los-tres-ejercicios" id="toc-los-tres-ejercicios" class="nav-link" data-scroll-target="#los-tres-ejercicios">Los tres ejercicios</a></li>
+  <li><a href="#la-presentación" id="toc-la-presentación" class="nav-link" data-scroll-target="#la-presentación">La presentación</a></li>
+  <li><a href="#para-discutir" id="toc-para-discutir" class="nav-link" data-scroll-target="#para-discutir">Para discutir</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../taller/index.html">Taller</a></li><li class="breadcrumb-item"><a href="../../taller/seccion-3-bloque-externo.html">Sección 3 · El bloque externo</a></li><li class="breadcrumb-item"><a href="../../taller/internacional/caso-negociacion-ue-mercosur.html">Caso · La negociación en curso</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Guía de estilo</h1>
-<p class="subtitle lead">Referencia de formato para escribir el material</p>
+<h1 class="title">Caso · La negociación en curso</h1>
+<p class="subtitle lead">Cuota de carne, salvaguardia y competencia doméstica</p>
 </div>
 
 
@@ -557,172 +485,92 @@ window.Quarto = {
 </header>
 
 
-<p>Esta página muestra cómo se ve cada elemento disponible. Sirve de referencia al redactar y también para verificar que el sitio se renderiza bien tras un cambio de estilos.</p>
-<section id="encabezados" class="level2">
-<h2 class="anchored" data-anchor-id="encabezados">Encabezados</h2>
-<p>Se usan hasta tres niveles. El primero es el título de la página y se define en el encabezado YAML, no en el cuerpo.</p>
-<section id="tercer-nivel" class="level3">
-<h3 class="anchored" data-anchor-id="tercer-nivel">Tercer nivel</h3>
-<p>Aparece en el índice lateral, que se arma solo.</p>
+<section id="por-qué-importa" class="level2">
+<h2 class="anchored" data-anchor-id="por-qué-importa">Por qué importa</h2>
+<p>El <a href="../../taller/internacional/caso-ue-mercosur.html">caso UE–Mercosur</a> plantea el acuerdo como una oportunidad condicionada de acceso a mercado. Este caso lo lleva un nivel más abajo: toma tres puntos concretos que <strong>están en negociación mientras se dicta el taller</strong> y los traduce en ejercicios cuantificables con el simulador.</p>
+<p>Los tres comparten un rasgo: no hay todavía una cifra oficial y cerrada. Eso los vuelve un buen entrenamiento para una pregunta que se repite en cualquier análisis de política comercial — <strong>cómo construir un número defendible cuando la negociación sigue abierta</strong>.</p>
 </section>
-</section>
-<section id="texto" class="level2">
-<h2 class="anchored" data-anchor-id="texto">Texto</h2>
-<p>Se puede escribir en <strong>negrita</strong>, en <em>cursiva</em> y con <code>código en línea</code>. Los enlaces internos se escriben con el nombre del archivo, por ejemplo <a href="./index.html">la portada</a>, y Quarto verifica que existan al renderizar.</p>
-<p>Las notas al pie funcionan así.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-</section>
-<section id="tablas" class="level2">
-<h2 class="anchored" data-anchor-id="tablas">Tablas</h2>
-<p>Las columnas numéricas se alinean a la derecha automáticamente.</p>
+<section id="los-tres-ejercicios" class="level2">
+<h2 class="anchored" data-anchor-id="los-tres-ejercicios">Los tres ejercicios</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Sector</th>
-<th>Ocupados por millón USD</th>
-<th>Participación</th>
+<th>Caso</th>
+<th>Pregunta</th>
+<th>Cómo se carga</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Otros servicios</td>
-<td>83,8</td>
-<td>24,1%</td>
+<td><strong>1 · La cuota de carne</strong></td>
+<td>De los 99.000 t/año con arancel reducido, ¿cuánto le toca a Paraguay según cada criterio de reparto en pugna?</td>
+<td>Estímulos Nacionales · Modo Comparado</td>
 </tr>
 <tr class="even">
-<td>Comercio</td>
-<td>82,3</td>
-<td>25,9%</td>
+<td><strong>2 · La cláusula de salvaguardia</strong></td>
+<td>¿Qué tan sostenible es esa ganancia si una investigación por aumento de importaciones suspende el acceso preferencial?</td>
+<td>Mismo mecanismo del Caso 1, en modo sensibilidad</td>
 </tr>
 <tr class="odd">
-<td>Agricultura</td>
-<td>57,4</td>
-<td>17,1%</td>
-</tr>
-<tr class="even">
-<td>Alimentos</td>
-<td>7,7</td>
-<td>3,2%</td>
-</tr>
-<tr class="odd">
-<td>Electricidad</td>
-<td>7,6</td>
-<td>0,8%</td>
+<td><strong>3 · La competencia doméstica</strong></td>
+<td>Los mismos aranceles que bajan para exportar también bajan para importar — ¿quién en Paraguay siente el acuerdo del otro lado?</td>
+<td>Estímulos Nacionales · monto negativo · Modo Comparado</td>
 </tr>
 </tbody>
 </table>
+<p>A diferencia del caso base, que carga el impulso como demanda <strong>internacional</strong> (la UE compra más), acá el impulso se carga como <strong>Estímulo Nacional</strong>: es Paraguay el que exporta más toneladas, gana o pierde acceso, no la UE la que cambia su demanda. La distinción importa para no cargar el escenario en la hoja equivocada.</p>
 </section>
-<section id="avisos" class="level2">
-<h2 class="anchored" data-anchor-id="avisos">Avisos</h2>
+<section id="la-presentación" class="level2">
+<h2 class="anchored" data-anchor-id="la-presentación">La presentación</h2>
+<p>Los tres ejercicios están desarrollados en una presentación aparte, con la <strong>memoria de cálculo completa</strong> de cada uno — todo lo que se calcula <em>antes</em> de tocar el simulador, expuesto paso a paso, no solo el resultado final.</p>
+<p><a href="../../presentaciones/Caso-Cuota-Carne-UE-Mercosur.pptx"><strong>Descargar en PowerPoint</strong></a> · <a href="../../presentaciones/Caso-Cuota-Carne-UE-Mercosur.pdf"><strong>Ver en PDF</strong></a></p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Diapositivas</td>
+<td>17</td>
+</tr>
+<tr class="even">
+<td>Corresponde a</td>
+<td>Sección 3 · El bloque externo</td>
+</tr>
+<tr class="odd">
+<td>Requisito</td>
+<td>Haber visto el <a href="../../taller/internacional/caso-ue-mercosur.html">caso UE–Mercosur</a></td>
+</tr>
+</tbody>
+</table>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nota
+<span class="screen-reader-only">Nota</span>Qué trae la presentación que esta página no repite
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Para información complementaria que no interrumpe la lectura.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Importante</span>Con título propio
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Para advertencias que el lector no debería pasar por alto.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Advertencia
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Para limitaciones metodológicas y errores frecuentes.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Para recordar
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Para atajos y buenas prácticas.</p>
+<p>Los tres escenarios de reparto de la cuota (piso, compromiso, techo) con su aritmética completa en toneladas y dólares; el ajuste de la salvaguardia (escenario de acceso interrumpido 8 de 12 meses); y la distinción, dentro del sector “Maquinaria y Vehículos” del simulador, entre la metalmecánica genuinamente doméstica, las autopartes de exportación que ganan con el acuerdo, y los vehículos terminados, donde no hay industria local que proteger.</p>
 </div>
 </div>
 </section>
-<section id="cifras-destacadas" class="level2">
-<h2 class="anchored" data-anchor-id="cifras-destacadas">Cifras destacadas</h2>
-<div class="tarjetas">
-<div class="tarjeta">
-<p><span class="cifra">712.052</span><br><span class="cifra-etiqueta">empleo exportador</span></p>
-</div>
-<div class="tarjeta">
-<p><span class="cifra">1,709</span><br><span class="cifra-etiqueta">multiplicador</span></p>
-</div>
-<div class="tarjeta">
-<p><span class="cifra">6.175</span><br><span class="cifra-etiqueta">USD por ocupado</span></p>
-</div>
-</div>
-<p>El código para producirlas:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>::: {.tarjetas}</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>::: {.tarjeta}</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">712.052</span><span class="co">]</span>{.cifra}<span class="dt">&lt;</span><span class="kw">br</span><span class="dt">&gt;</span><span class="co">[</span><span class="ot">empleo exportador</span><span class="co">]</span>{.cifra-etiqueta}</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="citas" class="level2">
-<h2 class="anchored" data-anchor-id="citas">Citas</h2>
-<blockquote class="blockquote">
-<p>El modelo contabiliza el requerimiento de producción y empleo asociado a un nivel de demanda. No predice: bajo el supuesto de coeficientes fijos, informa qué haría falta, no qué va a ocurrir.</p>
-</blockquote>
-</section>
-<section id="fórmulas" class="level2">
-<h2 class="anchored" data-anchor-id="fórmulas">Fórmulas</h2>
-<p>En línea, como <span class="math inline">\(L = (I - A)^{-1}\)</span>, o en bloque:</p>
-<p><span class="math display">\[
-x = (I - A)^{-1} \cdot f
-\]</span></p>
-</section>
-<section id="código" class="level2">
-<h2 class="anchored" data-anchor-id="código">Código</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Las matrices se precalculan en R y se cargan como valores fijos</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>A <span class="ot">&lt;-</span> Z <span class="sc">/</span> <span class="fu">matrix</span>(x, <span class="at">nrow =</span> <span class="dv">21</span>, <span class="at">ncol =</span> <span class="dv">21</span>, <span class="at">byrow =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>L <span class="ot">&lt;-</span> <span class="fu">solve</span>(<span class="fu">diag</span>(<span class="dv">21</span>) <span class="sc">-</span> A)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="listas-de-verificación" class="level2">
-<h2 class="anchored" data-anchor-id="listas-de-verificación">Listas de verificación</h2>
-<ul class="task-list">
-<li><label><input type="checkbox">El escenario está documentado con sus supuestos</label></li>
-<li><label><input type="checkbox">El efecto inducido se reporta por separado</label></li>
-<li><label><input type="checkbox">Se indica la versión del simulador utilizada</label></li>
+<section id="para-discutir" class="level2">
+<h2 class="anchored" data-anchor-id="para-discutir">Para discutir</h2>
+<ul>
+<li>El Escenario C de la cuota (piso igualitario + prorrateo por volumen) es una construcción ilustrativa, no una propuesta oficial. ¿Qué otro criterio de reparto sería defendible entre los cuatro socios?</li>
+<li>Si ganar la cuota puede gatillar la cláusula de salvaguardia, ¿conviene a Paraguay usarla al máximo desde el primer año o administrar el ritmo de crecimiento de las exportaciones?</li>
+<li>El PIB del sector “Maquinaria y Vehículos” que carga el simulador mezcla segmentos que ganan, pierden y no participan del acuerdo. ¿Qué otros sectores agregados del modelo esconden una mezcla parecida?</li>
 </ul>
 
 
 </section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas</h2>
-
-<ol>
-<li id="fn1"><p>Aparecen al final de la página con un enlace de vuelta.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -1146,5 +994,5 @@ x = (I - A)^{-1} \cdot f
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

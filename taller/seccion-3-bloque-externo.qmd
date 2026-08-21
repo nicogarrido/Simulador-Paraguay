@@ -152,11 +152,12 @@ cadena de proveedores—.
 Sobre esos vectores se aplican los coeficientes de empleo y su composición por
 sexo y calificación.
 
-## Los dos casos
+## Los casos
 
 | Caso | Tema | Modo |
 |---|---|---|
 | [UE–Mercosur](internacional/caso-ue-mercosur.qmd) | Un nuevo acceso de mercado | Internacional, Modo B |
+| [La negociación en curso](internacional/caso-negociacion-ue-mercosur.qmd) | Cuota de carne, salvaguardia y competencia doméstica — tres ejercicios con presentación descargable | Nacional, Modo Comparado |
 | [Corredor Bioceánico](internacional/caso-corredor-bioceanico.qmd) | Una nueva ruta logística | Nacional + Internacional |
 
 ## Material de apoyo

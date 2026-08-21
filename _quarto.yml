@@ -59,6 +59,7 @@ website:
             href: taller/seccion-3-bloque-externo.qmd
             contents:
               - taller/internacional/caso-ue-mercosur.qmd
+              - taller/internacional/caso-negociacion-ue-mercosur.qmd
               - taller/internacional/caso-corredor-bioceanico.qmd
           - taller/seccion-4-tu-caso.qmd
       - section: "Las hojas del simulador"

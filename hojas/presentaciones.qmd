@@ -29,12 +29,26 @@ El nombre del archivo no cambia entre actualizaciones, de modo que cualquier enl
 que se comparta sigue funcionando. El enlace apunta siempre a la versión vigente.
 :::
 
-## Secciones 2 y 3
+## Sección 3 · El bloque externo
 
-En preparación. Las presentaciones de [Cambios en la
-demanda](../taller/seccion-2-cambios-demanda.qmd) y [El bloque
-externo](../taller/seccion-3-bloque-externo.qmd) se publicarán acá a medida que se
-dicten las sesiones.
+Tres ejercicios aplicados sobre la negociación en curso del acuerdo
+UE–Mercosur: la cuota de carne, la cláusula de salvaguardia y la competencia
+industrial doméstica. Cada uno trae su memoria de cálculo completa, paso a
+paso, antes de cargar nada en el simulador.
+
+[**Descargar en PowerPoint**](../presentaciones/Caso-Cuota-Carne-UE-Mercosur.pptx)
+ · [**Ver en PDF**](../presentaciones/Caso-Cuota-Carne-UE-Mercosur.pdf)
+
+| | |
+|---|---|
+| Diapositivas | 17 |
+| Corresponde a | [La negociación en curso](../taller/internacional/caso-negociacion-ue-mercosur.qmd), dentro de [Sección 3](../taller/seccion-3-bloque-externo.qmd) |
+
+## Sección 2
+
+En preparación. La presentación de [Cambios en la
+demanda](../taller/seccion-2-cambios-demanda.qmd) se publicará acá a medida que
+se dicte la sesión.
 
 ::: {.callout-tip}
 ## Para quien reutilice el material

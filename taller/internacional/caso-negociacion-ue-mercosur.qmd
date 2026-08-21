@@ -1,0 +1,68 @@
+---
+title: "Caso · La negociación en curso"
+subtitle: "Cuota de carne, salvaguardia y competencia doméstica"
+---
+
+## Por qué importa
+
+El [caso UE–Mercosur](caso-ue-mercosur.qmd) plantea el acuerdo como una
+oportunidad condicionada de acceso a mercado. Este caso lo lleva un nivel más
+abajo: toma tres puntos concretos que **están en negociación mientras se dicta
+el taller** y los traduce en ejercicios cuantificables con el simulador.
+
+Los tres comparten un rasgo: no hay todavía una cifra oficial y cerrada. Eso
+los vuelve un buen entrenamiento para una pregunta que se repite en cualquier
+análisis de política comercial — **cómo construir un número defendible cuando
+la negociación sigue abierta**.
+
+## Los tres ejercicios
+
+| Caso | Pregunta | Cómo se carga |
+|---|---|---|
+| **1 · La cuota de carne** | De los 99.000 t/año con arancel reducido, ¿cuánto le toca a Paraguay según cada criterio de reparto en pugna? | Estímulos Nacionales · Modo Comparado |
+| **2 · La cláusula de salvaguardia** | ¿Qué tan sostenible es esa ganancia si una investigación por aumento de importaciones suspende el acceso preferencial? | Mismo mecanismo del Caso 1, en modo sensibilidad |
+| **3 · La competencia doméstica** | Los mismos aranceles que bajan para exportar también bajan para importar — ¿quién en Paraguay siente el acuerdo del otro lado? | Estímulos Nacionales · monto negativo · Modo Comparado |
+
+A diferencia del caso base, que carga el impulso como demanda **internacional**
+(la UE compra más), acá el impulso se carga como **Estímulo Nacional**: es
+Paraguay el que exporta más toneladas, gana o pierde acceso, no la UE la que
+cambia su demanda. La distinción importa para no cargar el escenario en la
+hoja equivocada.
+
+## La presentación
+
+Los tres ejercicios están desarrollados en una presentación aparte, con la
+**memoria de cálculo completa** de cada uno — todo lo que se calcula *antes*
+de tocar el simulador, expuesto paso a paso, no solo el resultado final.
+
+[**Descargar en PowerPoint**](../../presentaciones/Caso-Cuota-Carne-UE-Mercosur.pptx)
+ · [**Ver en PDF**](../../presentaciones/Caso-Cuota-Carne-UE-Mercosur.pdf)
+
+| | |
+|---|---|
+| Diapositivas | 17 |
+| Corresponde a | Sección 3 · El bloque externo |
+| Requisito | Haber visto el [caso UE–Mercosur](caso-ue-mercosur.qmd) |
+
+::: {.callout-note}
+## Qué trae la presentación que esta página no repite
+Los tres escenarios de reparto de la cuota (piso, compromiso, techo) con su
+aritmética completa en toneladas y dólares; el ajuste de la salvaguardia
+(escenario de acceso interrumpido 8 de 12 meses); y la distinción, dentro del
+sector "Maquinaria y Vehículos" del simulador, entre la metalmecánica
+genuinamente doméstica, las autopartes de exportación que ganan con el
+acuerdo, y los vehículos terminados, donde no hay industria local que
+proteger.
+:::
+
+## Para discutir
+
+- El Escenario C de la cuota (piso igualitario + prorrateo por volumen) es una
+  construcción ilustrativa, no una propuesta oficial. ¿Qué otro criterio de
+  reparto sería defendible entre los cuatro socios?
+- Si ganar la cuota puede gatillar la cláusula de salvaguardia, ¿conviene a
+  Paraguay usarla al máximo desde el primer año o administrar el ritmo de
+  crecimiento de las exportaciones?
+- El PIB del sector "Maquinaria y Vehículos" que carga el simulador mezcla
+  segmentos que ganan, pierden y no participan del acuerdo. ¿Qué otros
+  sectores agregados del modelo esconden una mezcla parecida?
