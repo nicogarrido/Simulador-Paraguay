@@ -35,6 +35,9 @@ El enlace apunta siempre a la versión vigente. El nombre del archivo no cambia
 entre actualizaciones, de modo que cualquier enlace que se comparta sigue
 funcionando.
 
+También está disponible una [versión de 33 sectores](simulador-33.qmd), con más
+detalle en agro, alimentos, textiles, madera y servicios.
+
 ::: {.callout-important}
 ## Antes del taller
 El simulador usa macros y funciones disponibles solo en Excel 365. Conviene

@@ -7,6 +7,11 @@
 *.xlsm
 *.xlsb
 !simulador/Simulador-MIP-Paraguay.xlsm
+!simulador/Simulador-MIP-Paraguay-33.xlsm
+!docs/simulador/Simulador-MIP-Paraguay-33.xlsm
+
+# Carpeta de trabajo de la versión de 33 sectores (no se publica)
+simulador-33/
 
 # Microdatos: no redistribuibles
 *.dta

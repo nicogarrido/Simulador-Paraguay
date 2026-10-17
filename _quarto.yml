@@ -30,6 +30,8 @@ website:
         text: Taller
       - href: hojas/index.qmd
         text: Las hojas
+      - href: simulador-33.qmd
+        text: Versión de 33 sectores
     right:
       - icon: github
         href: https://github.com/nicogarrido/Simulador-Paraguay
@@ -96,6 +98,8 @@ website:
               - hojas/anexos.qmd
               - hojas/glosario.qmd
               - hojas/presentaciones.qmd
+      - href: simulador-33.qmd
+        text: Versión de 33 sectores
   page-footer:
     background: "#2C3E50"
     left: "Simulador de impacto insumo-producto · Paraguay"

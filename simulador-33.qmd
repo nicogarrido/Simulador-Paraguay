@@ -1,0 +1,110 @@
+---
+title: "Versión de 33 sectores"
+subtitle: "Mayor detalle en agro, alimentos, textiles, madera y servicios"
+---
+
+Además de la versión de 21 sectores, el simulador está disponible con los
+**33 sectores** de la Matriz Insumo-Producto de Paraguay 2024. Tiene las mismas
+hojas y se usa igual; la diferencia es que separa cinco sectores en sus
+actividades componentes.
+
+::: {.tarjetas}
+::: {.tarjeta}
+[33]{.cifra}<br>[sectores productivos]{.cifra-etiqueta}
+:::
+::: {.tarjeta}
+[78.041]{.cifra}<br>[MUSD de producción]{.cifra-etiqueta}
+:::
+::: {.tarjeta}
+[3,10 M]{.cifra}<br>[personas ocupadas]{.cifra-etiqueta}
+:::
+::: {.tarjeta}
+[24%]{.cifra}<br>[del empleo exporta]{.cifra-etiqueta}
+:::
+:::
+
+## Descargar
+
+[**Descargar el simulador de 33 sectores**](simulador/Simulador-MIP-Paraguay-33.xlsm)
+
+Los requisitos son los mismos que los de la versión de 21: Excel 365 con las
+macros habilitadas.
+
+## Qué sectores se abren
+
+Cinco sectores de la versión de 21 se separan en sus componentes. Los otros 16
+quedan iguales.
+
+| Sector en la versión de 21 | Subsectores en la versión de 33 |
+|---|---|
+| Agricultura, ganadería, caza y pesca | Agricultura · Ganadería · Forestal · Pesca |
+| Alimentos, bebidas y tabacos | Carne · Aceites · Lácteos · Molinería y panadería · Azúcar · Otros alimentos · Bebidas y tabaco |
+| Textiles, confecciones y calzado | Textiles y prendas de vestir · Cuero y calzado |
+| Madera, papel y cartón | Industria de la madera · Papel y productos del papel |
+| Otros servicios | Servicios a los hogares · Servicios gubernamentales |
+
+En todas las hojas, los subsectores aparecen debajo del sector del que
+provienen, en el mismo orden que la versión de 21. Así es fácil comparar ambas
+versiones fila por fila.
+
+## Coherencia con la versión de 21
+
+La versión de 33 no reemplaza a la de 21: al sumar los subsectores se obtienen
+exactamente los datos de la de 21.
+
+| Control | Versión de 21 | Versión de 33 |
+|---|---|---|
+| Producción total (MUSD) | 78.041 | 78.041 |
+| Empleo total (personas) | 3.102.209 | 3.102.209 |
+| Exportaciones (MUSD) | 12.419 | 12.419 |
+| Construcción +100 MUSD: producción sin efecto inducido | 159,4 | 160,3 |
+| Brasil +10%: efecto directo internacional (MUSD) | 162,3 | 162,3 |
+| Empleo vinculado a exportaciones (personas) | 712.052 | 730.521 |
+
+Las diferencias en los multiplicadores son pequeñas y vienen solo de la mayor
+desagregación: un sector agregado promedia actividades con estructuras de
+costos distintas.
+
+## Cómo se construyó
+
+| Bloque | Fuente a 33 sectores |
+|---|---|
+| Transacciones, importaciones, valor agregado y producción | MIP de Paraguay 2024 a 33 sectores |
+| Exportaciones por subsector y por destino | Base aduanera del BCP 2024, ajustada a los totales de la versión de 21 |
+| Consumo, inversión y variación de existencias | MIP a 33 sectores, ajustada a los totales de la versión de 21 |
+| Empleo total | MIP a 33 sectores |
+| Sexo y formalidad en manufacturas | Registros administrativos de asalariados formales |
+| Servicios gubernamentales y a los hogares | EPHC 2024, separando el empleo público |
+| Calificación y área en el resto | Porcentajes del sector de 21 al que pertenecen |
+| Bloque internacional (MRIO) | FIGARO 2018, repartido según las exportaciones por destino |
+
+## Cuándo usar cada versión
+
+**La versión de 21** sigue siendo la referencia para resultados agregados y para
+el análisis internacional.
+
+**La versión de 33** conviene cuando la pregunta es sobre una cadena específica:
+carne, aceites, lácteos, cuero, madera o papel, o cuando importa distinguir el
+empleo público del resto de los servicios.
+
+::: {.callout-warning}
+## Limitaciones de los subsectores nuevos
+- **Empleo en alimentos.** En aceites y otros alimentos, el empleo de la matriz
+  es menor que los asalariados formales registrados. Su empleo y su formalidad
+  deben leerse con cautela.
+- **Estructura de costos de aceites.** Las compras de soja de la industria
+  aceitera parecen subestimadas en la matriz. Para simular la industrialización
+  de la soja conviene revisar ese coeficiente antes de usarlo.
+- **Composición del empleo.** La calificación y el área son las mismas para
+  todos los subsectores de un grupo, salvo en otros servicios. La encuesta de
+  hogares no permite separarlos más.
+- **Bloque internacional.** FIGARO no distingue los subsectores. El efecto total
+  de un shock externo es igual al de la versión de 21; su reparto entre
+  subsectores solo refleja las exportaciones por destino.
+:::
+
+::: {.callout-note}
+Los nombres internos de los rangos del libro (por ejemplo `Z_21x21` o
+`L_21x21`) se mantuvieron para no alterar las macros, aunque ahora contienen
+matrices de 33 × 33.
+:::
